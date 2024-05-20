@@ -630,3 +630,51 @@ Running settingupgriffincluster.sh
 + git clone git@github.com:Infini-AI-Lab/GRIFFIN2.git
 attempting to move error files
 Cloning into 'GRIFFIN2'...
+Updating files:  20% (96/474)Updating files:  21% (100/474)Updating files:  22% (105/474)Updating files:  23% (110/474)Updating files:  24% (114/474)Updating files:  25% (119/474)Updating files:  26% (124/474)Updating files:  27% (128/474)Updating files:  28% (133/474)Updating files:  29% (138/474)Updating files:  30% (143/474)Updating files:  31% (147/474)Updating files:  32% (152/474)Updating files:  33% (157/474)Updating files:  34% (162/474)Updating files:  35% (166/474)Updating files:  36% (171/474)Updating files:  37% (176/474)Updating files:  38% (181/474)Updating files:  39% (185/474)Updating files:  40% (190/474)Updating files:  41% (195/474)Updating files:  42% (200/474)Updating files:  43% (204/474)Updating files:  44% (209/474)Updating files:  45% (214/474)Updating files:  46% (219/474)Updating files:  47% (223/474)Updating files:  48% (228/474)Updating files:  49% (233/474)Updating files:  50% (237/474)Updating files:  51% (242/474)Updating files:  52% (247/474)Updating files:  53% (252/474)Updating files:  54% (256/474)Updating files:  55% (261/474)Updating files:  56% (266/474)Updating files:  57% (271/474)Updating files:  58% (275/474)Updating files:  59% (280/474)Updating files:  60% (285/474)Updating files:  61% (290/474)Updating files:  62% (294/474)Updating files:  63% (299/474)Updating files:  64% (304/474)Updating files:  65% (309/474)Updating files:  66% (313/474)Updating files:  67% (318/474)Updating files:  68% (323/474)Updating files:  69% (328/474)Updating files:  70% (332/474)Updating files:  71% (337/474)Updating files:  72% (342/474)Updating files:  73% (347/474)Updating files:  74% (351/474)Updating files:  75% (356/474)Updating files:  76% (361/474)Updating files:  77% (365/474)Updating files:  78% (370/474)Updating files:  79% (375/474)Updating files:  80% (380/474)Updating files:  81% (384/474)Updating files:  82% (389/474)Updating files:  83% (394/474)Updating files:  84% (399/474)Updating files:  85% (403/474)Updating files:  86% (408/474)Updating files:  87% (413/474)Updating files:  88% (418/474)Updating files:  89% (422/474)Updating files:  90% (427/474)Updating files:  91% (432/474)Updating files:  92% (437/474)Updating files:  93% (441/474)Updating files:  94% (446/474)Updating files:  95% (451/474)Updating files:  96% (456/474)Updating files:  97% (460/474)Updating files:  98% (465/474)Updating files:  99% (470/474)Updating files: 100% (474/474)Updating files: 100% (474/474), done.
++ cd GRIFFIN2
++ source /data/home/beidic/.bashrc
+++ case $- in
+++ return
++ source /data/home/beidic/anaconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/data/home/beidic/anaconda3/bin/conda
+++ CONDA_EXE=/data/home/beidic/anaconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/data/home/beidic/anaconda3/bin/python
+++ CONDA_PYTHON_EXE=/data/home/beidic/anaconda3/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /data/home/beidic/anaconda3/bin/conda
++++ dirname /data/home/beidic/anaconda3/bin
+++ PATH=/data/home/beidic/anaconda3/condabin:/usr/bin:/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda env create -f griffin.yml
++ local cmd=env
++ case "$cmd" in
++ __conda_exe env create -f griffin.yml
++ /data/home/beidic/anaconda3/bin/conda env create -f griffin.yml
+Collecting package metadata (repodata.json): ...working... WARNING conda.models.version:get_matcher(556): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 1.7.1.*, but conda is ignoring the .* and treating it as 1.7.1
+WARNING conda.models.version:get_matcher(556): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 1.6.0.*, but conda is ignoring the .* and treating it as 1.6.0
+WARNING conda.models.version:get_matcher(556): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 1.9.0.*, but conda is ignoring the .* and treating it as 1.9.0
+WARNING conda.models.version:get_matcher(556): Using .* with relational operator is superfluous and deprecated and will be removed in a future version of conda. Your spec was 1.8.0.*, but conda is ignoring the .* and treating it as 1.8.0
+No changes to pull.
+2024-05-20 05:45:04 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-20 05:45:04 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2697615  storygen     bash   beidic  R   21:35:06      1 a100-st-p4de24xlarge-1034
+           2697998  storygen     bash   beidic  R   19:26:00      1 a100-st-p4de24xlarge-1029
+           2476465  storygen    xinyu   beidic  S       6:17      1 a100-st-p4de24xlarge-1032
+2024-05-20 05:45:05 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+attempting to move error files
+bash: *.sh: No such file or directory
