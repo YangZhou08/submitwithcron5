@@ -2017,3 +2017,20 @@ There are 0 .sh bash files to run
 Running *.sh
 attempting to move error files
 bash: *.sh: No such file or directory
+There are changes to pull cc551d77a25219de43b076d77ecff6be92019455
+2024-05-20 11:36:34 - Submitting jobs
+There are 2 .sh files to submit.
+Submitting launchinfirstt.sh
+2024-05-20 11:36:34 - Job ID: Submitted batch job 2711551
+Submitting launchnewjob.sh
+2024-05-20 11:36:34 - Job ID: Submitted batch job 2711552
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2711552  storygen yangzho6   beidic PD       0:00      1 (None)
+           2711551  storygen yangzho6   beidic PD       0:00      1 (None)
+2024-05-20 11:36:34 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackfile.sh
++ mv /fsx-storygen/beidic/yang/log/log-2711206.out ../submitted
++ mv /fsx-storygen/beidic/yang/log/log-2711206.err ../submitted
+attempting to move error files
