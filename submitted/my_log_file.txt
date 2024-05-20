@@ -612,3 +612,21 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 37319ef5c14a23779be06f8bb23050f214e2ab25
+2024-05-20 05:40:03 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-20 05:40:04 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2697615  storygen     bash   beidic  R   21:30:05      1 a100-st-p4de24xlarge-1034
+           2697998  storygen     bash   beidic  R   19:20:59      1 a100-st-p4de24xlarge-1029
+           2476465  storygen    xinyu   beidic  S       6:17      1 a100-st-p4de24xlarge-1032
+2024-05-20 05:40:04 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running settingupgriffincluster.sh
++ pwd
+/fsx-storygen/beidic/yang/submitwithcron5/bash_tasks
++ git clone git@github.com:Infini-AI-Lab/GRIFFIN2.git
+attempting to move error files
+Cloning into 'GRIFFIN2'...
