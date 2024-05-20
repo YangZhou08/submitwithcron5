@@ -1,144 +1,0 @@
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-The following values were not passed to `accelerate launch` and had defaults used instead:
-		More than one GPU was found, enabling multi-GPU training.
-		If this was unintended please pass in `--num_processes=1`.
-	`--mixed_precision` was set to a value of `'no'`
-	`--dynamo_backend` was set to a value of `'no'`
-To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-wandb: WARNING Tried to auto resume run with id 1g7g5j95 but id 5b57dq55 is set.
-wandb: wandb version 0.16.6 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.16.3
-wandb: Run data is saved locally in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/wandb/run-20240429_223128-5b57dq55
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Resuming run tinyllama_kernelsize2_setting3
-wandb: ⭐️ View project at https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning
-wandb: 🚀 View run at https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning/runs/5b57dq55
-  0%|          | 0/927 [00:00<?, ?it/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:148: UserWarning: Calling `transformers.models.llama.modeling_llama._make_causal_mask` is deprecated and will be removed in v4.37. Use `transformers.models.llama.modeling_llama.AttentionMaskConverter._make_causal_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:138: UserWarning: Calling `transformers.models.llama.modeling_llama._prepare_4d_attention_mask` is deprecated and will be removed in v4.37. Use `transformers.modeling_attn_mask_utils.AttentionMaskConverter._prepare_4d_attention_mask
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:848: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py:507: UserWarning: Passing `padding_mask` is deprecated and will be removed in v4.37. Please make sure use `attention_mask` instead.`
-  warnings.warn(
- 97%|█████████▋| 901/927 [02:57<00:05,  5.09it/s] 97%|█████████▋| 902/927 [03:47<00:06,  3.62it/s] 97%|█████████▋| 903/927 [04:46<00:09,  2.45it/s] 98%|█████████▊| 904/927 [05:44<00:13,  1.69it/s] 98%|█████████▊| 905/927 [06:42<00:18,  1.17it/s] 98%|█████████▊| 906/927 [07:41<00:25,  1.23s/it] 98%|█████████▊| 907/927 [08:39<00:35,  1.76s/it] 98%|█████████▊| 908/927 [09:37<00:47,  2.48s/it] 98%|█████████▊| 909/927 [10:36<01:02,  3.50s/it] 98%|█████████▊| 910/927 [11:34<01:23,  4.89s/it] 98%|█████████▊| 911/927 [12:33<01:48,  6.76s/it] 98%|█████████▊| 912/927 [13:31<02:18,  9.22s/it] 98%|█████████▊| 913/927 [14:29<02:52, 12.32s/it] 99%|█████████▊| 914/927 [15:27<03:29, 16.12s/it] 99%|█████████▊| 915/927 [16:26<04:07, 20.61s/it] 99%|█████████▉| 916/927 [17:23<04:39, 25.44s/it] 99%|█████████▉| 917/927 [18:20<05:04, 30.43s/it] 99%|█████████▉| 918/927 [19:18<05:20, 35.59s/it] 99%|█████████▉| 919/927 [20:17<05:22, 40.30s/it] 99%|█████████▉| 920/927 [21:14<05:08, 44.13s/it] 99%|█████████▉| 921/927 [22:12<04:46, 47.68s/it] 99%|█████████▉| 922/927 [23:11<04:12, 50.50s/it]100%|█████████▉| 923/927 [24:08<03:29, 52.42s/it]100%|█████████▉| 924/927 [25:06<02:41, 53.84s/it]100%|█████████▉| 925/927 [26:04<01:50, 55.10s/it]100%|█████████▉| 926/927 [27:02<00:56, 56.00s/it]100%|██████████| 927/927 [27:59<00:00, 56.33s/it]                                                 100%|██████████| 927/927 [28:14<00:00, 56.33s/it]100%|██████████| 927/927 [28:14<00:00,  1.83s/it]
-wandb: - 16.253 MB of 16.253 MB uploadedwandb: \ 16.253 MB of 16.253 MB uploadedwandb: WARNING Ensure read and write access to run files dir: /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/wandb/run-20240429_223128-5b57dq55/files, control this via the WANDB_DIR env var. See https://docs.wandb.ai/guides/track/environment-variables
-wandb: | 16.253 MB of 16.253 MB uploadedwandb: / 16.253 MB of 21.672 MB uploadedwandb: - 16.253 MB of 21.672 MB uploadedwandb: \ 21.672 MB of 21.672 MB uploadedwandb:                                                                                
-wandb: 
-wandb: Run history:
-wandb:                 first_pos_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:                      group1.lr ▁▁▂▂▂▃▃▃▄▄▄▄▅▅▆▆▆▇▇▇██
-wandb:                iteration_count ▁▁▂▂▂▃▃▃▄▄▄▅▅▅▆▆▆▇▇▇██
-wandb:                           loss ▆▆▁▃▄▆▄▅▅▃▅▃▂█▅▃▅▅▂▆▄▃
-wandb:                second_pos_loss ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
-wandb:                    train/epoch ▁
-wandb:              train/global_step ▁
-wandb:               train/total_flos ▁
-wandb:               train/train_loss ▁
-wandb:            train/train_runtime ▁
-wandb: train/train_samples_per_second ▁
-wandb:   train/train_steps_per_second ▁
-wandb: 
-wandb: Run summary:
-wandb:                  eval/accuracy 0
-wandb:         eval/interest_accuracy 0
-wandb:                      eval/loss 2.74428
-wandb:                eval/perplexity 15.5534
-wandb:                   eval/runtime 395.1702
-wandb:        eval/samples_per_second 506.111
-wandb:          eval/steps_per_second 2.637
-wandb:                 first_pos_loss 0
-wandb:           global_eval_accuracy 0
-wandb:  global_eval_interest_accuracy 0
-wandb:         global_eval_perplexity 15.5534
-wandb:                      group1.lr 2e-05
-wandb:                iteration_count 420
-wandb:                           loss 2.6875
-wandb:                second_pos_loss 0
-wandb:                    train/epoch 1.0
-wandb:              train/global_step 927
-wandb:            train/learning_rate 2e-05
-wandb:                     train/loss 2.7471
-wandb:               train/total_flos 5.195088090716176e+18
-wandb:               train/train_loss 0.07996
-wandb:            train/train_runtime 1694.0414
-wandb: train/train_samples_per_second 1682.686
-wandb:   train/train_steps_per_second 0.547
-wandb: 
-wandb: 🚀 View run tinyllama_kernelsize2_setting3 at: https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning/runs/5b57dq55
-wandb: Synced 4 W&B file(s), 10 media file(s), 0 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20240429_223128-5b57dq55/logs

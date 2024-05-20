@@ -1,27 +1,0 @@
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-wandb: wandb version 0.16.4 is available!  To upgrade, please run:
-wandb:  $ pip install wandb --upgrade
-wandb: Tracking run with wandb version 0.16.3
-wandb: Run data is saved locally in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/datasets_evaluation/wandb/run-20240309_085335-p94yquzn
-wandb: Run `wandb offline` to turn off syncing.
-wandb: Syncing run large_small_ce2024-03-09_unmasked
-wandb: ⭐️ View project at https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning
-wandb: 🚀 View run at https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning/runs/p94yquzn
-description:   0%|          | 0/157 [00:00<?, ?it/s]description:   0%|          | 0/157 [00:02<?, ?it/s]
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/datasets_evaluation/Evaluation_Language_modeling_3.py", line 1055, in <module>
-    results = trainer.evaluate(eval_dataset = datasetnew)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/trainer.py", line 3034, in evaluate
-    output = eval_loop(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/datasets_evaluation/Evaluation_Language_modeling_3.py", line 581, in evaluation_loop
-    loss, logits, labels = self.prediction_step(model, inputs, False, ignore_keys=ignore_keys)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/trainer.py", line 3444, in prediction_step
-    loss, outputs = self.compute_loss(model, inputs, return_outputs=True)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/datasets_evaluation/Evaluation_Language_modeling_3.py", line 379, in compute_loss
-    if isinstance(outputs, dict) and "loss" not in outputs:
-UnboundLocalError: local variable 'outputs' referenced before assignment
-wandb: - 0.012 MB of 0.012 MB uploadedwandb: \ 0.012 MB of 0.012 MB uploadedwandb: | 0.012 MB of 0.012 MB uploadedwandb: / 0.027 MB of 0.043 MB uploadedwandb: - 0.027 MB of 0.043 MB uploadedwandb: 🚀 View run large_small_ce2024-03-09_unmasked at: https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning/runs/p94yquzn
-wandb: ️⚡ View job at https://wandb.ai/stevenzhou0816100/chunkedlargefinetuning/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTYwMzA3Mw==/version_details/v34
-wandb: Synced 6 W&B file(s), 0 media file(s), 2 artifact file(s) and 0 other file(s)
-wandb: Find logs at: ./wandb/run-20240309_085335-p94yquzn/logs

@@ -1,1 +1,0 @@
-/opt/slurm/bin/squeue

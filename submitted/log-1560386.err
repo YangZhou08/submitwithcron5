@@ -1,164 +1,0 @@
-ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-0565f60d669b6a2d3/home/beidic/anaconda3/envs/yangllm2/bin/transformers-cli'
-
-WARNING: Ignoring invalid distribution -ransformers (/opt/hpcaas/.mounts/fs-0565f60d669b6a2d3/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages)
-WARNING: Ignoring invalid distribution -ransformers (/opt/hpcaas/.mounts/fs-0565f60d669b6a2d3/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages)
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:23<00:23, 23.65s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.37s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:20<00:20, 20.92s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.31s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.65s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.38s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:26<00:26, 26.72s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.90s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.19s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 14.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.34s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.36s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.11s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:35<00:00, 15.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:35<00:00, 17.54s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:35<00:00, 15.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:35<00:00, 17.58s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 15.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:34<00:00, 17.41s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 13.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 14.69s/it]
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 242, in <module>
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    return super().to(*args, **kwargs)
-    return super().to(*args, **kwargs)
-    return super().to(*args, **kwargs)
-    return super().to(*args, **kwargs)
-    return super().to(*args, **kwargs)
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return self._apply(convert)
-    return self._apply(convert)
-    return self._apply(convert)
-    return self._apply(convert)
-    return self._apply(convert)
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-    module._apply(fn)
-  [Previous line repeated 2 more times]
-    module._apply(fn)
-  [Previous line repeated 2 more times]
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  [Previous line repeated 2 more times]
-    module._apply(fn)
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    module._apply(fn)
-  [Previous line repeated 2 more times]
-  [Previous line repeated 2 more times]
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  [Previous line repeated 2 more times]
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  [Previous line repeated 2 more times]
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  [Previous line repeated 2 more times]
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    param_applied = fn(param)
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    param_applied = fn(param)
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Including non-PyTorch memory, this process has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 10.74 GiB is allocated by PyTorch, and 49.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Including non-PyTorch memory, this process has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 10.78 GiB is allocated by PyTorch, and 49.50 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Including non-PyTorch memory, this process has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 11.19 GiB is allocated by PyTorch, and 49.49 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Including non-PyTorch memory, this process has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 6.96 GiB is allocated by PyTorch, and 49.66 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Including non-PyTorch memory, this process has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 10.25 GiB is allocated by PyTorch, and 49.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Including non-PyTorch memory, this process has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 10.25 GiB is allocated by PyTorch, and 49.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Process 563687 has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Including non-PyTorch memory, this process has 10.50 GiB memory in use. Of the allocated memory 10.05 GiB is allocated by PyTorch, and 49.53 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 18.19 MiB is free. Process 563689 has 7.41 GiB memory in use. Process 563690 has 11.64 GiB memory in use. Process 563686 has 10.70 GiB memory in use. Process 563691 has 10.70 GiB memory in use. Including non-PyTorch memory, this process has 5.89 GiB memory in use. Process 563692 has 11.20 GiB memory in use. Process 563693 has 11.23 GiB memory in use. Process 563688 has 10.50 GiB memory in use. Of the allocated memory 5.44 GiB is allocated by PyTorch, and 49.73 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

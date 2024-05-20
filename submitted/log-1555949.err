@@ -1,172 +1,0 @@
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.06s/it]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:23<00:23, 23.57s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.45s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.64s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:22<00:22, 22.70s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:21<00:21, 21.93s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 13.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.01s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 14.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.20s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 13.97s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.27s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 14.00s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:30<00:00, 15.31s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 13.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:29<00:00, 15.00s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 14.54s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:31<00:00, 15.90s/it]
-Loading checkpoint shards:  50%|█████     | 1/2 [00:25<00:25, 25.38s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:32<00:32, 32.08s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:32<00:00, 14.65s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:32<00:00, 16.26s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 16.58s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:37<00:00, 18.91s/it]
-Map (num_proc=16):   0%|          | 0/44540 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/44540 [00:00<?, ? examples/s]Map (num_proc=16):   0%|          | 0/44537 [00:00<?, ? examples/s]Map (num_proc=16):   2%|▏         | 1000/44540 [00:03<02:11, 331.87 examples/s]Map (num_proc=16):   9%|▉         | 4000/44540 [00:03<00:24, 1659.48 examples/s]Map (num_proc=16):  13%|█▎        | 6000/44540 [00:03<00:16, 2303.55 examples/s]Map (num_proc=16):  18%|█▊        | 8000/44540 [00:03<00:10, 3386.32 examples/s]Map (num_proc=16):  22%|██▏       | 10000/44540 [00:04<00:09, 3465.59 examples/s]Map (num_proc=16):  27%|██▋       | 12000/44540 [00:05<00:11, 2856.93 examples/s]Map (num_proc=16):   2%|▏         | 1000/44540 [00:04<03:04, 235.45 examples/s]Map (num_proc=16):   0%|          | 0/44540 [00:00<?, ? examples/s]Map (num_proc=16):  29%|██▉       | 13000/44540 [00:05<00:10, 2951.29 examples/s]Map (num_proc=16):   4%|▍         | 2000/44540 [00:04<01:20, 530.33 examples/s]Map (num_proc=16):   9%|▉         | 4000/44540 [00:04<00:31, 1303.13 examples/s]Map (num_proc=16):  11%|█         | 5000/44540 [00:04<00:23, 1679.81 examples/s]Map (num_proc=16):  16%|█▌        | 7000/44540 [00:05<00:13, 2692.32 examples/s]Map (num_proc=16):  18%|█▊        | 8000/44540 [00:05<00:12, 2837.09 examples/s]Map (num_proc=16):  20%|██        | 9000/44540 [00:05<00:12, 2827.77 examples/s]Map (num_proc=16):   2%|▏         | 1000/44537 [00:04<03:10, 228.56 examples/s]Map (num_proc=16):   4%|▍         | 2000/44537 [00:04<01:29, 477.21 examples/s]Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 241, in <module>
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 250.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 22.19 MiB is free. Process 3468221 has 13.68 GiB memory in use. Process 3468222 has 1.07 GiB memory in use. Process 3468218 has 8.96 GiB memory in use. Process 3468217 has 13.68 GiB memory in use. Process 3468220 has 1.07 GiB memory in use. Process 3468224 has 13.68 GiB memory in use. Process 3468219 has 13.68 GiB memory in use. Including non-PyTorch memory, this process has 13.44 GiB memory in use. Of the allocated memory 12.99 GiB is allocated by PyTorch, and 49.40 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-Map (num_proc=16):  31%|███▏      | 14000/44540 [00:07<00:22, 1346.15 examples/s]Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 241, in <module>
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  [Previous line repeated 2 more times]
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 32.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 22.19 MiB is free. Process 3468221 has 13.68 GiB memory in use. Process 3468222 has 1.07 GiB memory in use. Including non-PyTorch memory, this process has 8.96 GiB memory in use. Process 3468217 has 13.68 GiB memory in use. Process 3468220 has 1.07 GiB memory in use. Process 3468224 has 13.68 GiB memory in use. Process 3468219 has 13.68 GiB memory in use. Process 3468223 has 13.44 GiB memory in use. Of the allocated memory 8.50 GiB is allocated by PyTorch, and 49.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-Map (num_proc=16):  34%|███▎      | 15000/44540 [00:07<00:18, 1610.26 examples/s]Map (num_proc=16):  22%|██▏       | 10000/44540 [00:06<00:18, 1859.36 examples/s]Map (num_proc=16):   9%|▉         | 4000/44537 [00:05<00:37, 1071.55 examples/s]Map (num_proc=16):  11%|█         | 5000/44537 [00:05<00:29, 1355.78 examples/s]Map (num_proc=16):  36%|███▌      | 16000/44540 [00:08<00:16, 1751.78 examples/s]Map (num_proc=16):  13%|█▎        | 6000/44537 [00:05<00:22, 1708.85 examples/s]Map (num_proc=16):  43%|████▎     | 19000/44540 [00:08<00:08, 2961.74 examples/s]Map (num_proc=16):  25%|██▍       | 11000/44540 [00:07<00:20, 1665.05 examples/s]Map (num_proc=16):  16%|█▌        | 7000/44537 [00:06<00:19, 1931.24 examples/s]Map (num_proc=16):  49%|████▉     | 22000/44540 [00:08<00:05, 4464.52 examples/s]Map (num_proc=16):  52%|█████▏    | 23000/44540 [00:09<00:04, 4777.77 examples/s]Map (num_proc=16):  58%|█████▊    | 26000/44540 [00:09<00:03, 5189.45 examples/s]Map (num_proc=16):  61%|██████    | 27000/44540 [00:09<00:03, 5352.84 examples/s]Map (num_proc=16):  27%|██▋       | 12000/44540 [00:08<00:23, 1362.42 examples/s]Map (num_proc=16):  63%|██████▎   | 28000/44540 [00:09<00:03, 4959.22 examples/s]Map (num_proc=16):  29%|██▉       | 13000/44540 [00:08<00:19, 1600.78 examples/s]Map (num_proc=16):  31%|███▏      | 14000/44540 [00:09<00:15, 1943.77 examples/s]Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 241, in <module>
-Map (num_proc=16):   2%|▏         | 1000/44540 [00:05<03:52, 187.56 examples/s]    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 250.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 22.19 MiB is free. Process 3468221 has 13.68 GiB memory in use. Including non-PyTorch memory, this process has 1.07 GiB memory in use. Process 3468218 has 8.96 GiB memory in use. Process 3468217 has 13.68 GiB memory in use. Process 3468220 has 1.07 GiB memory in use. Process 3468224 has 13.68 GiB memory in use. Process 3468219 has 13.68 GiB memory in use. Process 3468223 has 13.44 GiB memory in use. Of the allocated memory 632.08 MiB is allocated by PyTorch, and 49.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-Map (num_proc=16):  36%|███▌      | 16000/44540 [00:09<00:11, 2434.69 examples/s]Map (num_proc=16):  65%|██████▍   | 28784/44540 [00:11<00:07, 2064.73 examples/s]Map (num_proc=16):  38%|███▊      | 17000/44540 [00:10<00:12, 2280.37 examples/s]Map (num_proc=16):  67%|██████▋   | 29784/44540 [00:11<00:05, 2480.80 examples/s]Map (num_proc=16):  18%|█▊        | 8000/44537 [00:08<00:42, 856.82 examples/s] Map (num_proc=16):   7%|▋         | 3000/44540 [00:06<01:11, 582.92 examples/s]Map (num_proc=16):  69%|██████▊   | 30568/44540 [00:11<00:05, 2469.14 examples/s]Map (num_proc=16):  20%|██        | 9000/44537 [00:09<00:33, 1062.01 examples/s]Map (num_proc=16):  70%|███████   | 31352/44540 [00:12<00:04, 2773.07 examples/s]Map (num_proc=16):  45%|████▍     | 20000/44540 [00:10<00:07, 3337.89 examples/s]Map (num_proc=16):  22%|██▏       | 10000/44537 [00:09<00:23, 1444.17 examples/s]Map (num_proc=16):  49%|████▉     | 21784/44540 [00:11<00:05, 4038.52 examples/s]Map (num_proc=16):  72%|███████▏  | 32135/44540 [00:12<00:04, 2817.22 examples/s]Map (num_proc=16):  25%|██▍       | 11000/44537 [00:09<00:19, 1710.87 examples/s]Map (num_proc=16):  27%|██▋       | 12000/44537 [00:10<00:15, 2093.85 examples/s]Map (num_proc=16):  77%|███████▋  | 34486/44540 [00:12<00:02, 3714.76 examples/s]Map (num_proc=16):   9%|▉         | 4000/44540 [00:07<01:02, 648.24 examples/s]Map (num_proc=16):  81%|████████  | 36053/44540 [00:13<00:02, 3649.95 examples/s]Map (num_proc=16):  84%|████████▍ | 37620/44540 [00:13<00:01, 4536.59 examples/s]Map (num_proc=16):  31%|███▏      | 14000/44537 [00:10<00:13, 2279.80 examples/s]Map (num_proc=16):  11%|█         | 5000/44540 [00:08<00:51, 768.12 examples/s]Map (num_proc=16):  51%|█████     | 22567/44540 [00:12<00:11, 1975.21 examples/s]Map (num_proc=16):  88%|████████▊ | 39404/44540 [00:14<00:01, 3740.41 examples/s]Map (num_proc=16):  52%|█████▏    | 23351/44540 [00:12<00:10, 2096.46 examples/s]Map (num_proc=16):  34%|███▎      | 15000/44537 [00:11<00:14, 2067.06 examples/s]Map (num_proc=16):  91%|█████████ | 40404/44540 [00:14<00:00, 4310.45 examples/s]Map (num_proc=16):  57%|█████▋    | 25351/44540 [00:13<00:06, 2799.61 examples/s]Map (num_proc=16):  16%|█▌        | 7000/44540 [00:08<00:31, 1209.09 examples/s]Map (num_proc=16):  35%|███▌      | 15784/44537 [00:11<00:14, 1996.32 examples/s]Map (num_proc=16):  60%|██████    | 26919/44540 [00:13<00:04, 3567.86 examples/s]Map (num_proc=16):  39%|███▉      | 17351/44537 [00:12<00:09, 2788.35 examples/s]Map (num_proc=16):  62%|██████▏   | 27703/44540 [00:13<00:05, 3363.94 examples/s]Map (num_proc=16):  41%|████      | 18135/44537 [00:12<00:08, 2959.11 examples/s]Map (num_proc=16):  18%|█▊        | 8000/44540 [00:09<00:27, 1311.56 examples/s]Map (num_proc=16):  45%|████▍     | 19919/44537 [00:12<00:05, 4225.89 examples/s]Map (num_proc=16):  22%|██▏       | 9783/44540 [00:09<00:18, 1907.42 examples/s]Map (num_proc=16):  49%|████▊     | 21703/44537 [00:12<00:04, 5490.47 examples/s]Map (num_proc=16):  26%|██▌       | 11567/44540 [00:10<00:12, 2603.09 examples/s]Map (num_proc=16):  66%|██████▌   | 29271/44540 [00:14<00:05, 2876.35 examples/s]Map (num_proc=16):  92%|█████████▏| 41188/44540 [00:15<00:01, 1777.59 examples/s]Map (num_proc=16):  53%|█████▎    | 23703/44537 [00:12<00:03, 5425.75 examples/s]Map (num_proc=16):  68%|██████▊   | 30271/44540 [00:14<00:04, 3396.71 examples/s]Map (num_proc=16):  28%|██▊       | 12567/44540 [00:10<00:11, 2886.71 examples/s]Map (num_proc=16):  95%|█████████▍| 42188/44540 [00:15<00:01, 2066.11 examples/s]Map (num_proc=16):  74%|███████▍  | 33055/44540 [00:14<00:02, 4955.76 examples/s]Map (num_proc=16):  76%|███████▋  | 34055/44540 [00:14<00:01, 5258.49 examples/s]Map (num_proc=16):  55%|█████▌    | 24703/44537 [00:13<00:06, 3300.62 examples/s]Map (num_proc=16):  96%|█████████▋| 42972/44540 [00:16<00:00, 1874.78 examples/s]Map (num_proc=16):  57%|█████▋    | 25487/44537 [00:13<00:05, 3411.76 examples/s]Map (num_proc=16):  30%|██▉       | 13351/44540 [00:11<00:15, 1985.57 examples/s]Map (num_proc=16):  98%|█████████▊| 43756/44540 [00:16<00:00, 2104.58 examples/s]Map (num_proc=16):  59%|█████▉    | 26270/44537 [00:14<00:04, 3768.14 examples/s]Map (num_proc=16):  78%|███████▊  | 34839/44540 [00:15<00:03, 3126.03 examples/s]Map (num_proc=16):  37%|███▋      | 16351/44540 [00:11<00:08, 3297.27 examples/s]Map (num_proc=16):  61%|██████    | 27270/44537 [00:14<00:04, 3607.59 examples/s]Map (num_proc=16):  38%|███▊      | 17135/44540 [00:11<00:08, 3247.13 examples/s]Map (num_proc=16):  41%|████      | 18135/44540 [00:12<00:08, 3264.87 examples/s]Map (num_proc=16):  82%|████████▏ | 36406/44540 [00:16<00:03, 2462.90 examples/s]Map (num_proc=16):  63%|██████▎   | 28270/44537 [00:15<00:06, 2406.41 examples/s]Map (num_proc=16): 100%|██████████| 44540/44540 [00:17<00:00, 1355.41 examples/s]Map (num_proc=16):  70%|███████   | 31270/44537 [00:15<00:02, 4539.86 examples/s]Map (num_proc=16): 100%|██████████| 44540/44540 [00:18<00:00, 2472.71 examples/s]
-Map (num_proc=16):  72%|███████▏  | 32270/44537 [00:15<00:02, 4766.40 examples/s]Map (num_proc=16):  45%|████▌     | 20135/44540 [00:12<00:07, 3227.67 examples/s]Map (num_proc=16):  84%|████████▍ | 37406/44540 [00:16<00:03, 2340.26 examples/s]Map (num_proc=16):  49%|████▉     | 21919/44540 [00:12<00:05, 3890.63 examples/s]Map (num_proc=16):  54%|█████▎    | 23919/44540 [00:13<00:04, 5083.25 examples/s]Map (num_proc=16):  86%|████████▌ | 38406/44540 [00:17<00:02, 2367.15 examples/s]Map (num_proc=16):  75%|███████▍  | 33270/44537 [00:15<00:03, 3650.57 examples/s]Map (num_proc=16):  77%|███████▋  | 34270/44537 [00:16<00:03, 3309.47 examples/s]Map (num_proc=16):  58%|█████▊    | 25703/44540 [00:13<00:04, 4031.38 examples/s]Map (num_proc=16):  79%|███████▊  | 35053/44537 [00:16<00:02, 3182.34 examples/s]Map (num_proc=16):  91%|█████████ | 40406/44540 [00:18<00:01, 2525.61 examples/s]Map (num_proc=16):  60%|█████▉    | 26703/44540 [00:14<00:04, 4017.74 examples/s]Map (num_proc=16):  62%|██████▏   | 27703/44540 [00:14<00:04, 3928.30 examples/s]Map (num_proc=16):  85%|████████▍ | 37837/44537 [00:17<00:01, 3799.40 examples/s]Map (num_proc=16):  92%|█████████▏| 41190/44540 [00:18<00:01, 2157.19 examples/s]Map (num_proc=16):  64%|██████▍   | 28487/44540 [00:14<00:04, 3955.34 examples/s]Map (num_proc=16):  66%|██████▌   | 29271/44540 [00:14<00:03, 4190.98 examples/s]Map (num_proc=16):  68%|██████▊   | 30271/44540 [00:14<00:02, 4958.70 examples/s]Map (num_proc=16):  89%|████████▉ | 39620/44537 [00:17<00:01, 4056.18 examples/s]Map (num_proc=16):  72%|███████▏  | 32271/44540 [00:14<00:01, 7176.43 examples/s]Map (num_proc=16):  94%|█████████▍| 41974/44540 [00:19<00:01, 1947.14 examples/s]Map (num_proc=16):  75%|███████▍  | 33271/44540 [00:15<00:01, 6359.53 examples/s]Map (num_proc=16):  96%|█████████▌| 42757/44540 [00:19<00:00, 2245.74 examples/s]Map (num_proc=16):  91%|█████████ | 40620/44537 [00:18<00:01, 3564.37 examples/s]Map (num_proc=16):  79%|███████▉  | 35271/44540 [00:15<00:01, 8006.31 examples/s]Map (num_proc=16):  95%|█████████▍| 42186/44537 [00:18<00:00, 4362.66 examples/s]Map (num_proc=16):  98%|█████████▊| 43757/44540 [00:20<00:00, 1899.63 examples/s]Map (num_proc=16):  96%|█████████▋| 42970/44537 [00:18<00:00, 3333.55 examples/s]Map (num_proc=16):  83%|████████▎ | 37054/44540 [00:16<00:01, 3928.58 examples/s]Map (num_proc=16):  98%|█████████▊| 43754/44537 [00:18<00:00, 3169.27 examples/s]Map (num_proc=16):  85%|████████▍ | 37838/44540 [00:16<00:01, 4120.37 examples/s]Map (num_proc=16):  90%|█████████ | 40189/44540 [00:16<00:00, 5044.45 examples/s]Map (num_proc=16): 100%|██████████| 44537/44537 [00:19<00:00, 2631.40 examples/s]Map (num_proc=16): 100%|██████████| 44537/44537 [00:19<00:00, 2276.01 examples/s]
-Map (num_proc=16):  92%|█████████▏| 41189/44540 [00:16<00:00, 4606.08 examples/s]Map (num_proc=16):  95%|█████████▍| 42189/44540 [00:17<00:00, 4263.22 examples/s]Map (num_proc=16): 100%|██████████| 44540/44540 [00:21<00:00, 1142.07 examples/s]Map (num_proc=16):  96%|█████████▋| 42972/44540 [00:17<00:00, 3956.11 examples/s]You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-Map (num_proc=16): 100%|██████████| 44540/44540 [00:21<00:00, 2048.59 examples/s]
-Map (num_proc=16):  98%|█████████▊| 43756/44540 [00:18<00:00, 2479.55 examples/s]Map (num_proc=16): 100%|██████████| 44540/44540 [00:18<00:00, 2845.18 examples/s]Map (num_proc=16): 100%|██████████| 44540/44540 [00:18<00:00, 2419.70 examples/s]
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 241, in <module>
-    large_model = LlamaForCausalLM.from_pretrained("meta-llama/Llama-2-7b-hf", cache_dir = dir_models).to(torch.bfloat16).to(torch_device) 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2303, in to
-    return super().to(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1160, in to
-    return self._apply(convert)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 810, in _apply
-    module._apply(fn)
-  [Previous line repeated 2 more times]
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 833, in _apply
-    param_applied = fn(param)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1158, in convert
-    return t.to(device, dtype if t.is_floating_point() or t.is_complex() else None, non_blocking)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 86.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 8.31 MiB is free. Process 3468221 has 34.83 GiB memory in use. Process 3468217 has 13.68 GiB memory in use. Including non-PyTorch memory, this process has 3.34 GiB memory in use. Process 3468224 has 13.76 GiB memory in use. Process 3468219 has 13.68 GiB memory in use. Of the allocated memory 2.88 GiB is allocated by PyTorch, and 49.84 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 323, in <module>
-    large_outputs = large_model.generate(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 1619, in generate
-    and torch.sum(inputs_tensor[:, -1] == generation_config.pad_token_id) > 0
-RuntimeError: CUDA error: out of memory
-CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
-For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
-Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
-
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 323, in <module>
-    large_outputs = large_model.generate(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 1801, in generate
-    return self.sample(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 2918, in sample
-    outputs = self(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 1492, in forward
-    outputs = self.model(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 1088, in forward
-    inputs_embeds = self.embed_tokens(input_ids)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 162, in forward
-    return F.embedding(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/functional.py", line 2233, in embedding
-    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 256.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 8.31 MiB is free. Process 3468221 has 34.83 GiB memory in use. Process 3468217 has 13.68 GiB memory in use. Process 3468220 has 3.34 GiB memory in use. Including non-PyTorch memory, this process has 13.76 GiB memory in use. Process 3468219 has 13.68 GiB memory in use. Of the allocated memory 13.23 GiB is allocated by PyTorch, and 49.89 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
-You're using a LlamaTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 323, in <module>
-    large_outputs = large_model.generate(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 1619, in generate
-    and torch.sum(inputs_tensor[:, -1] == generation_config.pad_token_id) > 0
-RuntimeError: CUDA error: out of memory
-CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
-For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
-Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
-
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/bigmodeldatasetgeneration_savenone.py", line 323, in <module>
-    large_outputs = large_model.generate(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 1801, in generate
-    return self.sample(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/generation/utils.py", line 2918, in sample
-    outputs = self(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 1492, in forward
-    outputs = self.model(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 1131, in forward
-    layer_outputs = decoder_layer(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 857, in forward
-    hidden_states, self_attn_weights, present_key_value = self.self_attn(
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/models/llama/modeling_llama.py", line 555, in forward
-    value_states = torch.cat([past_key_value[1], value_states], dim=2)
-torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 460.00 MiB. GPU 0 has a total capacty of 79.33 GiB of which 199.81 MiB is free. Including non-PyTorch memory, this process has 79.12 GiB memory in use. Of the allocated memory 70.25 GiB is allocated by PyTorch, and 8.38 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
