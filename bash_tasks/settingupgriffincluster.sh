@@ -1,7 +1,7 @@
 pwd 
 rm -rf GRIFFIN2 
 ls 
-cd ~ 
+cd /fsx-storygen/beidic/yang/ 
 git clone git@github.com:Infini-AI-Lab/GRIFFIN2.git 
 cd GRIFFIN2 
 source /data/home/beidic/.bashrc 
