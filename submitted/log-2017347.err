@@ -1,0 +1,239 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 389, in cached_file
+                            resolved_file = hf_hub_download(resolved_file = hf_hub_download(resolved_file = hf_hub_download(resolved_file = hf_hub_download(resolved_file = hf_hub_download(resolved_file = hf_hub_download(resolved_file = hf_hub_download(
+
+
+
+
+
+
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+    resolved_file = hf_hub_download(
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 111, in _inner_fn
+                validate_repo_id(arg_value)            validate_repo_id(arg_value)validate_repo_id(arg_value)validate_repo_id(arg_value)
+validate_repo_id(arg_value)validate_repo_id(arg_value)validate_repo_id(arg_value)
+
+
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+
+
+
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+    validate_repo_id(arg_value)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/huggingface_hub/utils/_validators.py", line 159, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+                    raise HFValidationError(    raise HFValidationError(raise HFValidationError(raise HFValidationError(raise HFValidationError(
+raise HFValidationError(
+
+
+
+
+huggingface_hub.utils._validatorshuggingface_hub.utils._validatorshuggingface_hub.utils._validatorshuggingface_hub.utils._validatorshuggingface_hub.utils._validators.huggingface_hub.utils._validators....HFValidationError.    HFValidationErrorHFValidationErrorHFValidationErrorHFValidationError: HFValidationErrorlarge_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) : : : : Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.: 
+Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.
+Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+
+
+
+
+
+The above exception was the direct cause of the following exception:
+
+
+    
+The above exception was the direct cause of the following exception:
+
+
+The above exception was the direct cause of the following exception:
+
+
+The above exception was the direct cause of the following exception:
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+
+The above exception was the direct cause of the following exception:
+
+raise HFValidationError(Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+Traceback (most recent call last):
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Use `repo_type` argument if needed.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1117, in <module>
+    large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+                large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint)     large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) 
+large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) 
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+    large_model = LlamaWeirdLargeFullCoverage.from_pretrained(args.finetune_checkpoint) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/modeling_utils.py", line 2632, in from_pretrained
+                            resolved_config_file = cached_file(resolved_config_file = cached_file(resolved_config_file = cached_file(resolved_config_file = cached_file(resolved_config_file = cached_file(resolved_config_file = cached_file(resolved_config_file = cached_file(
+
+
+
+
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+    resolved_config_file = cached_file(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/src/transformers/utils/hub.py", line 454, in cached_file
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+                raise EnvironmentError(        raise EnvironmentError(raise EnvironmentError(raise EnvironmentError(
+raise EnvironmentError(raise EnvironmentError(
+
+
+OSError
+
+OSErrorOSErrorOSError: OSErrorOSError: : : Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.: : Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+
+
+
+
+    raise EnvironmentError(
+OSError: Incorrect path_or_model_id: '/fsx-storygen/beidic/yang/model_checkpoints/tinyllama_setting0_2_ff438f8_013712/checkpoint-100'. Please provide either the path to a local folder or the repo_id of a model on the Hub.
+[2024-05-01 01:50:20,387] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3763259) of binary: /data/home/beidic/anaconda3/envs/yangllm2/bin/python3.9
+Traceback (most recent call last):
+  File "/data/home/beidic/anaconda3/envs/yangllm2/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+weird_training_largeplussmall.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3763260)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3763261)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3763262)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 3763263)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3763271)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 3763272)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 3763273)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-01_01:50:20
+  host      : a100-st-p4de24xlarge-1027.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3763259)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

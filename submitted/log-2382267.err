@@ -1,0 +1,247 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+usage: ProgramName [-h] [--group1lr GROUP1LR] [--group2lr GROUP2LR]
+                   [--experiment_setting EXPERIMENT_SETTING] [--eval_mode]
+                   [--embedding_pretrained] [--input_condensed]
+                   [--kernel_size KERNEL_SIZE] [--use_plain_model]
+                   [--model_name MODEL_NAME]
+                   [--resume_from_checkpoint RESUME_FROM_CHECKPOINT]
+                   [--use_past] [--finetune_checkpoint FINETUNE_CHECKPOINT]
+                   [--use_large_model] [--autoregressive_first_element]
+                   [--debug] [--batch_size BATCH_SIZE]
+                   [--usedatasettype {synthesized,c4}] [--data_compensation]
+                   [--first_n_rows FIRST_N_ROWS] [--usingsecondlast]
+                   [--use_weighted_loss] [--num_epoch NUM_EPOCH]
+                   [--fullcoverage] [--weighted_type {scalar,linear}]
+                   [--warmup_steps WARMUP_STEPS]
+                   [--gradient_accumulation_steps GRADIENT_ACCUMULATION_STEPS]
+                   [--wandb_session WANDB_SESSION]
+                   [--wandb_session_name WANDB_SESSION_NAME] [--path_d PATH_D]
+                   [--datafilegranularity DATAFILEGRANULARITY]
+                   [--larger_lr_small] [--disable_wandb]
+ProgramName: error: unrecognized arguments: --num_epochs 5
+[2024-05-10 02:41:06,436] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 2) local_rank: 0 (pid: 3160440) of binary: /data/home/beidic/anaconda3/envs/yangllm2/bin/python3.9
+Traceback (most recent call last):
+  File "/data/home/beidic/anaconda3/envs/yangllm2/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+weird_training_largeplussmall.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 2 (pid: 3160441)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 2 (pid: 3160442)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 2 (pid: 3160443)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 2 (pid: 3160444)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 2 (pid: 3160445)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 2 (pid: 3160446)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 2 (pid: 3160447)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-10_02:41:06
+  host      : a100-st-p4de24xlarge-1039.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 2 (pid: 3160440)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

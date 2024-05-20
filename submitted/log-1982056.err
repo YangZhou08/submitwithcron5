@@ -1,0 +1,135 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1099, in <module>
+    train_set = CustomDataset(max_length = dictionary_max_length[args.kernel_size], data_dir = datapath_c4, tokenizer = tokenizer, kernel_size = kernel_size, input_condensed = args.input_condensed, use_c4 = True, istraining = True) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/transformersprofiling/weird_training_largeplussmall.py", line 1001, in __init__
+    print(colored("using c4 files {} to {}".format(args.path_d * 8, args.path_d * 8 + 8), "yellow")) 
+TypeError: can only concatenate str (not "int") to str
+[2024-04-28 11:12:00,810] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 91039) of binary: /data/home/beidic/anaconda3/envs/yangllm2/bin/python3.9
+Traceback (most recent call last):
+  File "/data/home/beidic/anaconda3/envs/yangllm2/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/home/beidic/anaconda3/envs/yangllm2/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+weird_training_largeplussmall.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 91040)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 91041)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 91042)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 91043)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 91044)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 91045)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 91046)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-04-28_11:12:00
+  host      : a100-st-p4de24xlarge-1028.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 91039)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

@@ -1,0 +1,1 @@
+scp -r /fsx-storygen/beidic/yang/model_checkpoints/tinyllama_a27445c_215024/embeddingreinit zx22@terminator8.cs.rice.edu:~/yangzho/ 
