@@ -1,0 +1,379 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-05-20:11:42:41,178 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,179 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,179 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,180 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,180 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,183 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,183 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:41,184 INFO     [main.py:288] Verbosity set to INFO
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,085 INFO     [main.py:378] Selected Tasks: ['gsm8k', 'ifeval', 'triviaqa']
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,100 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+2024-05-20:11:42:51,101 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-05-20:11:42:51,101 INFO     [xevaluator.py:187] Initializing xhf model, with arguments: {'pretrained': 'lmsys/vicuna-33b-v1.3', 'griffin': True, 'check': False, 'griffinnotcats': False}
+Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:   0%|          | 0/7 [00:00<?, ?it/s]Downloading shards:  14%|█▍        | 1/7 [02:09<12:57, 129.62s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:56, 129.45s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:56, 129.46s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:57, 129.51s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:57, 129.55s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:57, 129.63s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:58, 129.67s/it]Downloading shards:  14%|█▍        | 1/7 [02:09<12:58, 129.73s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.97s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.89s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.88s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.85s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.86s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.90s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.90s/it]Downloading shards:  29%|██▊       | 2/7 [04:11<10:24, 124.96s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:04, 121.01s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.95s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.96s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.97s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.99s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.97s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:03, 120.99s/it]Downloading shards:  43%|████▎     | 3/7 [06:07<08:04, 121.04s/it]Downloading shards:  57%|█████▋    | 4/7 [08:12<06:07, 122.35s/it]Downloading shards:  57%|█████▋    | 4/7 [08:11<06:06, 122.32s/it]Downloading shards:  57%|█████▋    | 4/7 [08:11<06:06, 122.31s/it]Downloading shards:  57%|█████▋    | 4/7 [08:11<06:06, 122.32s/it]Downloading shards:  57%|█████▋    | 4/7 [08:11<06:07, 122.34s/it]Downloading shards:  57%|█████▋    | 4/7 [08:12<06:07, 122.35s/it]Downloading shards:  57%|█████▋    | 4/7 [08:12<06:07, 122.38s/it]Downloading shards:  57%|█████▋    | 4/7 [08:12<06:07, 122.41s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.19s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.15s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.17s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.16s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.18s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.17s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.22s/it]Downloading shards:  71%|███████▏  | 5/7 [10:13<04:04, 122.20s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.28s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.24s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.26s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.27s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.29s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.27s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.28s/it]Downloading shards:  86%|████████▌ | 6/7 [12:13<02:01, 121.31s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.26s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.79s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.24s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.77s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.23s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.77s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.24s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.77s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.24s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.77s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.23s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.77s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.27s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.78s/it]
+Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 102.25s/it]Downloading shards: 100%|██████████| 7/7 [13:16<00:00, 113.78s/it]
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards:  14%|█▍        | 1/7 [00:28<02:51, 28.67s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.08s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.15s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.15s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.14s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.16s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:01, 30.19s/it]Loading checkpoint shards:  14%|█▍        | 1/7 [00:30<03:00, 30.12s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:54<02:14, 26.91s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:21, 28.36s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.11s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.09s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.12s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.12s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.12s/it]Loading checkpoint shards:  29%|██▊       | 2/7 [00:56<02:20, 28.18s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:19<01:43, 25.96s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:21<01:46, 26.72s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:21<01:47, 26.76s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:22<01:47, 26.77s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:22<01:47, 26.77s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:22<01:48, 27.05s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:22<01:47, 26.77s/it]Loading checkpoint shards:  43%|████▎     | 3/7 [01:22<01:47, 26.77s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:46<01:18, 26.03s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.55s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.57s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.58s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.58s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.58s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:19, 26.58s/it]Loading checkpoint shards:  57%|█████▋    | 4/7 [01:48<01:20, 26.75s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:11<00:50, 25.45s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:53, 26.69s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.24s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.25s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.26s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.26s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.26s/it]Loading checkpoint shards:  71%|███████▏  | 5/7 [02:13<00:52, 26.37s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:36<00:25, 25.38s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.96s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.89s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:25, 25.90s/it]Loading checkpoint shards:  86%|████████▌ | 6/7 [02:39<00:26, 26.20s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:49<00:00, 21.22s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:49<00:00, 24.20s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.22s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.39s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.22s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.38s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.21s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.39s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.22s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.40s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.23s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.40s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.28s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.40s/it]
+Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 21.38s/it]Loading checkpoint shards: 100%|██████████| 7/7 [02:50<00:00, 24.41s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 191, in simple_evaluate
+    lm = XHFLM.create_from_arg_string(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/model.py", line 133, in create_from_arg_string
+    return cls(**args, **args2)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 217, in __init__
+    self._create_tokenizer(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 567, in _create_tokenizer
+    self.tokenizer = transformers.AutoTokenizer.from_pretrained(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/models/auto/tokenization_auto.py", line 825, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/tokenization_utils_base.py", line 1988, in from_pretrained
+    with open(resolved_config_file, encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: '/data/home/beidic/.cache/huggingface/hub/models--lmsys--vicuna-33b-v1.3/snapshots/ef8d6becf883fb3ce52e3706885f761819477ab4/tokenizer_config.json'
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+You are using the default legacy behaviour of the <class 'transformers.models.llama.tokenization_llama.LlamaTokenizer'>. This is expected, and simply means that the `legacy` (previous) behavior will be used so nothing changes for you. If you want to use the new behaviour, set `legacy=False`. This should only be set if you understand what it means, and thoroughly read the reason why this was added as explained in https://github.com/huggingface/transformers/pull/24565
+2024-05-20:12:01:32,060 INFO     [xhuggingface.py:314] Using 8 devices with data parallelism
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+            cli_evaluate()cli_evaluate()cli_evaluate()
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+            results = xevaluator.simple_evaluate(results = xevaluator.simple_evaluate(results = xevaluator.simple_evaluate(
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = xevaluator.simple_evaluate(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 221, in simple_evaluate
+            return fn(*args, **kwargs)return fn(*args, **kwargs)return fn(*args, **kwargs)
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 221, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 221, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 221, in simple_evaluate
+            task_dict = get_task_dict(tasks, task_manager)task_dict = get_task_dict(tasks, task_manager)task_dict = get_task_dict(tasks, task_manager)
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 420, in get_task_dict
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 420, in get_task_dict
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 420, in get_task_dict
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 221, in simple_evaluate
+    task_dict = get_task_dict(tasks, task_manager)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 420, in get_task_dict
+    task_dict = get_task_dict(tasks, task_manager)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 420, in get_task_dict
+                task_name_from_string_dict = task_manager.load_task_or_group(task_name_from_string_dict = task_manager.load_task_or_group(task_name_from_string_dict = task_manager.load_task_or_group(task_name_from_string_dict = task_manager.load_task_or_group(
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 270, in load_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 270, in load_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 270, in load_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 270, in load_task_or_group
+    task_name_from_string_dict = task_manager.load_task_or_group(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 270, in load_task_or_group
+                collections.ChainMap(*map(self._load_individual_task_or_group, task_list))collections.ChainMap(*map(self._load_individual_task_or_group, task_list))collections.ChainMap(*map(self._load_individual_task_or_group, task_list))collections.ChainMap(*map(self._load_individual_task_or_group, task_list))
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 160, in _load_individual_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 160, in _load_individual_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 160, in _load_individual_task_or_group
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 160, in _load_individual_task_or_group
+    collections.ChainMap(*map(self._load_individual_task_or_group, task_list))
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 160, in _load_individual_task_or_group
+    task_config = self._get_config(name_or_config)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 112, in _get_config
+            task_config = self._get_config(name_or_config)task_config = self._get_config(name_or_config)task_config = self._get_config(name_or_config)
+
+    
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 112, in _get_config
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 112, in _get_config
+return utils.load_yaml_config(yaml_path, mode="full")  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 112, in _get_config
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 324, in load_yaml_config
+    task_config = self._get_config(name_or_config)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/__init__.py", line 112, in _get_config
+    return utils.load_yaml_config(yaml_path, mode="full")
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 324, in load_yaml_config
+    yaml_config = yaml.full_load(file)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 105, in full_load
+        return utils.load_yaml_config(yaml_path, mode="full")return utils.load_yaml_config(yaml_path, mode="full")
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 324, in load_yaml_config
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 324, in load_yaml_config
+    return utils.load_yaml_config(yaml_path, mode="full")
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 324, in load_yaml_config
+        yaml_config = yaml.full_load(file)yaml_config = yaml.full_load(file)
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 105, in full_load
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 105, in full_load
+    yaml_config = yaml.full_load(file)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 105, in full_load
+    yaml_config = yaml.full_load(file)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 105, in full_load
+                return load(stream, FullLoader)return load(stream, FullLoader)return load(stream, FullLoader)return load(stream, FullLoader)
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return load(stream, FullLoader)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/__init__.py", line 81, in load
+    return loader.get_single_data()
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+            return loader.get_single_data()return loader.get_single_data()return loader.get_single_data()
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+    return loader.get_single_data()
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 51, in get_single_data
+                return self.construct_document(node)return self.construct_document(node)return self.construct_document(node)return self.construct_document(node)
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 60, in construct_document
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 60, in construct_document
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 60, in construct_document
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 60, in construct_document
+    return self.construct_document(node)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 60, in construct_document
+    for dummy in generator:
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+            for dummy in generator:for dummy in generator:for dummy in generator:
+    
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+for dummy in generator:  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 413, in construct_yaml_map
+                value = self.construct_mapping(node)value = self.construct_mapping(node)value = self.construct_mapping(node)value = self.construct_mapping(node)
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+    value = self.construct_mapping(node)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 218, in construct_mapping
+    return super().construct_mapping(node, deep=deep)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+            return super().construct_mapping(node, deep=deep)return super().construct_mapping(node, deep=deep)return super().construct_mapping(node, deep=deep)
+
+    
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+value = self.construct_object(value_node, deep=deep)  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+    return super().construct_mapping(node, deep=deep)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 143, in construct_mapping
+    value = self.construct_object(value_node, deep=deep)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+            value = self.construct_object(value_node, deep=deep)value = self.construct_object(value_node, deep=deep)data = constructor(self, node)
+    
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+data = constructor(self, node)  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 308, in import_function
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 308, in import_function
+    value = self.construct_object(value_node, deep=deep)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/yaml/constructor.py", line 100, in construct_object
+    data = constructor(self, node)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 308, in import_function
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+    data = constructor(self, node)
+      File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 308, in import_function
+spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+    data = constructor(self, node)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/utils.py", line 308, in import_function
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/utils.py", line 4, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/utils.py", line 4, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/utils.py", line 4, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/utils.py", line 4, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/utils.py", line 4, in <module>
+                from lm_eval.tasks.ifeval import instructions_registryfrom lm_eval.tasks.ifeval import instructions_registryfrom lm_eval.tasks.ifeval import instructions_registryfrom lm_eval.tasks.ifeval import instructions_registry
+
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions_registry.py", line 16, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions_registry.py", line 16, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions_registry.py", line 16, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions_registry.py", line 16, in <module>
+    from lm_eval.tasks.ifeval import instructions_registry
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions_registry.py", line 16, in <module>
+    from lm_eval.tasks.ifeval import instructions    
+        from lm_eval.tasks.ifeval import instructions  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions.py", line 24, in <module>
+from lm_eval.tasks.ifeval import instructionsfrom lm_eval.tasks.ifeval import instructions
+
+
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions.py", line 24, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions.py", line 24, in <module>
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions.py", line 24, in <module>
+    from lm_eval.tasks.ifeval import instructions
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/tasks/ifeval/instructions.py", line 24, in <module>
+                import langdetectimport langdetectimport langdetectimport langdetect
+
+
+
+ModuleNotFoundErrorModuleNotFoundErrorModuleNotFoundErrorModuleNotFoundError: : : : No module named 'langdetect'No module named 'langdetect'No module named 'langdetect'    No module named 'langdetect'
+
+
+import langdetect
+
+ModuleNotFoundError: No module named 'langdetect'
+[2024-05-20 12:01:36,978] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3779489 closing signal SIGTERM
+[2024-05-20 12:01:36,979] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3779493 closing signal SIGTERM
+[2024-05-20 12:01:37,794] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3779486) of binary: /data/home/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/data/home/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3779487)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3779488)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 3779490)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3779491)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 3779492)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-20_12:01:36
+  host      : a100-st-p4de24xlarge-1029.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3779486)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
