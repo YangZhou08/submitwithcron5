@@ -3302,3 +3302,30 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 09ec0076e2967799a05bdb2156b2ce71127a5069
+2024-05-31 09:10:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-31 09:10:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+2024-05-31 09:10:02 - Done submitting jobs
+
+There are 2 .sh bash files to run
+Running bringgriffin.sh
+Running environmenttoggle.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ source /data/home/beidic/.bashrc
++ git branch
+++ case $- in
+++ return
++ source /data/home/beidic/anaconda3/etc/profile.d/conda.sh
+attempting to move error files
+environmenttoggle.sh: line 2: /data/home/beidic/anaconda3/etc/profile.d/conda.sh: No such file or directory
++ conda activate hanshi
+environmenttoggle.sh: line 4: conda: command not found
++ pip install wandb
+* exp2
+  main
+  yangexp2
+  yangobservation
++ git add .
