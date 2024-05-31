@@ -3574,3 +3574,47 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 3a4080a0fe9426bbf495333b40a566a3a1daf5c5
+2024-05-31 09:30:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-31 09:30:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+2024-05-31 09:30:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running environmenttoggle.sh
++ source /data/home/beidic/.bashrc
+attempting to move error files
+++ case $- in
+++ return
++ source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/fsx-storygen/beidic/anaconda3/bin/conda
+++ CONDA_EXE=/fsx-storygen/beidic/anaconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/fsx-storygen/beidic/anaconda3/bin/python
+++ CONDA_PYTHON_EXE=/fsx-storygen/beidic/anaconda3/bin/python
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /fsx-storygen/beidic/anaconda3/bin/conda
++++ dirname /fsx-storygen/beidic/anaconda3/bin
+++ PATH=/fsx-storygen/beidic/anaconda3/condabin:/usr/bin:/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ source activate base
+environmenttoggle.sh: line 5: activate: No such file or directory
++ conda activate base
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate base
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate base
+++ /fsx-storygen/beidic/anaconda3/bin/conda shell.posix activate base

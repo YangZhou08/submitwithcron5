@@ -1,5 +1,6 @@
 source /data/home/beidic/.bashrc
-source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
+# source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
+source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 
 source activate base 
 conda activate base 
