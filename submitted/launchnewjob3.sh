@@ -8,10 +8,10 @@
 ## filename for job standard error output (stderr)
 #SBATCH --error=/fsx-storygen/beidic/yang/log/log-%j.err
 
-#SBATCH --time=100:00:00 
+#SBATCH --time=1:00:00 
 
 ## partition name
-#SBATCH --partition=storygen
+#SBATCH --partition=learnfair 
 #SBATCH --account=fairaws-storygen
 ## number of nodes
 #SBATCH --nodes=1
