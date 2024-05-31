@@ -33,6 +33,9 @@ source /data/home/beidic/anaconda3/etc/profile.d/conda.sh
 conda activate hanshi 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /fsx-storygen/beidic/yang/GRIFFIN2 
+git checkout exp2 
+git pull 
+
 git pull 
 # pip install termcolor 
 # pip install -e . 
@@ -57,4 +60,4 @@ echo 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 | transformers-cli login
 huggingface-cli login --token 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 
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
-/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=lmsys/vicuna-33b-v1.3,griffin=True,check=False,griffinnotcats=True --tasks gsm8k,triviaqa,ifeval --batch_size 1 
+/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False --tasks gsm8k --batch_size 1 
