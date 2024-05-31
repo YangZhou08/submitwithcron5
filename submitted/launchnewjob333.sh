@@ -60,4 +60,4 @@ echo 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 | transformers-cli login
 huggingface-cli login --token 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 
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
-/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cat=True,check=False --tasks gsm8k --batch_size 1 
+/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=False,spr=0.5 --tasks gsm8k --batch_size 1 
