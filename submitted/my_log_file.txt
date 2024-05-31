@@ -2958,3 +2958,99 @@ attempting to move error files
   main
 * yangobservation
 + git add .
++ git stash
+Saved working directory and index state WIP on yangobservation: 2f9723f add logs
++ git pull
+From github.com:Infini-AI-Lab/GRIFFIN2
+ * [new branch]      yangexp2   -> origin/yangexp2
+Already up to date.
++ git checkout yangexp2
+Switched to a new branch 'yangexp2'
+Branch 'yangexp2' set up to track remote branch 'yangexp2' from 'origin'.
++ git pull
+From github.com:Infini-AI-Lab/GRIFFIN2
+   8c74987..df0f04b  yangexp2   -> origin/yangexp2
+Updating 8c74987..df0f04b
+Fast-forward
+ llama8.py | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
++ ls
+README.md
+__pycache__
+agieval.sh
+base1.sh
+base2.sh
+base3.sh
+base4.sh
+base5.sh
+base6.sh
+base7.sh
+cache.py
+coqa.sh
+data
+griffin.yml
+gsm8k.sh
+llama2.py
+llama3.py
+llama4.py
+llama5.py
+llama6.py
+llama7.py
+llama8.py
+llama9.py
+main.py
+main1.sh
+main1_A.sh
+main1_B.sh
+main1_C.sh
+main1_D.sh
+main2.sh
+main2_A.sh
+main2_B.sh
+main2_C.sh
+main2_D.sh
+main3.sh
+main3_A.sh
+main3_B.sh
+main3_C.sh
+main3_D.sh
+main5.sh
+main5_A.sh
+main5_B.sh
+main5_C.sh
+main5_D.sh
+main6.sh
+main6_A.sh
+main6_B.sh
+main6_C.sh
+main6_D.sh
+mmlu.sh
+results
+run.sh
+run0.sh
+run1.sh
+run2.sh
+run3.sh
+run_slurm.sh
+scripts
+src
+sweep0.sh
+sweep1.sh
+sweep2.sh
+sweep3.sh
+token.log
+token1.log
+xevaluator.py
+xhuggingface.py
+No changes to pull.
+2024-05-31 07:25:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-31 07:25:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+2024-05-31 07:25:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
