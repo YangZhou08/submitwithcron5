@@ -3987,3 +3987,31 @@ attempting to move error files
 + mv /fsx-storygen/beidic/yang/log/log-2877154.err ../submitted
 + mv /fsx-storygen/beidic/yang/log/log-2877153.out ../submitted
 + mv /fsx-storygen/beidic/yang/log/log-2877153.err ../submitted
+There are changes to pull 59daeb6350d555a49fa8866933727323f746bf66
+2024-05-31 10:45:02 - Submitting jobs
+There are 5 .sh files to submit.
+Submitting launchnewjob3.sh
+2024-05-31 10:45:02 - Job ID: Submitted batch job 2877184
+Submitting launchnewjob33.sh
+2024-05-31 10:45:02 - Job ID: Submitted batch job 2877185
+Submitting launchnewjob333.sh
+2024-05-31 10:45:02 - Job ID: Submitted batch job 2877186
+Submitting launchnewjob333sirius.sh
+2024-05-31 10:45:02 - Job ID: Submitted batch job 2877187
+Submitting launchnewjob33sirius.sh
+2024-05-31 10:45:02 - Job ID: Submitted batch job 2877188
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2877188 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877187 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877186 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877185 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877184 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877135 learnfair yangzho6   beidic  R       9:15      1 a100-st-p4de24xlarge-223
+           2877182  storygen yangzho6   beidic PD       0:00      1 (Resources)
+           2877183  storygen yangzho6   beidic PD       0:00      1 (Priority)
+2024-05-31 10:45:03 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
