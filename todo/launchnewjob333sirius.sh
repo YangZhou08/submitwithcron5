@@ -25,7 +25,8 @@
 ## SBATCH --array=0-11 # 12 jobs in total 
 
 source /data/home/beidic/.bashrc
-source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
+# source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
+source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 # source activate base
 # conda activate base 
 # mamba activate yangllm 
@@ -60,4 +61,4 @@ echo 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 | transformers-cli login
 huggingface-cli login --token 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 
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
-/data/home/beidic/anaconda3/envs/hanshi/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cat=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cat=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
