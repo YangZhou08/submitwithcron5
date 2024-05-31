@@ -1,0 +1,171 @@
+/var/spool/slurmd/job2877079/slurm_script: line 30: activate: No such file or directory
+Already on 'yangexp2'
+From github.com:Infini-AI-Lab/GRIFFIN2
+   19d6022..a77b86e  exp2       -> origin/exp2
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+        import xevaluatorimport xevaluator
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+            import xevaluatorimport xevaluatorimport xevaluator
+
+
+      File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+import xevaluator    
+import xevaluator  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from xhuggingface import XHFLM
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    import xevaluator
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 14, in <module>
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+    from xhuggingface import XHFLM
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+                from xhuggingface import XHFLMfrom xhuggingface import XHFLMfrom xhuggingface import XHFLMfrom xhuggingface import XHFLM
+
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from xhuggingface import XHFLM
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 8, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+        from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+    from llama8 import get_llama_griffin, get_llama_griffin2, LlamaForCausalLM 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama8.py", line 19, in <module>
+        from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCachefrom transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+
+ImportError: ImportErrorcannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py): 
+cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+    from transformers.cache_utils import Cache, DynamicCache, StaticCache, SinkCache
+ImportError: cannot import name 'StaticCache' from 'transformers.cache_utils' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/cache_utils.py)
+[2024-05-31 09:46:34,986] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 2057121) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2057122)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2057123)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 2057124)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 2057125)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 2057126)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 2057127)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 2057128)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-05-31_09:46:34
+  host      : a100-st-p4de24xlarge-266.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2057121)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
