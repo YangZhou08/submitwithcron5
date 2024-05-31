@@ -4,8 +4,8 @@
 # mv /fsx-storygen/beidic/yang/log/log-2881733.out ../submitted 
 # mv /fsx-storygen/beidic/yang/log/log-2881733.err ../submitted 
 
-mv /fsx-storygen/beidic/yang/log/log-2879431.out ../submitted 
-mv /fsx-storygen/beidic/yang/log/log-2879431.err ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-2883521.out ../submitted 
+mv /fsx-storygen/beidic/yang/log/log-2883521.err ../submitted 
 
 # mv /fsx-storygen/beidic/yang/log/log-2877212.out ../submitted 
 # mv /fsx-storygen/beidic/yang/log/log-2877212.err ../submitted 
