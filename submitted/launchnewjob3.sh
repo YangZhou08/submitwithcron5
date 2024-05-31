@@ -40,6 +40,7 @@ git pull
 git pull 
 # pip install termcolor 
 # pip install -e . 
+pip install --force-reinstall transformers==4.38.1 
 pip install termcolor 
 pip install wandb 
 pip install datasets 
@@ -61,4 +62,4 @@ echo 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 | transformers-cli login
 huggingface-cli login --token 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 
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False --tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False --tasks gsm8k --batch_size 1 --limit 0.1 
