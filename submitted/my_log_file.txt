@@ -4817,3 +4817,24 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 80f7d40e40d8d3e482e6fe84fc519ec37b8616c3
+2024-05-31 15:50:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-05-31 15:50:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2879431 learnfair yangzho6   beidic PD       0:00      1 (Priority)
+           2879432 learnfair yangzho6   beidic PD       0:00      1 (Priority)
+2024-05-31 15:50:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackfile.sh
++ mv /fsx-storygen/beidic/yang/log/log-2879432.out ../submitted
+attempting to move error files
+mv: cannot stat '/fsx-storygen/beidic/yang/log/log-2879432.out': No such file or directory
++ mv /fsx-storygen/beidic/yang/log/log-2879432.err ../submitted
+mv: cannot stat '/fsx-storygen/beidic/yang/log/log-2879432.err': No such file or directory
++ mv /fsx-storygen/beidic/yang/log/log-2879431.out ../submitted
+mv: cannot stat '/fsx-storygen/beidic/yang/log/log-2879431.out': No such file or directory
++ mv /fsx-storygen/beidic/yang/log/log-2879431.err ../submitted
+mv: cannot stat '/fsx-storygen/beidic/yang/log/log-2879431.err': No such file or directory
