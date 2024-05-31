@@ -42,6 +42,8 @@ pip install datasets
 pip install accelerate 
 pip install -U "huggingface_hub[cli]" 
 pip install matplotlib 
+pip install langdetect 
+pip install immutabledict 
 pip install sentencepiece 
 which python 
 
