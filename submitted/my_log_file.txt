@@ -4059,3 +4059,28 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull abb7e3e459f295a9996e84145402e78fe5737594
+2024-05-31 11:05:02 - Submitting jobs
+There are 4 .sh files to submit.
+Submitting launchjob33.sh
+2024-05-31 11:05:02 - Job ID: Submitted batch job 2877212
+Submitting launchjob333.sh
+2024-05-31 11:05:02 - Job ID: Submitted batch job 2877213
+Submitting launchjob333Sirius.sh
+2024-05-31 11:05:02 - Job ID: Submitted batch job 2877214
+Submitting launchjob33Sirius.sh
+2024-05-31 11:05:02 - Job ID: Submitted batch job 2877215
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2877215 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877214 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877213 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877212 learnfair yangzho6   beidic PD       0:00      1 (None)
+           2877184 learnfair yangzho6   beidic  R      19:55      1 a100-st-p4de24xlarge-232
+           2877187 learnfair yangzho6   beidic  R      19:55      1 a100-st-p4de24xlarge-403
+2024-05-31 11:05:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackfile.sh
++ mv /fsx-storygen/beidic/yang/log/log-2877135.out ../submitted
+attempting to move error files
++ mv /fsx-storygen/beidic/yang/log/log-2877135.err ../submitted
