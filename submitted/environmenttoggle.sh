@@ -1,6 +1,8 @@
 source /data/home/beidic/.bashrc
 source /data/home/beidic/anaconda3/etc/profile.d/conda.sh 
 
+source activate base 
+conda activate base 
 conda activate hanshi 
 
 pip install wandb 
