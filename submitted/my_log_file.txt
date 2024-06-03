@@ -28947,3 +28947,34 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull b00e32a56b0332e79a39ff8501dda4794922279d
+2024-06-03 15:30:02 - Submitting jobs
+There are 5 .sh files to submit.
+Submitting Llama2_13B.sh
+2024-06-03 15:30:02 - Job ID: Submitted batch job 2917172
+Submitting Llama2_13B_cats.sh
+2024-06-03 15:30:02 - Job ID: Submitted batch job 2917173
+Submitting Llama2_13B_catsSirius.sh
+2024-06-03 15:30:02 - Job ID: Submitted batch job 2917174
+Submitting Llama2_13B_griffin.sh
+2024-06-03 15:30:02 - Job ID: Submitted batch job 2917175
+Submitting Llama2_13B_griffinSirius.sh
+2024-06-03 15:30:02 - Job ID: Submitted batch job 2917176
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2917176     learn yangzho6   beidic PD       0:00      1 (None)
+           2917175     learn yangzho6   beidic PD       0:00      1 (None)
+           2917174     learn yangzho6   beidic PD       0:00      1 (None)
+           2917173     learn yangzho6   beidic PD       0:00      1 (None)
+           2917172     learn yangzho6   beidic PD       0:00      1 (None)
+           2916986     learn yangzho6   beidic  R       3:28      1 a100-st-p4de24xlarge-108
+           2916985     learn yangzho6   beidic  R       3:37      1 a100-st-p4de24xlarge-417
+           2916982     learn yangzho6   beidic  R       4:11      1 a100-st-p4de24xlarge-1060
+           2916981     learn yangzho6   beidic  R       4:36      1 a100-st-p4de24xlarge-369
+           2916977     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-137
+           2916978     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-215
+2024-06-03 15:30:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
