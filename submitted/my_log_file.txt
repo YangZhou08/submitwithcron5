@@ -28816,3 +28816,68 @@ attempting to move error files
 ++ PS1=
 ++ __conda_exe shell.posix activate hanshi
 ++ /fsx-storygen/beidic/anaconda3/bin/conda shell.posix activate hanshi
++ ask_conda='PS1='\''(hanshi) '\''
+export PATH='\''/fsx-storygen/beidic/anaconda3/envs/hanshi/bin:/fsx-storygen/beidic/anaconda3/condabin:/usr/bin:/bin'\''
+export CONDA_PREFIX='\''/fsx-storygen/beidic/anaconda3/envs/hanshi'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''hanshi'\''
+export CONDA_PROMPT_MODIFIER='\''(hanshi) '\''
+export CONDA_EXE='\''/fsx-storygen/beidic/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/fsx-storygen/beidic/anaconda3/bin/python'\'''
++ eval 'PS1='\''(hanshi) '\''
+export PATH='\''/fsx-storygen/beidic/anaconda3/envs/hanshi/bin:/fsx-storygen/beidic/anaconda3/condabin:/usr/bin:/bin'\''
+export CONDA_PREFIX='\''/fsx-storygen/beidic/anaconda3/envs/hanshi'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''hanshi'\''
+export CONDA_PROMPT_MODIFIER='\''(hanshi) '\''
+export CONDA_EXE='\''/fsx-storygen/beidic/anaconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/fsx-storygen/beidic/anaconda3/bin/python'\'''
+++ PS1='(hanshi) '
+++ export PATH=/fsx-storygen/beidic/anaconda3/envs/hanshi/bin:/fsx-storygen/beidic/anaconda3/condabin:/usr/bin:/bin
+++ PATH=/fsx-storygen/beidic/anaconda3/envs/hanshi/bin:/fsx-storygen/beidic/anaconda3/condabin:/usr/bin:/bin
+++ export CONDA_PREFIX=/fsx-storygen/beidic/anaconda3/envs/hanshi
+++ CONDA_PREFIX=/fsx-storygen/beidic/anaconda3/envs/hanshi
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=hanshi
+++ CONDA_DEFAULT_ENV=hanshi
+++ export 'CONDA_PROMPT_MODIFIER=(hanshi) '
+++ CONDA_PROMPT_MODIFIER='(hanshi) '
+++ export CONDA_EXE=/fsx-storygen/beidic/anaconda3/bin/conda
+++ CONDA_EXE=/fsx-storygen/beidic/anaconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/fsx-storygen/beidic/anaconda3/bin/python
+++ CONDA_PYTHON_EXE=/fsx-storygen/beidic/anaconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git add .
++ git stash
+No local changes to save
++ git checkout yangexp2
+Already on 'yangexp2'
+Your branch is up to date with 'origin/yangexp2'.
++ git pull
+Already up to date.
+No changes to pull.
+2024-06-03 15:10:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-03 15:10:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           2916791     learn yangzho6   beidic  R       4:55      1 a100-st-p4de24xlarge-821
+2024-06-03 15:10:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
