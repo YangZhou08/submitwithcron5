@@ -11,8 +11,8 @@
 #SBATCH --time=1:00:00 
 
 ## partition name
-#SBATCH --partition=learnfair 
-#SBATCH --account=fairaws-storygen
+#SBATCH -q storygen 
+#SBATCH -A storygen 
 ## number of nodes
 #SBATCH --nodes=1
 
@@ -34,7 +34,8 @@ source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 conda activate hanshi 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /fsx-storygen/beidic/yang/GRIFFIN2 
-git checkout exp2 
+# git checkout exp2 
+git checkout yangexp2 
 git pull 
 
 git pull 
