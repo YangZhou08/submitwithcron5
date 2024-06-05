@@ -41,15 +41,17 @@ git pull
 git pull 
 # pip install termcolor 
 # pip install -e . 
-pip install termcolor 
-pip install wandb 
-pip install datasets 
-pip install accelerate 
-pip install -U "huggingface_hub[cli]" 
-pip install matplotlib 
-pip install langdetect 
-pip install immutabledict 
-pip install sentencepiece 
+
+# pip install termcolor 
+# pip install wandb 
+# pip install datasets 
+# pip install accelerate 
+# pip install -U "huggingface_hub[cli]" 
+# pip install matplotlib 
+# pip install langdetect 
+# pip install immutabledict 
+# pip install sentencepiece 
+
 which python 
 
 export WANDB_API_KEY=fbb26fc8718b8e58d743b5cdcabaa2396656f773 
@@ -58,9 +60,9 @@ wandb login
 which python 
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 
 
-echo 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 | transformers-cli login 
+# echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,griffin=True,check=True,kernel_size=16,spr=0.5,thr=0.1--tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,griffin=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
