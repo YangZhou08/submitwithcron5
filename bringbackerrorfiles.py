@@ -32,8 +32,8 @@ commands = ""
 for jobid in jobidsbringing: 
     # commands += "mv /private/home/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
     # commands += "mv /private/home/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
-    commands += "mv /fsx-storygen/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
-    commands += "mv /fsx-storygen/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
+    commands += "cp /fsx-storygen/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
+    commands += "cp /fsx-storygen/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
 
 file.write(commands) 
 file.close() 
