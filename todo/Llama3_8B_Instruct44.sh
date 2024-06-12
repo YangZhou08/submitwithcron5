@@ -36,8 +36,8 @@ conda activate hanshi
 # cd /fsx-storygen/beidic/yang/GRIFFIN2 
 cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
-# git checkout yangexp2 
-# git pull 
+git checkout addinggriffin 
+git pull 
 
 git pull 
 # pip install termcolor 
@@ -67,4 +67,4 @@ huggingface-cli login --token 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
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model meta-llama/Llama-2-7b-chat-hf --tasks csqa,strategyqa,sports,date 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model meta-llama/Meta-Llama-3-8B-Instruct --cats --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.5 --thr 0.1 
