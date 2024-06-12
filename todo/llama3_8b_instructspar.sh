@@ -8,7 +8,7 @@
 ## filename for job standard error output (stderr)
 #SBATCH --error=/fsx-storygen/beidic/yang/log/log-%j.err
 
-#SBATCH --time=5:00:00 
+#SBATCH --time=1:00:00 
 
 ## partition name
 #SBATCH -q storygen 
@@ -33,10 +33,27 @@ source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 # conda activate yangllm 
 conda activate hanshi 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
-cd /fsx-storygen/beidic/yang/GRIFFIN2 
+# cd /fsx-storygen/beidic/yang/GRIFFIN2 
+cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
-git checkout yangexp2 
+git checkout addinggriffin 
 git pull 
+
+git pull 
+# pip install termcolor 
+# pip install -e . 
+
+# pip install termcolor 
+# pip install wandb 
+# pip install datasets 
+# pip install accelerate 
+# pip install -U "huggingface_hub[cli]" 
+# pip install matplotlib 
+# pip install langdetect 
+# pip install immutabledict 
+# pip install sentencepiece 
+
+which python 
 
 export WANDB_API_KEY=fbb26fc8718b8e58d743b5cdcabaa2396656f773 
 wandb login 
@@ -44,13 +61,10 @@ wandb login
 which python 
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 
 
-echo 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 | transformers-cli login 
+# echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
-
-numbershots=(0 2 4 8 16)
 
 # /data/home/beidic/anaconda3/envs/griffin/bin/accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=True --tasks gsm8k --batch_size 1  
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
-for numbershot in ${numbershots[@]}; do
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,spr=0.5,check=True,kernel_size=16,thr=0.1 --tasks gsm8k --batch_size 1 --num_fewshot $numbershot --limit 0.5 
-done
+# accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model meta-llama/Meta-Llama-3-8B-Instruct --tasks csqa,strategyqa,sports,date --shotfive 
