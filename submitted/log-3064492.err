@@ -1,0 +1,135 @@
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+Please commit your changes or stash them before you merge.
+Aborting
+error: Your local changes to the following files would be overwritten by merge:
+	.DS_Store
+Please commit your changes or stash them before you merge.
+Aborting
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+usage: main.py [-h] [--tasks TASKS] [--model MODEL] [--device DEVICE]
+               [--limit LIMIT] [--griffin] [--cats] [--check]
+               [--kernel_size KERNEL_SIZE] [--spr SPR] [--thr THR]
+               [--shotfive]
+main.py: error: unrecognized arguments: --shottwo
+[2024-06-13 08:35:59,895] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 2) local_rank: 0 (pid: 3205921) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 2 (pid: 3205922)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 2 (pid: 3205923)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 2 (pid: 3205924)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 2 (pid: 3205925)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 2 (pid: 3205926)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 2 (pid: 3205927)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 2 (pid: 3205928)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-13_08:35:59
+  host      : a100-st-p4de24xlarge-109.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 2 (pid: 3205921)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
