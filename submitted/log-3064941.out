@@ -1,0 +1,3020 @@
+Your branch is up to date with 'origin/addinggriffin'.
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+is_distributed True
+is_distributed TrueNamespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+is_distributed True
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+is_distributed True
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+Q: What is it called when a person with mental illness is able to lead a relatively normal life?
+Options: (a) managed (b) effectively treated (c) recur (d) cause delusion (e) illusion
+A:
+ The answer must be a situation when a person with mental illness is able to lead a normal life. The word "managed" is used to describe a situation when a person with mental illness is able to control their symptoms. "Effectively treated" is a phrase that describes a situation when a person with mental illness is able to recover from their illness. "Recur" is not a word that describes a situation when a person with mental illness is able to lead a normal life. "Cause delusion" and "illusion" are not related to a situation when a person with mental illness is able to lead a normal life. So the answer is managed (a).
+
+Q
+Answer a expected a
+Total examples: 1 Correct answers: 1
+Q: What room is likely to have a sideboard on the counter?
+Options: (a) home (b) serve food buffet (c) dining room (d) living room (e) kitchen
+A:
+ The answer must be a place where people eat and have a counter. A sideboard is a piece of furniture that is often used in a dining room or a kitchen. It is not common to have a sideboard in a home, a serve food buffet, or a living room. So the answer is dining room (c) or kitchen (e). Both are the places where people eat and have a counter.
+
+Q
+Answer e expected e
+Total examples: 2 Correct answers: 2
+Q: George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?
+Options: (a) jet engine (b) helicopter (c) electric motor (d) rotator (e) electrical circuit
+A:
+ The answer must be a type of engine that is used in Apache helicopter. Apache helicopter is powered by a gas turbine engine, not by internal combustion, and it is not powered by electric motor, rotator, or electrical circuit. So the answer is jet engine (a).
+
+Q
+Answer a expected a
+Total examples: 3 Correct answers: 3
+Q: What language type is someone from Iran likely to use?
+Options: (a) books (b) dard (c) sky (d) closed room (e) television
+A:
+ The answer must be a language that is spoken in Iran, which is Persian. None of the options are related to a language, except (b) dard, which is not a language. So the answer is Persian (not given).
+
+Q
+Answer n expected b
+Total examples: 4 Correct answers: 3
+Q: Marathoners feel fatigued after running twenty six miles, but some that have pushed them self too hard might be prone to what?
+Options: (a) excruciating pain (b) passing out (c) death (d) drunk (e) exhaustion
+A:
+ The answer must be a situation when marathoners have pushed themselves too hard and might experience severe physical consequences. Excruating pain is a normal feeling after running, passing out is a normal feeling after exhaustion, death is not a normal feeling, and drunk is not a normal feeling after running. The answer is exhaustion (e).
+
+Q
+Answer 
+ expected b
+Total examples: 5 Correct answers: 3
+Q: What should everyone do who doesn't want to fight anymore?
+Options: (a) explicate (b) pay tribute to king (c) hope for peace (d) wear shoes (e) do well
+A:
+ The answer must be a situation when people want to stop fighting. Explicate is not a verb that can be used in this context, pay tribute to king is not a way to stop fighting, hope for peace is a good option but not a direct action, and do well is not a direct action to stop fighting. The answer is c) hope for peace.
+
+Q
+Answer 
+ expected c
+Total examples: 6 Correct answers: 3
+Q: Where can you buy a magazine, paper or gum?
+Options: (a) bank (b) rack (c) bed (d) newsstand (e) bus depot
+A:
+ The answer must be a place where you can buy these items. Bank is not a place to buy these items, rack is not a place to buy these items, and bed is not a place to buy these items. Newsstand is a place where you can buy these items, and bus depot is also a place where you can buy these items. So the answer is newsstand (d).
+
+Q
+Answer d expected d
+Total examples: 7 Correct answers: 4
+Q: What is the primary purpose of cars?
+Options: (a) cost money (b) slow down (c) move people (d) turn right (e) get girls
+A:
+ The answer must be a purpose that is related to the main function of a car. The primary purpose of a car is to move people from one place to another, not to cost money, slow down, turn right, or get girls. So the answer is c) move people.
+
+Q
+Answer l expected c
+Total examples: 8 Correct answers: 4
+Q: The coach decided to make a lineup change, the team's effort was suffering from what?
+Options: (a) stagnant (b) stagnation (c) tradition (d) hunger (e) paper money
+A:
+ The answer must be a situation when the team's effort is not improving, and the coach decides to make a change. Stagnant and stagnation are the same, and they are the best fit here. Tradition is not related to the team's effort, hunger is not a reason for the team's effort, and paper money is not related to the team's effort. So the answer is stagnant (a).
+
+Q
+Answer a expected b
+Total examples: 9 Correct answers: 4
+Q: What type of residence has a ground floor with a stoop?
+Options: (a) brownstone (b) hotel (c) condominium (d) entering building (e) office building
+A:
+ The answer must be a type of residence that has a ground floor with a stoop. A brownstone is a type of building that has a stoop, a small porch or platform that is typically found at the entrance of a brownstone. A hotel, condominium, entering building, and office building are not types of residences that have a stoop. So the answer is brownstone (a).
+
+Q
+Answer a expected a
+Total examples: 10 Correct answers: 5
+Q: Stabbing to death of a person is what sort of way to die?
+Options: (a) pool of blood (b) gruesome (c) charming (d) being arrested (e) killing
+A:
+ The answer must be a way to die that is violent and unpleasant. Stabbing to death is a violent and gruesome way to die. Pool of blood is a scene where someone is stabbed, charming is not a way to die, being arrested is not a way to die, and killing is a general term. So the answer is gruesome (b).
+
+Q
+Answer b expected b
+Total examples: 11 Correct answers: 6
+Q: How does going jogging generally affect one's self esteem?
+Options: (a) feel better (b) feel pride (c) sweating (d) ocean (e) arthritis
+A:
+ The answer must be a positive effect on self esteem. Going jogging generally makes people feel better, and also gives them a sense of pride. Sweating is a physical effect, ocean is not related to jogging, and arthritis is a medical condition. So the answer is a or b.
+
+Q:
+Answer   expected a
+Total examples: 12 Correct answers: 6
+Q: What are people likely to want to do with their friends?
+Options: (a) own land (b) own home (c) talk to each other (d) believe in god (e) spend time
+A:
+ The answer must be something that people do with their friends, and the other options are not related to friends. People do not own land or home with their friends, they do not talk to each other in the sense of owning something, they do not believe in god with their friends, and they do not own god. So the answer is spend time (e).
+
+Q
+Answer e expected e
+Total examples: 13 Correct answers: 7
+Q: Where do apples form on an apple tree?
+Options: (a) south africa (b) sunshine (c) new york (d) bloom (e) trunk
+A:
+ The answer must be a place where apples grow on an apple tree. Apple trees grow apples on their branches, not in south africa, sunshine, new york, or bloom. Trunk is the main stem of the tree, not where apples form. So the answer is branches (not given).
+
+Q
+Answer n expected d
+Total examples: 14 Correct answers: 7
+Q: What could go on top of wood?
+Options: (a) lumberyard (b) synagogue (c) floor (d) carpet (e) hardware store
+A:
+ The answer must be something that can be placed on top of wood. Lumberyard is a place where wood is sold, synagogue is a place of worship, floor is the surface of wood, carpet is a material that can be placed on top of wood, and hardware store is a place where materials are sold. So the answer is carpet (d).
+
+Q
+Answer d expected d
+Total examples: 15 Correct answers: 8
+Q: If someone rules the universe of what are they in charge?
+Options: (a) classroom (b) football game (c) everything (d) text book (e) lawbook
+A:
+ The answer must be a situation where someone is in charge of the universe. The options are not related to the universe, except option (c) everything. So the answer is everything (c).
+
+Q
+Answer c expected c
+Total examples: 16 Correct answers: 9
+Q: What can a newspaper be used to do to an engagement?
+Options: (a) announce (b) communicate (c) educate (d) inform (e) cancel
+A:
+ The answer must be a situation when a newspaper is used to cancel an engagement. A newspaper is used to announce an engagement, communicate information, educate people, and inform people, but it is not used to cancel an engagement. So the answer is cancel (e).
+
+Q
+Answer e expected a
+Total examples: 17 Correct answers: 9
+Q: Where is a lake likely to be glacial?
+Options: (a) michigan (b) new york (c) new york (d) mountains (e) countryside
+A:
+ The answer must be a place where there is a mountain, because glaciers are formed in mountains. Michigan and new york are not mountains, and countryside is a general term, not a specific place. Mountains is the only place where a lake is likely to be glacial. So the answer is mountains (d).
+
+Q
+Answer d expected d
+Total examples: 18 Correct answers: 10
+Q: The pioneer went to the general store for storage measures, what was he looking for?
+Options: (a) checkers (b) barrels (c) baking soda (d) buffalo (e) salt
+A:
+ The answer must be something that is used for storage, and the pioneer is looking for it. The pioneer is not looking for a game, a type of soda, a type of animal, or a type of food. The pioneer is looking for something that is used for storage, and the options are all related to storage, except for checkers which is a game. The answer is barrels (b).
+
+Q
+Answer 
+ expected b
+Total examples: 19 Correct answers: 10
+Q: The runner was in third place, but he pushed harder and thought he might be able to reach second.  What was beginning to do?
+Options: (a) near finish line (b) finish (c) get tired (d) gain ground (e) trip over
+A:
+ The answer must be a situation when the runner is in third place and is trying to overtake the second place. The runner is pushing harder, which means he is gaining ground, and he is near the finish line. The runner is not near the finish line, is not getting tired, is not tripping over, and is not finishing. So the answer is gain ground (d).
+
+Q
+Answer d expected d
+Total examples: 20 Correct answers: 11
+Q: What skill is needed for riding a bike?
+Options: (a) wheels (b) feet (c) pedalling (d) practice (e) good balance
+A:
+ The answer must be a skill that is necessary for riding a bike. Pedalling is a part of riding a bike, but it is not a skill. Wheels and feet are not skills, and practice is a process, not a skill. Good balance is a skill that is necessary for riding a bike, so the answer is good balance (e).
+
+Q
+Answer e expected e
+Total examples: 21 Correct answers: 12
+Q: The forest experienced a cold winter, where is it located?
+Options: (a) earth (b) south america (c) amazon basin (d) temperate zone (e) national park
+A:
+ The answer must be a place where it is cold in winter. The forest is not on the earth, it is in a place where it experiences a cold winter. South America and Amazon Basin are not cold in winter, and National Park is not a specific location. Temperate zone is a place where it is cold in winter, so the answer is temperate zone (d).
+
+Q
+Answer d expected d
+Total examples: 22 Correct answers: 13
+Q: What would you use to find a place to stay?
+Options: (a) mexico (b) phone book (c) town (d) city (e) sun dial
+A:
+ The answer must be something that can be used to find a place to stay, like a hotel or a bed. Phone book is a book that contains phone numbers, town and city are places, and sun dial is a tool to measure time. Mexico is a country, not a place to stay. So the answer is phone book (b).
+
+Q
+Answer b expected b
+Total examples: 23 Correct answers: 14
+Q: The hikers stopped to have a drink, simply put they what?
+Options: (a) had a party (b) were thirsty (c) refreshment (d) getting drunk (e) celebrating
+A:
+ The answer must be a situation when hikers stopped to have a drink, which means they are thirsty. They are not having a party, they are not celebrating, they are not getting drunk, and they are not having a drink for a celebration. So the answer is thirsty (b).
+
+Q
+Answer b expected b
+Total examples: 24 Correct answers: 15
+Q: They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?
+Options: (a) maryland (b) indiana (c) on tv (d) park (e) new jersey
+A:
+ The answer must be a place where there is a big motorsport spectacle in the world. The biggest motorsport spectacle in the world is the Indianapolis 500, which is held in Indiana. Maryland and New Jersey are not the places where the Indianapolis 500 is held. Watching on TV is not a place, and a park is not a specific location. So the answer is Indiana (b).
+
+Q
+Answer b expected b
+Total examples: 25 Correct answers: 16
+Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?
+Options: (a) rest (b) insomnia (c) making love (d) sleeping in (e) texting
+A:
+ The answer must be a situation when James and his partner are celebrating their 5th anniversary, which means they are married. They planned to go to bed early, which means they are going to spend the night together, and the most romantic and intimate thing to do on anniversary is making love. So the answer is making love (c).
+
+Q
+Answer c expected c
+Total examples: 26 Correct answers: 17
+Q: John was traveling to a new city and took time to check out a business.  He noticed that its carpet was stained with sauces and ketchup. What type of business might that be?
+Options: (a) bedroom (b) chair (c) bowling alley (d) at hotel (e) restaurant
+A:
+ The answer must be a place where people eat and drink. The carpet being stained with sauces and ketchup is a sign of food and drink being spilled. A bedroom is not a place where food and drink are consumed, a chair is not a place, bowling alley is a place where people play, and at hotel is a place where people stay. Restaurant is the only place where people eat and drink, and it is the most likely place where food and drink are spilled. So the answer is restaurant (e).
+
+Q
+Answer e expected e
+Total examples: 27 Correct answers: 18
+Q: Where would you find magazines along side many other printed works?
+Options: (a) doctor (b) bookstore (c) market (d) train station (e) mortuary
+A:
+ The answer must be a place where you can find magazines and other printed works. Bookstore is a place where you can find magazines and other printed works, market is a place where you can find some magazines but not many printed works, doctor is not a place where you can find magazines, train station is a place where you can find some magazines but not many printed works, and mortuary is not a place where you can find magazines. So the answer is bookstore (b).
+
+Q
+Answer b expected b
+Total examples: 28 Correct answers: 19
+Q: While waiting for this appointment, people often read magazines.
+Options: (a) doctor (b) train station (c) newsagent (d) market (e) table
+A:
+ The answer must be a place where people often wait and read magazines. Doctor is a place where people go for medical checkup, not a place where people wait. Train station is a place where people wait, and people often read magazines there. Newsagent is a place where people buy magazines, but not a place where people wait. Market is a place where people buy things, not a place where people wait. Table is not a place where people wait. So the answer is train station (b).
+
+Q
+Answer b expected a
+Total examples: 29 Correct answers: 19
+Q: The hostess greeted the employees to the program, she then led them to their what?
+Options: (a) group people (b) welcome guests (c) occupations (d) work room (e) seat customer
+A:
+ The answer must be a place where employees are going to work. The hostess greeted the employees, which means they are already at the place, and then led them to their work room, which is where they will be doing their work. Group people is not the right place, welcome guests is not the right place, occupations is not the right place, and seat customer is not the right place. So the answer is work room (d).
+
+Q
+Answer d expected d
+Total examples: 30 Correct answers: 20
+Q: What would be happening if you are pretending to be a police officer?
+Options: (a) fighting (b) misunderstanding (c) deception (d) play (e) distrust
+A:
+ The answer must be a situation when you are pretending to be a police officer, which is a deception. You are not really a police officer, but you are acting like one. So the answer is deception (c).
+
+Q:
+Answer c expected c
+Total examples: 31 Correct answers: 21
+Q: James tore the antenna off of his boat due to bad reception as he was crossing the channel from France.  Where was he going?
+Options: (a) river (b) television (c) india (d) england (e) europe
+A:
+ The answer must be a place where he is crossing a channel from France, and the antenna is related to a boat. The only place that fits is England, as James is crossing the English Channel from France. The other options are not related to a boat or a channel. So the answer is england (d).
+
+Q
+Answer d expected d
+Total examples: 32 Correct answers: 22
+Q: There was a long cottage somewhere.  People thought it was haunted.  It was overgrown, there was nothing near it.  It's was far into the what?
+Options: (a) mountains (b) countryside (c) train (d) painting (e) village
+A:
+ The answer must be a place where there is no human settlement, no buildings, and no people. The description says that there was nothing near it, it was overgrown, and it was far into the something. The only option that fits this description is countryside (b). Mountains is a place with some human settlement, train is a mode of transportation, painting is a work of art, and village is a small settlement.
+
+Q
+Answer 
+ expected b
+Total examples: 33 Correct answers: 22
+Q: A child wants to play, what would they likely want?
+Options: (a) fall down (b) breathe (c) play tag (d) be dismembered by a chainsaw (e) become adult
+A:
+ The answer must be something that a child would want to do, not something that a child would not want to do. A child would not want to fall down, breathe, be dismembered by a chainsaw, or become an adult. They would want to play, so the answer is play (c).
+
+Q
+Answer c expected c
+Total examples: 34 Correct answers: 23
+Q: Why do people read non fiction?
+Options: (a) having fun (b) it's more relatable (c) learn new things (d) becoming absorbed (e) falling asleep
+A:
+ The answer must be to learn new things. People read non fiction to gain knowledge, to learn new things, to understand the world, to get informed. It's not for having fun, it's not more relatable, it's not to become absorbed, and it's not to fall asleep. So the answer is c) learn new things.
+
+Q
+Answer g expected c
+Total examples: 35 Correct answers: 23
+Q: If a lizard is fed by people every day, what has happened to it?
+Options: (a) documentary (b) costa rica (c) garden (d) encouragement (e) captivity
+A:
+ The answer must be a situation where a lizard is fed by people every day, which means it is being taken care of and is not free in the wild. The lizard is not a documentary, not in costa rica, not in a garden, and not encouraged. The only option that makes sense is captivity (e).
+
+Q
+Answer 
+ expected e
+Total examples: 36 Correct answers: 23
+Q: Jane works for the government as a senator, where does she spend a lot of time?
+Options: (a) capitol building (b) everything (c) washington d.c (d) russia (e) canada
+A:
+ The answer must be a place where a senator works, which is the capitol building. The capitol building is where the government is located, and it is where a senator spends a lot of time. Everything is not a place, and Washington D.C is the city where the capitol building is located. Russia and Canada are not related to the capitol building. So the answer is capitol building (a).
+
+Q
+Answer a expected a
+Total examples: 37 Correct answers: 24
+Q: While knitting you can do what using a radio?
+Options: (a) listen to music (b) watch television (c) making blankets (d) eat (e) watching tv
+A:
+ The answer must be something that you can do while knitting, and it is not making blankets, eating, or watching tv. You can listen to music while knitting, so the answer is listen to music (a).
+
+Q:
+Answer a expected a
+Total examples: 38 Correct answers: 25
+Q: What part of plants is pretty?
+Options: (a) dirt (b) no neurons in (c) millions of cells (d) flowers on (e) roots
+A:
+ The answer must be a part of plants that is often considered as pretty. Flowers are the most common part of plants that are considered as pretty. Dirt is not pretty, no neurons in is not a part of plants, millions of cells is a general description of plants, and roots are not as pretty as flowers. So the answer is flowers (d).
+
+Q
+Answer d expected d
+Total examples: 39 Correct answers: 26
+Q: What would it be if they get a surprising show over and over?
+Options: (a) surprise (b) fight (c) annoyance (d) might scare (e) irritated
+A:
+ The answer must be a situation when something is repeated and it is unexpected. Surprise is the best option, because it is a show that is unexpected and repeated. Fight, annoyance, might scare, and irritated are not the best options because they are not a show. So the answer is surprise (a).
+
+Q
+Answer a expected c
+Total examples: 40 Correct answers: 26
+Q: Why would a person like to have a large house?
+Options: (a) have choice (b) mentally challenged (c) own house (d) obesity (e) lots of space
+A:
+ The answer must be a situation where a person has a desire to have a large house. The options are all related to the house, but only lots of space is a reason why a person would like to have a large house. The other options are not related to the desire of having a large house. So the answer is lots of space (e).
+
+Q
+Answer e expected e
+Total examples: 41 Correct answers: 27
+Q: If it's not used for hair a round brush is an example of what?
+Options: (a) hair brush (b) ladies bathroom (c) art supplies (d) shower (e) hair salon
+A:
+ The answer must be a brush that is not used for hair. A round brush is used for painting, not for hair. It is not a hair brush, not a ladies bathroom, not a shower, and not a hair salon. So the answer is art supplies (c).
+
+Q
+Answer c expected c
+Total examples: 42 Correct answers: 28
+Q: Joe found spiders in the place where he keeps his tools.  Where might that be?
+Options: (a) cupboard (b) toolbox (c) closet (d) garage (e) mail box
+A:
+ The answer must be a place where tools are kept, and spiders are often found. A cupboard is a place where food is kept, a toolbox is a place where tools are kept, a closet is a place where clothes are kept, and a mail box is a place where mail is kept. A garage is a place where tools are often kept, and spiders are often found there. So the answer is garage (d).
+
+Q
+Answer d expected d
+Total examples: 43 Correct answers: 29
+Q: Where can you store your dishes in your dwelling?
+Options: (a) drawer (b) shelf (c) pantry (d) apartment (e) cabinet
+A:
+ The answer must be a place where you can store your dishes in your dwelling. Drawer is a place where you can store some things, but not dishes, shelf is a place where you can store some things, but not dishes, pantry is a place where you can store food, not dishes, and apartment is not a place where you can store dishes. Cabinet is a place where you can store dishes, so the answer is cabinet (e).
+
+Q
+Answer e expected b
+Total examples: 44 Correct answers: 29
+Q: What do people typically do while playing guitar?
+Options: (a) cry (b) hear sounds (c) singing (d) arthritis (e) making music
+A:
+ The answer must be something that people do while playing guitar, and it is related to the guitar. People typically do not cry while playing guitar, they do not hear sounds (it is the guitar that makes sounds), they do not have arthritis (it is a disease), and they do not make music (it is the guitar that makes music). The answer is making music (e).
+
+Q:
+Answer 
+ expected c
+Total examples: 45 Correct answers: 29
+Q: What might you need to do cleaning?
+Options: (a) sing a song (b) neatness (c) allergies (d) healthy living (e) using water
+A:
+ The answer must be something that you need to do cleaning. Sing a song is not related to cleaning, neatness is a state, allergies is a condition, and healthy living is a lifestyle. Using water is a common way to clean, so the answer is using water (e).
+
+Q
+Answer e expected e
+Total examples: 46 Correct answers: 30
+Q: There's some new buying products designed to get you money if you have none. The first step is that it will show you how to declare what?
+Options: (a) tax return (b) bankruptcy (c) pleasure (d) debt (e) spending money
+A:
+ The answer must be a situation when you have no money and you are buying products to get money. The first step is to declare your income, which is a tax return. The other options are not related to getting money. So the answer is tax return (a).
+
+Q
+Answer a expected b
+Total examples: 47 Correct answers: 30
+Q: Where are there likely to be a variety of flats to choose from?
+Options: (a) london (b) apartment building (c) city (d) falling down (e) town
+A:
+ The answer must be a place where there are many buildings and a lot of people. London is a city, apartment building is a place with many flats, city is a place with many buildings, and town is a place with many buildings. Falling down is not a place. So the answer is apartment building (b).
+
+Q
+Answer b expected c
+Total examples: 48 Correct answers: 30
+Q: What area does a police officer patrol?
+Options: (a) direct traffic (b) city (c) beat (d) street (e) park
+A:
+ The answer must be a specific area that a police officer is responsible for. Direct traffic is a task, city is a general area, street is a specific area, and park is a specific area. Beat is a specific area that a police officer patrols, so the answer is beat (c).
+
+Q
+Answer c expected c
+Total examples: 49 Correct answers: 31
+Q: What is main benefit to exercising?
+Options: (a) losing weight (b) healthy (c) get in shape (d) weight loss (e) sweat
+A:
+ The answer must be a benefit that is related to the main purpose of exercising, which is to improve physical health. Losing weight is a benefit, but it is not the main benefit. Get in shape is also a benefit, but it is not the main benefit. Weight loss is a benefit, but it is not the main benefit. Sweat is a result of exercising, but it is not the main benefit. The main benefit is to be healthy, so the answer is (b) healthy.
+
+Q
+Answer h expected c
+Total examples: 50 Correct answers: 31
+Q: What are you playing if you're fiddling on a violin?
+Options: (a) bluegrass music (b) make music (c) drop (d) string instrument (e) troubles
+A:
+ The answer must be a situation when you are playing a violin. Fiddling is a verb that means to play a violin, and it is a common idiomatic expression. The other options are not correct in the context. So the answer is make music (b).
+
+Q
+Answer b expected a
+Total examples: 51 Correct answers: 31
+Q: Where would you go if you wanted to have fun with a few people?
+Options: (a) watching television (b) good (c) cinema (d) friend's house (e) fairgrounds
+A:
+ The answer must be a place where you can have fun with a few people, and it is not a solo activity. Watching television is a solo activity, cinema is a solo activity, and good is not a place. Friend's house is a place where you can have fun with a few people, but it is not a public place. Fairgrounds is a public place where you can have fun with a few people, and it is a place where you can have many activities. So the answer is fairgrounds (e).
+
+Q
+Answer e expected d
+Total examples: 52 Correct answers: 31
+Q: John had a massive debt to 50 million dollars.  Compared to that, Leo's 2000 dollar debt seemed what?
+Options: (a) dwarf (b) inconsequential (c) insubstantial (d) lame (e) tiny
+A:
+ The answer must be a situation when John's debt is much larger than Leo's debt. John's debt is 50 million dollars, and Leo's debt is 2000 dollars. 2000 dollars is much smaller than 50 million dollars. So the answer is dwarf (a).
+
+Q
+Answer a expected c
+Total examples: 53 Correct answers: 31
+Q: Where could you find a toilet that only friends can use?
+Options: (a) rest area (b) school (c) stadium (d) apartment (e) hospital
+A:
+ The answer must be a place where only friends can use a toilet, not a public toilet. Rest area is a public place, school is a public place, stadium is a public place, and hospital is a public place. Apartment is a private place, and only friends can use a toilet in an apartment. So the answer is apartment (d).
+
+Q
+Answer d expected d
+Total examples: 54 Correct answers: 32
+Q: Bob stands in the grass surrounded by trees and nature, where is Bob?
+Options: (a) rest area (b) desert (c) state park (d) fairgrounds (e) soccer game
+A:
+ The answer must be a place where there are trees and nature, and Bob is standing in the grass. A rest area is a place with trees, but not necessarily surrounded by nature. Desert is a place with no trees, state park is a place with trees, but not necessarily surrounded by nature, fairgrounds is a place with no nature, and soccer game is a place with grass, but not necessarily surrounded by trees and nature. So the answer is state park (c).
+
+Q
+Answer c expected c
+Total examples: 55 Correct answers: 33
+Q: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?
+Options: (a) music store (b) obesity (c) symphony orchestra (d) ochestra (e) violin case
+A:
+ The answer must be something that John needs to bring to work as a first violin. The first violin is a part of the symphony orchestra, and the violin case is what he needs to bring to work. Music store is not something that he needs to bring to work, obesity is not related to the first violin, and ochestra is not the correct spelling. So the answer is violin case (e).
+
+Q
+Answer e expected e
+Total examples: 56 Correct answers: 34
+Q: Where would you have a stove if you don't live in a detached dwelling?
+Options: (a) tent (b) car (c) living room (d) friend's house (e) apartment
+A:
+ The answer must be a place where you can have a stove, but not in a detached dwelling. A tent, car, and friend's house are not places where you can have a stove. A living room is a part of a house, and you can have a stove in a living room. An apartment is a type of dwelling, but you can have a stove in an apartment. So the answer is apartment (e).
+
+Q
+Answer e expected e
+Total examples: 57 Correct answers: 35
+Q: What might someone do after they finish creating art?
+Options: (a) frustration (b) relax (c) eat (d) enlightenment (e) communication
+A:
+ The answer must be something that people do after they finish creating art, which is a process that can be tiring and stressful. Frustration is not a common feeling after creating art, and enlightenment is not a common action. Relax is a common feeling after creating art, and eat is a common action after creating art. Communication is also a common action after creating art, as people may want to share their work with others. So the answer is relax (b) or communication (e).
+
+Q
+Answer e expected b
+Total examples: 58 Correct answers: 35
+Q: He was on trial for obstructing justice, during which he made a questionable comment and was also found guilty of what?
+Options: (a) prosecution (b) getting hurt (c) sweat (d) steam (e) committing perjury
+A:
+ The answer must be a situation when someone is on trial for obstructing justice, and also found guilty of committing perjury. Obstructing justice is a serious crime, and committing perjury is a serious crime too. The other options are not related to the situation of someone being on trial. So the answer is committing perjury (e).
+
+Q
+Answer e expected e
+Total examples: 59 Correct answers: 36
+Q: Where would you put some ham if you want to cook it?
+Options: (a) hamshackle (b) pizza (c) fridge (d) refrigerator (e) part of meal
+A:
+ The answer must be a place where you can cook the ham. Hamshackle is not a place, pizza is a food, fridge and refrigerator are places where you can store food, but not cook. Part of meal is a phrase, not a place. So the answer is (c) fridge or (d) refrigerator.
+
+Q
+Answer o expected b
+Total examples: 60 Correct answers: 36
+Q: What would you do to a crime scene before asking a question?
+Options: (a) express information (b) touch everything (c) think (d) give clue (e) analyse
+A:
+ The answer must be a situation when you are at a crime scene and you should not touch anything before asking a question. If you touch everything, you can contaminate the evidence and make it difficult to investigate. You should not express information, give clue, or think before asking a question. You should analyse the scene before asking a question. So the answer is (b) touch everything.
+
+Q
+Answer n expected e
+Total examples: 61 Correct answers: 36
+Q: A potato is kept in the cellar, where is likely to be stored?
+Options: (a) farmer's market (b) grocery bag (c) pantry (d) bushel basket (e) fridge
+A:
+ The answer must be a place where potatoes are stored. A farmer's market is where potatoes are sold, grocery bag is where potatoes are bought, pantry is where potatoes are stored, and bushel basket is where potatoes are stored. Fridge is not a place where potatoes are stored, as potatoes are not typically stored in fridge. So the answer is pantry (c).
+
+Q
+Answer c expected d
+Total examples: 62 Correct answers: 36
+Q: Where would a corpse be covered by a blanket?
+Options: (a) bath store (b) bedroom (c) hospital (d) flower garden (e) michigan
+A:
+ The answer must be a place where a corpse is typically covered by a blanket, and it is not a place where a corpse is not typically found. Bath store is not a place where a corpse is typically found, flower garden is not a place where a corpse is typically found, and michigan is not a place where a corpse is typically found. Hospital is a place where a corpse is typically found, and bedroom is a place where a corpse is typically found. So the answer is bedroom (b).
+
+Q
+Answer b expected c
+Total examples: 63 Correct answers: 36
+Q: Dance can be elegant and specific, or you can just have fun and what?
+Options: (a) falling down (b) trip (c) fall down (d) move around (e) celebrate
+A:
+ The answer must be a situation when you can have fun and not worry about the elegance. The other options are not related to the idea of having fun. The answer is celebrate (e).
+
+Q
+Answer 
+ expected d
+Total examples: 64 Correct answers: 36
+Q: Where would you acquire a wind instrument for you own use?
+Options: (a) band practice (b) concert (c) music store (d) symphony (e) music room
+A:
+ The answer must be a place where you can buy a wind instrument for your own use. Band practice, concert, symphony are all places where you can hear wind instruments, but you cannot acquire one. Music store is a place where you can buy a wind instrument, so the answer is music store (c).
+
+Q
+Answer c expected c
+Total examples: 65 Correct answers: 37
+Q: Where do you store a large container?
+Options: (a) supermarket (b) factory (c) juice (d) hostel (e) cabinet
+A:
+ The answer must be a place where you can store a large container. Supermarket is a place where you can buy a large container, but it is not a place to store it. Factory is a place where you can make a large container, but it is not a place to store it. Juice is a drink, not a place. Hostel is a place where you can stay, but it is not a place to store a large container. Cabinet is a place where you can store a large container. So the answer is cabinet (e).
+
+Q
+Answer e expected e
+Total examples: 66 Correct answers: 38
+Q: When is the worst time for having food?
+Options: (a) digesting (b) not hungry (c) gas (d) weight gain (e) feeling of fullness
+A:
+ The answer must be when you are not hungry. If you are not hungry, you are not going to eat, and it is the worst time for having food. Digesting is the process of eating, not the time for having food, not hungry is the time when you are not going to eat, gas is a problem after eating, weight gain is a result of eating, and feeling of fullness is a feeling after eating. So the answer is not hungry (b).
+
+Q
+Answer b expected b
+Total examples: 67 Correct answers: 39
+Q: Where is the first place someone leaving the planet ends up?
+Options: (a) pay debts (b) galaxy (c) outer space (d) orbit (e) universe
+A:
+ The answer must be a place where someone leaving the planet ends up, which is outer space. The first place someone leaving the planet ends up is not in a galaxy, orbit, or universe, but in outer space. So the answer is c) outer space.
+
+Q
+Answer c expected c
+Total examples: 68 Correct answers: 40
+Q: Where is a dining area likely to be small?
+Options: (a) cruise ship (b) home (c) mall (d) restaurant (e) dark cave
+A:
+ The answer must be a place where there is limited space. A dining area on a cruise ship is likely to be small because of the limited space on the ship. A home, mall, and restaurant are all places with more space, and a dark cave is not a place where people usually have a dining area. So the answer is a cruise ship (a).
+
+Q
+Answer a expected b
+Total examples: 69 Correct answers: 40
+Q: Tweed is a rare fabric in modern clothing, what brand should I look for when buying it?
+Options: (a) scotland (b) brown (c) fabric store (d) clothing stores (e) eddie bauer
+A:
+ Tweed is a type of fabric, not a brand. Tweed is a type of fabric that is made from wool, and it is not a brand. Scotland is a country, not a brand, and brown is a color, not a brand. Fabric store and clothing stores are places where you can buy tweed, but they are not specific brands. Eddie Bauer is a brand that sells clothing, but it does not specialize in tweed. So the answer is none of the options.
+
+Q
+Answer n expected e
+Total examples: 70 Correct answers: 40
+Q: I couldn't find anybody who recalled the event, what were they adroit at doing?
+Options: (a) question authority (b) act fool (c) wash dishes (d) act innocent (e) forget
+A:
+ The answer must be a situation where people are not recalling an event, and they are good at doing something. The options are not very clear, but the most likely is that they are good at forgetting. So the answer is forget (e).
+
+Q
+Answer e expected e
+Total examples: 71 Correct answers: 41
+Q: Christians believe you will go to heaven if you're what?
+Options: (a) unable to work (b) born again (c) change of color (d) dead (e) no longer exist
+A:
+ The answer must be a situation when people believe that they will go to heaven if they are born again. Born again is a Christian concept that means to be reborn spiritually and to have a new relationship with God. Unable to work, change of color, dead, and no longer exist are not related to the concept of going to heaven. So the answer is born again (b).
+
+Q
+Answer b expected b
+Total examples: 72 Correct answers: 42
+Q: Joe found spiders while checking something outside.  What might that be?
+Options: (a) cupboard (b) closet (c) storage bag (d) mail box (e) garage
+A:
+ The answer must be a place where spiders are commonly found. Cupboard, closet, and storage bag are not places where spiders are typically found. Mail box is a place where spiders are not typically found. Garage is a place where spiders are commonly found, especially in the corners of the garage. So the answer is garage (e).
+
+Q
+Answer e expected d
+Total examples: 73 Correct answers: 42
+Q: What green area is a marmot likely to be found in?
+Options: (a) countryside (b) great plains (c) encyclopedia (d) jungle (e) north america
+A:
+ The answer must be a place where marmots are found. Marmots are found in mountainous regions, and the countryside is a general term that includes mountains. The great plains is a flat area, not suitable for marmots. Encyclopedia is not a place, jungle is a tropical area, and north america is a continent. So the answer is countryside (a).
+
+Q
+Answer a expected a
+Total examples: 74 Correct answers: 43
+Q: Despite the name a pawn can be quite versatile, all the parts are important in a what?
+Options: (a) chess game (b) scheme (c) chess set (d) checkers (e) north carolina
+A:
+ The answer must be a situation where all the parts are important in a game. Pawn is a piece in chess game, and all the parts are important in a chess game. Scheme is not a game, chess set is a collection of pieces, checkers is a different game, and north carolina is a state. So the answer is a chess game (a).
+
+Q
+Answer a expected a
+Total examples: 75 Correct answers: 44
+Q: In what kind of environment does an anemone live?
+Options: (a) nursery (b) south pacific (c) desert (d) sea water (e) atlantic ocean
+A:
+ An anemone is a type of sea anemone, a marine animal that lives in the sea water, so the answer is (d) sea water.
+
+Q
+Answer e expected d
+Total examples: 76 Correct answers: 44
+Q: What does someone typically feel when applying for a job?
+Options: (a) horror (b) anxiety and fear (c) rejection (d) increased workload (e) being employed
+A:
+ The answer must be a feeling that is common when someone is applying for a job. Horror is not a typical feeling, increased workload is not related to job application, being employed is not the feeling, and rejection is a possible outcome. Anxiety and fear are common feelings when someone is applying for a job, so the answer is anxiety and fear (b).
+
+Q
+Answer b expected b
+Total examples: 77 Correct answers: 45
+Q: If you spend all your time buying and not saving what is is likely to happen?
+Options: (a) using money (b) feel better (c) ocean (d) losing money (e) go broke
+A:
+ The answer must be a situation when you are not saving and spending all your money. If you spend all your time buying and not saving, you are likely to lose money, not use it, not feel better, not go to the ocean, and not go broke. So the answer is losing money (d).
+
+Q
+Answer d expected e
+Total examples: 78 Correct answers: 45
+Q: What is the purpose of playing games for children?
+Options: (a) winning (b) learning (c) losing (d) fatigue (e) skill
+A:
+ The answer must be a purpose that is related to the development of children. Children play games to learn, to develop their skills, to have fun, and to socialize with other children. Winning, losing, and fatigue are not the main purposes of playing games for children. So the answer is learning (b).
+
+Q
+Answer b expected b
+Total examples: 79 Correct answers: 46
+Q: The man took paperwork to other people to consult over it, where was he heading?
+Options: (a) desk (b) meeting (c) office (d) table (e) work
+A:
+ The answer must be a place where people work and consult, and the man is taking paperwork. Office is a place where people work and consult, desk is a place where people work, meeting is a place where people consult, table is a place where people work, and work is a place where people work. So the answer is office (c).
+
+Q
+Answer c expected b
+Total examples: 80 Correct answers: 46
+Q: What do people do when they think too quickly?
+Options: (a) jump to conclusions (b) hurry home (c) build trust (d) pay bills (e) sing
+A:
+ The answer must be a situation when people make a decision or a judgment without thinking clearly. Jump to conclusions is the most common phrase that means to make a decision or a judgment without thinking clearly. Hurry home is not related to thinking, build trust is not related to thinking, pay bills is not related to thinking, and sing is not related to thinking. So the answer is jump to conclusions (a).
+
+Q
+Answer a expected a
+Total examples: 81 Correct answers: 47
+Q: After he got hired he hoped for success at his what?
+Options: (a) vocation (b) new job (c) michigan (d) working hard (e) manual
+A:
+ The answer must be a place where he works, and he got hired. Vocation is a job, new job is the correct answer, Michigan is a state, working hard is a way to do something, and manual is a type of work. So the answer is new job (b).
+
+Q
+Answer b expected b
+Total examples: 82 Correct answers: 48
+Q: The poker dealer spread the flop of cards across the what?
+Options: (a) players (b) play games (c) casino (d) table (e) toy store
+A:
+ The answer must be a place where poker is played, and the flop of cards is spread across the table. The players are the ones who play the game, play games is not a place, casino is a place where poker is played, and toy store is not a place for playing poker. So the answer is table (d).
+
+Q
+Answer d expected d
+Total examples: 83 Correct answers: 49
+Q: Where can you find a snake in tall grass?
+Options: (a) tree (b) in a jar (c) pet shops (d) feild (e) tropical forest
+A:
+ The answer must be a place where snakes are commonly found, and tall grass is a habitat for snakes. A tree is not a place where snakes are found, a jar is not a natural habitat, pet shops are not a natural habitat, and feild is a general term, not a specific place. Tropical forest is a place where snakes are commonly found, and tall grass is a habitat for snakes. So the answer is tropical forest (e).
+
+Q
+Answer e expected d
+Total examples: 84 Correct answers: 49
+Q: Where would you find a fox that is made up?
+Options: (a) storybook (b) woods (c) hen house (d) natural habitat (e) back yard
+A:
+ The answer must be a place where you can find a fictional or imaginary fox, not a real one. Storybook is a place where you can find a fox that is made up, as it is a place where you can find fictional stories. Woods, hen house, natural habitat, and back yard are all places where you can find real foxes. So the answer is storybook (a).
+
+Q
+Answer a expected a
+Total examples: 85 Correct answers: 50
+Q: What does impeachment mean for the president?
+Options: (a) vote (b) election (c) trouble (d) board room (e) corporation
+A:
+ The answer must be a situation when the president is in trouble. Impeachment is a process where the president is charged with a serious crime and removed from office. It is not a vote, election, or a board room. It is not a corporation, but a government. So the answer is trouble (c).
+
+Q
+Answer c expected c
+Total examples: 86 Correct answers: 51
+Q: WHat type of keyboard is made up of one or more pipe divisions?
+Options: (a) killing (b) typewriter (c) office (d) terminal (e) organ
+A:
+ The answer must be a type of keyboard that is made up of one or more pipe divisions. The options are:
+Answer r expected e
+Total examples: 87 Correct answers: 51
+Q: What will a person going for a jog likely be wearing?
+Options: (a) grope (b) acknowledgment (c) comfortable clothes (d) ipod (e) passionate kisses
+A:
+ The answer must be something that a person going for a jog would likely wear. Comfortable clothes is the most likely thing a person would wear while going for a jog. Grope is not something a person would wear, acknowledgment is not something a person would wear, ipod is something a person would carry, and passionate kisses is not something a person would wear. So the answer is comfortable clothes (c).
+
+Q
+Answer c expected c
+Total examples: 88 Correct answers: 52
+Q: The buildings were intended to not have residential kitchens in them, what were they designed for?
+Options: (a) large city (b) small (c) eat cake (d) university (e) town
+A:
+ The answer must be a place where there are no residential kitchens, which means they are not for living. The options that are not for living are (a) large city, (b) small, (c) eat cake (which is not a place), (d) university, and (e) town. The answer is (d) university, which is a place for studying and not for living.
+
+Q
+Answer 
+ expected d
+Total examples: 89 Correct answers: 52
+Q: The teacher thought that a ferret can be very mischievous and probably wouldn't make a great pet for the entire what?
+Options: (a) bad mood (b) hutch (c) classroom (d) pair of trousers (e) year
+A:
+ The answer must be a place where a ferret can be kept and taken care of. A bad mood is not a place, hutch is a place where a ferret can be kept, classroom is a place where a ferret cannot be kept, and pair of trousers is not a place. Year is a time, not a place. So the answer is hutch (b).
+
+Q
+Answer b expected c
+Total examples: 90 Correct answers: 52
+Q: If you want to kill someone you can do what to them with a gun?
+Options: (a) sip through (b) damnation (c) shoot (d) commit crime (e) eat breakfast
+A:
+ The answer must be a situation when you want to kill someone and you have a gun. The most obvious and clear answer is to shoot (c). Sip through is not a way to kill someone, damnation is a religious term, commit crime is not a direct action, and eat breakfast is not a way to kill someone. So the answer is shoot (c).
+
+Q
+Answer c expected c
+Total examples: 91 Correct answers: 53
+Q: He wanted to live somewhere were every yard was uniform in size and landscaping, where should he look for a house?
+Options: (a) city (b) three feet (c) subdivision (d) parking garage (e) michigan
+A:
+ The answer must be a place where there are houses with uniform yards. City is a place with many buildings, not necessarily with uniform yards. Three feet is a length, not a place. Subdivision is a place with many houses, and it is the best option. Parking garage is not a place with houses, and michigan is a state, not a place with houses. So the answer is subdivision (c).
+
+Q
+Answer c expected c
+Total examples: 92 Correct answers: 54
+Q: Where would you get jeans and other wearable items to take home with you?
+Options: (a) shopping mall (b) museum (c) laundromat (d) clothing store (e) bedroom
+A:
+ The answer must be a place where you can buy jeans and other wearable items. Shopping mall, museum, and laundromat are not places where you can buy jeans. Bedroom is not a place where you can buy jeans. Clothing store is the place where you can buy jeans and other wearable items. So the answer is clothing store (d).
+
+Q
+Answer d expected d
+Total examples: 93 Correct answers: 55
+Q: How is a person likely to communicatewith others?
+Options: (a) say words (b) meet friends (c) open mouth (d) thank god (e) die of cancer
+A:
+ The answer must be a way of communication, and the other options are not correct. Say words is the most common way of communication, so the answer is (a) say words.
+
+Q
+Answer d expected a
+Total examples: 94 Correct answers: 55
+Q: Where is there a telephone book in almost every room?
+Options: (a) at hotel (b) house (c) library (d) bedsit (e) closet
+A:
+ The answer must be a place where there are many rooms and a telephone book is needed in each room. Hotel is a place with many rooms, and a telephone book is needed in each room. House is a place with many rooms, but not as many as a hotel. Library is a place with many books, but not telephone books. Bedsit is a small place, and closet is not a place with many rooms. So the answer is hotel (a).
+
+Q
+Answer a expected a
+Total examples: 95 Correct answers: 56
+Q: If someone is found to be committing murder, what did they do to someone?
+Options: (a) misery (b) kill (c) distress (d) tickel (e) go to jail
+A:
+ The answer must be a situation when someone is found to be committing murder, which means they are killing someone. Misery is a state of being unhappy, distress is a state of being worried, and tickle is a playful action. Go to jail is not the action of the person, but the consequence. So the answer is kill (b).
+
+Q
+Answer b expected b
+Total examples: 96 Correct answers: 57
+Q: What is the habitat of the fox?
+Options: (a) hen house (b) burrow (c) california (d) england (e) mountains
+A:
+ The answer must be a place where foxes can live. Foxes are known to live in burrows, and they can also be found in mountains, and in some places in california and england. But a hen house is not a habitat of foxes. So the answer is burrow (b).
+
+Q
+Answer b expected e
+Total examples: 97 Correct answers: 57
+Q: Where would you find the sharpest parts of a triangle?
+Options: (a) three vertices (b) point (c) 3 sides (d) three sides (e) math book
+A:
+ The answer must be the vertices of a triangle, which are the sharpest parts. The vertices are the points where the sides of the triangle meet, and they are the sharpest parts. The point is a single point, not the sharpest parts, 3 sides is the length of the triangle, not the sharpest parts, and math book is not a place where you find the sharpest parts of a triangle. So the answer is three vertices (a).
+
+Q
+Answer a expected a
+Total examples: 98 Correct answers: 58
+Q: Though she had a disability, what did her encouraging and positive coach see in her?
+Options: (a) qualification (b) strength (c) pity (d) competence (e) potential
+A:
+ The answer must be a situation where a coach sees something good in a person with a disability. The coach does not see qualification, strength, pity, or competence, but potential. The coach sees the potential in the person with a disability, and encourages and makes her positive. So the answer is potential (e).
+
+Q
+Answer e expected e
+Total examples: 99 Correct answers: 59
+Q: The ball was hit over a boundary and struck an audience member.  What kind of game were they playing?
+Options: (a) sporting event (b) sporting (c) basketball (d) society (e) ranch country
+A:
+ The answer must be a game where a ball is hit over a boundary and can strike an audience member. The options are sporting event, sporting, and basketball. Sporting event and sporting are general terms, and basketball is a specific game. So the answer is basketball (c).
+
+Q
+Answer c expected a
+Total examples: 100 Correct answers: 59
+Q: Playing baseball is a lot like any other sport, there is always a risk of what?
+Options: (a) sore muscles (b) errors (c) happiness (d) injury (e) fun
+A:
+ The answer must be a situation when playing baseball, there is always a risk of injury. Sore muscles is a common problem, but not a risk, errors is a part of the game, happiness is a feeling, and fun is a feeling too. So the answer is injury (d).
+
+Q
+Answer d expected d
+Total examples: 101 Correct answers: 60
+Q: What island country is ferret popular?
+Options: (a) own home (b) north carolina (c) great britain (d) hutch (e) outdoors
+A:
+ Ferrets are not popular in any island country. Ferrets are popular in some countries, but not in any island country. The answer is not in the options
+Answer o expected c
+Total examples: 102 Correct answers: 60
+Q: The man had a fear of illness, so he never visited friends who were a what?
+Options: (a) sick person (b) hospital (c) elderly person (d) graveyard (e) doctor's office
+A:
+ The answer must be a situation when the man has a fear of illness, and he never visits friends who are sick. The man's fear is not about hospital, elderly person, graveyard, or doctor's office, but about sick people. So the answer is a sick person (a).
+
+Q
+Answer a expected a
+Total examples: 103 Correct answers: 61
+Q: The terrace had Kanji written on it, indicating that it was made where?
+Options: (a) japan (b) rice paddy (c) garden (d) michigan (e) italy
+A:
+ The answer must be a place where Kanji is commonly used, which is Japan. Kanji is a Japanese character, and it is used in Japan. Rice paddy is a place where rice is grown, garden is a place where plants are grown, michigan is a state in the US, and italy is a country in Europe. So the answer is Japan (a).
+
+Q
+Answer a expected a
+Total examples: 104 Correct answers: 62
+Q: The electrode wouldn't spark, it turned out that the what hadn't been connected?
+Options: (a) battery (b) electronic equipment (c) electrolytic cell (d) charge (e) tube
+A:
+ The answer must be a situation when the electrode is not working, and the problem is that the battery is not connected. The electrode won't spark if the battery is not connected, and the other options are not correct. So the answer is a battery (a).
+
+Q
+Answer a expected a
+Total examples: 105 Correct answers: 63
+Q: When drinking booze what can you do to stay busy?
+Options: (a) reach tentative agreement (b) stay in bed (c) stop bicycle (d) examine thing (e) suicide
+A:
+ The answer must be something that you can do while drinking booze. Reach tentative agreement is not related to drinking, stay in bed is not a good idea, stop bicycle is not related to drinking, and suicide is not a good option. The only option that is related to drinking is examine thing, which can be a book, a magazine, a newspaper, or anything else. So the answer is examine thing (d).
+
+Q
+Answer d expected d
+Total examples: 106 Correct answers: 64
+Q: What kind of place has a leader?
+Options: (a) army (b) battle (c) wildlife (d) country (e) organization
+A:
+ The answer must be a place that has a leader, like a country, an army, an organization, etc. Battle is a fight, wildlife is a group of animals, and country is a place with a leader. So the answer is (d) country.
+
+Q
+Answer r expected d
+Total examples: 107 Correct answers: 64
+Q: He looked at the field of pumps, all slowing churning oil out of the what?
+Options: (a) manual (b) street (c) restaurant (d) ground (e) service station
+A:
+ The answer must be a place where there are pumps, and the pumps are slowing churning oil out of the ground. A manual is not a place where pumps are, street is a place where pumps are not, restaurant is a place where pumps are not, and service station is a place where pumps are. So the answer is ground (d).
+
+Q
+Answer d expected d
+Total examples: 108 Correct answers: 65
+Q: If you have a ticket and you are planning to eat hot dogs, where would you go?
+Options: (a) lottery (b) person's hand (c) baseball stadium (d) movie (e) kitchen
+A:
+ The answer must be a place where you can eat hot dogs. A lottery is not a place to eat hot dogs, a person's hand is not a place, movie is not a place to eat hot dogs, and kitchen is not a place to eat hot dogs. Baseball stadium is a place where you can eat hot dogs, so the answer is baseball stadium (c).
+
+Q
+Answer c expected c
+Total examples: 109 Correct answers: 66
+Q: What type of non-vegetarian soup is one likely to find a potato?
+Options: (a) beef stew (b) own kitchen (c) clam chowder (d) kitchen cabinet (e) pantry
+A:
+ The answer must be a soup where potatoes are commonly used. Clam chowder is a seafood soup, and potatoes are not typically found in clam chowder. Beef stew is a meat-based soup, and potatoes are commonly used in beef stew. The other options are not related to soup. So the answer is beef stew (a).
+
+Q
+Answer a expected c
+Total examples: 110 Correct answers: 66
+Q: What can you use to store a book while traveling?
+Options: (a) library of congress (b) pocket (c) backpack (d) suitcase (e) synagogue
+A:
+ The answer must be a place where you can carry a book while traveling. Library of congress is a place where you can find books, but you cannot carry it. Pocket is a small place to carry a book, but not a big book. Backpack and suitcase are the places where you can carry a book, so the answer is backpack (c) or suitcase (d).
+
+Q
+Answer d expected d
+Total examples: 111 Correct answers: 67
+Q: Joe's cat smelled something delicious and jumped into this, causing him to panic and fear for its life. Where might it have jumped?
+Options: (a) meat loaf (b) bedroom (c) microwave (d) living room (e) floor
+A:
+ The answer must be a place where there is something delicious that the cat can smell and jump into. Meat loaf is a food, bedroom is not a place where there is something delicious, microwave is a place where food is cooked, and living room is a place where there is a lot of things that can be delicious. The answer is microwave (c), where the cat can smell something delicious and jump into it.
+
+Q
+Answer 
+ expected c
+Total examples: 112 Correct answers: 67
+Q: After the weight cut he was worried about his energy levels, but this was part of participating in a what?
+Options: (a) work (b) wrestle (c) play sports (d) matter (e) sleep
+A:
+ The answer must be a situation where a person has to cut his weight before a competition, and he is worried about his energy levels. The only option that makes sense is play sports (c). In sports, especially in wrestling, athletes have to cut their weight before the competition, and they are worried about their energy levels. The other options are not related to the situation. So the answer is play sports (c).
+
+Q
+Answer c expected b
+Total examples: 113 Correct answers: 67
+Q: What is the best way to begin going into trance?
+Options: (a) religious experience (b) closed eyes (c) loss of control (d) sleep (e) hallucination
+A:
+ The answer must be a situation where you are in a quiet and calm place, and you start to focus your mind and relax your body. Closed eyes is a good way to start, because you can focus your mind and relax your body. Loss of control is not a good way to begin, because you need to have control over your body and mind. Sleep is not a good way to begin, because you are not in a trance state. Hallucination is not a good way to begin, because you are not in a trance state. So the answer is closed eyes (b).
+
+Q
+Answer b expected b
+Total examples: 114 Correct answers: 68
+Q: If you wanted a license to catch crabs, what government office would you go to?
+Options: (a) most offices (b) fish department (c) fancy restaurant (d) government submarine (e) chesapeake bay
+A:
+ The answer must be a place where you can get a license to catch crabs. The fish department is the most likely place to get a license to catch crabs. Most offices, fancy restaurant, government submarine, and Chesapeake Bay are not related to getting a license to catch crabs. So the answer is fish department (b).
+
+Q
+Answer b expected b
+Total examples: 115 Correct answers: 69
+Q: Where can I go to be a religious gentleman?
+Options: (a) club (b) restaurant (c) university (d) pub (e) church
+A:
+ The answer must be a place where you can be a religious gentleman. A club, restaurant, university, and pub are not places where you can be a religious gentleman. Church is a place where you can be a religious gentleman. So the answer is church (e).
+
+Q
+Answer e expected e
+Total examples: 116 Correct answers: 70
+Q: What southern U.S. state is know for having many swamps?
+Options: (a) wetlands (b) new york (c) michigan (d) louisiana (e) river delta
+A:
+ The answer must be a state that has many swamps, and Louisiana is the most famous for its swamps. Wetlands is a general term, new york and michigan are not known for swamps, and river delta is a geographical term. So the answer is Louisiana (d).
+
+Q
+Answer d expected d
+Total examples: 117 Correct answers: 71
+Q: If you really wanted a grape, where would you go to get it?
+Options: (a) winery (b) fruit stand (c) field (d) kitchen (e) food
+A:
+ The answer must be a place where grapes are grown, sold, or stored. Winery is a place where grapes are made into wine, fruit stand is a place where fruits are sold, field is a place where grapes are grown, kitchen is a place where grapes are cooked, and food is a general term. So the answer is field (c).
+
+Q
+Answer c expected b
+Total examples: 118 Correct answers: 71
+Q: If I want a new ottoman, where should I go?
+Options: (a) furniture store (b) parlor (c) turkey (d) living room (e) den
+A:
+ The answer must be a place where you can buy or find a new ottoman. Furniture store is a place where you can buy a new ottoman, parlor is a room where you can sit, turkey is a country, living room and den are rooms where you can sit, but you cannot buy an ottoman there. So the answer is furniture store (a).
+
+Q
+Answer a expected a
+Total examples: 119 Correct answers: 72
+Q: I took my seat, the curtains drew back and I enjoyed the what?
+Options: (a) airplane (b) movie (c) auditorium (d) theatre (e) show
+A:
+ The answer must be a situation when someone is sitting in a place and curtains are drawn back, which is a typical scene in a theatre or auditorium. The curtains are drawn back to reveal the stage or the show. Airplane is not a place with curtains, movie is a type of show, but not with curtains, and show is a general term. So the answer is show (e).
+
+Q
+Answer e expected e
+Total examples: 120 Correct answers: 73
+Q: What does playing soccer and winning lead to?
+Options: (a) excitement (b) getting tired (c) overtime (d) anger (e) fights
+A:
+ The answer must be a situation when a team wins a soccer game, and the players are excited, not tired, not in overtime, not angry, and not in fights. The excitement is the most likely outcome. So the answer is excitement (a).
+
+Q
+Answer a expected a
+Total examples: 121 Correct answers: 74
+Q: They children loved having a back yard, and the parents loved that it was a safe what?
+Options: (a) suburb (b) neighborhood (c) back of house (d) roundabout (e) property
+A:
+ The answer must be a place where children can play safely. The parents loved that it was a safe property, not a suburb, neighborhood, or roundabout. The back of house is not a place where children can play. So the answer is property (e).
+
+Q
+Answer e expected b
+Total examples: 122 Correct answers: 74
+Q: If I did not have a rosebush, where would I get one?
+Options: (a) pot (b) museum (c) garden center (d) formal garden (e) backyard
+A:
+ The answer must be a place where you can buy or get a rosebush. A pot is a container, a museum is not a place to get a rosebush, a garden center is a place to buy plants, including rosebushes, a formal garden is a place with plants, and backyard is a place where you can grow a rosebush. So the answer is garden center (c).
+
+Q
+Answer c expected c
+Total examples: 123 Correct answers: 75
+Q: Where do people want to have a lot of coffee?
+Options: (a) table (b) office (c) desk (d) kitchen (e) ocean
+A:
+ The answer must be a place where people work, and they need a lot of coffee. Office is a place where people work, and they often have a desk where they sit and have coffee. Table is
+Answer   expected b
+Total examples: 124 Correct answers: 75
+Q: Where is the large area location of the empire state building?
+Options: (a) manhattan (b) office (c) the city (d) fifth avenue (e) new york city
+A:
+ The answer is New York City (e). The Empire State Building is located in Manhattan, which is a part of New York City. Manhattan is a borough, not a location, and office is a place, not a location. The city is a general term, and fifth avenue is a street, not a location. So the answer is New York City (e).
+
+Q
+Answer e expected e
+Total examples: 125 Correct answers: 76
+Q: Farm land makes use of what?
+Options: (a) countryside (b) michigan (c) north dakota (d) farming areas (e) illinois
+A:
+ The answer must be a place where farming is done. Farm land is a place where farming is done, and it is not a state, a country, or a specific area. So the answer is farming areas (d).
+
+Q
+Answer d expected d
+Total examples: 126 Correct answers: 77
+Q: Where can I put this penny to save for later?
+Options: (a) piggy bank (b) wallet (c) toy (d) ground (e) pocket
+A:
+ The answer must be a place where you can put a penny and save it for later. Piggy bank is a common place to save money, wallet is a place to keep money, toy is not a place to save money, ground is not a place to save money, and pocket is a place to keep money. So the answer is piggy bank (a).
+
+Q
+Answer a expected a
+Total examples: 127 Correct answers: 78
+Q: They were kissing each other good bye, they had no worries because their relationship had a strong foundation of what?
+Options: (a) partner (b) trust (c) cooperation (d) bricks (e) herpes
+A:
+ The answer must be a situation when two people are kissing each other good bye, and they have no worries because their relationship has a strong foundation. Trust is the most common reason for a strong foundation in a relationship. Partner is not a foundation, cooperation is not a foundation, bricks is not a foundation, and herpes is not a foundation. So the answer is trust (b).
+
+Q
+Answer b expected b
+Total examples: 128 Correct answers: 79
+Q: The man started to learn jogging, what was he hoping to do?
+Options: (a) exhaustion (b) getting in shape (c) fitness (d) injure himself (e) fatigue
+A:
+ The answer must be a situation when the man is starting to learn jogging, which means he is not good at it yet. He is hoping to get in shape, not exhausted, not injured, not fatigued. So the answer is getting in shape (b).
+
+Q
+Answer b expected b
+Total examples: 129 Correct answers: 80
+Q: What is a person who is good at sports considered?
+Options: (a) lazy (b) own house (c) talented (d) affluent (e) reproduce
+A:
+ The answer must be a person who is good at sports, and the word that is most closely related to this is "talented". A person who is good at sports is considered talented, not lazy, not own house, not affluent, and not reproduce. So the answer is talented (c).
+
+Q
+Answer c expected c
+Total examples: 130 Correct answers: 81
+Q: Where would you find a kosher deli along side a number of different places to eat?
+Options: (a) los angeles (b) food court (c) new york city (d) jewish community (e) jewish neighborhoods
+A:
+ The answer must be a place where there are many different places to eat, and a kosher deli is a type of restaurant that serves Jewish food. Food court is a place with many different places to eat, but it is not a specific location. Los Angeles is a city, not a specific location. New York City is a city, but not a specific location. Jewish community is a group of people, not a place. Jewish neighborhoods is a place where many Jewish people live, and it is a place where you can find a kosher deli. So the answer is Jewish neighborhoods (e).
+
+Q
+Answer e expected b
+Total examples: 131 Correct answers: 81
+Q: If a person is trying to keep something in their hand what should they do?
+Options: (a) complete collection (b) own house (c) procrastinate (d) explode (e) have to hold
+A:
+ The answer must be a situation when a person is trying to keep something in their hand. To keep something in hand, you should hold it. The other options are not related to the situation. So the answer is have to hold (e).
+
+Q
+Answer e expected e
+Total examples: 132 Correct answers: 82
+Q: If the president wanted to ban snakes, where would he issue such a decree?
+Options: (a) street (b) tropical forest (c) garden of eden (d) new mexico (e) white house
+A:
+ The answer must be a place where the president can issue a decree, which is the white house. The president can not issue a decree on the street, in a tropical forest, in the garden of Eden, or in New Mexico. So the answer is white house (e).
+
+Q
+Answer e expected e
+Total examples: 133 Correct answers: 83
+Q: Where in your home would you keep a ballpoint pen when not in use?
+Options: (a) backpack (b) bank (c) desk drawer (d) eat cake (e) office desk
+A:
+ The answer must be a place where you can keep a ballpoint pen when not in use. Backpack is not a place to keep a pen, bank is not a place to keep a pen, and eat cake is not a place to keep a pen. Desk drawer is a place where you can keep a pen, and office desk is also a place where you can keep a pen. So the answer is desk drawer (c) or office desk.
+
+Q
+Answer s expected c
+Total examples: 134 Correct answers: 83
+Q: If you spend a long time shopping in uncomfortable shoes, you might develop what?
+Options: (a) tiredness (b) calluses (c) bankruptcy (d) standing in line (e) sleepyness
+A:
+ The answer must be a situation when you are wearing uncomfortable shoes for a long time. Tiredness is a general feeling, calluses are a physical result, and bankruptcy is a financial result. Standing in line is a situation, and sleepyness is not a direct result of wearing shoes. The most likely answer is calluses (b).
+
+Q
+Answer 
+ expected b
+Total examples: 135 Correct answers: 83
+Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?
+Options: (a) health (b) fall down (c) stagger (d) get arrested (e) vomit
+A:
+ The answer must be a situation when the teens are trying to hide that they get drunk, but when they walk in the door, their actions give away that they are drunk. The teens are not trying to hide their health, they are not falling down, they are not staggering, they are not getting arrested, and they are not vomiting. The answer is stagger (c).
+
+Q
+Answer 
+ expected c
+Total examples: 136 Correct answers: 83
+Q: Where is a doormat likely to be in front of?
+Options: (a) facade (b) front door (c) doorway (d) entrance porch (e) hallway
+A:
+ The answer must be a place where people enter a house or a building. A doormat is usually placed in front of the entrance of a house or a building, not in front of a facade, doorway, or hallway. So the answer is front door (b).
+
+Q
+Answer b expected b
+Total examples: 137 Correct answers: 84
+Q: Who might wear dark glasses indoors?
+Options: (a) blind person (b) glove box (c) movie studio (d) ray charles (e) glove compartment
+A:
+ The answer must be a person who is sensitive to light, like a blind person, or a person who is trying to protect their eyes from light, like a movie studio. Ray Charles is a blind person, and glove box and glove compartment are not related to wearing dark glasses. So the answer is a blind person (a).
+
+Q
+Answer a expected a
+Total examples: 138 Correct answers: 85
+Q: The teacher knew her students understood division, what was she hoping they would learn next?
+Options: (a) multiplication (b) multiply (c) putting together (d) unity (e) pay debts
+A:
+ The answer must be a situation when the teacher is teaching division and wants to teach the next step, which is multiplication. The teacher is not teaching multiplication, putting together, unity, or pay debts. So the answer is multiplication (a).
+
+Q
+Answer a expected a
+Total examples: 139 Correct answers: 86
+Q: Where would a person light alcohol on fire to observe the reaction?
+Options: (a) supermarket (b) bar (c) pub (d) restaurants (e) chemistry lab
+A:
+ The answer must be a place where a person can safely light alcohol on fire to observe the reaction. A supermarket, bar, pub, and restaurants are not the right places to do this. A chemistry lab is the only place where a person can safely light alcohol on fire to observe the reaction. So the answer is chemistry lab (e).
+
+Q
+Answer e expected e
+Total examples: 140 Correct answers: 87
+Q: Flowers make a good center focal point, just one of many arrangements that look good on a what?
+Options: (a) market (b) table (c) countryside (d) anthology (e) vase
+A:
+ The answer must be a place where flowers are arranged and displayed. Flowers make a good center focal point, and they are often arranged on a table, not a market, countryside, or anthology. A vase is a container where flowers are arranged, so the answer is vase (e).
+
+Q
+Answer e expected b
+Total examples: 141 Correct answers: 87
+Q: When cooking sheep meat a lot of people might want to be well?
+Options: (a) ram (b) lamb (c) done (d) ram (e) wolf
+A:
+ The answer must be a situation when people are cooking sheep meat and they want it to be well cooked. Ram is a type of sheep, lamb is a type of sheep, and wolf is not a type of sheep. Done is a verb, not a type of sheep. So the answer is done (c).
+
+Q
+Answer c expected c
+Total examples: 142 Correct answers: 88
+Q: What does going to bed with your spouse for sex lead to?
+Options: (a) bad dreams (b) a good nights sleep (c) rest (d) sleepiness (e) get pregnant
+A:
+ The answer must be a situation when you are having sex with your spouse, and it leads to getting pregnant. Going to bed with your spouse for sex is a common way to have a baby, and it does not lead to bad dreams, a good night's sleep, rest, or sleepiness. So the answer is get pregnant (e).
+
+Q
+Answer e expected e
+Total examples: 143 Correct answers: 89
+Q: What furniture will you normally find near a side chair?
+Options: (a) bedroom (b) table (c) wheel barrow (d) building (e) office
+A:
+ The answer must be a place where you can find a side chair, and a table is a common furniture that is often found near a side chair. Bedroom is a place where you can find a side chair, but not a table. Wheel barrow, building, and office are not related to a side chair. So the answer is table (b).
+
+Q
+Answer b expected b
+Total examples: 144 Correct answers: 90
+Q: What type of store would have lots of sports equipment?
+Options: (a) mall (b) office supply store (c) school (d) sporting goods store (e) sporting event
+A:
+ The answer must be a place where people can buy sports equipment. Mall is a place with many stores, but not all of them are sports equipment stores. Office supply store is not related to sports equipment. School is a place where people can learn, not buy sports equipment. Sporting event is a place where people can watch sports, not buy sports equipment. The answer is sporting goods store (d).
+
+Q
+Answer 
+ expected d
+Total examples: 145 Correct answers: 90
+Q: In what Spanish speaking North American country can you get a great cup of coffee?
+Options: (a) mildred's coffee shop (b) mexico (c) diner (d) kitchen (e) canteen
+A:
+ The answer must be a country where Spanish is spoken and you can get a great cup of coffee. Mexico is a Spanish speaking country, and you can get a great cup of coffee there. Mildred's coffee shop, diner, kitchen, and canteen are not countries, and they are not the best places to get a great cup of coffee. So the answer is Mexico (b).
+
+Q
+Answer b expected b
+Total examples: 146 Correct answers: 91
+Q: Where areas are there likely to be many nightclubs?
+Options: (a) manhattan (b) drink and dance (c) alcohol (d) major city (e) downtown area
+A:
+ The answer must be a place where there are many nightclubs. Manhattan is a major city, and downtown area is a place with many nightclubs. Drink and dance is not a place, and alcohol is a substance. So the answer is downtown area (e).
+
+Q
+Answer e expected d
+Total examples: 147 Correct answers: 91
+Q: What type of building has the most top floor?
+Options: (a) go down (b) apartment building (c) tall building (d) office building (e) cabin
+A:
+ The answer must be a building that has many floors, and the top floor is the highest one. Apartment building, tall building, and office building are all types of buildings that have many floors, and the top floor is the highest one. Cabin is a small building, and go down is not a type of building. So the answer is apartment building (b).
+
+Q
+Answer b expected c
+Total examples: 148 Correct answers: 91
+Q: Where do you keep your pizza slice before you eat it?
+Options: (a) table (b) plate (c) restaurant (d) oven (e) popular
+A:
+ The answer must be a place where you can keep your pizza slice before you eat it. Table and plate are places where you can keep your pizza, and restaurant is where you can buy your pizza. Oven is where you can cook your pizza, and popular is not a place. So the answer is table (a) or plate (b).
+
+Q
+Answer b expected b
+Total examples: 149 Correct answers: 92
+Q: Why would one try to avoid work?
+Options: (a) making money (b) leave home (c) success (d) malaise (e) bad mood
+A:
+ The answer must be a situation when one does not want to do something, and the reason is not because of making money, leaving home, or success. Malaise is a feeling of listlessness and boredom, which is a good reason to avoid work. So the answer is malaise (d).
+
+Q
+Answer d expected d
+Total examples: 150 Correct answers: 93
+Q: The victim was to take stand today, they were going to do what?
+Options: (a) testify (b) runaway (c) witness (d) tell truth (e) go home
+A:
+ The answer must be a situation when the victim is going to be a witness in a court, and they are going to tell the truth. Testify is the correct answer, as it means to give evidence or testimony in a court. Runaway is not correct, as the victim is not going to escape, witness is not correct, as the victim is the one who is going to testify, tell truth is not correct, as the victim is not going to tell a lie, and go home is not correct, as the victim is going to be in the court, not going home. So the answer is testify (a).
+
+Q
+Answer a expected a
+Total examples: 151 Correct answers: 94
+Q: Where would a person live that isn't in the metro area but still has good schools?
+Options: (a) woods (b) bed (c) suburbs (d) rural (e) neighborhood
+A:
+ The answer must be a place that is not in the city but still has good schools. Metro area is a city, and woods, bed, and neighborhood are not places where people live. Suburbs and rural are places where people can live and have good schools. So the answer is suburbs (c).
+
+Q
+Answer c expected c
+Total examples: 152 Correct answers: 95
+Q: where is a good place to obtain new soap?
+Options: (a) supermarket (b) washing (c) cabinet (d) own home (e) sink
+A:
+ The answer must be a place where you can buy new soap, not where you wash, not where you store soap, not where you live, and not where you wash. Supermarket is a place where you can buy new soap, so the answer is supermarket (a).
+
+Q
+Answer a expected a
+Total examples: 153 Correct answers: 96
+Q: Yes or No: Would it be very difficult for Nuno Gomes to dive to the Red Sea's deepest point?
+A:
+ Nuno Gomes is a freediver who has reached a depth of 318 meters (1,043 feet) in the Red Sea. The deepest point in the Red Sea is approximately 2,400 meters (7,
+Answer  freediver who has reached a depth of 318 meters (1,043 feet) in the red sea. the deepest point in the red sea is approximately 2,400 meters (7 expected yes
+Total examples: 1 Correct answers: 0
+Q: Yes or No: Could SNL be why Jenny McCarthy does not get along with her cousin?
+A:
+ There is no evidence to suggest that Jenny McCarthy and her cousin have a public feud. SNL is a TV show that has had many cast
+Answer dence to suggest that jenny mccarthy and her cousin have a public feud. snl is a tv show that has had many cas expected yes
+Total examples: 2 Correct answers: 0
+Q: Yes or No: Can Kate Gosselin's household fill out a Bandy team?
+A:
+ A Bandy team requires 11 players. Kate Gosselin has 8 children. She has 3 adults in her household. 8 + 3 = 11. So the answer is yes.
+
+Q:
+Answer yes expected no
+Total examples: 3 Correct answers: 0
+Q: Yes or No: Is there a Yeti associated with Disney theme parks?
+A:
+ The Yeti is a fictional creature that is featured in the Disney movie "Monsters, Inc." and is also a character at Disney's Animal Kingdom theme
+Answer ictional creature that is featured in the disney movie "monsters, inc." and is also a character at disney's animal kingdom them expected yes
+Total examples: 4 Correct answers: 0
+Q: Yes or No: Is lunch on the beach a good activity to spot the full circle of a rainbow?
+A:
+ Rainbows are formed by the refraction of light through water droplets in the air. They typically appear in the sky, not on the beach. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 5 Correct answers: 1
+Q: Yes or No: Can you drown in a Swan Lake performance?
+A:
+ No. The water is not deep enough to drown in a Swan Lake performance. The water is typically only about 1-2 feet deep. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 6 Correct answers: 2
+Q: Yes or No: Is Jennifer Lawrence's middle name similar to the name of a Scorsese collaborator?
+A:
+ Jennifer Lawrence's middle name is Gamble. Martin Scorsese collaborated with Robert De Niro,
+Answer ce's middle name is gamble. martin scorsese collaborated with robert de niro expected yes
+Total examples: 7 Correct answers: 2
+Q: Yes or No: Can you only see hippopotamus in Africa?
+A:
+ Hippopotamuses are found in rivers and lakes in Africa, but they can also be found in zoos and wildlife sanctuaries in other parts of the world. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 8 Correct answers: 3
+Q: Yes or No: Do you need lactobacillus to make pickles?
+A:
+ Lactobacillus is a type of bacteria that is commonly used in the fermentation process of pickles. It is necessary for the fermentation process to
+Answer s a type of bacteria that is commonly used in the fermentation process of pickles. it is necessary for the fermentation process t expected no
+Total examples: 9 Correct answers: 3
+Q: Yes or No: Could an elephant easily defeat a male macaque?
+A:
+ Elephants are much larger and stronger than macaques. Elephants can weigh up to 15,000 pounds, while macaques typically weigh around 10-15 pounds. Elephants are also much more powerful. They have a significant advantage in terms of size and strength. So the answer is yes.
+
+Q
+Answer yes expected yes
+Total examples: 10 Correct answers: 4
+Q: Yes or No: Did Brazilian jiu-jitsu Gracie founders have at least a baker's dozen of kids between them?
+A:
+ Carlos Gracie and Helio Gracie had 21 children between them. A baker's dozen is 13, so the answer is yes.
+
+Q:
+Answer yes expected yes
+Total examples: 11 Correct answers: 5
+Q: Yes or No: Did Clark Gable marry more women once than Richard Burton?
+A:
+ Clark Gable was married 5 times, while Richard Burton was married 5 times. So the answer is no.
+
+Q:
+Answer no expected yes
+Total examples: 12 Correct answers: 5
+Q: Yes or No: Is a pound sterling valuable?
+A:
+ The pound sterling is a currency, and as such, it has a value. The value of a pound sterling is determined by its exchange against other currencies. So the answer is yes.
+
+Q
+Answer yes expected no
+Total examples: 13 Correct answers: 5
+Q: Yes or No: Did John Kerry run in the 2010 United Kingdom general election?
+A:
+ John Kerry is an American politician, not a British politician. The 2010 United Kingdom general election was held in the United Kingdom, not in the United States. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 14 Correct answers: 6
+Q: Yes or No: Did Jack Dempsey ever witness Conor McGregor's fights?
+A:
+ Jack Dempsey passed away in 1983. Conor McGregor's first professional fight was in 2008
+Answer ssed away in 1983. conor mcgregor's first professional fight was in 200 expected no
+Total examples: 15 Correct answers: 6
+Q: Yes or No: Would Communist Party of the Soviet Union hypothetically support Trickle Down Economics?
+A:
+ The Communist Party of the Soviet Union was a Marxist-Leninist party that believed in the principles of socialism and the abolition of private property. Trickle Down Economics is a capitalist economic theory that advocates for the reduction of taxes and the increase of government spending. The two ideologies are
+Answer arty of the soviet union was a marxist-leninist party that believed in the principles of socialism and the abolition of private property. trickle down economics is a capitalist economic theory that advocates for the reduction of taxes and the increase of government spending. the two ideologies ar expected no
+Total examples: 16 Correct answers: 6
+Q: Yes or No: Is Thanksgiving sometimes considered a day of mourning?
+A:
+ The Wampanoag tribe, who were the original inhabitants of the area where the Pilgrims settled, have a day of mourning on Thanksgiving. They consider it a day of remembrance for the genocide of their people.
+Answer ribe, who were the original inhabitants of the area where the pilgrims settled, have a day of mourning on thanksgiving. they consider it a day of remembrance for the genocide of their people expected yes
+Total examples: 17 Correct answers: 6
+Q: Yes or No: If he were poor, would Christopher Reeve have lived?
+A:
+ Christopher Reeve was paralyzed from the neck down after a horse riding accident in 1995. He required a ventilator to breathe and a team of caregivers to assist him with daily living activities. His medical care was expensive, and he was unable to work. Without the financial resources to pay for his medical care, he would have likely died. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 18 Correct answers: 7
+Q: Yes or No: Is a thousand dollars per Days of Our Lives episodes preferred to other soaps?
+A:
+ The actors on Days of Our Lives are reportedly paid $1,000 per episode. This is a higher rate than many other soap operas
+Answer ays of our lives are reportedly paid $1,000 per episode. this is a higher rate than many other soap opera expected no
+Total examples: 19 Correct answers: 7
+Q: Yes or No: Is the Liberty Bell still in its original location?
+A:
+ The Liberty Bell is currently located in Philadelphia, Pennsylvania, in the Liberty Bell Center. It has been moved several times since its original location in the Pennsylvania
+Answer l is currently located in philadelphia, pennsylvania, in the liberty bell center. it has been moved several times since its original location in the pennsylvani expected no
+Total examples: 20 Correct answers: 7
+Q: Yes or No: Are all students guaranteed lunch at school in the US?
+A:
+ The National School Lunch Act of 1946 provides that all students in public schools are guaranteed a nutritious lunch. However, the act does not guarantee that every student will receive
+Answer hool lunch act of 1946 provides that all students in public schools are guaranteed a nutritious lunch. however, the act does not guarantee that every student will receiv expected no
+Total examples: 21 Correct answers: 7
+Q: Yes or No: Is 500GB USB device enough to save 10 hours of Netflix shows a day?
+A:
+ 500GB is approximately 500,000,000,000 bytes. Netflix shows are typically 1GB per hour. 10 hours of Netflix shows would be 10GB. 500GB is enough to store 50 hours of
+Answer imately 500,000,000,000 bytes. netflix shows are typically 1gb per hour. 10 hours of netflix shows would be 10gb. 500gb is enough to store 50 hours o expected no
+Total examples: 22 Correct answers: 7
+Q: Yes or No: Are months based on the solar cycle?
+A:
+ The months are based on the lunar cycle, not the solar cycle. The lunar cycle is the time it takes for the moon to orbit the Earth, which is about 29.5 days. The solar cycle is the time it takes for the Earth to orbit the sun, which is about 365.25 days. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 23 Correct answers: 8
+Q: Yes or No: Can actress Dafne Keen win the Eurovision Song Contest finals in 2020?
+A:
+ Dafne Keen is an actress, not a singer. She cannot participate in the Eurovision Song Contest. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 24 Correct answers: 9
+Q: Yes or No: Have Douglas fir been used to fight wars?
+A:
+ Yes. Douglas fir was used as a material for making aircraft during World War II. The wood was used to make aircraft parts, such as propellers, due to its strength and durability. So the answer is yes.
+
+Q
+Answer yes expected yes
+Total examples: 25 Correct answers: 10
+Q: Yes or No: Did Tony Bennett have more children than he had wives?
+A:
+ Tony Bennett has been married four times. He has four children. So the answer is yes.
+
+Q:
+Answer yes expected yes
+Total examples: 26 Correct answers: 11
+Q: Yes or No: Is Statue of Unity hypothetically more level with Statue of Liberty than Lighthouse of Alexandria?
+A:
+ The Statue of Unity is 182 meters tall, while the Statue of Liberty is 93 meters tall. The Lighthouse of Alexandria was 120-130 meters tall. The Statue of Unity is hypothetically more level with the Lighthouse of Alexandria than the Statue of Liberty. So the answer is yes.
+
+Q
+Answer yes expected no
+Total examples: 27 Correct answers: 11
+Q: Yes or No: Was England directly involved in the Arab-Israeli conflict?
+A:
+ England has not been directly involved in the Arab-Israeli conflict. However, it has played a role in the conflict through its historical ties with the region and its support for various parties
+Answer  been directly involved in the arab-israeli conflict. however, it has played a role in the conflict through its historical ties with the region and its support for various partie expected yes
+Total examples: 28 Correct answers: 11
+Q: Yes or No: Can you avoid internet trolls on reddit?
+A:
+ Reddit has a system in place to help users avoid trolls. The system includes features like comment sorting, user blocking, and the ability to hide comments. Additionally, there are many subreddits dedicated to helping users avoid
+Answer stem in place to help users avoid trolls. the system includes features like comment sorting, user blocking, and the ability to hide comments. additionally, there are many subreddits dedicated to helping users avoi expected no
+Total examples: 29 Correct answers: 11
+Q: Yes or No: Is honey associated with queens?
+A:
+ Honey is often associated with the queen bee. In a hive, the queen bee lays eggs containing honey. So the answer is yes.
+
+Q
+Answer yes expected yes
+Total examples: 30 Correct answers: 12
+Q: Yes or No: Is Michael an unpopular name in the United States?
+A:
+ According to the US Social Security Administration, Michael was the 16th most popular boy name in 2019. It has been in the top 100 since 1954.
+Answer e us social security administration, michael was the 16th most popular boy name in 2019. it has been in the top 100 since 1954 expected no
+Total examples: 31 Correct answers: 12
+Q: Yes or No: Can a strawberry get worms similar to dogs?
+A:
+ Strawberries are a type of fruit, not an animal. Worms are a type of parasite that infect animals.
+Answer e a type of fruit, not an animal. worms are a type of parasite that infect animals expected yes
+Total examples: 32 Correct answers: 12
+Q: Yes or No: Does a dentist treat Bluetooth problems?
+A:
+ No. A dentist is a medical professional who specializes in the diagnosis, prevention, and treatment of diseases and conditions of the teeth and mouth. Bluetooth is a technology that allows devices to communicate with each other. It is not a medical condition or a dental problem. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 33 Correct answers: 13
+Q: Yes or No: Can soup be eaten with the hands?
+A:
+ Soup is a liquid food, and it is typically eaten with a spoon or fork. It is not practical to eat soup with the hands. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 34 Correct answers: 14
+Q: Yes or No: Is Sea World hazardous to leopard seal's health?
+A:
+ Sea World has been accused of mistreating and neglecting its animals, including leopard seals. The conditions at Sea World have been linked to stress, injury, and even death for the animals. So the answer is yes.
+
+Q:
+Answer yes expected yes
+Total examples: 35 Correct answers: 15
+Q: Yes or No: Do workers at Nissan's headquarters eat with chopsticks?
+A:
+ Nissan is a Japanese company, and in Japan, chopsticks are a common utensil.
+Answer anese company, and in japan, chopsticks are a common utensil expected yes
+Total examples: 36 Correct answers: 15
+Q: Yes or No: Would Marvel's Gateway be envious of the Doctor (Doctor Who)'s TARDIS machine?
+A:
+ Gateway is a device that can transport people across vast distances, but it is not a time machine. The TARDIS is a time machine. Envy is a feeling that arises from a sense of inferiority or inadequacy. Since Gateway and TARDIS have different capabilities, it is unlikely that Gateway would be envious of the TARDIS. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 37 Correct answers: 16
+Q: Yes or No: Does Pantheon in Paris have a unique name?
+A:
+ The Pantheon in Paris is a large building in the Latin Quarter of
+Answer  paris is a large building in the latin quarter o expected no
+Total examples: 38 Correct answers: 16
+Q: Yes or No: Are deaf people left out of enjoying music?
+A:
+ No. There are many ways to experience music, such as through vibrations, sign language, and visual representations
+Answer any ways to experience music, such as through vibrations, sign language, and visual representation expected no
+Total examples: 39 Correct answers: 16
+Q: Yes or No: Could R. Kelly write a college thesis?
+A:
+ R. Kelly has a high school diploma, but there is no evidence that he has a college degree. He has not written a college thesis. So the answer is no.
+
+Q:
+Answer no expected no
+Total examples: 40 Correct answers: 17
+Q: Yes or No: Was United Airlines blameless in worst crash in history?
+A:
+ The Tenerife airport disaster was the deadliest accident in aviation history, with 583 people killed. The crash was caused by a combination of factors, including pilot error, poor communication, and inadequate air traffic control procedures. United Airlines was not blameless, but the exact degree of blame is still debated.
+Answer rport disaster was the deadliest accident in aviation history, with 583 people killed. the crash was caused by a combination of factors, including pilot error, poor communication, and inadequate air traffic control procedures. united airlines was not blameless, but the exact degree of blame is still debated expected yes
+Total examples: 41 Correct answers: 17
+Q: Yes or No: Is a Halloween cruise in the Gulf of Mexico likely to be safe from storms?
+A:
+ The Gulf of Mexico is prone to hurricanes and tropical storms. The Atlantic hurricane season runs from June 1 to November 30, and the Eastern Pacific hurricane season runs from May 15 to November 30. Halloween falls within the peak hurricane
+Answer ico is prone to hurricanes and tropical storms. the atlantic hurricane season runs from june 1 to november 30, and the eastern pacific hurricane season runs from may 15 to november 30. halloween falls within the peak hurrican expected no
+Total examples: 42 Correct answers: 17
+Q: Yes or No: Can oysters be used in guitar manufacturing?
+A:
+ Oysters are a type of mollusk, and their shells are used to make pearl jewelry, not guitar parts.
+Answer ype of mollusk, and their shells are used to make pearl jewelry, not guitar parts expected yes
+Total examples: 43 Correct answers: 17
+Q: Yes or No: Is retail a job anybody can be suited for?
+A:
+ Retail requires a variety of skills, including customer service, sales, and inventory management. While anyone can learn these skills, not everyone may be suited for the job. Some people
+Answer  a variety of skills, including customer service, sales, and inventory management. while anyone can learn these skills, not everyone may be suited for the job. some peopl expected no
+Total examples: 44 Correct answers: 17
+Q: Yes or No: Is J.D. Salinger's most successful work influential to killers?
+A:
+ The Catcher in the Rye is a novel that has been linked to several real-life crimes, including the 1999 Columbine High School massacre. The book has been criticized for its perceived influence on the actions of some of its
+Answer the rye is a novel that has been linked to several real-life crimes, including the 1999 columbine high school massacre. the book has been criticized for its perceived influence on the actions of some of it expected yes
+Total examples: 45 Correct answers: 17
+Q: Yes or No: Would a sofer be a bad job for a vegan?
+A:
+ A sofer is a Jewish scribe who writes sacred texts, such as the Torah. The process of writing involves the use of animal products, such as ink and parchment. Therefore, a vegan would not be able to fulfill the requirements of the job. So the answer is yes.
+
+Q:
+Answer yes expected yes
+Total examples: 46 Correct answers: 18
+Q: Yes or No: Does Darth Vader's character resemble Severus Snape?
+A:
+ Both characters are complex, have a troubled past, and are feared by their peers. Both characters are also known for their strict adherence to their respective codes of conduct. Both characters also have a deep sense of loyalty and duty. Both characters also have a deep sense of pain and suffering. Both characters also have a deep sense of redemption. So the answer is yes.
+
+Q:
+Answer yes expected no
+Total examples: 47 Correct answers: 18
+Q: Yes or No: Would someone in Mumbai refer to Solanum melongena as an eggplant?
+A:
+ Solanum melongena is the scientific name for the eggplant. In English, it is commonly referred to as an eggplant. In Hindi, it is called "brinjal". So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 48 Correct answers: 19
+Q: Yes or No: Are paratroopers good at mountain rescue?
+A:
+ Paratroopers are trained in parachuting and airborne operations. They are not necessarily trained in mountain rescue. While they may have some skills that could be useful in a mountain rescue, they are not specifically trained for it. So the answer is no.
+
+Q
+Answer no expected yes
+Total examples: 49 Correct answers: 19
+Q: Yes or No: Would a customer be happy if their grocery store meat tasted like game?
+A:
+ It depends on the customer's preferences. Some people might enjoy the taste of game, while others might not. So the answer is no.
+
+Q:
+Answer no expected no
+Total examples: 50 Correct answers: 20
+Q: Yes or No: Was the Treaty of Versailles settled over blueberry scones?
+A:
+ The Treaty of Versailles was signed on June 28, 1919, and the negotiations were held in the Hall of Mirrors at the Palace of Versailles. There is no record of blueberry scones being served during the negotiations. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 51 Correct answers: 21
+Q: Yes or No: Would a student in eleventh grade be unable to run for president of the United States?
+A:
+ The minimum age to run for president is 35 years old. Eleventh grade is typically for students in their 14-17
+Answer  to run for president is 35 years old. eleventh grade is typically for students in their 14-1 expected yes
+Total examples: 52 Correct answers: 21
+Q: Yes or No: Was a nuclear bomb used in the Napoleonic Wars?
+A:
+ The first nuclear bomb was not developed until the Manhattan Project in the 1940s. The Napoleonic Wars took place from 1803 to 1815. Therefore, a nuclear bomb was not used in the Napoleonic Wars. So the answer is no.
+
+Q
+Answer no expected no
+Total examples: 53 Correct answers: 22
+Q: Yes or No: Will a sloth explode if it's not upside down?
+A:
+ Sloths do not explode if they are not upside down. They are adapted to living in trees and can move around in any direction. So the answer is no.
+
+Q:
+Answer no expected no
+Total examples: 54 Correct answers: 23
+Q: Yes or No: Is Steve Martin someone who would refuse a dish of shrimp pasta?
+A:
+ Steve Martin is an American comedian, actor, and musician. He is known for his love for seafood, including shrimp. So the answer is no.
+
+Q
+Answer no expected yes
+Total examples: 55 Correct answers: 23
+Q: Yes or No: Can you make an MP3 from the Golden Gate Bridge?
+A:
+ The Golden Gate Bridge is a physical structure, not a sound or audio source. You cannot make an MP3 from a physical structure. So the answer is no.
+
+Q:
+Answer no expected yes
+Total examples: 56 Correct answers: 23
+Q: Yes or No: Did Pink Floyd have a song about the French Riviera?
+A:
+ Pink Floyd did not have a song about the French Riviera. They did have a song called "The Nile Song" which was inspired by the French Riviera, but it is not directly about
+Answer not have a song about the french riviera. they did have a song called "the nile song" which was inspired by the french riviera, but it is not directly abou expected yes
+Total examples: 57 Correct answers: 23
+Q: Yes or No: Did Lionel Richie ever have dinner with Abraham Lincoln?
+A:
+ Lionel Richie was born in 1949, Abraham Lincoln died in 1865. It is
+Answer as born in 1949, abraham lincoln died in 1865. it i expected no
+Total examples: 58 Correct answers: 23
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Devin Booker took a turnaround jumper
+Plausible/implausible?
+A:
+ Devin Booker is an American professional basketball player, and turnaround jumpers are a common type of shot in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 1 Correct answers: 1
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Khyri Thomas  crossed the blue line
+Plausible/implausible?
+A:
+ Khyri Thomas is an American professional basketball player, and crossing the blue line is a term commonly used in hockey, not basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 2 Correct answers: 2
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: David Luiz shot with the left foot
+Plausible/implausible?
+A:
+ David Luiz is a Brazilian professional soccer player, and he is known for being a right-footed player. So the answer is implausible. 
+
+Q:
+Answer implausible expected plausible
+Total examples: 3 Correct answers: 2
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Ryan Nugent-Hopkins spent time in the penalty box
+Plausible/implausible?
+A:
+ Ryan Nugent-Hopkins is a Canadian professional ice hockey player, and penalty boxes are a common feature in
+Answer kins is a canadian professional ice hockey player, and penalty boxes are a common feature i expected plausible
+Total examples: 4 Correct answers: 2
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Marcell Ozuna shot from the six yard line
+Plausible/implausible?
+A:
+ Marcell Ozuna is a professional baseball player, and the six yard line is a term used in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 5 Correct answers: 3
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Steven Stamkos hit the slant pass
+Plausible/implausible?
+A:
+ Steven Stamkos is a Canadian professional ice hockey player, and slant passes are a common play in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 6 Correct answers: 4
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Jack Flaherty walked to first base in the National League Championship Series
+Plausible/implausible?
+A:
+ Jack Flaherty is a professional baseball player, and walking to first base is a common way to get on base in baseball. The National
+Answer s a professional baseball player, and walking to first base is a common way to get on base in baseball. the nationa expected plausible
+Total examples: 7 Correct answers: 4
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Michael Conforto comitted a three second violation
+Plausible/implausible?
+A:
+ Michael Conforto is an American professional baseball player, and three second violations are a common rule in basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 8 Correct answers: 5
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Gerard Pique scored a corner kick
+Plausible/implausible?
+A:
+ Gerard Pique is a Spanish professional soccer player, and corner kicks are a common way to score goals in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 9 Correct answers: 6
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kevin Durant scored the easy layup
+Plausible/implausible?
+A:
+ Kevin Durant is an American professional basketball player, and layups are a common way to score in basketball. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 10 Correct answers: 7
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Fernando Tatis Jr. walked on ball four
+Plausible/implausible?
+A:
+ Fernando Tatis Jr. is a professional baseball player, and walking on ball four is a common way to get on base in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 11 Correct answers: 8
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Freddie Freeman worked a full count
+Plausible/implausible?
+A:
+ Freddie Freeman is an American professional baseball player, and a full count is a common situation in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 12 Correct answers: 9
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Diego Forlan hit the back shoulder fade in the Superbowl
+Plausible/implausible?
+A:
+ Diego Forlan is a Uruguayan professional soccer player, and the back shoulder fade is a common play in American football. The Superbowl is the championship game of the National Football League (NFL). So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 13 Correct answers: 10
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Carlos Tevez fumbled the ball
+Plausible/implausible?
+A:
+ Carlos Tevez is a professional soccer player, and fumbling the ball is a common occurrence in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 14 Correct answers: 10
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Yu Darvish threw to first base
+Plausible/implausible?
+A:
+ Yu Darvish is a Japanese professional baseball player, and throwing to first base is a common play in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 15 Correct answers: 11
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: DK Metcalf hit the wheel route
+Plausible/implausible?
+A:
+ DK Metcalf is an American football player, and the wheel route is a common route in football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 16 Correct answers: 12
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Andrei Svechnikov got on the end of a through ball
+Plausible/implausible?
+A:
+ Andrei Svechnikov is a Russian professional ice hockey player, and through balls are a common way to score goals in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 17 Correct answers: 13
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mapou Yanga-M'Biwa hit the slant pass
+Plausible/implausible?
+A:
+ Mapou Yanga-M'Biwa is a French professional soccer player, and slant passes are a common play in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 18 Correct answers: 13
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Jonas Valanciunas nutmegged the defender
+Plausible/implausible?
+A:
+ Jonas Valanciunas is a Lithuanian professional basketball player, and nutmegs are a common move in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 19 Correct answers: 14
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mike Moustakas scored a touchdown
+Plausible/implausible?
+A:
+ Mike Moustakas is an American professional baseball player, and touchdowns are a common way to score in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 20 Correct answers: 15
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Philip Rivers launched a hail mary
+Plausible/implausible?
+A:
+ Philip Rivers is an American football quarterback, and hail marys are a common play in American football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 21 Correct answers: 16
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Sergio Aguero hit the buzzer beater in the NBA Championship
+Plausible/implausible?
+A:
+ Sergio Aguero is an Argentine professional soccer player, and buzzer beaters are a common way to score in basketball. However, the NBA Championship is a basketball competition, and Sergio Aguero plays soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 22 Correct answers: 17
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: De'Aaron Fox crossed the blue line
+Plausible/implausible?
+A:
+ De'Aaron Fox is an American professional basketball player, and crossing the blue line is a term commonly used in hockey, not basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 23 Correct answers: 18
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mitchell Marner nutmegged the defender
+Plausible/implausible?
+A:
+ Mitchell Marner is a Canadian professional ice hockey player, and "nutmeg" is a term commonly used in soccer to describe
+Answer  is a canadian professional ice hockey player, and "nutmeg" is a term commonly used in soccer to describ expected implausible
+Total examples: 24 Correct answers: 18
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Jared Goff scored in added time
+Plausible/implausible?
+A:
+ Jared Goff is an American football quarterback, and added time is a common term in soccer. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 25 Correct answers: 19
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Gerrit Cole committed a handball in the European Cup
+Plausible/implausible?
+A:
+ Gerrit Cole is an American professional baseball player, and handballs are a common infraction in soccer. However, the European Cup is a soccer competition, and Gerrit Cole is a baseball player. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 26 Correct answers: 20
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Calvin Ridley drove into the paint
+Plausible/implausible?
+A:
+ Calvin Ridley is an American football wide receiver, and driving into the paint is a common term in basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 27 Correct answers: 21
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Pascal Siakam drove into the paint in the Western Conference Finals
+Plausible/implausible?
+A:
+ Pascal Siakam is a Cameroonian professional basketball player, and driving into the paint is a common action in basketball. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 28 Correct answers: 22
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Aaron Nola hit a walkoff homer
+Plausible/implausible?
+A:
+ Aaron Nola is a professional baseball player, and walkoff home runs are a common way to win games in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 29 Correct answers: 23
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Diontae Johnson went for it on fourth down
+Plausible/implausible?
+A:
+ Diontae Johnson is an American football player, and going for it on fourth down is a common decision in football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 30 Correct answers: 24
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Evander Kane threw a touchdown
+Plausible/implausible?
+A:
+ Evander Kane is a Canadian professional ice hockey player, and throwing a touchdown is a common play in American football. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 31 Correct answers: 25
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Alex Bregman flew out to center
+Plausible/implausible?
+A:
+ Alex Bregman is a professional baseball player, and flying out to center is a common way to record an out in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 32 Correct answers: 26
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Nikola Jokic threw a touchdown in the AFC championship
+Plausible/implausible?
+A:
+ Nikola Jokic is a Serbian professional basketball player, and throwing a touchdown is a common play in American football. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 33 Correct answers: 27
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Khris Middleton went one for two from the line in the NBA Championship
+Plausible/implausible?
+A:
+ Khris Middleton is an American professional basketball player, and going one for two from the line is a common statistic in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 34 Correct answers: 28
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Caris LeVert scored the easy layup
+Plausible/implausible?
+A:
+ Caris LeVert is an American professional basketball player, and easy layups are a common way to score in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 35 Correct answers: 29
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Sebastian Aho scored a touchdown
+Plausible/implausible?
+A:
+ Sebastian Aho is a professional ice hockey player, and touchdowns are a term used in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 36 Correct answers: 30
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Tyler Glasnow scored a penalty kick
+Plausible/implausible?
+A:
+ Tyler Glasnow is an American professional baseball player, and penalty kicks are a common way to score goals in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 37 Correct answers: 31
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mikal Bridges got into the endzone
+Plausible/implausible?
+A:
+ Mikal Bridges is an American professional basketball player, and getting into the endzone is a common way to score in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 38 Correct answers: 32
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Patrice Bergeron took to the ice
+Plausible/implausible?
+A:
+ Patrice Bergeron is a Canadian professional ice hockey player, and taking to the ice is a common action in ice hockey. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 39 Correct answers: 33
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Brad Hand hit the wheel route
+Plausible/implausible?
+A:
+ Brad Hand is an American professional baseball player, and "wheel route" is a term commonly used in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 40 Correct answers: 34
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Dak Prescott caught the back shoulder fade
+Plausible/implausible?
+A:
+ Dak Prescott is an American football player who plays as a quarterback, and the back shoulder fade is a common route for wide
+Answer  an american football player who plays as a quarterback, and the back shoulder fade is a common route for wid expected plausible
+Total examples: 41 Correct answers: 34
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: John Carlson scored in the third period
+Plausible/implausible?
+A:
+ John Carlson is an American professional ice hockey player, and scoring in the third period is a common occurrence in hockey. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 42 Correct answers: 35
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Marquise Brown hit the wheel route
+Plausible/implausible?
+A:
+ Marquise Brown is an American football player, and the wheel route is a common route in football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 43 Correct answers: 36
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Charlie Blackmon pitched a complete game
+Plausible/implausible?
+A:
+ Charlie Blackmon is an American professional baseball player, and pitching is a common way to complete a game in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 44 Correct answers: 37
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Jordan Binnington scored in the third period
+Plausible/implausible?
+A:
+ Jordan Binnington is a Canadian professional ice hockey goaltender, and scoring in the third period is a common way to score goals in hockey. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 45 Correct answers: 38
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Pierre-Luc Dubois scored in the shootout
+Plausible/implausible?
+A:
+ Pierre-Luc Dubois is a Canadian professional ice hockey player, and shootouts are a common way to determine the winner
+Answer is is a canadian professional ice hockey player, and shootouts are a common way to determine the winne expected plausible
+Total examples: 46 Correct answers: 38
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Christian Yelich went in studs up in the World Cup
+Plausible/implausible?
+A:
+ Christian Yelich is an American professional baseball player, and studs are a type of footwear commonly used in soccer. However, the World Cup is a soccer tournament, not a baseball tournament. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 47 Correct answers: 39
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kyle Tucker hit a homerun
+Plausible/implausible?
+A:
+ Kyle Tucker is a professional baseball player, and homeruns are a common way to score in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 48 Correct answers: 40
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: David Villa shot a free throw
+Plausible/implausible?
+A:
+ David Villa is a Spanish professional soccer player, and free throws are a common way to score in basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 49 Correct answers: 41
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kyle Lowry was called for slashing
+Plausible/implausible?
+A:
+ Kyle Lowry is a Canadian professional basketball player, and slashing is a common foul in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 50 Correct answers: 41
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Daniel Jones hit the wheel route
+Plausible/implausible?
+A:
+ Daniel Jones is an American football quarterback, and the wheel route is a common route in football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 51 Correct answers: 42
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Joe Hart eurostepped to the basket
+Plausible/implausible?
+A:
+ Joe Hart is a British professional soccer player, and eurostepping is a term commonly used in
+Answer ritish professional soccer player, and eurostepping is a term commonly used i expected implausible
+Total examples: 52 Correct answers: 42
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Nelson Cruz was out at first
+Plausible/implausible?
+A:
+ Nelson Cruz is a professional baseball player, and being out at first base is a common way to
+Answer a professional baseball player, and being out at first base is a common way t expected plausible
+Total examples: 53 Correct answers: 42
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Connor McDavid scored a penalty kick
+Plausible/implausible?
+A:
+ Connor McDavid is a Canadian professional ice hockey player, and penalty kicks are a common way to score goals in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 54 Correct answers: 43
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Matthew Stafford hit the back of the rim
+Plausible/implausible?
+A:
+ Matthew Stafford is an American football player, and the back of the rim is a part of the basketball hoop. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 55 Correct answers: 44
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: T.J. McConnell committed a blocking foul in the Western Conference Finals
+Plausible/implausible?
+A:
+ T.J. McConnell is an American professional basketball player, and blocking fouls are a common occurrence in basketball. The Western Conference Finals is a part of the NBA playoffs, which is a plausible event. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 56 Correct answers: 45
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kailer Yamamoto crossed the blue line
+Plausible/implausible?
+A:
+ Kailer Yamamoto is a professional hockey player, and crossing the blue line is a common play in hockey. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 57 Correct answers: 46
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Darius Slayton ran out of bounds in the AFC championship
+Plausible/implausible?
+A:
+ Darius Slayton is an American football player, and running out of bounds is a common occurrence in football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 58 Correct answers: 47
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Jack Flaherty hit a walkoff homer
+Plausible/implausible?
+A:
+ Jack Flaherty is a professional baseball player, and walkoff homers are a common way to win games in baseball. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 59 Correct answers: 48
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Eugenio Suarez pitched a complete game
+Plausible/implausible?
+A:
+ Eugenio Suarez is a Venezuelan professional baseball player, and pitching is a common way to play in baseball. However,
+Answer is a venezuelan professional baseball player, and pitching is a common way to play in baseball. however expected plausible
+Total examples: 60 Correct answers: 48
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: William Nylander scored in the shootout in the Stanley Cup
+Plausible/implausible?
+A:
+ William Nylander is a Swedish professional ice hockey player, and the Stanley Cup is awarded in the National Hockey League (NHL). Shootouts are a common way to decide games in the NHL playoffs. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 61 Correct answers: 49
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Fred VanVleet passed the puck
+Plausible/implausible?
+A:
+ Fred VanVleet is a professional basketball player, and passing the puck is a common action in hockey, not basketball. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 62 Correct answers: 50
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: DeVante Parker was called for icing
+Plausible/implausible?
+A:
+ DeVante Parker is an American football player, and icing is a penalty in ice hockey, not football. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 63 Correct answers: 51
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Francisco Lindor hit a single
+Plausible/implausible?
+A:
+ Francisco Lindor is an American professional baseball player, and singles are a common way to hit a ball in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 64 Correct answers: 52
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Cam Newton killed the powerplay
+Plausible/implausible?
+A:
+ Cam Newton is an American football player, and powerplay is a term commonly used in
+Answer n american football player, and powerplay is a term commonly used i expected implausible
+Total examples: 65 Correct answers: 52
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Neal Pionk shot from the six yard line
+Plausible/implausible?
+A:
+ Neal Pionk is a professional hockey player, and the six yard line is a term used in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 66 Correct answers: 53
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kevin Durant scored a penalty kick
+Plausible/implausible?
+A:
+ Kevin Durant is an American professional basketball player, and penalty kicks are a common way to score goals in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 67 Correct answers: 54
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mookie Betts scored on the power play
+Plausible/implausible?
+A:
+ Mookie Betts is a professional baseball player, and power plays are a common way to score goals in hockey. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 68 Correct answers: 55
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Andrea Pirlo went five hole
+Plausible/implausible?
+A:
+ Andrea Pirlo is an Italian professional soccer player, and "going five hole" is a term commonly used in ice hockey, not soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 69 Correct answers: 56
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: DeMar DeRozan was perfect from the line
+Plausible/implausible?
+A:
+ DeMar DeRozan is an American professional basketball player, and being perfect from the line is a common achievement in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 70 Correct answers: 57
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Drew Brees went for it on fourth down
+Plausible/implausible?
+A:
+ Drew Brees is an American football quarterback, and going for it on fourth down is a common decision in football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 71 Correct answers: 58
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Brandin Cooks went for it on fourth down
+Plausible/implausible?
+A:
+ Brandin Cooks is an American football player, and going for it on fourth down is a common strategy in football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 72 Correct answers: 59
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Yoan Moncada fumbled the ball in the Superbowl
+Plausible/implausible?
+A:
+ Yoan Moncada is a baseball player, and the Superbowl is the championship game of American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 73 Correct answers: 60
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Giancarlo Stanton launched a triple
+Plausible/implausible?
+A:
+ Giancarlo Stanton is an American professional baseball player, and triples are a common way to score in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 74 Correct answers: 60
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mike Williams scored a bicycle kick in the FA Cup
+Plausible/implausible?
+A:
+ Mike Williams is a Welsh professional soccer player, and bicycle kicks are a rare and spectacular way to score goals in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 75 Correct answers: 60
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Corbin Burnes earned an indirect kick
+Plausible/implausible?
+A:
+ Corbin Burnes is an American professional baseball player, and indirect kicks are a common way to earn a penalty in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 76 Correct answers: 61
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Nikola Vucevic lost control of the puck
+Plausible/implausible?
+A:
+ Nikola Vucevic is a basketball player, not a hockey player, and pucks are used in hockey, not basketball. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 77 Correct answers: 62
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Tobias Harris fumbled the ball in the NFC divisional round
+Plausible/implausible?
+A:
+ Tobias Harris is an American professional basketball player, and the NFC divisional round is a part of the National Football League (NFL) playoffs. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 78 Correct answers: 63
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Klaas Jan Huntelaar shot with the left foot
+Plausible/implausible?
+A:
+ Klaas Jan Huntelaar is a Dutch professional soccer player, and soccer players are known to shoot with their dominant foot
+Answer laar is a dutch professional soccer player, and soccer players are known to shoot with their dominant foo expected plausible
+Total examples: 79 Correct answers: 63
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Amari Cooper scored a touchdown
+Plausible/implausible?
+A:
+ Amari Cooper is an American football player, and touchdowns are a common way to score in American football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 80 Correct answers: 64
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Marek Hamsik skated behind the net
+Plausible/implausible?
+A:
+ Marek Hamsik is a Slovak professional soccer player, and skating is a common action in ice hockey, not soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 81 Correct answers: 65
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mitchell Marner was out at second
+Plausible/implausible?
+A:
+ Mitchell Marner is a Canadian professional ice hockey player, and "out at second" is a term commonly used in baseball, not hockey. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 82 Correct answers: 66
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mika Zibanejad performed a give and go in the FA Cup
+Plausible/implausible?
+A:
+ Mika Zibanejad is a Swedish professional ice hockey player, and give and go is a common play in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 83 Correct answers: 67
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mathew Barzal called for the screen
+Plausible/implausible?
+A:
+ Mathew Barzal is a Canadian professional ice hockey player, and screens are a common play in hockey. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 84 Correct answers: 67
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Derek Carr fumbled the ball
+Plausible/implausible?
+A:
+ Derek Carr is an American football quarterback, and fumbling the ball is a common occurrence in football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 85 Correct answers: 68
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Brandon Woodruff set the hard screen in the Eastern Conference Finals
+Plausible/implausible?
+A:
+ Brandon Woodruff is a baseball player, not a basketball player, and the term "hard screen" is a term used in basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 86 Correct answers: 69
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Francisco Lindor walked on ball four
+Plausible/implausible?
+A:
+ Francisco Lindor is an American professional baseball player, and walking on ball four is a common way to get on base in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 87 Correct answers: 70
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Rhys Hoskins scored a bicycle kick
+Plausible/implausible?
+A:
+ Rhys Hoskins is an American professional baseball player, and bicycle kicks are a common move in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 88 Correct answers: 71
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Myles Turner committed a blocking foul
+Plausible/implausible?
+A:
+ Myles Turner is an American professional basketball player, and blocking fouls are a common way to commit fouls in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 89 Correct answers: 72
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Zack Greinke struck out
+Plausible/implausible?
+A:
+ Zack Greinke is a professional baseball player, and striking out is a common way for a batter to get out in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 90 Correct answers: 73
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Dejounte Murray took a left footed shot
+Plausible/implausible?
+A:
+ Dejounte Murray is an American professional basketball player, and left footed shots are not a common occurrence in basketball. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 91 Correct answers: 74
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Logan Couture went for it on fourth down
+Plausible/implausible?
+A:
+ Logan Couture is a Canadian professional ice hockey player, and fourth down is a term used in American football. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 92 Correct answers: 75
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Julio Jones entered the attacking zone
+Plausible/implausible?
+A:
+ Julio Jones is an American football wide receiver, and the attacking zone is a term commonly used in hockey. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 93 Correct answers: 76
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Tyler Glasnow threw to first base
+Plausible/implausible?
+A:
+ Tyler Glasnow is a professional baseball player, and throwing to first base is a common play in baseball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 94 Correct answers: 77
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Chris Boucher took a side-step three
+Plausible/implausible?
+A:
+ Chris Boucher is a Canadian professional basketball player, and side-steps are a common move in basketball. However, taking a "side-step three" is not a common or recognized move in basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected plausible
+Total examples: 95 Correct answers: 77
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: John Terry shot from the six yard line
+Plausible/implausible?
+A:
+ John Terry is an English professional soccer player, and the six yard line is a common area in front of the goal in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 96 Correct answers: 78
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Frederik Andersen crossed the blue line in the Stanley Cup
+Plausible/implausible?
+A:
+ Frederik Andersen is a Danish professional ice hockey goaltender, and crossing the blue line is a common action in ice hockey
+Answer en is a danish professional ice hockey goaltender, and crossing the blue line is a common action in ice hocke expected plausible
+Total examples: 97 Correct answers: 78
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Teddy Bridgewater got into the endzone in the NFC championship
+Plausible/implausible?
+A:
+ Teddy Bridgewater is a quarterback who has played in the NFL, and getting into the endzone is a common occurrence in football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 98 Correct answers: 79
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Draymond Green took a three
+Plausible/implausible?
+A:
+ Draymond Green is an American professional basketball player, and taking a three is a common way to score in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 99 Correct answers: 80
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Golden Tate converted the first down
+Plausible/implausible?
+A:
+ Golden Tate is an American football player, and converting a first down is a common occurrence in American football
+Answer an american football player, and converting a first down is a common occurrence in american footbal expected plausible
+Total examples: 100 Correct answers: 80
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Aaron Rodgers scored a freekick
+Plausible/implausible?
+A:
+ Aaron Rodgers is an American football player, and freekicks are a common way to score goals in soccer. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 101 Correct answers: 81
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Bastian Schweinsteiger did a double stepover
+Plausible/implausible?
+A:
+ Bastian Schweinsteiger is a German professional soccer player, and double stepovers are a common move in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 102 Correct answers: 82
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Wesley Sneijder got on base in the American League Championship Series
+Plausible/implausible?
+A:
+ Wesley Sneijder is a Dutch professional soccer player, and the American League Championship Series is a baseball event. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 103 Correct answers: 83
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Edinson Cavani hit nothing but net
+Plausible/implausible?
+A:
+ Edinson Cavani is a Uruguayan professional soccer player, and "hit nothing but net" is a common phrase used to describe a shot that goes into the goal without touching the ball. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 104 Correct answers: 83
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Drew Brees was flagged on the play
+Plausible/implausible?
+A:
+ Drew Brees is an American football quarterback, and flags are a common way to penalize
+Answer n american football quarterback, and flags are a common way to penaliz expected plausible
+Total examples: 105 Correct answers: 83
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Keenan Allen beat the buzzer in the Western Conference Finals
+Plausible/implausible?
+A:
+ Keenan Allen is an American football player, and the Western Conference Finals are a part of the National Basketball Association (NBA) playoffs. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 106 Correct answers: 84
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Kyrie Irving scored a reverse dunk
+Plausible/implausible?
+A:
+ Kyrie Irving is an American professional basketball player, and reverse dunks are a common way to score in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 107 Correct answers: 85
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Darius Slayton earned a trip to the penalty box
+Plausible/implausible?
+A:
+ Darius Slayton is an American football player, and penalty boxes are a part of the rules in soccer, not football. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 108 Correct answers: 86
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Ryan Tannehill scored a touchdown
+Plausible/implausible?
+A:
+ Ryan Tannehill is an American football quarterback, and touchdowns are a common way to score in American football. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 109 Correct answers: 87
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Christian Yelich headed back to the dugout
+Plausible/implausible?
+A:
+ Christian Yelich is an American professional baseball player, and in baseball, players do not head back to the dugout. They typically run or walk to the dugout. So the answer is implausible. 
+
+Q:
+Answer implausible expected plausible
+Total examples: 110 Correct answers: 87
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Brendan Gallagher spent time in the penalty box in the Stanley Cup
+Plausible/implausible?
+A:
+ Brendan Gallagher is a Canadian professional ice hockey player, and the penalty box is a common part of ice
+Answer er is a canadian professional ice hockey player, and the penalty box is a common part of ic expected plausible
+Total examples: 111 Correct answers: 87
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: David Silva skated backwards
+Plausible/implausible?
+A:
+ David Silva is a Spanish professional soccer player, and skating is a term commonly used in ice sports, not soccer. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 112 Correct answers: 88
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Oscar scored in the third period
+Plausible/implausible?
+A:
+ Oscar is a soccer player, and there is no "third period" in soccer. The answer
+Answer er player, and there is no "third period" in soccer. the answe expected implausible
+Total examples: 113 Correct answers: 88
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Tom Brady converted the first down
+Plausible/implausible?
+A:
+ Tom Brady is a quarterback in the National Football League (NFL), and converting a first down is a common action in football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 114 Correct answers: 89
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Philip Rivers hit a triple
+Plausible/implausible?
+A:
+ Philip Rivers is an American football quarterback, and triples are a term used in
+Answer s an american football quarterback, and triples are a term used i expected implausible
+Total examples: 115 Correct answers: 89
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Christian Eriksen scored in extra time
+Plausible/implausible?
+A:
+ Christian Eriksen is a Danish professional soccer player, and extra time is a common part in soccer matches. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 116 Correct answers: 90
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Andrei Vasilevskiy launched a hail mary
+Plausible/implausible?
+A:
+ Andrei Vasilevskiy is a Russian professional ice hockey goaltender, and "hail mary" is a term commonly used in American football. So the answer is implausible. 
+
+Q:
+Answer implausible expected implausible
+Total examples: 117 Correct answers: 91
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: P.J. Washington pitched a shutout
+Plausible/implausible?
+A:
+ P.J. Washington is an American professional basketball player, and pitching a shutout is a term commonly used in baseball, not basketball. So the answer is implausible. 
+
+Q
+Answer implausible expected implausible
+Total examples: 118 Correct answers: 92
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Derek Carr hit the screen pass in the Superbowl
+Plausible/implausible?
+A:
+ Derek Carr is an American football quarterback, and the screen pass is a common play in American football. So the answer is plausible. 
+
+Q:
+Answer plausible expected plausible
+Total examples: 119 Correct answers: 93
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Malik Beasley  comitted a three second violation
+Plausible/implausible?
+A:
+ Malik Beasley is an American professional basketball player, and three second violations are a common rule in basketball. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 120 Correct answers: 94
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Shai Gilgeous-Alexander hit nothing but net
+Plausible/implausible?
+A:
+ Shai Gilgeous-Alexander is a Canadian professional basketball player, and "nothing but net" is a common phrase used to describe a shot that goes in. So the answer is plausible. 
+
+Q
+Answer plausible expected plausible
+Total examples: 121 Correct answers: 95
+Q: Determine whether the following statement or statements are plausible or implausible:
+Statement: Mesut Ozil wristed a shot
+Plausible/implausible?
+A:
+ Mesut Ozil is a German professional soccer player, and wristing a shot is a common way to shoot the ball in soccer. So the answer is plausible. 
+
+Q
+Answer plausible expected implausible
+Total examples: 122 Correct answers: 95
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If today is 3/5, then tomorrow is 3/6. So the answer is 03/06/1973.
+
+Q
+Answer 03/06/1973 expected 03/06/1973
+Total examples: 1 Correct answers: 1
+Q: It is 4/19/1969 today. What is the date today in MM/DD/YYYY?
+A:
+ The answer is 04/19/1969.
+
+Q:
+Answer 4/19/1969.
+
+q expected 04/19/1969
+Total examples: 2 Correct answers: 1
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 3/5, then one year ago from today is 3/5/1972. So the answer is 3/5/1972.
+
+Q
+Answer 3/5/1972 expected 03/05/1972
+Total examples: 3 Correct answers: 2
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If today is 6/19/2019, then one week ago is 6/12/2019. So the answer is 6/12/2019.
+
+Q
+Answer 6/12/2019 expected 06/12/2019
+Total examples: 4 Correct answers: 3
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ The palindrome day of 2020 is 02/02/2020. 10 days ago is 01/23/2020. So the answer is 01/23/2020.
+
+Q
+Answer 01/23/2020 expected 01/23/2020
+Total examples: 5 Correct answers: 4
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one week from today in MM/DD/YYYY?
+A:
+ If today is 5/25/2021, then one week from today is 6/1/2021. So the answer is 6/1/2021.
+
+Q
+Answer 6/1/2021 expected 06/06/2021
+Total examples: 6 Correct answers: 4
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If today is 5/4/2004, then tomorrow is 5/5/2004. So the answer is 5/5/2004.
+
+Q
+Answer 5/5/2004 expected 05/05/2004
+Total examples: 7 Correct answers: 5
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date yesterday in MM/DD/YYYY?
+A:
+ The first day of 2019 is 01/01/2019, which is a Tuesday. The next day is 01/02/2019, which is a Wednesday. The next day is 01/03/2019, which is a Thursday. The next day is 01/04/2019, which is a Friday. The next day is 01/05/2019, which is a Saturday. The next day is 01/06/2019, which is a Sunday. The next day is 01/07/2019, which is a Monday. So the first Monday of 2019 is 01/07/2019. Yesterday is 01/06/2019. So the answer is 01/06/2019.
+
+Q
+Answer 01/06/2019 expected 01/06/2019
+Total examples: 8 Correct answers: 6
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date yesterday in MM/DD/YYYY?
+A:
+ The first day of November 2001 or 11/01/2001 is a Thursday, so the first Thursday is on 11/01/2001. The second is on 11/08/2001. The third is on 11/15/2001. So the fourth is on 11/22/2001. So the day before is 11/21/2001. So the answer is 11/21/2001.
+
+Q
+Answer 11/21/2001 expected 11/21/2002
+Total examples: 9 Correct answers: 6
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today in MM/DD/YYYY?
+A:
+ If Jane ate one egg per day, then she ate 40 eggs in 40 days. 40 days from May 9th, 2017 is June 17th, 2017. So the answer is 06/17/2017.
+
+Q
+Answer 06/17/2017 expected 06/18/2017
+Total examples: 10 Correct answers: 6
+Q: Today is the last day of the first quarter of 2008. What is the date yesterday in MM/DD/YYYY?
+A:
+ The first quarter of 2008 is from January 1, 2008 to March 31, 2008. The last day of the first quarter is 3/31/2008. So yesterday is 3/30/2008. So the answer is 3/30/2008.
+
+Q
+Answer 3/30/2008 expected 03/30/2008
+Total examples: 11 Correct answers: 7
+Q: Jane is celebrating the last day of Jan 2012. What is the date yesterday in MM/DD/YYYY?
+A:
+ If today is 1/31/2012, then yesterday is 1/30/2012. So the answer is 01/30/2012.
+
+Q
+Answer 01/30/2012 expected 01/30/2012
+Total examples: 12 Correct answers: 8
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ 24 hours later is 5/5/2004. So the answer is 5/5/2004.
+
+Q
+Answer 5/5/2004 expected 05/05/2004
+Total examples: 13 Correct answers: 9
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If 5/6/1992 is 10 years ago, then today is 5/6/2002. So tomorrow is 5/7/2002. So the answer is 5/7/2002.
+
+Q
+Answer 5/7/2002 expected 05/07/2002
+Total examples: 14 Correct answers: 10
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If today is 3/12/2002, then 10 days ago is 2/28/2002. So the answer is 02/28/2002.
+
+Q
+Answer 02/28/2002 expected 03/02/2002
+Total examples: 15 Correct answers: 10
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY?
+A:
+ The last day of February in 2001 is 2/28/2001. 16 years from that is 2/28/2017. So the answer is 2/28/2017.
+
+Q
+Answer 2/28/2017 expected 02/28/2017
+Total examples: 16 Correct answers: 11
+Q: The day before yesterday was 11/23/1933. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ The day before yesterday is 11/23/1933. Yesterday is 11/24/1933. Today is 11/25/1933. The day after today is 11/26/1933. The day after that is 11/27/1933. The day after that is 11/28/1933. The day after that is 11/29/1933. The day after that is 11/30/1933. 10 days ago is 11/15/1933. So the answer is 11/15/1933.
+
+Q
+Answer 11/15/1933 expected 11/15/1933
+Total examples: 17 Correct answers: 12
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ One year ago from today is 8/3/1996. So the answer is 8/3/1996.
+
+Q
+Answer 8/3/1996 expected 08/03/1996
+Total examples: 18 Correct answers: 13
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ If 10 years ago is 5/6/1992, then today is 5/6/2002. 24 hours later is 5/7/2002. So the answer is 5/7/2002.
+
+Q
+Answer 5/7/2002 expected 05/07/2002
+Total examples: 19 Correct answers: 14
+Q: The day before yesterday was 11/23/1933. What is the date a month ago in MM/DD/YYYY?
+A:
+ If the day before yesterday is 11/23/1933, then yesterday is 11/24/1933, and today is 11/25/1933. A month ago is 10/25/1933. So the answer is 10/25/1933.
+
+Q
+Answer 10/25/1933 expected 10/25/1933
+Total examples: 20 Correct answers: 15
+Q: Yesterday was April 30, 2021. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ If yesterday was 4/30/2021, then today is 5/1/2021. So the answer is 5/1/2021.
+
+Q
+Answer 5/1/2021 expected 05/02/2021
+Total examples: 21 Correct answers: 15
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ Today is 4/10/1985. 3 days later is 4/13/1985. 10 days ago is 4/00/1985. So the answer is 4/00/1985.
+
+Q
+Answer 4/00/1985 expected 03/31/1985
+Total examples: 22 Correct answers: 15
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ If Jane ate one egg per day, then she ate 39 eggs in 39 days. 39 days after May 9th, 2017 is June 17th, 2017. So 24 hours later is June 18th, 2017. So the answer is 06/18/2017.
+
+Q
+Answer 06/18/2017 expected 06/19/2017
+Total examples: 23 Correct answers: 15
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date yesterday in MM/DD/YYYY?
+A:
+ If yesterday was 12/31/1929, then today is 1/1/1930. So the answer is 12/31/1929.
+
+Q
+Answer 12/31/1929 expected 12/31/1929
+Total examples: 24 Correct answers: 16
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If 5/6/1992 is 10 years ago, then today is 5/6/2002. One year ago from today is 5/6/2001. So the answer is 5/6/2001.
+
+Q
+Answer 5/6/2001 expected 05/06/2001
+Total examples: 25 Correct answers: 17
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If Jane was born on 2/28/2001, then today is 2/28/2017. One year ago from today is 2/28/2016. So the answer is 2/28/2016.
+
+Q
+Answer 2/28/2016 expected 02/28/2016
+Total examples: 26 Correct answers: 18
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If tomorrow is 7/29/2002, then today is 7/28/2002, and one year ago from today is 7/28/2001. So the answer is 7/28/2001.
+
+Q
+Answer 7/28/2001 expected 07/28/2001
+Total examples: 27 Correct answers: 19
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 5/4/2004, then one year ago from today is 5/4/2003. So the answer is 5/4/2003.
+
+Q
+Answer 5/4/2003 expected 05/04/2003
+Total examples: 28 Correct answers: 20
+Q: May 6, 1992 is like yesterday to Jane, but that is actually ten years ago. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If 5/6/1992 is 10 years ago, then today is 5/6/2002. One week ago from today is 4/29/2002. So the answer is 4/29/2002.
+
+Q
+Answer 4/29/2002 expected 04/29/2002
+Total examples: 29 Correct answers: 21
+Q: Jane is celebrating the last day of Jan 2012. What is the date tomorrow in MM/DD/YYYY?
+A:
+ The last day of January 2012 is 1/31/2012. The next day is 2/1/2012. So the answer is 2/01/2012.
+
+Q
+Answer 2/01/2012 expected 02/01/2012
+Total examples: 30 Correct answers: 22
+Q: This is the last day of 1899. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 12/31/1899, then one year ago from today is 12/31/1898. So the answer is 12/31/1898.
+
+Q
+Answer 12/31/1898 expected 12/31/1898
+Total examples: 31 Correct answers: 23
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If today is 6/18/2019, then tomorrow is 6/19/2019. So the answer is 6/19/2019.
+
+Q
+Answer 6/19/2019 expected 06/19/2019
+Total examples: 32 Correct answers: 24
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If Jane was born on 2/29/2000, then today is 2/29/2016. One year ago from today is 2/29/2015. So the answer is 2/29/2015.
+
+Q
+Answer 2/29/2015 expected 02/28/2015
+Total examples: 33 Correct answers: 24
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If the deadline is 2 days away, then today is 5/29/2021. So tomorrow is 5/30/2021. So the answer is 5/30/2021.
+
+Q
+Answer 5/30/2021 expected 05/31/2021
+Total examples: 34 Correct answers: 24
+Q: The current local time is 3:02 pm of 5/4/2004. What is the date today in MM/DD/YYYY?
+A:
+ The current date is 5/4/2004. So the answer is 05/04/2004.
+
+Q
+Answer 05/04/2004 expected 05/04/2004
+Total examples: 35 Correct answers: 25
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date yesterday in MM/DD/YYYY?
+A:
+ If today is 3/5, then yesterday is 3/4. So the answer is 03/04/1973.
+
+Q
+Answer 03/04/1973 expected 03/04/1973
+Total examples: 36 Correct answers: 26
+Q: 2015 is coming in 36 hours. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 11/21/2001, then one year ago from today is 11/21/2000. So the answer is 11/21/2000.
+
+Q
+Answer 11/21/2000 expected 12/29/2013
+Total examples: 37 Correct answers: 26
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 02/01/1987, then one year ago from today is 02/01/1986. So the answer is 02/01/1986.
+
+Q
+Answer 02/01/1986 expected 01/02/1986
+Total examples: 38 Correct answers: 26
+Q: Today is 9/7. Jane is watching NFL 2003. What is the date a month ago in MM/DD/YYYY?
+A:
+ If today is 9/7, then a month ago is 8/7. So the answer is 8/7.
+
+Q
+Answer 8/7 expected 08/07/2003
+Total examples: 39 Correct answers: 26
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If they married on 1/2/1958, then today is 1/2/2008. One year ago from today is 1/2/2007. So the answer is 1/2/2007.
+
+Q
+Answer 1/2/2007 expected 01/02/2007
+Total examples: 40 Correct answers: 27
+Q: Today, 8/3/1997, is a day that we will never forget. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ One week ago from today is 7/27/1997. So the answer is 7/27/1997.
+
+Q
+Answer 7/27/1997 expected 07/27/1997
+Total examples: 41 Correct answers: 28
+Q: It was Sept. 1st, 2021 a week ago. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If it was Sept. 1st, 2021 a week ago, then today is Sept. 8th, 2021. Tomorrow is Sept. 9th, 2021. So the answer is 09/09/2021.
+
+Q
+Answer 09/09/2021 expected 09/09/2021
+Total examples: 42 Correct answers: 29
+Q: It is 4/19/1969 today. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ 4/19/1969 is a Friday. 24 hours later is 4/20/1969. So the answer is 4/20/1969.
+
+Q
+Answer 4/20/1969 expected 04/20/1969
+Total examples: 43 Correct answers: 30
+Q: Yesterday was April 30, 2021. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If yesterday was 04/30/2021, then today is 05/01/2021, and tomorrow is 05/02/2021. So the answer is 05/02/2021.
+
+Q
+Answer 05/02/2021 expected 05/02/2021
+Total examples: 44 Correct answers: 31
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY?
+A:
+ If Jane was born on 2/28/2001, then her 16-year-old birthday is on 2/28/2017. One week from today is 3/7/2017. So the answer is 3/7/2017.
+
+Q
+Answer 3/7/2017 expected 03/07/2017
+Total examples: 45 Correct answers: 32
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=False, shottwo=True)
+Task	Total	Correct	Solve Rate
+csqa	1224	783	0.6397058823529411
+strategyqa	464	203	0.4375
+sports	976	805	0.8247950819672131
+date	360	240	0.6666666666666666
