@@ -1,0 +1,4303 @@
+Your branch is up to date with 'origin/yangexp2two'.
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+first pass lengthaccepts 3 *to+
+
+first pass lengthaccepts 8 .to.
+
+
+first pass lengthaccepts 14  Tto tr
+second pass lengthaccepts 4 5
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 7  to but
+second pass lengthaccepts 8 3
+
+first pass lengthaccepts 2  wasto had
+
+first pass lengthaccepts 14  heto each
+second pass lengthaccepts 3  left
+
+first pass lengthaccepts 12 .to.
+
+
+first pass lengthaccepts 1  to its
+second pass lengthaccepts 13  The
+second pass lengthaccepts 2 72
+
+first pass lengthaccepts 9  onto in
+second pass lengthaccepts 12 320
+
+first pass lengthaccepts 10  to The
+second pass lengthaccepts 11 1
+
+first pass lengthaccepts 12 +to shaken
+second pass lengthaccepts 13 2
+
+first pass lengthaccepts 8 8to3
+second pass lengthaccepts 9  gallons
+
+first pass lengthaccepts 0 ,to and
+second pass lengthaccepts 1  including
+
+first pass lengthaccepts 1 ,to the
+second pass lengthaccepts 2  the
+
+first pass lengthaccepts 7  ofto time
+second pass lengthaccepts 8  the
+
+first pass lengthaccepts 13 ,to.
+
+second pass lengthaccepts 14  which
+
+first pass lengthaccepts 14 /to*
+
+first pass lengthaccepts 14 2to0
+
+first pass lengthaccepts 12  onto.
+
+second pass lengthaccepts 13  Saturday
+
+first pass lengthaccepts 6  forto.
+
+second pass lengthaccepts 7  the
+
+first pass lengthaccepts 6 ,to.
+
+second pass lengthaccepts 7  so
+
+first pass lengthaccepts 8  theto buying
+second pass lengthaccepts 9  amusement
+
+first pass lengthaccepts 0  to The
+second pass lengthaccepts 1 10
+
+first pass lengthaccepts 9 <<to60
+second pass lengthaccepts 10 600
+
+first pass lengthaccepts 2 30to In
+second pass lengthaccepts 3 *
+
+first pass lengthaccepts 14  *to =
+
+first pass lengthaccepts 4  hasto must
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 2 100to50
+second pass lengthaccepts 3  -
+
+first pass lengthaccepts 13 180toHer
+second pass lengthaccepts 14  hours
+
+first pass lengthaccepts 12 30to25
+second pass lengthaccepts 13  -
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  but
+
+first pass lengthaccepts 7  droveto /
+second pass lengthaccepts 8  through
+
+first pass lengthaccepts 13 <<to240
+second pass lengthaccepts 14 600
+
+first pass lengthaccepts 8 99to100
+second pass lengthaccepts 9 .
+
+first pass lengthaccepts 14  halfto a
+
+first pass lengthaccepts 1  to the
+second pass lengthaccepts 2 20
+
+first pass lengthaccepts 3  +to birds
+second pass lengthaccepts 4  
+
+first pass lengthaccepts 4 YesterdaytoShe
+second pass lengthaccepts 5 ,
+
+first pass lengthaccepts 3  forto.
+
+second pass lengthaccepts 4  those
+
+first pass lengthaccepts 11  to Her
+second pass lengthaccepts 12 12
+
+first pass lengthaccepts 7 +to minutes
+second pass lengthaccepts 8 5
+
+first pass lengthaccepts 14 100to123
+
+first pass lengthaccepts 6 24to40
+second pass lengthaccepts 9 40
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  the
+
+first pass lengthaccepts 10 275to300
+
+first pass lengthaccepts 0 ,to.
+
+second pass lengthaccepts 1  so
+
+first pass lengthaccepts 5  roomto total
+second pass lengthaccepts 6  cooled
+
+first pass lengthaccepts 12  perto.
+
+second pass lengthaccepts 13  mile
+
+first pass lengthaccepts 9  Theto Paul
+second pass lengthaccepts 10  first
+
+first pass lengthaccepts 7 =to+
+second pass lengthaccepts 8 <<
+
+first pass lengthaccepts 4  to cans
+second pass lengthaccepts 5 16
+
+first pass lengthaccepts 5  to She
+second pass lengthaccepts 6 32
+
+first pass lengthaccepts 11  /to +
+second pass lengthaccepts 13 4
+
+first pass lengthaccepts 1  -to years
+second pass lengthaccepts 2  
+
+first pass lengthaccepts 3 ,to to
+
+first pass lengthaccepts 2  ofto contains
+second pass lengthaccepts 4  so
+second pass lengthaccepts 3  tomatoes
+
+first pass lengthaccepts 8 3to2
+second pass lengthaccepts 9  *
+
+first pass lengthaccepts 4 ,to.
+second pass lengthaccepts 5  which
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  so
+
+first pass lengthaccepts 12 ,to.
+
+second pass lengthaccepts 13  which
+
+first pass lengthaccepts 11  +to,
+second pass lengthaccepts 14  +
+
+first pass lengthaccepts 2  onto are
+second pass lengthaccepts 3  Monday
+
+first pass lengthaccepts 5  to the
+second pass lengthaccepts 6 240
+
+first pass lengthaccepts 14  isto wide
+
+first pass lengthaccepts 7 7to8
+second pass lengthaccepts 11 7
+
+first pass lengthaccepts 10 150to1
+second pass lengthaccepts 11 =
+
+first pass lengthaccepts 2  timesto feet
+second pass lengthaccepts 3  as
+
+first pass lengthaccepts 5 >>to0
+second pass lengthaccepts 6 150
+
+first pass lengthaccepts 11  ofto.
+
+second pass lengthaccepts 12  exercise
+
+first pass lengthaccepts 12 4to3
+second pass lengthaccepts 13  +
+
+first pass lengthaccepts 12 ,to.
+
+second pass lengthaccepts 13  which
+
+first pass lengthaccepts 1 73to74
+second pass lengthaccepts 3 73
+
+first pass lengthaccepts 7 4to2
+second pass lengthaccepts 12 4
+
+first pass lengthaccepts 3 12to74
+second pass lengthaccepts 7 1
+
+first pass lengthaccepts 13 =to+
+second pass lengthaccepts 14 117
+
+first pass lengthaccepts 9 ,to (
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 3 220to222
+second pass lengthaccepts 5 220
+
+first pass lengthaccepts 14  dayto week
+
+first pass lengthaccepts 6  to So
+second pass lengthaccepts 7 7
+
+first pass lengthaccepts 3 9to18
+second pass lengthaccepts 4 .
+
+first pass lengthaccepts 12 4to520
+second pass lengthaccepts 13 %
+
+first pass lengthaccepts 5  theyto eaten
+second pass lengthaccepts 6  eat
+
+first pass lengthaccepts 10  withto of
+second pass lengthaccepts 12  discount
+
+first pass lengthaccepts 3 17to9
+second pass lengthaccepts 4 *
+
+first pass lengthaccepts 14 520to540
+
+first pass lengthaccepts 2 6to17
+second pass lengthaccepts 3 .
+
+first pass lengthaccepts 10 17to26
+second pass lengthaccepts 11 *
+
+first pass lengthaccepts 1 .to through
+second pass lengthaccepts 2  It
+
+first pass lengthaccepts 6 18to20
+second pass lengthaccepts 7  =
+
+first pass lengthaccepts 2  Theto Since
+second pass lengthaccepts 3  family
+
+first pass lengthaccepts 3 520to499
+second pass lengthaccepts 4  -
+
+first pass lengthaccepts 3  adultsto people
+second pass lengthaccepts 5  the
+
+first pass lengthaccepts 4 TimtoThe
+second pass lengthaccepts 5 's
+
+first pass lengthaccepts 10 5to55
+second pass lengthaccepts 11  +
+
+first pass lengthaccepts 6  oneto their
+second pass lengthaccepts 7  child
+
+first pass lengthaccepts 9  to25
+second pass lengthaccepts 10 25
+
+first pass lengthaccepts 2 20to2
+second pass lengthaccepts 3  small
+
+first pass lengthaccepts 11  allto the
+second pass lengthaccepts 12  the
+
+first pass lengthaccepts 10 00to0
+second pass lengthaccepts 11  =
+
+first pass lengthaccepts 6 20to2
+second pass lengthaccepts 7  small
+
+first pass lengthaccepts 14 210to250
+
+first pass lengthaccepts 2  +to =
+second pass lengthaccepts 4 3
+
+first pass lengthaccepts 5 3to5
+second pass lengthaccepts 6 *
+
+first pass lengthaccepts 12  into.
+
+second pass lengthaccepts 13  total
+
+first pass lengthaccepts 1 8to4
+second pass lengthaccepts 2  +
+
+first pass lengthaccepts 7 ,to =
+second pass lengthaccepts 8  or
+
+first pass lengthaccepts 11  Theto These
+
+first pass lengthaccepts 5 .to dollars
+second pass lengthaccepts 6  Each
+
+first pass lengthaccepts 7  *to sil
+second pass lengthaccepts 8  $
+
+first pass lengthaccepts 12 $to
+
+second pass lengthaccepts 13 .
+
+
+first pass lengthaccepts 11  -to =
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 10 *$to*
+second pass lengthaccepts 12 =
+
+first pass lengthaccepts 10 50to150
+second pass lengthaccepts 11 >>
+
+first pass lengthaccepts 10  ($to $
+
+first pass lengthaccepts 9 .to.
+
+second pass lengthaccepts 10  She
+
+first pass lengthaccepts 14 200to150
+
+first pass lengthaccepts 13  findto convert
+second pass lengthaccepts 14  the
+
+first pass lengthaccepts 7  subtractto find
+second pass lengthaccepts 11  don
+
+first pass lengthaccepts 3  theto quarters
+second pass lengthaccepts 4  flor
+
+first pass lengthaccepts 10 10to6
+second pass lengthaccepts 12  -
+
+first pass lengthaccepts 10 0to4
+
+first pass lengthaccepts 13 .to.
+
+second pass lengthaccepts 12 3
+second pass lengthaccepts 14  In
+
+first pass lengthaccepts 13 >>to.
+second pass lengthaccepts 14 0
+
+first pass lengthaccepts 13 11to15
+
+first pass lengthaccepts 4  ofto movies
+second pass lengthaccepts 5  a
+
+first pass lengthaccepts 8 <<to60
+second pass lengthaccepts 9 60
+
+first pass lengthaccepts 6  theto 
+second pass lengthaccepts 7  next
+
+first pass lengthaccepts 2  to money
+second pass lengthaccepts 3 4
+
+first pass lengthaccepts 11 80to48
+second pass lengthaccepts 13 80
+
+first pass lengthaccepts 10 .to yesterday
+second pass lengthaccepts 11  So
+
+first pass lengthaccepts 0 *toH
+second pass lengthaccepts 1 H
+
+first pass lengthaccepts 13  to $
+second pass lengthaccepts 14 12
+
+first pass lengthaccepts 9 /monthto +
+second pass lengthaccepts 10  +
+
+first pass lengthaccepts 12 700to100
+second pass lengthaccepts 13 >>
+
+first pass lengthaccepts 3  Theto In
+second pass lengthaccepts 4  number
+
+first pass lengthaccepts 8 20to40
+
+first pass lengthaccepts 12 ,to than
+second pass lengthaccepts 13 20
+second pass lengthaccepts 13  so
+
+first pass lengthaccepts 7 800to400
+second pass lengthaccepts 8  =
+
+first pass lengthaccepts 12 440to680
+second pass lengthaccepts 14 440
+
+first pass lengthaccepts 5  Into He
+second pass lengthaccepts 6  total
+
+first pass lengthaccepts 7  +to =
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 2 +to crates
+second pass lengthaccepts 3 0
+
+first pass lengthaccepts 5 18to180
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 10  firstto kids
+second pass lengthaccepts 11  incident
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  In
+
+first pass lengthaccepts 0 itedtoit
+
+first pass lengthaccepts 6 .to.
+
+second pass lengthaccepts 7  Then
+
+first pass lengthaccepts 12 75to2
+
+first pass lengthaccepts 7  perto.
+
+second pass lengthaccepts 8  person
+
+first pass lengthaccepts 2  atto.
+
+second pass lengthaccepts 3  $
+
+first pass lengthaccepts 11  numberto revenue
+second pass lengthaccepts 12  of
+
+first pass lengthaccepts 4 <<to72
+second pass lengthaccepts 5 30
+
+first pass lengthaccepts 11 .to.
+
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 9  dollarsto-
+second pass lengthaccepts 10 ,
+
+first pass lengthaccepts 5 130to230
+second pass lengthaccepts 7 130
+
+first pass lengthaccepts 6 65to75
+second pass lengthaccepts 8 65
+
+first pass lengthaccepts 5 43to432
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 3  to So
+second pass lengthaccepts 4 80
+
+first pass lengthaccepts 3  +to people
+second pass lengthaccepts 4  
+
+first pass lengthaccepts 6  Joeto Kam
+second pass lengthaccepts 7 's
+
+first pass lengthaccepts 7  asto times
+second pass lengthaccepts 8  Joe
+
+first pass lengthaccepts 10 .to>>
+second pass lengthaccepts 11 5
+
+first pass lengthaccepts 14  alreadyto can
+
+first pass lengthaccepts 4 +to-
+second pass lengthaccepts 9 +
+
+first pass lengthaccepts 6 7to0
+second pass lengthaccepts 7  =
+
+first pass lengthaccepts 2 30toSo
+second pass lengthaccepts 3 +
+
+first pass lengthaccepts 1 6to12
+second pass lengthaccepts 11 6
+
+first pass lengthaccepts 14 42to210
+
+first pass lengthaccepts 7 MarytoEach
+second pass lengthaccepts 8  needs
+
+first pass lengthaccepts 2  beingto used
+second pass lengthaccepts 3  used
+
+first pass lengthaccepts 12 30to28
+
+first pass lengthaccepts 7 .to,
+second pass lengthaccepts 8  Each
+
+first pass lengthaccepts 5  flashto +
+second pass lengthaccepts 6 lights
+
+first pass lengthaccepts 13  agoto have
+second pass lengthaccepts 14 ,
+
+first pass lengthaccepts 5  getto sell
+
+first pass lengthaccepts 9  peopleto times
+second pass lengthaccepts 10  to
+
+first pass lengthaccepts 12  washedto missed
+
+first pass lengthaccepts 14  $to 
+
+first pass lengthaccepts 12  thento starts
+second pass lengthaccepts 13  fills
+
+first pass lengthaccepts 7 60toThe
+second pass lengthaccepts 8  of
+
+first pass lengthaccepts 4 140to20
+second pass lengthaccepts 5 /
+
+first pass lengthaccepts 9  into.
+
+second pass lengthaccepts 10  total
+
+first pass lengthaccepts 11  smallto flash
+second pass lengthaccepts 12  candles
+
+first pass lengthaccepts 11  +to and
+second pass lengthaccepts 12  $
+
+first pass lengthaccepts 1  ato $
+second pass lengthaccepts 2  change
+
+first pass lengthaccepts 4 EachtoHe
+second pass lengthaccepts 5  bouquet
+
+first pass lengthaccepts 2  -to *
+second pass lengthaccepts 4 2
+
+first pass lengthaccepts 4 ,to.
+
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 11  bouto sun
+second pass lengthaccepts 12 quets
+
+first pass lengthaccepts 12 3to315
+second pass lengthaccepts 13 ,
+
+first pass lengthaccepts 1 222toEach
+second pass lengthaccepts 2  /
+
+first pass lengthaccepts 14 120to200
+
+first pass lengthaccepts 4 55to20
+second pass lengthaccepts 5 >>
+
+first pass lengthaccepts 12  chargesto pays
+second pass lengthaccepts 14  patients
+
+first pass lengthaccepts 0 30to45
+second pass lengthaccepts 1 *
+
+first pass lengthaccepts 9 1to2
+
+first pass lengthaccepts 2  *to/h
+second pass lengthaccepts 10 /
+second pass lengthaccepts 3  
+
+first pass lengthaccepts 7 .to.
+
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 9 4to6
+
+first pass lengthaccepts 10 10to5
+second pass lengthaccepts 11 /
+
+first pass lengthaccepts 9 150to200
+second pass lengthaccepts 11 200
+
+first pass lengthaccepts 9 37to47
+second pass lengthaccepts 11 37
+
+first pass lengthaccepts 13 80to40
+
+first pass lengthaccepts 10 ####toThis
+second pass lengthaccepts 11  
+
+first pass lengthaccepts 1 *to(
+second pass lengthaccepts 3  =
+
+first pass lengthaccepts 8  *to miles
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 13 220to200
+
+first pass lengthaccepts 3  moreto dollars
+second pass lengthaccepts 4  than
+
+first pass lengthaccepts 11  into.
+
+second pass lengthaccepts 12  a
+
+first pass lengthaccepts 12  to flights
+second pass lengthaccepts 13 1
+
+first pass lengthaccepts 6 ,to.
+
+second pass lengthaccepts 7  or
+
+first pass lengthaccepts 12  scoredto and
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 14 .to.
+
+
+first pass lengthaccepts 3 6toThe
+second pass lengthaccepts 4  pencils
+
+first pass lengthaccepts 3  into.
+second pass lengthaccepts 4  total
+
+first pass lengthaccepts 4 9to14
+second pass lengthaccepts 11 .
+
+first pass lengthaccepts 5 88to3
+second pass lengthaccepts 6 *
+
+first pass lengthaccepts 14  to total
+
+first pass lengthaccepts 1 ,to each
+second pass lengthaccepts 2  each
+
+first pass lengthaccepts 3 60to600
+second pass lengthaccepts 4 ,
+
+first pass lengthaccepts 12 <<to14
+second pass lengthaccepts 13 4
+
+first pass lengthaccepts 4  forto since
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 14 ,to*
+
+first pass lengthaccepts 4  to pupils
+second pass lengthaccepts 5 40
+
+first pass lengthaccepts 14 >>to0
+
+first pass lengthaccepts 7 4to16
+second pass lengthaccepts 10 ^
+
+first pass lengthaccepts 14 32to Therefore
+
+first pass lengthaccepts 9 .to +
+
+first pass lengthaccepts 11  ato so
+second pass lengthaccepts 12  check
+second pass lengthaccepts 10 5
+
+first pass lengthaccepts 4 2to6
+second pass lengthaccepts 5 *
+
+first pass lengthaccepts 0 96toHe
+second pass lengthaccepts 1  -
+
+first pass lengthaccepts 3 132to142
+second pass lengthaccepts 6 132
+
+first pass lengthaccepts 9 12to4
+second pass lengthaccepts 10 +
+
+first pass lengthaccepts 6 ,to.
+second pass lengthaccepts 7  and
+
+first pass lengthaccepts 1  andto leaving
+second pass lengthaccepts 2  has
+
+first pass lengthaccepts 10  =to +
+second pass lengthaccepts 11  <<
+
+first pass lengthaccepts 3  Thursdayto Wednesday
+second pass lengthaccepts 11 2
+
+first pass lengthaccepts 10  to Since
+second pass lengthaccepts 11 11
+
+first pass lengthaccepts 12 ,to.
+
+second pass lengthaccepts 13  so
+
+first pass lengthaccepts 12  Butto Since
+second pass lengthaccepts 14  only
+
+first pass lengthaccepts 3 .to.
+
+second pass lengthaccepts 4  He
+
+first pass lengthaccepts 0  hasto eats
+second pass lengthaccepts 2 100
+
+first pass lengthaccepts 10  eachto she
+second pass lengthaccepts 11  book
+
+first pass lengthaccepts 8  Fredto the
+second pass lengthaccepts 9  rode
+
+first pass lengthaccepts 13  into.
+
+second pass lengthaccepts 14  total
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  Amy
+
+first pass lengthaccepts 7 468to438
+second pass lengthaccepts 11 93
+
+first pass lengthaccepts 7  into.
+second pass lengthaccepts 8  total
+
+first pass lengthaccepts 10 GtoIn
+second pass lengthaccepts 11 reta
+
+first pass lengthaccepts 5 18to12
+second pass lengthaccepts 10 36
+
+first pass lengthaccepts 10 .to.
+
+second pass lengthaccepts 11  So
+
+first pass lengthaccepts 11 <<to12
+second pass lengthaccepts 12 27
+
+first pass lengthaccepts 10  whiteto flaming
+second pass lengthaccepts 11  flaming
+
+first pass lengthaccepts 3  haveto take
+second pass lengthaccepts 5 12
+
+first pass lengthaccepts 13 <<to310
+second pass lengthaccepts 14 9
+
+first pass lengthaccepts 7  ofto *
+second pass lengthaccepts 8  Aure
+
+first pass lengthaccepts 9 6to30
+second pass lengthaccepts 10  white
+
+first pass lengthaccepts 6 .to times
+
+first pass lengthaccepts 6  alreadyto will
+second pass lengthaccepts 7 8
+second pass lengthaccepts 7  hikes
+
+first pass lengthaccepts 2  *to times
+second pass lengthaccepts 3  
+
+first pass lengthaccepts 14 <<to4
+
+first pass lengthaccepts 1 TheytoTogether
+second pass lengthaccepts 2  have
+
+first pass lengthaccepts 6  +to =
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 0  theto John
+second pass lengthaccepts 1  age
+
+first pass lengthaccepts 11  secondto previous
+
+first pass lengthaccepts 13 ,to.
+
+
+first pass lengthaccepts 6  newto temperature
+second pass lengthaccepts 14  and
+second pass lengthaccepts 7  temperature
+
+first pass lengthaccepts 13 ,to.
+second pass lengthaccepts 14  and
+
+first pass lengthaccepts 5  /to in
+second pass lengthaccepts 7 8
+
+first pass lengthaccepts 10 50toShe
+
+first pass lengthaccepts 3  =to *
+second pass lengthaccepts 11  cookies
+second pass lengthaccepts 7 2
+
+first pass lengthaccepts 11 .to.
+
+second pass lengthaccepts 12  The
+
+first pass lengthaccepts 9  to we
+
+first pass lengthaccepts 8  minuteto 
+second pass lengthaccepts 10 50
+second pass lengthaccepts 9 .
+
+first pass lengthaccepts 14  forto,
+
+first pass lengthaccepts 4 24toFor
+second pass lengthaccepts 5  sq
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  which
+
+first pass lengthaccepts 0  theto's
+second pass lengthaccepts 1  number
+
+first pass lengthaccepts 4  secondto foot
+second pass lengthaccepts 11  the
+
+first pass lengthaccepts 14  xto times
+
+first pass lengthaccepts 5  (to x
+second pass lengthaccepts 6 33
+
+first pass lengthaccepts 9 10to20
+second pass lengthaccepts 14 10
+
+first pass lengthaccepts 1 ,to.
+second pass lengthaccepts 2  so
+
+first pass lengthaccepts 3 35to350
+
+first pass lengthaccepts 7  theto snacks
+second pass lengthaccepts 8  extra
+
+first pass lengthaccepts 7  +to =
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 6 150to210
+second pass lengthaccepts 12 150
+
+first pass lengthaccepts 12  to he
+second pass lengthaccepts 13 45
+
+first pass lengthaccepts 9 1to0
+second pass lengthaccepts 11 1
+
+first pass lengthaccepts 3  forto which
+
+first pass lengthaccepts 11 5to He
+second pass lengthaccepts 4  a
+second pass lengthaccepts 12  -
+
+first pass lengthaccepts 2  isto bikes
+second pass lengthaccepts 3  
+
+first pass lengthaccepts 1 2to44
+second pass lengthaccepts 2 x
+
+first pass lengthaccepts 13  /to days
+second pass lengthaccepts 14  
+
+first pass lengthaccepts 0 ,to were
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 13  theirto up
+second pass lengthaccepts 14  ages
+
+first pass lengthaccepts 9 ThustoJohn
+second pass lengthaccepts 10 ,
+
+first pass lengthaccepts 1 :to x
+second pass lengthaccepts 2  x
+
+first pass lengthaccepts 12 <<to770
+second pass lengthaccepts 13 450
+
+first pass lengthaccepts 2 ,to.
+
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 6 /to contacts
+second pass lengthaccepts 7 2
+
+first pass lengthaccepts 7  into is
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 12 ,to.
+second pass lengthaccepts 13  so
+
+first pass lengthaccepts 10 ,to +
+second pass lengthaccepts 11  and
+
+first pass lengthaccepts 10  alsoto includes
+second pass lengthaccepts 11  includes
+
+first pass lengthaccepts 7 .to items
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  or
+
+first pass lengthaccepts 4 FortoThe
+second pass lengthaccepts 5  the
+
+first pass lengthaccepts 6 3to4
+second pass lengthaccepts 10 This
+
+first pass lengthaccepts 13  hasto spends
+
+first pass lengthaccepts 0  Toto Therefore
+second pass lengthaccepts 1  make
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  but
+
+first pass lengthaccepts 13 801to803
+second pass lengthaccepts 14 .
+
+first pass lengthaccepts 7  to200
+second pass lengthaccepts 8 200
+
+first pass lengthaccepts 0  to The
+second pass lengthaccepts 1 600
+
+first pass lengthaccepts 7  to She
+second pass lengthaccepts 8  She
+
+first pass lengthaccepts 9  equalto $
+second pass lengthaccepts 10  to
+
+first pass lengthaccepts 10  normalto not
+second pass lengthaccepts 11  movies
+
+first pass lengthaccepts 1  (to $
+second pass lengthaccepts 3  x
+
+first pass lengthaccepts 11 ,to had
+second pass lengthaccepts 12  which
+
+first pass lengthaccepts 7 100toHe
+second pass lengthaccepts 8 0
+
+first pass lengthaccepts 9  to Each
+second pass lengthaccepts 10 120
+
+first pass lengthaccepts 0 ,to.
+
+second pass lengthaccepts 1  and
+
+first pass lengthaccepts 8 25to15
+second pass lengthaccepts 9 >>
+
+first pass lengthaccepts 12 .to =
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 7 ,to.
+second pass lengthaccepts 8  and
+
+first pass lengthaccepts 4 184to160
+
+first pass lengthaccepts 6 40to50
+second pass lengthaccepts 7 160
+second pass lengthaccepts 8 40
+
+first pass lengthaccepts 1  -to per
+second pass lengthaccepts 2  $
+
+first pass lengthaccepts 1 10toHe
+second pass lengthaccepts 2 %
+
+first pass lengthaccepts 5  onto,
+second pass lengthaccepts 6  his
+
+first pass lengthaccepts 0  learnsto attends
+second pass lengthaccepts 1  a
+
+first pass lengthaccepts 0  willto has
+second pass lengthaccepts 1  cut
+
+first pass lengthaccepts 10  perto -
+second pass lengthaccepts 11  person
+
+first pass lengthaccepts 5  toto.
+second pass lengthaccepts 6  cut
+
+first pass lengthaccepts 5  onlyto gets
+second pass lengthaccepts 6  pays
+
+first pass lengthaccepts 9  to there
+second pass lengthaccepts 10 3
+
+first pass lengthaccepts 11  *to T
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 8  to instead
+second pass lengthaccepts 9 6
+
+first pass lengthaccepts 0  totalto salad
+second pass lengthaccepts 1  cost
+
+first pass lengthaccepts 13 .to
+
+second pass lengthaccepts 14  The
+
+first pass lengthaccepts 9  Thatto Publisher
+second pass lengthaccepts 10 's
+
+first pass lengthaccepts 7  into.
+
+second pass lengthaccepts 8  total
+
+first pass lengthaccepts 2  forto 
+second pass lengthaccepts 3  
+
+first pass lengthaccepts 2 OntoHe
+second pass lengthaccepts 3  his
+
+first pass lengthaccepts 0 OntoFrom
+second pass lengthaccepts 2 ,
+
+first pass lengthaccepts 12  ato *
+second pass lengthaccepts 13  week
+
+first pass lengthaccepts 10 104to520
+second pass lengthaccepts 11 00
+
+first pass lengthaccepts 0  theto James
+second pass lengthaccepts 1  number
+
+first pass lengthaccepts 3  spentto bought
+second pass lengthaccepts 5 5
+
+first pass lengthaccepts 13  manyto much
+second pass lengthaccepts 14  pounds
+
+first pass lengthaccepts 4 ,to.
+
+
+first pass lengthaccepts 7  newto total
+second pass lengthaccepts 5  or
+
+first pass lengthaccepts 12  Thusto In
+second pass lengthaccepts 13 ,
+
+first pass lengthaccepts 2 500to520
+second pass lengthaccepts 11 500
+
+first pass lengthaccepts 6 3to2
+second pass lengthaccepts 7 .
+
+first pass lengthaccepts 0 ThentoThe
+second pass lengthaccepts 1 ,
+
+first pass lengthaccepts 11 50toEach
+second pass lengthaccepts 12  eggs
+
+first pass lengthaccepts 7 SotoIn
+second pass lengthaccepts 8 ,
+
+first pass lengthaccepts 8 RoztoEach
+second pass lengthaccepts 9 anne
+
+first pass lengthaccepts 8 50toThe
+
+first pass lengthaccepts 8 ,to the
+second pass lengthaccepts 9  people
+second pass lengthaccepts 9  we
+
+first pass lengthaccepts 6 215to315
+second pass lengthaccepts 8 215
+
+first pass lengthaccepts 1 ,to.
+
+second pass lengthaccepts 2  and
+
+first pass lengthaccepts 7 180to315
+second pass lengthaccepts 8  -
+
+first pass lengthaccepts 4  +to *
+second pass lengthaccepts 7 *
+
+first pass lengthaccepts 10 +to and
+second pass lengthaccepts 11 4
+
+first pass lengthaccepts 14 SotoThe
+
+first pass lengthaccepts 9 3to2
+second pass lengthaccepts 12 3
+
+first pass lengthaccepts 6 224to223
+
+first pass lengthaccepts 14 SotoThe
+
+first pass lengthaccepts 9  =to*
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 10 35to3
+second pass lengthaccepts 12  G
+
+first pass lengthaccepts 2 60to50
+second pass lengthaccepts 3 -
+
+first pass lengthaccepts 6  perto.
+
+second pass lengthaccepts 7  day
+
+first pass lengthaccepts 13 7to9
+
+first pass lengthaccepts 12 )>>to)=
+second pass lengthaccepts 14 -(
+
+first pass lengthaccepts 8 750toThe
+second pass lengthaccepts 9  miles
+
+first pass lengthaccepts 2 >>to.
+second pass lengthaccepts 3 53
+
+first pass lengthaccepts 13 ,to dollars
+second pass lengthaccepts 14  they
+
+first pass lengthaccepts 7 .to green
+second pass lengthaccepts 8 4
+
+first pass lengthaccepts 9 .to.
+
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 6 20to60
+second pass lengthaccepts 7  years
+
+first pass lengthaccepts 1 TheretoThe
+second pass lengthaccepts 2  are
+
+first pass lengthaccepts 9 ,to
+
+
+first pass lengthaccepts 9 .
+to and
+second pass lengthaccepts 10  so
+second pass lengthaccepts 10 On
+
+first pass lengthaccepts 3  daysto x
+second pass lengthaccepts 4 .
+
+first pass lengthaccepts 6 ,to.
+second pass lengthaccepts 7  but
+
+first pass lengthaccepts 7 ,to.
+
+second pass lengthaccepts 8  and
+
+first pass lengthaccepts 10 ,to this
+second pass lengthaccepts 11  but
+
+first pass lengthaccepts 12  atto.
+
+second pass lengthaccepts 13  the
+
+first pass lengthaccepts 7 70to490
+second pass lengthaccepts 8 +
+
+first pass lengthaccepts 9 5to11
+second pass lengthaccepts 14  whirl
+
+first pass lengthaccepts 12 <<to343
+second pass lengthaccepts 13 294
+
+first pass lengthaccepts 14 4to3
+
+first pass lengthaccepts 4  to twice
+second pass lengthaccepts 5 2
+
+first pass lengthaccepts 5  +to cookies
+
+first pass lengthaccepts 12  theto each
+second pass lengthaccepts 6  
+second pass lengthaccepts 13  other
+
+first pass lengthaccepts 1  forto.
+
+second pass lengthaccepts 2  the
+
+first pass lengthaccepts 2  onto.
+
+second pass lengthaccepts 3  the
+
+first pass lengthaccepts 2  haveto make
+second pass lengthaccepts 3  been
+
+first pass lengthaccepts 6  asto cookies
+second pass lengthaccepts 7  her
+
+first pass lengthaccepts 6 207to627
+second pass lengthaccepts 11 207
+
+first pass lengthaccepts 10 52to57
+second pass lengthaccepts 11  +
+
+first pass lengthaccepts 10  /to =
+second pass lengthaccepts 12 3
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  and
+
+first pass lengthaccepts 0  alreadyto gets
+second pass lengthaccepts 1  has
+
+first pass lengthaccepts 9 FinallytoThen
+second pass lengthaccepts 10 ,
+
+first pass lengthaccepts 5 15to6
+second pass lengthaccepts 7 15
+
+first pass lengthaccepts 1 <<to27
+second pass lengthaccepts 2 15
+
+first pass lengthaccepts 12  xto +
+second pass lengthaccepts 14 8
+
+first pass lengthaccepts 1  Locto they
+second pass lengthaccepts 2 sin
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  so
+
+first pass lengthaccepts 9 34to38
+second pass lengthaccepts 11 34
+
+first pass lengthaccepts 5  andto,
+
+first pass lengthaccepts 13 ,to =
+second pass lengthaccepts 12 19
+second pass lengthaccepts 14  which
+
+first pass lengthaccepts 5  actualto hotel
+
+first pass lengthaccepts 14 208to224
+
+first pass lengthaccepts 11  ato *
+second pass lengthaccepts 12  day
+
+first pass lengthaccepts 8 840toIn
+second pass lengthaccepts 9  minutes
+
+first pass lengthaccepts 10 6to1
+second pass lengthaccepts 13 30
+
+first pass lengthaccepts 11 TotaltoThe
+
+first pass lengthaccepts 5 HistoTo
+
+first pass lengthaccepts 4 40toHe
+second pass lengthaccepts 6  total
+second pass lengthaccepts 5  packages
+
+first pass lengthaccepts 1  eitherto dairy
+second pass lengthaccepts 2  dairy
+
+first pass lengthaccepts 4 =to=P
+second pass lengthaccepts 5 9
+
+first pass lengthaccepts 6  plantsto has
+second pass lengthaccepts 7  over
+
+first pass lengthaccepts 10 2to8
+
+first pass lengthaccepts 1 2to1
+second pass lengthaccepts 3 187
+
+first pass lengthaccepts 11  heto die
+second pass lengthaccepts 12  chops
+
+first pass lengthaccepts 4 ,to.
+
+
+first pass lengthaccepts 12  -to /
+second pass lengthaccepts 5  and
+second pass lengthaccepts 14 160
+
+first pass lengthaccepts 11 1toUsing
+second pass lengthaccepts 12 .
+
+first pass lengthaccepts 6 ,to.
+
+second pass lengthaccepts 7  the
+
+first pass lengthaccepts 7  asto cookies
+second pass lengthaccepts 8  Amir
+
+first pass lengthaccepts 13 60to52
+second pass lengthaccepts 14  -
+
+first pass lengthaccepts 4 902to458
+second pass lengthaccepts 4 458
+
+first pass lengthaccepts 0  theto's
+second pass lengthaccepts 1  number
+
+first pass lengthaccepts 4  onto who
+second pass lengthaccepts 5  the
+
+first pass lengthaccepts 4 .to dollars
+second pass lengthaccepts 5 00
+
+first pass lengthaccepts 7 ,to.
+
+second pass lengthaccepts 8  so
+
+first pass lengthaccepts 4 1to2
+second pass lengthaccepts 5  person
+
+first pass lengthaccepts 0  herto she
+second pass lengthaccepts 1  total
+
+first pass lengthaccepts 6 ThetoGun
+second pass lengthaccepts 7  next
+
+first pass lengthaccepts 6  to the
+second pass lengthaccepts 7 2
+
+first pass lengthaccepts 5 .to =
+second pass lengthaccepts 6 00
+
+first pass lengthaccepts 0  thento added
+second pass lengthaccepts 1  added
+
+first pass lengthaccepts 11  +to =
+second pass lengthaccepts 13 20
+
+first pass lengthaccepts 0 .to.
+
+second pass lengthaccepts 1  For
+
+first pass lengthaccepts 4  theto there
+second pass lengthaccepts 5  total
+
+first pass lengthaccepts 6 15to30
+second pass lengthaccepts 13 50
+
+first pass lengthaccepts 14  hadto sold
+
+first pass lengthaccepts 3  ageto current
+second pass lengthaccepts 4  
+
+first pass lengthaccepts 11  theto 
+second pass lengthaccepts 12  price
+
+first pass lengthaccepts 0  willto in
+second pass lengthaccepts 1  be
+
+first pass lengthaccepts 2 ,to Ashley
+second pass lengthaccepts 3  Ashley
+
+first pass lengthaccepts 5 *to*.
+second pass lengthaccepts 6 1
+
+first pass lengthaccepts 8  theto 
+second pass lengthaccepts 9  number
+
+first pass lengthaccepts 6  +to =
+second pass lengthaccepts 8 7
+
+first pass lengthaccepts 7 2to####
+second pass lengthaccepts 8 x
+
+first pass lengthaccepts 10 IntoShe
+second pass lengthaccepts 11  total
+
+first pass lengthaccepts 8 (to-(
+
+first pass lengthaccepts 13 -to oranges
+second pass lengthaccepts 14 9
+
+first pass lengthaccepts 9 ,to.
+
+second pass lengthaccepts 10  which
+
+first pass lengthaccepts 13  into to
+second pass lengthaccepts 14  total
+
+first pass lengthaccepts 3 /to =
+second pass lengthaccepts 4 4
+
+first pass lengthaccepts 5 32toHe
+
+first pass lengthaccepts 0 
+to,
+second pass lengthaccepts 6  -
+second pass lengthaccepts 1 12
+
+first pass lengthaccepts 0 .to =
+second pass lengthaccepts 1 00
+
+first pass lengthaccepts 6 )>>to)
+second pass lengthaccepts 14 80
+
+first pass lengthaccepts 14  actuallyto buy
+
+first pass lengthaccepts 4  into to
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 4 5to50
+second pass lengthaccepts 5  =
+
+first pass lengthaccepts 10 50to80
+second pass lengthaccepts 13 5
+
+first pass lengthaccepts 12  moreto cows
+second pass lengthaccepts 13  cows
+
+first pass lengthaccepts 2 71to171
+second pass lengthaccepts 9 170
+
+first pass lengthaccepts 14 258to262
+
+first pass lengthaccepts 3  totalto number
+second pass lengthaccepts 4  number
+
+first pass lengthaccepts 7 ,to.
+second pass lengthaccepts 8  and
+
+first pass lengthaccepts 9  Billto So
+
+first pass lengthaccepts 6  timesto inches
+second pass lengthaccepts 10 ie
+second pass lengthaccepts 7  higher
+
+first pass lengthaccepts 5 >>to+
+second pass lengthaccepts 6 400
+
+first pass lengthaccepts 3 360to120
+second pass lengthaccepts 4 /
+
+first pass lengthaccepts 13  theto 
+second pass lengthaccepts 14  movies
+
+first pass lengthaccepts 12  thatto weight
+second pass lengthaccepts 13  G
+
+first pass lengthaccepts 3 *to-
+second pass lengthaccepts 4 0
+
+first pass lengthaccepts 10  to She
+
+first pass lengthaccepts 1  to born
+second pass lengthaccepts 11 27
+second pass lengthaccepts 2 6
+
+first pass lengthaccepts 3  fromto.
+
+second pass lengthaccepts 4  the
+
+first pass lengthaccepts 7  to teaching
+second pass lengthaccepts 8 35
+
+first pass lengthaccepts 7  forto,
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 1  theto she
+second pass lengthaccepts 2  difference
+
+first pass lengthaccepts 10 ,to Gary
+second pass lengthaccepts 11  Gary
+
+first pass lengthaccepts 13 48to0
+
+first pass lengthaccepts 13  herto she
+second pass lengthaccepts 14  annual
+
+first pass lengthaccepts 11 36to364
+
+first pass lengthaccepts 14 .to.
+
+second pass lengthaccepts 12 ,
+
+first pass lengthaccepts 3 800to400
+
+first pass lengthaccepts 7  to There
+second pass lengthaccepts 8 4
+
+first pass lengthaccepts 11  to $
+second pass lengthaccepts 12 20
+
+first pass lengthaccepts 10  burstto is
+second pass lengthaccepts 11 ,
+
+first pass lengthaccepts 10  thatto she
+second pass lengthaccepts 11  her
+
+first pass lengthaccepts 14  Sallyto 
+
+first pass lengthaccepts 12 12to300
+second pass lengthaccepts 13  *
+
+first pass lengthaccepts 10  +to -
+
+first pass lengthaccepts 10 .to shells
+second pass lengthaccepts 11  The
+
+first pass lengthaccepts 13 /to*
+second pass lengthaccepts 14 12
+
+first pass lengthaccepts 7 25to17
+second pass lengthaccepts 8  miles
+
+first pass lengthaccepts 5  +to inches
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 7 2to6
+
+first pass lengthaccepts 3 *to grades
+second pass lengthaccepts 4 10
+
+first pass lengthaccepts 13  theto 
+second pass lengthaccepts 14  same
+
+first pass lengthaccepts 5 %to =
+second pass lengthaccepts 6  =
+
+first pass lengthaccepts 4  =to *
+second pass lengthaccepts 5  <<
+
+first pass lengthaccepts 3 20to25
+second pass lengthaccepts 4  +
+
+first pass lengthaccepts 8  to $
+second pass lengthaccepts 9 2
+
+first pass lengthaccepts 11 4to100
+second pass lengthaccepts 12 x
+
+first pass lengthaccepts 8  +to/
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 9  into.
+
+second pass lengthaccepts 10  the
+
+first pass lengthaccepts 7  followingto equation
+
+first pass lengthaccepts 13 +to+(
+second pass lengthaccepts 8  equation
+
+first pass lengthaccepts 14  into.
+
+
+first pass lengthaccepts 8 /to%
+second pass lengthaccepts 9 100
+
+first pass lengthaccepts 1  heto John
+
+first pass lengthaccepts 2 *to +
+second pass lengthaccepts 3 ?
+
+first pass lengthaccepts 7  xto 
+second pass lengthaccepts 8 /
+
+first pass lengthaccepts 14  newto discount
+
+first pass lengthaccepts 9 ,to for
+second pass lengthaccepts 10  we
+
+first pass lengthaccepts 13  anotherto 
+second pass lengthaccepts 14  
+
+first pass lengthaccepts 7 26to5
+second pass lengthaccepts 8  pencils
+
+first pass lengthaccepts 7 ,to.
+second pass lengthaccepts 8  so
+
+first pass lengthaccepts 4 Theto12
+second pass lengthaccepts 5  number
+
+first pass lengthaccepts 7 6to3
+second pass lengthaccepts 12 6
+
+first pass lengthaccepts 8 12to(
+second pass lengthaccepts 9 /
+
+first pass lengthaccepts 8 12to6
+second pass lengthaccepts 9 /
+
+first pass lengthaccepts 4  +to slices
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 8 .to.
+
+second pass lengthaccepts 9  So
+
+first pass lengthaccepts 12  themto the
+second pass lengthaccepts 13  and
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  So
+
+first pass lengthaccepts 9  solidto sections
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 1  into.
+
+second pass lengthaccepts 2  total
+
+first pass lengthaccepts 12 <<to115
+second pass lengthaccepts 13 70
+
+first pass lengthaccepts 10  alsoto bought
+second pass lengthaccepts 11  bought
+
+first pass lengthaccepts 2  dayto German
+second pass lengthaccepts 3 ,
+
+first pass lengthaccepts 12  ato total
+second pass lengthaccepts 13  week
+
+first pass lengthaccepts 5 255to270
+second pass lengthaccepts 8 255
+
+first pass lengthaccepts 8  thatto there
+second pass lengthaccepts 9  means
+
+first pass lengthaccepts 9 230to260
+second pass lengthaccepts 12 230
+
+first pass lengthaccepts 9 ,to families
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 11  addedto notified
+
+first pass lengthaccepts 5  <<to $
+second pass lengthaccepts 6 80
+
+first pass lengthaccepts 0  =to old
+second pass lengthaccepts 1  <<
+
+first pass lengthaccepts 1  isto are
+second pass lengthaccepts 3 60
+
+first pass lengthaccepts 4  Brooketo 
+second pass lengthaccepts 5  +
+
+first pass lengthaccepts 3 32to5
+second pass lengthaccepts 4 -
+
+first pass lengthaccepts 12 2to4
+second pass lengthaccepts 13  -
+
+first pass lengthaccepts 11 33to5
+second pass lengthaccepts 12 -
+
+first pass lengthaccepts 3  to the
+second pass lengthaccepts 4 28
+
+first pass lengthaccepts 12  Markto he
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  and
+
+first pass lengthaccepts 4 0to15
+second pass lengthaccepts 5 .
+
+first pass lengthaccepts 9  withto,
+second pass lengthaccepts 10  the
+
+first pass lengthaccepts 6 32to64
+second pass lengthaccepts 9 96
+
+first pass lengthaccepts 7  timesto or
+second pass lengthaccepts 12  gets
+
+first pass lengthaccepts 7  atto,
+second pass lengthaccepts 8  the
+
+first pass lengthaccepts 8  toto his
+second pass lengthaccepts 9  give
+
+first pass lengthaccepts 12 5to40
+second pass lengthaccepts 13 *$
+
+first pass lengthaccepts 5 <<to343
+second pass lengthaccepts 6 32
+
+first pass lengthaccepts 14 20to4
+
+first pass lengthaccepts 6 3to5
+second pass lengthaccepts 11 4
+
+first pass lengthaccepts 8 100to90
+second pass lengthaccepts 9 %
+
+first pass lengthaccepts 6 ,to.
+second pass lengthaccepts 7  which
+
+first pass lengthaccepts 4 24toThe
+second pass lengthaccepts 6  think
+
+first pass lengthaccepts 0  theto L
+second pass lengthaccepts 1  cost
+
+first pass lengthaccepts 12 -gradeto-gr
+second pass lengthaccepts 13  students
+
+first pass lengthaccepts 7 43to96
+second pass lengthaccepts 8  girls
+
+first pass lengthaccepts 4  to words
+second pass lengthaccepts 5 10
+
+first pass lengthaccepts 1 TheytoThe
+second pass lengthaccepts 2  have
+
+first pass lengthaccepts 7  thento bought
+second pass lengthaccepts 8  has
+
+first pass lengthaccepts 14 42to52
+
+first pass lengthaccepts 5 160to20
+second pass lengthaccepts 7 ,
+
+first pass lengthaccepts 4 <<to2
+second pass lengthaccepts 5 50
+
+first pass lengthaccepts 6  to She
+second pass lengthaccepts 7 20
+
+first pass lengthaccepts 0  canto ran
+second pass lengthaccepts 1  run
+
+first pass lengthaccepts 2  laysto uses
+second pass lengthaccepts 4 16
+
+first pass lengthaccepts 13  to She
+second pass lengthaccepts 14 40
+
+first pass lengthaccepts 13  forto.
+
+second pass lengthaccepts 14  herself
+
+first pass lengthaccepts 1 3to15
+second pass lengthaccepts 2  action
+
+first pass lengthaccepts 2 4to2
+second pass lengthaccepts 7 4
+
+first pass lengthaccepts 13  cubicto0
+second pass lengthaccepts 14  feet
+
+first pass lengthaccepts 14 828to826
+
+first pass lengthaccepts 5  =to.
+
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 8 /to =
+second pass lengthaccepts 9 3
+
+first pass lengthaccepts 11 6to20
+
+first pass lengthaccepts 13  mento women
+second pass lengthaccepts 12 .
+
+first pass lengthaccepts 10  to The
+second pass lengthaccepts 11 10
+
+first pass lengthaccepts 9 12to7
+second pass lengthaccepts 14 12
+
+first pass lengthaccepts 5  into.
+
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 3 ,to.
+
+second pass lengthaccepts 4  it
+
+first pass lengthaccepts 7 2to60
+second pass lengthaccepts 8  =
+
+first pass lengthaccepts 8 ,to.
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 4 ,to boys
+second pass lengthaccepts 5  so
+
+first pass lengthaccepts 3 <<to400
+second pass lengthaccepts 4 500
+
+first pass lengthaccepts 11  girlsto /
+second pass lengthaccepts 12 .
+
+first pass lengthaccepts 0 ,to.
+
+second pass lengthaccepts 1  and
+
+first pass lengthaccepts 5 24to120
+second pass lengthaccepts 7 24
+
+first pass lengthaccepts 12 240to600
+second pass lengthaccepts 13  /
+
+first pass lengthaccepts 7 JoshtoThe
+second pass lengthaccepts 8  made
+
+first pass lengthaccepts 7  forto
+
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 7 120to130
+second pass lengthaccepts 10 120
+
+first pass lengthaccepts 5 ,to.
+
+second pass lengthaccepts 6  for
+
+first pass lengthaccepts 3 80to2
+second pass lengthaccepts 5 .
+
+first pass lengthaccepts 8  into:
+
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 12 <<to120
+second pass lengthaccepts 13 2
+
+first pass lengthaccepts 11  to we
+second pass lengthaccepts 12 750
+
+first pass lengthaccepts 13  =to -
+second pass lengthaccepts 14  <<
+
+first pass lengthaccepts 4  -to degrees
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 5 aniantoan
+second pass lengthaccepts 6  puppies
+
+first pass lengthaccepts 0 20toThe
+second pass lengthaccepts 1  pounds
+
+first pass lengthaccepts 10 5to60
+second pass lengthaccepts 11  *
+
+first pass lengthaccepts 2 325to130
+second pass lengthaccepts 3 *
+
+first pass lengthaccepts 4  to the
+second pass lengthaccepts 5 6
+
+first pass lengthaccepts 8 .to>>
+second pass lengthaccepts 9 00
+
+first pass lengthaccepts 6 ,to =
+second pass lengthaccepts 7  which
+
+first pass lengthaccepts 12 20to10
+
+first pass lengthaccepts 2  startto make
+second pass lengthaccepts 3  making
+
+first pass lengthaccepts 14 SotoThe
+
+first pass lengthaccepts 9 ,to and
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 8  to She
+second pass lengthaccepts 9 50
+
+first pass lengthaccepts 10 3to2
+
+first pass lengthaccepts 6  to So
+second pass lengthaccepts 7 5
+
+first pass lengthaccepts 12 *to+
+
+first pass lengthaccepts 7  theto eaten
+second pass lengthaccepts 8  students
+second pass lengthaccepts 13 1
+
+first pass lengthaccepts 2  herto she
+second pass lengthaccepts 3  original
+
+first pass lengthaccepts 8 12to10
+
+first pass lengthaccepts 5 930to93
+second pass lengthaccepts 6 0
+
+first pass lengthaccepts 1 6to2
+second pass lengthaccepts 4 4
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 9 ,to.
+
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 2 50to10
+second pass lengthaccepts 3  -
+
+first pass lengthaccepts 8 ,to had
+second pass lengthaccepts 9  or
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  so
+
+first pass lengthaccepts 11 .to4
+second pass lengthaccepts 12 40
+
+first pass lengthaccepts 6 /to=
+second pass lengthaccepts 7 5
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  for
+
+first pass lengthaccepts 7  *to dollars
+second pass lengthaccepts 8  (
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  which
+
+first pass lengthaccepts 12 10to3
+
+first pass lengthaccepts 13 157to158
+second pass lengthaccepts 14 80
+
+first pass lengthaccepts 8  amountto 
+
+first pass lengthaccepts 5 FortoPaul
+second pass lengthaccepts 9  of
+second pass lengthaccepts 6  the
+
+first pass lengthaccepts 14 ####toThe
+
+first pass lengthaccepts 5 <<to9
+
+first pass lengthaccepts 12  into,
+second pass lengthaccepts 6 3
+second pass lengthaccepts 13  dollar
+
+first pass lengthaccepts 4  into.
+
+second pass lengthaccepts 5  total
+
+first pass lengthaccepts 3  into.
+
+second pass lengthaccepts 4  total
+
+first pass lengthaccepts 6  totalto water
+second pass lengthaccepts 7  water
+
+first pass lengthaccepts 10 150to500
+second pass lengthaccepts 11 0
+
+first pass lengthaccepts 5 25to12
+second pass lengthaccepts 6  =
+
+first pass lengthaccepts 9 80to40
+second pass lengthaccepts 14 80
+
+first pass lengthaccepts 5  onto.
+
+second pass lengthaccepts 6  weekdays
+
+first pass lengthaccepts 11  to So
+second pass lengthaccepts 12 100
+
+first pass lengthaccepts 7  xto 
+second pass lengthaccepts 8  +
+
+first pass lengthaccepts 1  <<to33
+second pass lengthaccepts 2 25
+
+first pass lengthaccepts 5 *to=
+second pass lengthaccepts 6 7
+
+first pass lengthaccepts 13 100to40
+
+first pass lengthaccepts 3  into.
+
+
+first pass lengthaccepts 3  into.
+
+second pass lengthaccepts 4  three
+second pass lengthaccepts 4  total
+
+first pass lengthaccepts 6 5to33
+second pass lengthaccepts 8 ####
+
+first pass lengthaccepts 11  Fto we
+second pass lengthaccepts 12 awn
+
+first pass lengthaccepts 6 .to.
+
+second pass lengthaccepts 7  The
+
+first pass lengthaccepts 4 .to books
+second pass lengthaccepts 5  So
+
+first pass lengthaccepts 3 /to=
+second pass lengthaccepts 4 3
+
+first pass lengthaccepts 11  averageto total
+second pass lengthaccepts 12  for
+
+first pass lengthaccepts 10 000to100
+second pass lengthaccepts 14 000
+
+first pass lengthaccepts 11  alreadyto had
+second pass lengthaccepts 12  took
+
+first pass lengthaccepts 6 TtoThe
+second pass lengthaccepts 7 oulouse
+
+first pass lengthaccepts 10  /to =
+second pass lengthaccepts 11  
+
+first pass lengthaccepts 0 960to660
+second pass lengthaccepts 4 960
+
+first pass lengthaccepts 8  to If
+second pass lengthaccepts 9 300
+
+first pass lengthaccepts 11  xto loads
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 9  into Wendy
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 2 xto*(
+second pass lengthaccepts 3  -
+
+first pass lengthaccepts 6  secondto problem
+second pass lengthaccepts 7  sentence
+
+first pass lengthaccepts 11  andto's
+second pass lengthaccepts 12  Marco
+
+first pass lengthaccepts 8  followingto equation
+second pass lengthaccepts 9  equation
+
+first pass lengthaccepts 0 5tox
+second pass lengthaccepts 1 *(
+
+first pass lengthaccepts 10 5toS
+second pass lengthaccepts 11 *(
+
+first pass lengthaccepts 13 ,to.
+second pass lengthaccepts 14  and
+
+first pass lengthaccepts 8 30to50
+
+first pass lengthaccepts 11 259to799
+second pass lengthaccepts 13  +
+
+first pass lengthaccepts 9  =to x
+second pass lengthaccepts 11 150
+
+first pass lengthaccepts 5 =to-
+
+first pass lengthaccepts 10 ThereforetoThe
+second pass lengthaccepts 11 ,
+second pass lengthaccepts 8 +
+
+first pass lengthaccepts 0  -to pounds
+
+first pass lengthaccepts 13  *to =
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 8 600to120
+second pass lengthaccepts 9  +
+
+first pass lengthaccepts 5 ,to.
+second pass lengthaccepts 6  and
+
+first pass lengthaccepts 8 .to.
+
+second pass lengthaccepts 9  Jenna
+
+first pass lengthaccepts 14  andto has
+
+first pass lengthaccepts 8  to hours
+second pass lengthaccepts 9 5
+
+first pass lengthaccepts 7 ,to he
+second pass lengthaccepts 8  he
+
+first pass lengthaccepts 6 .to.
+
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 8  to Then
+second pass lengthaccepts 9 5
+
+first pass lengthaccepts 13  forto.
+
+second pass lengthaccepts 14  the
+
+first pass lengthaccepts 11  to he
+second pass lengthaccepts 12 650
+
+first pass lengthaccepts 9 1toEach
+second pass lengthaccepts 10  j
+
+first pass lengthaccepts 5 20to5
+second pass lengthaccepts 9  because
+
+first pass lengthaccepts 8  to She
+second pass lengthaccepts 9 1
+
+first pass lengthaccepts 9  to He
+second pass lengthaccepts 10 20
+
+first pass lengthaccepts 9 ,to.
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 7  batchto of
+second pass lengthaccepts 8 .
+
+
+first pass lengthaccepts 7 27to9
+
+first pass lengthaccepts 11  onto.
+
+second pass lengthaccepts 12  making
+
+first pass lengthaccepts 4  onto.
+
+second pass lengthaccepts 5  making
+
+first pass lengthaccepts 1 100toHe
+second pass lengthaccepts 2  books
+
+first pass lengthaccepts 7  perto.
+second pass lengthaccepts 8  month
+
+first pass lengthaccepts 9  timesto
+
+second pass lengthaccepts 10  as
+
+first pass lengthaccepts 11  orto.
+
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 9 )>>to)=
+second pass lengthaccepts 10 500
+
+first pass lengthaccepts 9  itto 
+second pass lengthaccepts 10  will
+
+first pass lengthaccepts 2  thento had
+second pass lengthaccepts 3  had
+
+first pass lengthaccepts 1 660to726
+
+first pass lengthaccepts 11  to there
+second pass lengthaccepts 12 50
+
+first pass lengthaccepts 12 594to694
+second pass lengthaccepts 14 594
+
+first pass lengthaccepts 4 =to-
+
+first pass lengthaccepts 2  dwarto times
+second pass lengthaccepts 3 ves
+second pass lengthaccepts 5 <<
+
+first pass lengthaccepts 0  nowto had
+second pass lengthaccepts 1  has
+
+first pass lengthaccepts 2 40to0
+second pass lengthaccepts 3  -
+
+first pass lengthaccepts 10 1to40
+second pass lengthaccepts 11  dwarf
+
+first pass lengthaccepts 6  weightto driver
+second pass lengthaccepts 7  of
+
+first pass lengthaccepts 4  into.
+
+second pass lengthaccepts 5  total
+
+first pass lengthaccepts 12 144toIn
+
+first pass lengthaccepts 5 172to47
+second pass lengthaccepts 13 0
+second pass lengthaccepts 6  -
+
+first pass lengthaccepts 3 /to pounds
+second pass lengthaccepts 4 45
+
+first pass lengthaccepts 8 %to/
+second pass lengthaccepts 9 *
+
+first pass lengthaccepts 5  costto is
+second pass lengthaccepts 6  $
+
+first pass lengthaccepts 8 ,to 
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 5  forto making
+
+first pass lengthaccepts 2 ,to.
+
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 2 2to4
+second pass lengthaccepts 4  -
+
+first pass lengthaccepts 1 -to-(
+second pass lengthaccepts 3 -
+
+first pass lengthaccepts 5 ,to.
+second pass lengthaccepts 6  so
+
+first pass lengthaccepts 4  thatto in
+second pass lengthaccepts 5  has
+
+first pass lengthaccepts 13 58to98
+
+first pass lengthaccepts 11 .to.
+
+second pass lengthaccepts 12  It
+
+first pass lengthaccepts 8  =to gallons
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 2  -to dollars
+second pass lengthaccepts 3  
+
+first pass lengthaccepts 12 4to1
+second pass lengthaccepts 13 x
+
+first pass lengthaccepts 10 .to now
+second pass lengthaccepts 11  So
+
+first pass lengthaccepts 13 .to.
+
+second pass lengthaccepts 14  
+
+first pass lengthaccepts 4  =to *
+second pass lengthaccepts 5  <<
+
+first pass lengthaccepts 13 =to+
+second pass lengthaccepts 14 80
+
+first pass lengthaccepts 5  -to reports
+second pass lengthaccepts 6  (
+
+first pass lengthaccepts 7  -to seats
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 3  -to for
+second pass lengthaccepts 4  $
+
+first pass lengthaccepts 6  =to -
+second pass lengthaccepts 8 35
+
+first pass lengthaccepts 5 465to475
+second pass lengthaccepts 8 465
+
+first pass lengthaccepts 11 4to44
+second pass lengthaccepts 14 44
+
+first pass lengthaccepts 2 15to25
+second pass lengthaccepts 14 15
+
+first pass lengthaccepts 12  anotherto 
+second pass lengthaccepts 13  CD
+
+first pass lengthaccepts 3  soto since
+second pass lengthaccepts 5  answer
+
+first pass lengthaccepts 9  +to =
+second pass lengthaccepts 11 10
+
+first pass lengthaccepts 11 ,to
+
+second pass lengthaccepts 12  so
+
+first pass lengthaccepts 9 00to0
+second pass lengthaccepts 11 $
+
+first pass lengthaccepts 5 ,to.
+
+second pass lengthaccepts 6  for
+
+first pass lengthaccepts 8  Soto Nick
+second pass lengthaccepts 9 ,
+
+first pass lengthaccepts 5  Camdento Sarah
+
+first pass lengthaccepts 14  +to *
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  and
+
+first pass lengthaccepts 7  to $
+
+first pass lengthaccepts 4 800to840
+
+first pass lengthaccepts 2 ,to.
+
+second pass lengthaccepts 9 000
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 10 50toThe
+second pass lengthaccepts 11  -
+
+first pass lengthaccepts 2 20to2
+second pass lengthaccepts 4 10
+
+first pass lengthaccepts 0 8to2
+second pass lengthaccepts 9 8
+
+first pass lengthaccepts 0 ,to the
+second pass lengthaccepts 1  the
+
+first pass lengthaccepts 3  *to -
+second pass lengthaccepts 5 1
+
+first pass lengthaccepts 7 28toSince
+second pass lengthaccepts 8 /
+
+first pass lengthaccepts 11 BothtoThe
+second pass lengthaccepts 12  cars
+
+first pass lengthaccepts 12  ato
+
+second pass lengthaccepts 13  month
+
+first pass lengthaccepts 8  redto total
+second pass lengthaccepts 9  car
+
+first pass lengthaccepts 6  into.
+
+second pass lengthaccepts 7  total
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 3  Into He
+second pass lengthaccepts 4  the
+
+first pass lengthaccepts 11 0to3
+second pass lengthaccepts 12 .
+
+first pass lengthaccepts 5 TomorrowtoShe
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 6  ofto occupied
+second pass lengthaccepts 7  its
+
+first pass lengthaccepts 14 50toEach
+
+first pass lengthaccepts 8 +to-
+second pass lengthaccepts 13 +
+
+first pass lengthaccepts 14  forto.
+
+
+first pass lengthaccepts 7 123to126
+second pass lengthaccepts 9 123
+
+first pass lengthaccepts 11 >>to+
+second pass lengthaccepts 12 64
+
+first pass lengthaccepts 8  to Then
+
+first pass lengthaccepts 4  -to emails
+second pass lengthaccepts 9  Then
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 11 5to7
+
+first pass lengthaccepts 5 ,to.
+
+second pass lengthaccepts 6  and
+
+first pass lengthaccepts 1 8toThey
+second pass lengthaccepts 2  boxes
+
+first pass lengthaccepts 9  forto.
+
+second pass lengthaccepts 10  a
+
+first pass lengthaccepts 9  forto to
+second pass lengthaccepts 10  personal
+
+first pass lengthaccepts 12 EachtoSo
+second pass lengthaccepts 13  square
+
+first pass lengthaccepts 0 ,to the
+second pass lengthaccepts 1  Ada
+
+first pass lengthaccepts 11  coloredto squares
+second pass lengthaccepts 12  squares
+
+first pass lengthaccepts 11  Forto After
+second pass lengthaccepts 12  a
+
+first pass lengthaccepts 9 600to180
+second pass lengthaccepts 10 >>
+
+first pass lengthaccepts 13  comfortto total
+second pass lengthaccepts 14 er
+
+first pass lengthaccepts 8 380to180
+second pass lengthaccepts 9 -
+
+first pass lengthaccepts 11  =to.
+
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 7  truckto *
+second pass lengthaccepts 8  tires
+
+first pass lengthaccepts 9 6to360
+second pass lengthaccepts 10  *
+
+first pass lengthaccepts 6  theto you
+second pass lengthaccepts 7  mean
+
+first pass lengthaccepts 14  timestox
+
+first pass lengthaccepts 2  into.
+
+second pass lengthaccepts 3  total
+
+first pass lengthaccepts 0 ,to.
+second pass lengthaccepts 1  so
+
+first pass lengthaccepts 10  <<to $
+
+first pass lengthaccepts 13 >>to0
+second pass lengthaccepts 14 680
+second pass lengthaccepts 11 35
+
+first pass lengthaccepts 5  inchesto +
+second pass lengthaccepts 6 
+
+
+first pass lengthaccepts 6 ,to is
+second pass lengthaccepts 7  fragrance
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 11 2to4
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  above
+
+first pass lengthaccepts 4  andto candies
+second pass lengthaccepts 5  sold
+
+first pass lengthaccepts 12 20to45
+
+first pass lengthaccepts 1 >>to0
+second pass lengthaccepts 13  +
+second pass lengthaccepts 2 240
+
+first pass lengthaccepts 8 <<to102
+second pass lengthaccepts 9 20
+
+first pass lengthaccepts 4 EachtoMark
+second pass lengthaccepts 5  sub
+
+first pass lengthaccepts 13 20toSub
+second pass lengthaccepts 14  +
+
+first pass lengthaccepts 12 58to98
+second pass lengthaccepts 14 58
+
+first pass lengthaccepts 14  Bahto (
+
+first pass lengthaccepts 5  -to +
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 8 ,to.
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 12 12to144
+
+first pass lengthaccepts 1  ofto initially
+second pass lengthaccepts 13 *
+second pass lengthaccepts 2  water
+
+first pass lengthaccepts 8 CombinetoAdd
+second pass lengthaccepts 9  like
+
+first pass lengthaccepts 4 6to4
+second pass lengthaccepts 10 192
+
+first pass lengthaccepts 2 45to55
+second pass lengthaccepts 3  +
+
+first pass lengthaccepts 12 240to403
+second pass lengthaccepts 13 0
+
+first pass lengthaccepts 5  andto.
+
+second pass lengthaccepts 6  then
+
+first pass lengthaccepts 9 900to720
+second pass lengthaccepts 11 720
+
+first pass lengthaccepts 1  gotto bought
+second pass lengthaccepts 6  from
+
+first pass lengthaccepts 1  needsto eats
+second pass lengthaccepts 4  *
+
+first pass lengthaccepts 12 .to.
+
+second pass lengthaccepts 13  "
+
+first pass lengthaccepts 1  Wendyto find
+second pass lengthaccepts 2  wants
+
+first pass lengthaccepts 5 10to6
+second pass lengthaccepts 8 6
+
+first pass lengthaccepts 7 .to.
+
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 7 20to92
+second pass lengthaccepts 8 +
+
+first pass lengthaccepts 5 <<to320
+second pass lengthaccepts 6 8
+
+first pass lengthaccepts 8  +to push
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 7 ,to.
+
+second pass lengthaccepts 8  then
+
+first pass lengthaccepts 0 ThustoHer
+second pass lengthaccepts 1 ,
+
+first pass lengthaccepts 12 ,to.
+
+second pass lengthaccepts 13  for
+
+first pass lengthaccepts 7 32toThe
+second pass lengthaccepts 8  cards
+
+first pass lengthaccepts 8  soto Jim
+second pass lengthaccepts 9  he
+
+first pass lengthaccepts 7 50to61
+second pass lengthaccepts 12 50
+
+first pass lengthaccepts 11 18to1
+second pass lengthaccepts 14 42
+
+first pass lengthaccepts 5  +to =
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 2  willto took
+second pass lengthaccepts 3  cost
+
+first pass lengthaccepts 11 11to16
+
+first pass lengthaccepts 5  onto recording
+second pass lengthaccepts 6  recording
+
+first pass lengthaccepts 7 84to83
+second pass lengthaccepts 9 84
+
+first pass lengthaccepts 7  totalto number
+second pass lengthaccepts 8  number
+
+first pass lengthaccepts 9  amountto rac
+second pass lengthaccepts 10  of
+
+first pass lengthaccepts 13 4to6
+second pass lengthaccepts 14  because
+
+first pass lengthaccepts 4 ,to =
+second pass lengthaccepts 5  or
+
+first pass lengthaccepts 4  into of
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 6 9to1
+
+first pass lengthaccepts 9 408to648
+
+first pass lengthaccepts 0  Nedto Isabel
+second pass lengthaccepts 11 408
+second pass lengthaccepts 4  -
+
+first pass lengthaccepts 1  =to *
+second pass lengthaccepts 3 1
+
+first pass lengthaccepts 11 4to3
+
+first pass lengthaccepts 13 ,to of
+second pass lengthaccepts 14  babies
+second pass lengthaccepts 14  so
+
+first pass lengthaccepts 8 50toThe
+second pass lengthaccepts 9 %
+
+first pass lengthaccepts 11  babiesto *
+second pass lengthaccepts 12  wearing
+
+first pass lengthaccepts 7 18to10
+second pass lengthaccepts 12 10
+
+first pass lengthaccepts 6 1to11
+second pass lengthaccepts 7 /
+
+first pass lengthaccepts 10  to Each
+second pass lengthaccepts 11 100
+
+first pass lengthaccepts 12 4to6
+
+first pass lengthaccepts 10 1toThe
+second pass lengthaccepts 11 /
+
+first pass lengthaccepts 14 25to2
+
+first pass lengthaccepts 12 1to5
+second pass lengthaccepts 13 /
+
+first pass lengthaccepts 12 14to48
+second pass lengthaccepts 13  +
+
+first pass lengthaccepts 10 2to1
+
+first pass lengthaccepts 8 11to115
+second pass lengthaccepts 9 ,
+
+first pass lengthaccepts 0  +to.
+
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 1 =to>>
+second pass lengthaccepts 2 1
+
+first pass lengthaccepts 9 /to%
+second pass lengthaccepts 10 20
+
+first pass lengthaccepts 11  willto's
+second pass lengthaccepts 12  make
+
+first pass lengthaccepts 7 .to.
+
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 6  into.
+
+second pass lengthaccepts 7  her
+
+first pass lengthaccepts 13  /to juices
+
+first pass lengthaccepts 2  forto is
+second pass lengthaccepts 14  
+second pass lengthaccepts 3  both
+
+first pass lengthaccepts 6 ,to
+
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 7  theto 
+second pass lengthaccepts 8  number
+
+first pass lengthaccepts 11  to <<
+second pass lengthaccepts 12 700
+
+first pass lengthaccepts 5 170to190
+
+first pass lengthaccepts 8 3toThe
+second pass lengthaccepts 9 170
+second pass lengthaccepts 9  times
+
+first pass lengthaccepts 5  perto.
+
+second pass lengthaccepts 6  day
+
+first pass lengthaccepts 14  asto points
+
+first pass lengthaccepts 4  -to =
+second pass lengthaccepts 7  =
+
+first pass lengthaccepts 5  forto.
+
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 11  dollarsto.
+
+second pass lengthaccepts 12 .
+
+
+first pass lengthaccepts 0  alreadyto has
+second pass lengthaccepts 1  has
+
+first pass lengthaccepts 1 80toThe
+second pass lengthaccepts 2  is
+
+first pass lengthaccepts 6  theto arcade
+second pass lengthaccepts 7  go
+
+first pass lengthaccepts 14  eachto per
+
+first pass lengthaccepts 4 0to90
+second pass lengthaccepts 5 .
+
+first pass lengthaccepts 9 35to5
+second pass lengthaccepts 10  =
+
+first pass lengthaccepts 7 12toSince
+second pass lengthaccepts 8  pounds
+
+first pass lengthaccepts 12 Mto####
+second pass lengthaccepts 13 organ
+
+first pass lengthaccepts 4 2to6
+second pass lengthaccepts 11 2
+
+first pass lengthaccepts 9 .to blue
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 8  theto a
+second pass lengthaccepts 11  animals
+
+first pass lengthaccepts 3 HertoFor
+second pass lengthaccepts 4  regular
+
+first pass lengthaccepts 11 18to36
+second pass lengthaccepts 13 18
+
+first pass lengthaccepts 8 16toHe
+second pass lengthaccepts 9 .
+
+first pass lengthaccepts 0 >>to+
+second pass lengthaccepts 1 85
+
+first pass lengthaccepts 14 3to12
+
+first pass lengthaccepts 5  forto.
+second pass lengthaccepts 6  the
+
+first pass lengthaccepts 6  to After
+second pass lengthaccepts 7 6
+
+first pass lengthaccepts 3 15to60
+second pass lengthaccepts 4 *
+
+first pass lengthaccepts 2 ,to.
+
+second pass lengthaccepts 3  which
+
+first pass lengthaccepts 9  +to adults
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 0  needto use
+second pass lengthaccepts 8  also
+
+first pass lengthaccepts 10 22to32
+second pass lengthaccepts 12 22
+
+first pass lengthaccepts 12 )to +
+second pass lengthaccepts 13  +
+
+first pass lengthaccepts 5 ,to.
+second pass lengthaccepts 6  so
+
+first pass lengthaccepts 7  whoto the
+second pass lengthaccepts 8  got
+
+first pass lengthaccepts 5 InsteadtoBut
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 5 45to40
+second pass lengthaccepts 7 15
+
+first pass lengthaccepts 0 /to=
+second pass lengthaccepts 1 2
+
+first pass lengthaccepts 12 76to96
+
+first pass lengthaccepts 7 /to glasses
+second pass lengthaccepts 14 76
+
+first pass lengthaccepts 7 8to40
+second pass lengthaccepts 8 2
+second pass lengthaccepts 10 48
+
+first pass lengthaccepts 13 56toThey
+second pass lengthaccepts 14 /
+
+first pass lengthaccepts 6 .to.
+
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 9  xto/year
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 14 ,to.
+
+
+first pass lengthaccepts 12 45to90
+
+first pass lengthaccepts 11  onto dollars
+second pass lengthaccepts 12  chips
+
+first pass lengthaccepts 3 12to11
+second pass lengthaccepts 9 <<
+
+first pass lengthaccepts 7 StephentoHe
+second pass lengthaccepts 10  an
+
+first pass lengthaccepts 5 0to1
+second pass lengthaccepts 6 .
+
+first pass lengthaccepts 9 ,to.
+
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 1 21to3
+second pass lengthaccepts 2  /
+
+first pass lengthaccepts 11 2to4
+second pass lengthaccepts 13 4
+
+first pass lengthaccepts 2 2toThe
+second pass lengthaccepts 3 %
+
+first pass lengthaccepts 14 3to2
+
+first pass lengthaccepts 3 ,to.
+
+second pass lengthaccepts 4  so
+
+first pass lengthaccepts 9 /to +
+second pass lengthaccepts 10 2
+
+first pass lengthaccepts 13 28to14
+
+first pass lengthaccepts 5  andto he
+second pass lengthaccepts 6  clo
+
+first pass lengthaccepts 6 03to05
+second pass lengthaccepts 10 03
+
+first pass lengthaccepts 14  to there
+
+first pass lengthaccepts 1 NowtoThe
+second pass lengthaccepts 2  we
+
+first pass lengthaccepts 13 30to2
+second pass lengthaccepts 14 -
+
+first pass lengthaccepts 3 ,to.
+
+second pass lengthaccepts 4  so
+
+first pass lengthaccepts 6  xto kg
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 8 -to questions
+second pass lengthaccepts 9 42
+
+first pass lengthaccepts 12  eachto she
+second pass lengthaccepts 13  album
+
+first pass lengthaccepts 6 7to67
+second pass lengthaccepts 10 7
+
+first pass lengthaccepts 10  to So
+second pass lengthaccepts 11 14
+
+first pass lengthaccepts 3 ,to.
+
+second pass lengthaccepts 4  so
+
+first pass lengthaccepts 6  <<to595
+second pass lengthaccepts 7 175
+
+first pass lengthaccepts 3  into.
+
+second pass lengthaccepts 4  total
+
+first pass lengthaccepts 9 Thereto####
+
+first pass lengthaccepts 1  podto dollar
+second pass lengthaccepts 10  are
+
+first pass lengthaccepts 0  togrid
+second pass lengthaccepts 1 30
+
+first pass lengthaccepts 13  =to +
+
+first pass lengthaccepts 0  theto's
+second pass lengthaccepts 14  <<
+second pass lengthaccepts 1  number
+
+first pass lengthaccepts 0 2toThe
+second pass lengthaccepts 1  packs
+
+first pass lengthaccepts 0 14to17
+second pass lengthaccepts 2 14
+
+first pass lengthaccepts 5 .to+
+second pass lengthaccepts 6 00
+
+first pass lengthaccepts 11 10toIf
+second pass lengthaccepts 12  l
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  and
+
+first pass lengthaccepts 2 <<to4
+second pass lengthaccepts 3 7
+
+first pass lengthaccepts 13  eachto there
+
+first pass lengthaccepts 9  into.
+
+second pass lengthaccepts 14  pack
+second pass lengthaccepts 10  one
+
+first pass lengthaccepts 6  ofto costs
+second pass lengthaccepts 7  strawberry
+
+first pass lengthaccepts 4  thento triples
+second pass lengthaccepts 5  triples
+
+first pass lengthaccepts 11  xto 
+second pass lengthaccepts 12  +
+
+first pass lengthaccepts 6 )to)
+
+second pass lengthaccepts 7  =
+
+first pass lengthaccepts 13 5to4
+
+first pass lengthaccepts 0 1toShe
+second pass lengthaccepts 1 .
+
+first pass lengthaccepts 8 *to=
+second pass lengthaccepts 9 100
+
+first pass lengthaccepts 7 FinallytoThen
+
+first pass lengthaccepts 6  madeto paid
+second pass lengthaccepts 11  -
+
+first pass lengthaccepts 5 180toJohn
+second pass lengthaccepts 6  minutes
+
+first pass lengthaccepts 12  nowto puts
+second pass lengthaccepts 13  has
+
+first pass lengthaccepts 13  toto.
+
+second pass lengthaccepts 14  feed
+
+first pass lengthaccepts 5  -to dollars
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 3 63to83
+second pass lengthaccepts 5 63
+
+first pass lengthaccepts 13 39toEach
+second pass lengthaccepts 14  people
+
+first pass lengthaccepts 12 48toEach
+second pass lengthaccepts 13 /
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 6 98to99
+second pass lengthaccepts 10 98
+
+first pass lengthaccepts 2 ,to.
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 11  ato $
+second pass lengthaccepts 12  $
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  After
+
+first pass lengthaccepts 7  -to/
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 0  theto's
+
+first pass lengthaccepts 11 IftoIn
+second pass lengthaccepts 1  amount
+second pass lengthaccepts 12  there
+
+first pass lengthaccepts 9 40toThe
+second pass lengthaccepts 10  -
+
+first pass lengthaccepts 14 .to.
+
+
+first pass lengthaccepts 8 ,to.
+second pass lengthaccepts 9  since
+
+first pass lengthaccepts 9  to There
+second pass lengthaccepts 10 1
+
+first pass lengthaccepts 9  amountto total
+second pass lengthaccepts 10  of
+
+first pass lengthaccepts 2 ,to.
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 12  Soto The
+second pass lengthaccepts 13  the
+
+first pass lengthaccepts 12  Solto Subtract
+second pass lengthaccepts 13 ving
+
+first pass lengthaccepts 12  allto each
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 12 >>to.
+second pass lengthaccepts 13 66
+
+first pass lengthaccepts 14 12to8
+
+first pass lengthaccepts 9 .to.
+
+
+first pass lengthaccepts 6  forto is
+second pass lengthaccepts 10  
+second pass lengthaccepts 7  the
+
+first pass lengthaccepts 13 2to40
+
+first pass lengthaccepts 11  gallonto=
+second pass lengthaccepts 12  of
+
+first pass lengthaccepts 8 66to665
+second pass lengthaccepts 12 66
+
+first pass lengthaccepts 1  normalto remaining
+second pass lengthaccepts 2  price
+
+first pass lengthaccepts 5 ,to *
+second pass lengthaccepts 6  and
+
+first pass lengthaccepts 11 2to8
+second pass lengthaccepts 12 *
+
+first pass lengthaccepts 1 >>to.
+second pass lengthaccepts 2 33
+
+first pass lengthaccepts 8 ,to.
+second pass lengthaccepts 9  for
+
+first pass lengthaccepts 2  timesto rotations
+second pass lengthaccepts 5  rotates
+
+first pass lengthaccepts 12 30to3
+second pass lengthaccepts 13  cats
+
+first pass lengthaccepts 8  *to miles
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 13 3to-
+second pass lengthaccepts 14 x
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  which
+
+first pass lengthaccepts 8 175to725
+second pass lengthaccepts 9 ,
+
+first pass lengthaccepts 14  forto traveled
+
+first pass lengthaccepts 13  +to hours
+
+first pass lengthaccepts 6  ofto dollars
+second pass lengthaccepts 14  
+second pass lengthaccepts 7  his
+
+first pass lengthaccepts 3 146to145
+
+first pass lengthaccepts 14 .
+to on
+
+first pass lengthaccepts 8 15to30
+second pass lengthaccepts 14 15
+
+first pass lengthaccepts 2  rotationsto months
+second pass lengthaccepts 4  undergo
+
+first pass lengthaccepts 5 $to37
+second pass lengthaccepts 6 37
+
+first pass lengthaccepts 3 72toThere
+second pass lengthaccepts 4  months
+
+first pass lengthaccepts 13  theto she
+second pass lengthaccepts 14  price
+
+first pass lengthaccepts 10  yearsto -
+second pass lengthaccepts 11  old
+
+first pass lengthaccepts 11 .to5
+second pass lengthaccepts 12 5
+
+first pass lengthaccepts 9  perto means
+second pass lengthaccepts 10  wash
+
+first pass lengthaccepts 2  heto earned
+second pass lengthaccepts 3  earns
+
+first pass lengthaccepts 11 562toHe
+second pass lengthaccepts 12 .
+
+first pass lengthaccepts 7 0to40
+second pass lengthaccepts 8 .
+
+first pass lengthaccepts 11 .to.
+
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 5 50to60
+
+first pass lengthaccepts 12  *to people
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 6  isto can
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 8  =to.
+
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 14 .to.
+
+
+first pass lengthaccepts 1 SincetoA
+second pass lengthaccepts 2  a
+
+first pass lengthaccepts 9 320toHe
+second pass lengthaccepts 10  pl
+
+first pass lengthaccepts 9  into.
+
+second pass lengthaccepts 10  Scotland
+
+first pass lengthaccepts 8 2to35
+second pass lengthaccepts 13 2
+
+first pass lengthaccepts 7 ,to.
+second pass lengthaccepts 8  and
+
+first pass lengthaccepts 14 ,to.
+
+
+first pass lengthaccepts 11 8to2
+
+first pass lengthaccepts 5  to <<
+second pass lengthaccepts 6 245
+
+first pass lengthaccepts 14 30toThere
+
+first pass lengthaccepts 10 1to176
+second pass lengthaccepts 11 ,
+
+first pass lengthaccepts 14 60to17
+
+first pass lengthaccepts 4 .to =
+second pass lengthaccepts 5 00
+
+first pass lengthaccepts 4  starsto rows
+second pass lengthaccepts 5  in
+
+first pass lengthaccepts 2  to00
+second pass lengthaccepts 3 8
+
+first pass lengthaccepts 13  theto 
+second pass lengthaccepts 14  
+
+first pass lengthaccepts 0 :to will
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 9 6to1
+
+first pass lengthaccepts 3 FinallytoMultiply
+second pass lengthaccepts 10  potatoes
+second pass lengthaccepts 4 ,
+
+first pass lengthaccepts 6 4to132
+second pass lengthaccepts 9 36
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  so
+
+first pass lengthaccepts 11 40to(
+second pass lengthaccepts 12 +
+
+first pass lengthaccepts 5  into.
+
+second pass lengthaccepts 6  total
+
+first pass lengthaccepts 0  outto teeth
+second pass lengthaccepts 1  of
+
+first pass lengthaccepts 4 160to400
+second pass lengthaccepts 5 0
+
+first pass lengthaccepts 13  to the
+second pass lengthaccepts 14 30
+
+first pass lengthaccepts 1 4to350
+second pass lengthaccepts 2  weeks
+
+first pass lengthaccepts 3  isto=
+second pass lengthaccepts 4  the
+
+first pass lengthaccepts 3  toto $
+second pass lengthaccepts 4  raise
+
+first pass lengthaccepts 8 
+to per
+second pass lengthaccepts 9 175
+
+first pass lengthaccepts 8 60to30
+second pass lengthaccepts 10  =
+
+first pass lengthaccepts 12  Morto that
+second pass lengthaccepts 13 is
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  and
+
+first pass lengthaccepts 2 .to.
+
+second pass lengthaccepts 3  The
+
+first pass lengthaccepts 0 EachtoIf
+second pass lengthaccepts 1  pair
+
+first pass lengthaccepts 5  =to +
+second pass lengthaccepts 7 <<
+
+first pass lengthaccepts 12  to She
+second pass lengthaccepts 13 30
+
+first pass lengthaccepts 9 61to71
+second pass lengthaccepts 11 61
+
+first pass lengthaccepts 10  bothto smell
+second pass lengthaccepts 11  ways
+
+first pass lengthaccepts 5 80to0
+second pass lengthaccepts 6 /
+
+first pass lengthaccepts 10 576to516
+
+first pass lengthaccepts 0  onto.
+
+second pass lengthaccepts 1  the
+
+first pass lengthaccepts 6 500to1
+second pass lengthaccepts 7 00
+
+first pass lengthaccepts 6 ,to he
+second pass lengthaccepts 7  he
+
+first pass lengthaccepts 5 SotoThe
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 9  forto.
+
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 13  to After
+second pass lengthaccepts 14 15
+
+first pass lengthaccepts 1 6to9
+second pass lengthaccepts 9 0
+
+first pass lengthaccepts 12 30to90
+
+first pass lengthaccepts 13 .to.
+
+second pass lengthaccepts 14  The
+
+first pass lengthaccepts 2  to This
+second pass lengthaccepts 3 250
+
+first pass lengthaccepts 13 ,to dollars
+second pass lengthaccepts 14  where
+
+first pass lengthaccepts 9  to Since
+
+first pass lengthaccepts 9 ,to.
+
+second pass lengthaccepts 10 15
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 8  toysto dogs
+
+first pass lengthaccepts 7  onlyto no
+second pass lengthaccepts 8  needed
+
+first pass lengthaccepts 13 60to6
+
+first pass lengthaccepts 7 1to25
+second pass lengthaccepts 14 /
+second pass lengthaccepts 8 /
+
+first pass lengthaccepts 5 5to3
+second pass lengthaccepts 6  -
+
+first pass lengthaccepts 6 55to58
+
+first pass lengthaccepts 1 ,to.
+
+second pass lengthaccepts 2  since
+
+first pass lengthaccepts 14 0to1
+
+first pass lengthaccepts 8  *to,
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 1  forto +
+second pass lengthaccepts 2  the
+
+first pass lengthaccepts 10 20to30
+second pass lengthaccepts 11  -
+
+first pass lengthaccepts 13  to the
+second pass lengthaccepts 14 3
+
+first pass lengthaccepts 4  perto.
+
+second pass lengthaccepts 5  sandwich
+
+first pass lengthaccepts 6  forto.
+
+second pass lengthaccepts 7  Ph
+
+first pass lengthaccepts 14 NowtoThe
+
+first pass lengthaccepts 6  to Then
+second pass lengthaccepts 7  Then
+
+first pass lengthaccepts 2 4to8
+second pass lengthaccepts 9 4
+
+first pass lengthaccepts 10 687to06
+second pass lengthaccepts 11 5
+
+first pass lengthaccepts 1  andto +
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 4 7to6
+second pass lengthaccepts 11 7
+
+first pass lengthaccepts 9 ,to =
+second pass lengthaccepts 10  so
+
+first pass lengthaccepts 0  yourto's
+second pass lengthaccepts 1  brother
+
+first pass lengthaccepts 0  into.
+
+
+first pass lengthaccepts 6 198to188
+second pass lengthaccepts 8 198
+second pass lengthaccepts 1  total
+
+first pass lengthaccepts 6 6to200
+second pass lengthaccepts 7  *
+
+first pass lengthaccepts 12 TheretoShe
+second pass lengthaccepts 13  are
+
+first pass lengthaccepts 8  followingto equation
+
+first pass lengthaccepts 2 180to190
+second pass lengthaccepts 9  equation
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 13  andto:
+
+second pass lengthaccepts 14  solve
+
+first pass lengthaccepts 12 ,to.
+
+second pass lengthaccepts 13  for
+
+first pass lengthaccepts 14 10to2
+
+first pass lengthaccepts 4  *to/day
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 14  alreadyto needs
+
+first pass lengthaccepts 1 9to8
+
+first pass lengthaccepts 3  to x
+second pass lengthaccepts 4 15
+
+first pass lengthaccepts 7  xto it
+second pass lengthaccepts 8  +
+
+first pass lengthaccepts 11  -to +
+
+first pass lengthaccepts 14  *to.
+
+first pass lengthaccepts 8 ,to.
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 7 100to19
+second pass lengthaccepts 8 %
+
+first pass lengthaccepts 4 1to2
+second pass lengthaccepts 6 25
+
+first pass lengthaccepts 14  Jerryto is
+
+first pass lengthaccepts 11 .to.
+
+second pass lengthaccepts 12  She
+
+first pass lengthaccepts 1 25to26
+second pass lengthaccepts 2 .
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  so
+
+first pass lengthaccepts 3 .to.
+
+second pass lengthaccepts 4  Each
+
+first pass lengthaccepts 0 TotoIn
+second pass lengthaccepts 1  travel
+
+first pass lengthaccepts 3 1to3
+second pass lengthaccepts 5 875
+
+first pass lengthaccepts 10  +to.
+
+second pass lengthaccepts 11  
+
+first pass lengthaccepts 5 0to1
+second pass lengthaccepts 6 .
+
+first pass lengthaccepts 8  thatto brought
+second pass lengthaccepts 9  were
+
+first pass lengthaccepts 9  *to per
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 14 5toIn
+
+first pass lengthaccepts 11  to there
+second pass lengthaccepts 12 3
+
+first pass lengthaccepts 8  to <<
+second pass lengthaccepts 9 175
+
+first pass lengthaccepts 12 13to14
+second pass lengthaccepts 14 13
+
+first pass lengthaccepts 13  thatto she
+second pass lengthaccepts 14  is
+
+first pass lengthaccepts 4  into.
+
+second pass lengthaccepts 5  total
+
+first pass lengthaccepts 8 .to out
+second pass lengthaccepts 9  The
+
+first pass lengthaccepts 6 .to.
+
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 5 395to405
+
+first pass lengthaccepts 14 100to500
+
+first pass lengthaccepts 11  theto traveled
+second pass lengthaccepts 12  bird
+
+first pass lengthaccepts 0  Saturdayto Friday
+second pass lengthaccepts 11  Sunday
+
+first pass lengthaccepts 5 480to240
+second pass lengthaccepts 8 480
+
+first pass lengthaccepts 13 ,to'
+second pass lengthaccepts 14  which
+
+first pass lengthaccepts 3  increasedto four
+second pass lengthaccepts 4  by
+
+first pass lengthaccepts 6 1to2
+second pass lengthaccepts 7 .
+
+first pass lengthaccepts 12  perto.
+second pass lengthaccepts 13  week
+
+first pass lengthaccepts 9 *(to(
+
+first pass lengthaccepts 8 120to180
+second pass lengthaccepts 11 120
+
+first pass lengthaccepts 0 14to18
+second pass lengthaccepts 2 14
+
+first pass lengthaccepts 4  theto at
+second pass lengthaccepts 5  perimeter
+
+first pass lengthaccepts 11 6to12
+second pass lengthaccepts 12  dogs
+
+first pass lengthaccepts 3 40to50
+second pass lengthaccepts 12 40
+
+first pass lengthaccepts 6  forto/d
+second pass lengthaccepts 7  each
+
+first pass lengthaccepts 5  -to cupcakes
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 13 ,to.
+
+second pass lengthaccepts 14  so
+
+first pass lengthaccepts 10 .to.
+
+second pass lengthaccepts 11  The
+
+first pass lengthaccepts 7  Soto Their
+second pass lengthaccepts 8 ,
+
+first pass lengthaccepts 2  -to +
+second pass lengthaccepts 4 2
+
+first pass lengthaccepts 0 25toJames
+second pass lengthaccepts 1  +
+
+first pass lengthaccepts 6  <<to (-
+second pass lengthaccepts 7 (-
+
+first pass lengthaccepts 8 32to30
+second pass lengthaccepts 14 .
+
+first pass lengthaccepts 13 .to.
+
+second pass lengthaccepts 14  
+
+first pass lengthaccepts 7 <<to33
+second pass lengthaccepts 8 12
+
+first pass lengthaccepts 5  chickento pizza
+second pass lengthaccepts 6  meal
+
+first pass lengthaccepts 7  =to/day
+second pass lengthaccepts 8  $
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  and
+
+first pass lengthaccepts 13 *to+
+second pass lengthaccepts 14 12
+
+first pass lengthaccepts 12  atto.
+
+second pass lengthaccepts 13  the
+
+first pass lengthaccepts 8 ,to.
+
+second pass lengthaccepts 9  so
+
+first pass lengthaccepts 12 .to.
+
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 4 140to115
+second pass lengthaccepts 10 140
+
+first pass lengthaccepts 13  firstto third
+
+first pass lengthaccepts 1 .to=
+
+first pass lengthaccepts 0  theto's
+second pass lengthaccepts 2 00
+second pass lengthaccepts 1  number
+
+first pass lengthaccepts 3  babyto queens
+second pass lengthaccepts 4  bees
+
+first pass lengthaccepts 11 48to24
+second pass lengthaccepts 12  baby
+
+first pass lengthaccepts 4  xto 
+second pass lengthaccepts 5  babies
+
+first pass lengthaccepts 2 5to2
+second pass lengthaccepts 5 6
+
+first pass lengthaccepts 9  whento James
+
+first pass lengthaccepts 3 HetoEach
+second pass lengthaccepts 10  he
+second pass lengthaccepts 4  threw
+
+first pass lengthaccepts 0 
+to/
+
+first pass lengthaccepts 4 3to1
+second pass lengthaccepts 1 So
+second pass lengthaccepts 6 2
+
+first pass lengthaccepts 8 5to7
+
+first pass lengthaccepts 3 6to99
+second pass lengthaccepts 7 6
+
+first pass lengthaccepts 0 ,to.
+second pass lengthaccepts 1  where
+
+first pass lengthaccepts 1  weightto number
+second pass lengthaccepts 4  is
+
+first pass lengthaccepts 8  theto l
+second pass lengthaccepts 9  l
+
+first pass lengthaccepts 4 MtoAmazon
+second pass lengthaccepts 5 illy
+
+first pass lengthaccepts 0 12to4
+second pass lengthaccepts 1 /
+
+first pass lengthaccepts 8  dollarsto.
+
+second pass lengthaccepts 9 .
+
+
+first pass lengthaccepts 10 ,to.
+
+second pass lengthaccepts 11  so
+
+first pass lengthaccepts 9  -to =
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 12 80to220
+second pass lengthaccepts 13  -
+
+first pass lengthaccepts 6 <<to240
+second pass lengthaccepts 7 240
+
+first pass lengthaccepts 3 .to:
+second pass lengthaccepts 4  
+
+first pass lengthaccepts 9  +to.
+
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 9 80to23
+second pass lengthaccepts 10  -
+
+first pass lengthaccepts 6  doesto works
+second pass lengthaccepts 7  this
+
+first pass lengthaccepts 7  *to minutes
+second pass lengthaccepts 8  
+
+first pass lengthaccepts 4 5toFive
+
+first pass lengthaccepts 1 150to1
+second pass lengthaccepts 2  W
+
+first pass lengthaccepts 2 10toSo
+second pass lengthaccepts 3  pages
+
+first pass lengthaccepts 8 Ifto20
+second pass lengthaccepts 9  
+
+first pass lengthaccepts 10  stripesto =
+second pass lengthaccepts 11  =
+
+first pass lengthaccepts 5 .to.
+
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 8 .to>>
+second pass lengthaccepts 9 5
+
+first pass lengthaccepts 0 540to150
+second pass lengthaccepts 1 )/
+
+first pass lengthaccepts 12  forto/h
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 7  itemsto subs
+second pass lengthaccepts 8 :
+
+first pass lengthaccepts 12  isto cost
+second pass lengthaccepts 13  $
+
+first pass lengthaccepts 13 <<to482
+second pass lengthaccepts 14 200
+
+first pass lengthaccepts 11 17to20
+
+first pass lengthaccepts 13  +to+.
+second pass lengthaccepts 14  (
+
+first pass lengthaccepts 5  ato $
+
+first pass lengthaccepts 11 .to
+
+
+second pass lengthaccepts 6  remaining
+second pass lengthaccepts 12 00
+
+first pass lengthaccepts 4  +to brown
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 0  forto.
+
+second pass lengthaccepts 1  herself
+
+first pass lengthaccepts 1 000to00
+second pass lengthaccepts 2  =
+
+first pass lengthaccepts 10  atto brown
+second pass lengthaccepts 11  the
+
+first pass lengthaccepts 11 ,to.
+
+second pass lengthaccepts 12  
+
+first pass lengthaccepts 1 1toAfter
+second pass lengthaccepts 4 /
+
+first pass lengthaccepts 7  moreto brown
+second pass lengthaccepts 8  brown
+
+first pass lengthaccepts 9  himto $
+
+first pass lengthaccepts 11  theto they
+second pass lengthaccepts 10  $
+second pass lengthaccepts 12  total
+
+first pass lengthaccepts 10  forto per
+second pass lengthaccepts 11  each
+
+first pass lengthaccepts 4 120to<<
+second pass lengthaccepts 5 .
+
+
+first pass lengthaccepts 13  needsto borrowed
+second pass lengthaccepts 14  to
+
+first pass lengthaccepts 13 7to4
+
+first pass lengthaccepts 6  alreadyto will
+second pass lengthaccepts 7  has
+
+first pass lengthaccepts 6  andto but
+second pass lengthaccepts 7  then
+
+first pass lengthaccepts 10 IntoIt
+second pass lengthaccepts 11  
+
+first pass lengthaccepts 2  fromto minus
+
+first pass lengthaccepts 10 IntoThe
+second pass lengthaccepts 3  selling
+second pass lengthaccepts 12 ,
+
+first pass lengthaccepts 12  *to pe
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 3 ,to they
+second pass lengthaccepts 4  they
+
+first pass lengthaccepts 14  canto.
+
+
+first pass lengthaccepts 8  toto.
+
+second pass lengthaccepts 9  spend
+
+first pass lengthaccepts 5 ,to.
+
+second pass lengthaccepts 6  so
+
+first pass lengthaccepts 5 2to200
+second pass lengthaccepts 6 x
+
+first pass lengthaccepts 7  to the
+second pass lengthaccepts 8 25
+
+first pass lengthaccepts 3 5to10
+second pass lengthaccepts 9 300
+
+first pass lengthaccepts 3  to the
+second pass lengthaccepts 4 2
+
+first pass lengthaccepts 14 6to18
+
+first pass lengthaccepts 14  Weto Sol
+
+first pass lengthaccepts 4  isto students
+second pass lengthaccepts 5  
+
+first pass lengthaccepts 0 ,to for
+second pass lengthaccepts 1  we
+
+first pass lengthaccepts 12  theto eaten
+second pass lengthaccepts 13  two
+
+first pass lengthaccepts 2  areato dimensions
+second pass lengthaccepts 5  bed
+
+first pass lengthaccepts 0 300toHe
+second pass lengthaccepts 1 0
+
+first pass lengthaccepts 9  theyto the
+second pass lengthaccepts 10  did
+
+first pass lengthaccepts 11 4to12
+second pass lengthaccepts 14 12
+
+first pass lengthaccepts 9  thereto she
+second pass lengthaccepts 10  are
+
+first pass lengthaccepts 14  ofto.
+
+
+first pass lengthaccepts 14 0to8
+
+first pass lengthaccepts 13 35to67
+
+first pass lengthaccepts 9  hasto gives
+
+first pass lengthaccepts 14 0to60
+second pass lengthaccepts 11 12
+
+first pass lengthaccepts 1  to total
+second pass lengthaccepts 2 40
+
+first pass lengthaccepts 5 ,to.
+
+
+first pass lengthaccepts 8  forto.
+
+second pass lengthaccepts 6  and
+second pass lengthaccepts 9  Jenny
+
+first pass lengthaccepts 7 4to2
+second pass lengthaccepts 10 5
+
+first pass lengthaccepts 12  hadto collected
+
+first pass lengthaccepts 3 0toThe
+second pass lengthaccepts 14 100
+second pass lengthaccepts 4 .
+
+first pass lengthaccepts 12  *tox
+second pass lengthaccepts 13  (
+
+first pass lengthaccepts 14 7to666
+
+first pass lengthaccepts 4 10to4
+second pass lengthaccepts 7  -
+
+first pass lengthaccepts 11  -to +
+
+first pass lengthaccepts 14 ####toGr
+
+first pass lengthaccepts 5 ,to.
+
+second pass lengthaccepts 6  so
+
+first pass lengthaccepts 7 *to+
+second pass lengthaccepts 8 0
+
+first pass lengthaccepts 5 400to600
+second pass lengthaccepts 6 +
+
+first pass lengthaccepts 9  to Then
+second pass lengthaccepts 10  Then
+
+first pass lengthaccepts 14  lostto won
+
+first pass lengthaccepts 2  to the
+second pass lengthaccepts 3 1
+
+first pass lengthaccepts 9  xto.
+second pass lengthaccepts 10  
+
+first pass lengthaccepts 8 83to93
+
+first pass lengthaccepts 14 12to2
+
+first pass lengthaccepts 8  bananasto *
+second pass lengthaccepts 9  per
+
+first pass lengthaccepts 0 240to336
+second pass lengthaccepts 3 240
+
+first pass lengthaccepts 3 2to700
+second pass lengthaccepts 5 700
+
+first pass lengthaccepts 3 336toThere
+second pass lengthaccepts 4 0
+
+first pass lengthaccepts 0  grewto was
+second pass lengthaccepts 2 3
+
+first pass lengthaccepts 13 3to1
+second pass lengthaccepts 14  inches
+
+first pass lengthaccepts 10  smto*
+second pass lengthaccepts 11 ores
+
+first pass lengthaccepts 9 .to feet
+second pass lengthaccepts 10 25
+
+first pass lengthaccepts 0 1to3
+second pass lengthaccepts 1 .
+
+first pass lengthaccepts 0  orto
+
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 8 8to24
+second pass lengthaccepts 13 8
+
+first pass lengthaccepts 10 83to96
+
+first pass lengthaccepts 1  Urito find
+second pass lengthaccepts 2 ah
+
+first pass lengthaccepts 1  minutesto +
+second pass lengthaccepts 2  +
+
+first pass lengthaccepts 13 ,to there
+second pass lengthaccepts 14  there
+
+first pass lengthaccepts 2  to There
+second pass lengthaccepts 3 30
+
+first pass lengthaccepts 4 28to32
+second pass lengthaccepts 6 28
+
+first pass lengthaccepts 13  to there
+second pass lengthaccepts 14 40
+
+first pass lengthaccepts 1 40to30
+second pass lengthaccepts 4 30
+
+first pass lengthaccepts 8 1to2
+second pass lengthaccepts 9  hour
+
+first pass lengthaccepts 2 ,to than
+second pass lengthaccepts 3  so
+
+first pass lengthaccepts 5 ThustoDean
+second pass lengthaccepts 6 ,
+
+first pass lengthaccepts 5 0to So
+second pass lengthaccepts 6 .
+
+first pass lengthaccepts 7  to John
+second pass lengthaccepts 8  John
+
+first pass lengthaccepts 11  onlyto pays
+second pass lengthaccepts 12  owes
+
+first pass lengthaccepts 5 8to20
+second pass lengthaccepts 9  =
+
+first pass lengthaccepts 13 20to15
+second pass lengthaccepts 14 -
+
+first pass lengthaccepts 11 *to=
+second pass lengthaccepts 12 3
+
+first pass lengthaccepts 5 =to*
+second pass lengthaccepts 6 30
+
+first pass lengthaccepts 1 30to60
+second pass lengthaccepts 2 *
+
+first pass lengthaccepts 4  to living
+second pass lengthaccepts 5 4
+
+first pass lengthaccepts 7 12to6
+second pass lengthaccepts 9 .
+
+
+first pass lengthaccepts 8  yetto,
+second pass lengthaccepts 9 ,
+
+first pass lengthaccepts 14 2to5
+
+first pass lengthaccepts 5  =to tall
+second pass lengthaccepts 6  
+
+first pass lengthaccepts 8  to the
+second pass lengthaccepts 9 48
+
+first pass lengthaccepts 5  -to /
+second pass lengthaccepts 7 5
+
+first pass lengthaccepts 1  anotherto $
+second pass lengthaccepts 2  $
+
+first pass lengthaccepts 13 SincetoP
+second pass lengthaccepts 14  each
+
+first pass lengthaccepts 4  twentyto*
+second pass lengthaccepts 5  dollar
+
+first pass lengthaccepts 11  to <<
+second pass lengthaccepts 12 800
+
+first pass lengthaccepts 5 42to3
+second pass lengthaccepts 6  mL
+
+first pass lengthaccepts 6 ,to.
+
+second pass lengthaccepts 7  and
+
+first pass lengthaccepts 10  ato $
+second pass lengthaccepts 11  $
+
+first pass lengthaccepts 11  isto you
+second pass lengthaccepts 12  $
+
+first pass lengthaccepts 10 2to3
+second pass lengthaccepts 11  sco
+
+first pass lengthaccepts 13 150to160
+
+first pass lengthaccepts 5  juggto has
+second pass lengthaccepts 6 les
+
+first pass lengthaccepts 1  into.
+
+second pass lengthaccepts 2  total
+
+first pass lengthaccepts 9  =to*
+second pass lengthaccepts 10  <<
+
+first pass lengthaccepts 5 ,to they
+second pass lengthaccepts 6  they
+
+first pass lengthaccepts 1 10to50
+second pass lengthaccepts 2  *
+
+first pass lengthaccepts 13 
+to.
+
+
+first pass lengthaccepts 6 2to3
+second pass lengthaccepts 11 2
+
+first pass lengthaccepts 10 Theto####
+second pass lengthaccepts 12 15
+
+first pass lengthaccepts 5  laborto mechanic
+
+first pass lengthaccepts 1  to <<
+second pass lengthaccepts 3  *
+
+first pass lengthaccepts 10 DivtoThe
+second pass lengthaccepts 11 ide
+
+first pass lengthaccepts 9  to Her
+second pass lengthaccepts 10  Her
+
+first pass lengthaccepts 2  byto -
+second pass lengthaccepts 3  buying
+
+first pass lengthaccepts 12 .to =
+second pass lengthaccepts 13  
+
+first pass lengthaccepts 8 ItoMy
+second pass lengthaccepts 9  paid
+
+first pass lengthaccepts 7  -to +
+second pass lengthaccepts 12 14
+
+first pass lengthaccepts 10 *to+y
+second pass lengthaccepts 11 4
+
+first pass lengthaccepts 12 71to91
+second pass lengthaccepts 14 71
+
+first pass lengthaccepts 1 =to+y
+second pass lengthaccepts 2 20
+
+first pass lengthaccepts 1 +to
+
+second pass lengthaccepts 2 0
+
+first pass lengthaccepts 5 *to=
+second pass lengthaccepts 6 4
+
+first pass lengthaccepts 0  maketo find
+second pass lengthaccepts 1  
+
+first pass lengthaccepts 14 365to2
+
+first pass lengthaccepts 6  Forto There
+second pass lengthaccepts 7  
+
+first pass lengthaccepts 4 7to120
+second pass lengthaccepts 6  and
+
+first pass lengthaccepts 9 3to17
+second pass lengthaccepts 11  
+
+first pass lengthaccepts 4 
+to.
+
+
+first pass lengthaccepts 5  levelto bottom
+second pass lengthaccepts 6  below
+
+first pass lengthaccepts 11  ato each
+
+first pass lengthaccepts 1 =to=(
+second pass lengthaccepts 3 /
+
+first pass lengthaccepts 11  to The
+second pass lengthaccepts 12  Sally
+
+first pass lengthaccepts 8 109to119
+second pass lengthaccepts 9 50
+
+first pass lengthaccepts 3  *to minutes
+second pass lengthaccepts 4  
+
+first pass lengthaccepts 5  himto to
+second pass lengthaccepts 6  to
+
+first pass lengthaccepts 4  forto from
+second pass lengthaccepts 5  $
+
+first pass lengthaccepts 9 <<to4
+second pass lengthaccepts 10 20
+
+first pass lengthaccepts 9  *to pounds
+second pass lengthaccepts 10  $
+
+first pass lengthaccepts 13  to $
+
+first pass lengthaccepts 4 ,to.
+
+second pass lengthaccepts 5  so
+
+first pass lengthaccepts 3 68to10
+second pass lengthaccepts 4  /
+
+first pass lengthaccepts 12  to Then
+second pass lengthaccepts 13 45
+
+first pass lengthaccepts 5 43to41
+second pass lengthaccepts 6  +
+
+first pass lengthaccepts 1  +to%
+second pass lengthaccepts 2  
+
+first pass lengthaccepts 4 68to251
+second pass lengthaccepts 5  +
+
+first pass lengthaccepts 11  to The
+second pass lengthaccepts 12 100
+
+first pass lengthaccepts 4  leftto scored
+second pass lengthaccepts 5  for
+
+first pass lengthaccepts 4  moreto chickens
+second pass lengthaccepts 5  chickens
+
+first pass lengthaccepts 7  to He
+second pass lengthaccepts 8 20
+
+first pass lengthaccepts 7 ,to.
+second pass lengthaccepts 8  so
+
+first pass lengthaccepts 12 80to160
+second pass lengthaccepts 14 ,
+
+first pass lengthaccepts 14 30to120
+
+first pass lengthaccepts 11 Dto360
+second pass lengthaccepts 12 errick
+
+first pass lengthaccepts 10  thereto that
+second pass lengthaccepts 11  are
+
+first pass lengthaccepts 0 180to360
+second pass lengthaccepts 8  amount
+
+first pass lengthaccepts 10  Heto Let
+second pass lengthaccepts 11  has
+
+first pass lengthaccepts 12 ,to A
+second pass lengthaccepts 13  A
+
+first pass lengthaccepts 12 5to339
+second pass lengthaccepts 13 A
+
+first pass lengthaccepts 1  to Simpl
+second pass lengthaccepts 2 5
+
+first pass lengthaccepts 7 157to160
+second pass lengthaccepts 8 .
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+
+|           1320 |                    131794 |                     99.8439 |        120320 |        8059 | 14.9299 |                           8614 |             1245 |                          6.91888 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+xhf (pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1,secondrollback=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value|   |Stderr|
+|-----|------:|----------------|-----:|-----------|----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.724|±  |0.0123|
+|     |       |flexible-extract|     5|exact_match|0.724|±  |0.0123|
+
