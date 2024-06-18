@@ -10,5 +10,5 @@ conda activate hanshi
 cd /fsx-storygen/beidic/yang/GRIFFIN2 
 git add . 
 git stash 
-git checkout yangexp2 
+git checkout yangexp2two 
 git pull 
