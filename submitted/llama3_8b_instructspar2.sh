@@ -68,3 +68,5 @@ huggingface-cli login --token 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
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 
 accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model meta-llama/Meta-Llama-3-8B-Instruct --griffin --tasks csqa,strategyqa,sports,date --spr 0.3 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model meta-llama/Meta-Llama-3-8B-Instruct --griffin --tasks aqua --spr 0.5 
+
