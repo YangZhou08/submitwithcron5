@@ -36,3 +36,5 @@ for cmd in "${commands[@]}"; do
         # rm "$job_script"
     done
 done
+
+/opt/slurm/bin/squeue -u beidic
