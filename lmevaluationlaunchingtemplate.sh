@@ -9,16 +9,11 @@ models=(
 
 # List of commands to run
 commands=(
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --tasks csqa,strategyqa,sports,date"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks csqa,strategyqa,sports,date"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.3 --thr 0.1"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.3 --thr 0.1"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive"
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,cats=False,check=False --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,cats=True,check=False --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,griffin=True,check=False --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-13b-chat-hf,griffin=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 "
 )
 
 # Iterate over the commands and submit a job for each
