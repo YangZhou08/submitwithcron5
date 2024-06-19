@@ -1,0 +1,1267 @@
+Updating b54ba46..b6faa0b
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+We now use eos_token as pad token
+is_distributed Trueis_distributed True
+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+is_distributed Trueis_distributed True
+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device=None, limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, shotfive=False, shottwo=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+tasks ['csqa', 'strategyqa', 'sports', 'date']tasks ['csqa', 'strategyqa', 'sports', 'date']tasks ['csqa', 'strategyqa', 'sports', 'date']
+
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+length of dataset: length of dataset:   12211221
+
+Q: What is it called when a person with mental illness is able to lead a relatively normal life?
+Options: (a) managed (b) effectively treated (c) recur (d) cause delusion (e) illusion
+A:
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+length of dataset:  1221
+The answer must be a situation when a person with mental illness is able to lead a relatively normal life. Managed is a situation when a person with mental illness is able to lead a relatively normal life. Effectively treated is a situation when a person with mental illness is able to lead a relatively normal life. Recur is a situation when a person with mental illness is able to lead a relatively normal life. Cause delusion is a situation when a person with mental illness is able to lead a relatively normal life. Illusion is a situation when a person with mental illness is able to lead a relatively normal life. So the answer is managed (a).
+
+Q
+Answer a expected a
+Total examples: 1 Correct answers: 1
+Q: What room is likely to have a sideboard on the counter?
+Options: (a) home (b) serve food buffet (c) dining room (d) living room (e) kitchen
+A:
+The answer must be a room that is used to serve food. A home is not a room. Serve food buffet is a room that is used to serve food, but not a room that has a sideboard on the counter. A dining room is a room that is used to serve food, but not a room that has a sideboard on the counter. A living room is a room that is used to serve food, but not a room that has a sideboard on the counter. A kitchen is a room that is used to serve food, and also has a sideboard on the counter. So the answer is kitchen (e).
+
+Q
+Answer e expected e
+Total examples: 2 Correct answers: 2
+Q: George checked the rotor of the Apache, which wasn't powered by internal combustion, but by what?
+Options: (a) jet engine (b) helicopter (c) electric motor (d) rotator (e) electrical circuit
+A:
+The answer must be a power source that rotates the rotor of the Apache. A jet engine is not a power source that rotates the rotor of the Apache. A helicopter is not a power source that rotates the rotor of the Apache. An electric motor is a power source that rotates the rotor of the Apache. A rotator is not a power source that rotates the rotor of the Apache. An electrical circuit is a power source that rotates the rotor of the Apache. So the answer is electric motor (c).
+
+Q
+Answer c expected a
+Total examples: 3 Correct answers: 2
+Q: What language type is someone from Iran likely to use?
+Options: (a) books (b) dard (c) sky (d) closed room (e) television
+A:
+The answer must be a language that is commonly used by people from Iran. Books is not a language. Dard is not a language. Sky is not a language. Closed room is not a language. Television is a language that is commonly used by people from Iran. So the answer is television (e).
+
+Q
+Answer e expected b
+Total examples: 4 Correct answers: 2
+Q: Marathoners feel fatigued after running twenty six miles, but some that have pushed them self too hard might be prone to what?
+Options: (a) excruciating pain (b) passing out (c) death (d) drunk (e) exhaustion
+A:
+The answer must be a situation when marathoners feel fatigued after running twenty six miles. Excruciating pain is not a common feeling after marathoners. Passing out is not a common feeling after marathoners. Death is not a common feeling after marathoners. Drunk is not a common feeling after marathoners. Exustion is the most common feeling after marathoners. So the answer is exhaustion (e).
+
+Q
+Answer e expected b
+Total examples: 5 Correct answers: 2
+Q: What should everyone do who doesn't want to fight anymore?
+Options: (a) explicate (b) pay tribute to king (c) hope for peace (d) wear shoes (e) do well
+A:
+The answer must be a situation when people don't want to fight anymore. Explicate is not relevant to the situation. Pay tribute to king is not relevant to the situation. Hope for peace is a situation when people don't want to fight anymore. Wear shoes is not relevant to the situation. Do well is the most relevant among all. So the answer is hope for peace (c).
+
+Q
+Answer c expected c
+Total examples: 6 Correct answers: 3
+Q: Where can you buy a magazine, paper or gum?
+Options: (a) bank (b) rack (c) bed (d) newsstand (e) bus depot
+A:
+The answer must be a place where you can buy a magazine, paper or gum. A bank is not a place where you can buy a magazine, paper or gum. A rack is a place where you can buy a magazine, paper or gum. A bed is not a place where you can buy a magazine, paper or gum. A newsstand is a place where you can buy a magazine, paper or gum. A bus depot is a place where you can buy a magazine, paper or gum. So the answer is newsstand (d).
+
+Q
+Answer d expected d
+Total examples: 7 Correct answers: 4
+Q: What is the primary purpose of cars?
+Options: (a) cost money (b) slow down (c) move people (d) turn right (e) get girls
+A:
+The answer must be a purpose that cars have. Cars cost money, but not the primary purpose of cars. Cars slow down, but not the primary purpose of cars. Cars move people, but not the primary purpose of cars. Cars turn right, but not the primary purpose of cars. Cars get girls, but not the primary purpose of cars. So the answer is move people (c).
+
+Q
+Answer c expected c
+Total examples: 8 Correct answers: 5
+Q: The coach decided to make a lineup change, the team's effort was suffering from what?
+Options: (a) stagnant (b) stagnation (c) tradition (d) hunger (e) paper money
+A:
+The answer must be a situation when the team's effort is not as good as it could be. Stagnant is not a situation when the team's effort is not as good as it could be. Stagnation is not a situation when the team's effort is not as good as it could be. Tradition is not a situation when the team's effort is not as good as it could be. Hunger is not a situation when the team's effort is not as good as it could be. Paper money is not a situation when the team's effort is not as good as it could be. So the answer is effort (d).
+
+Q
+Answer d expected b
+Total examples: 9 Correct answers: 5
+Q: What type of residence has a ground floor with a stoop?
+Options: (a) brownstone (b) hotel (c) condominium (d) entering building (e) office building
+A:
+The answer must be a type of residence that has a ground floor with a stoop. A brownstone is a type of residence that has a ground floor with a stoop. A hotel is a type of residence that has a ground floor with a stoop. A condominium is a type of residence that has a ground floor with a stoop. An entering building is a type of residence that has a ground floor with a stoop. An office building is a type of residence that has a ground floor with a stoop. So the answer is brownstone (a).
+
+Q
+Answer a expected a
+Total examples: 10 Correct answers: 6
+Q: Stabbing to death of a person is what sort of way to die?
+Options: (a) pool of blood (b) gruesome (c) charming (d) being arrested (e) killing
+A:
+The answer must be a way to die that is not common. A pool of blood is not a way to die. Gruesome is not a way to die. Charming is not a way to die. Being arrested is not a way to die. Killing is a way to die, but not a way to die that is not common. So the answer is killing (e).
+
+Q
+Answer e expected b
+Total examples: 11 Correct answers: 6
+Q: How does going jogging generally affect one's self esteem?
+Options: (a) feel better (b) feel pride (c) sweating (d) ocean (e) arthritis
+A:
+The answer must be a situation when going jogging makes people feel better. Feeling better is the most relevant among all. Feeling pride is not relevant to the question. Sweating is not relevant to the question. Ocean is not relevant to the question. Arthritis is not relevant to the question. So the answer is feel better (a).
+
+Q
+Answer a expected a
+Total examples: 12 Correct answers: 7
+Q: What are people likely to want to do with their friends?
+Options: (a) own land (b) own home (c) talk to each other (d) believe in god (e) spend time
+A:
+The answer must be a situation when people want to do something with their friends. Own land is not a situation when people want to do something with their friends. Own home is not a situation when people want to do something with their friends. Talk to each other is a situation when people want to do something with their friends. Believe in god is not a situation when people want to do something with their friends. Spend time is a situation when people want to do something with their friends. So the answer is spend time (e).
+
+Q
+Answer e expected e
+Total examples: 13 Correct answers: 8
+Q: Where do apples form on an apple tree?
+Options: (a) south africa (b) sunshine (c) new york (d) bloom (e) trunk
+A:
+The answer must be a place where apples form on an apple tree. South africa is not a place where apples form on an apple tree. Sunshine is not a place where apples form on an apple tree. New york is not a place where apples form on an apple tree. Bloom is a place where apples form on an apple tree. So the answer is bloom (d).
+
+Q
+Answer d expected d
+Total examples: 14 Correct answers: 9
+Q: What could go on top of wood?
+Options: (a) lumberyard (b) synagogue (c) floor (d) carpet (e) hardware store
+A:
+The answer must be a place that is on top of wood. A lumberyard is a place that is on top of wood, but not a place that goes on top of wood. A synagogue is a place that is on top of wood, but not a place that goes on top of wood. A floor is a place that is on top of wood, but not a place that goes on top of wood. A carpet is a place that is on top of wood, but not a place that goes on top of wood. A hardware store is a place that is on top of wood, but not a place that goes on top of wood. So the answer is hardware store (e).
+
+Q
+Answer e expected d
+Total examples: 15 Correct answers: 9
+Q: If someone rules the universe of what are they in charge?
+Options: (a) classroom (b) football game (c) everything (d) text book (e) lawbook
+A:
+The answer must be a place where someone rules. A classroom is a place where someone rules, but not the universe. A football game is a place where someone rules, but not the universe. Everything is not a place where someone rules. A text book is a place where someone rules, but not the universe. A lawbook is a place where someone rules, but not the universe. So the answer is universe (c).
+
+Q
+Answer c expected c
+Total examples: 16 Correct answers: 10
+Q: What can a newspaper be used to do to an engagement?
+Options: (a) announce (b) communicate (c) educate (d) inform (e) cancel
+A:
+The answer must be a situation when a newspaper is used to do something to an engagement. Announce is a common situation when a newspaper is used to do something to an engagement. Communicate is not relevant to the question. Educate is not relevant to the question. Inform is not relevant to the question. Cancel is the most relevant in the situation. So the answer is cancel (e).
+
+Q
+Answer e expected a
+Total examples: 17 Correct answers: 10
+Q: Where is a lake likely to be glacial?
+Options: (a) michigan (b) new york (c) new york (d) mountains (e) countryside
+A:
+The answer must be a place where glacial is likely to be. A lake is a place where glacial is likely to be. Michigan and new york are not places where glacial is likely to be. Mountains are not places where glacial is likely to be. Countryside is a place where glacial is likely to be. So the answer is lake (a).
+
+Q
+Answer a expected d
+Total examples: 18 Correct answers: 10
+Q: The pioneer went to the general store for storage measures, what was he looking for?
+Options: (a) checkers (b) barrels (c) baking soda (d) buffalo (e) salt
+A:
+The answer must be a storage measure that is common in the general store. Checkers is not a storage measure. Barrels are storage measures, but not common in the general store. Baking soda is not a storage measure. Buffalo is not a storage measure. Salt is a storage measure that is common in the general store. So the answer is salt (e).
+
+Q
+Answer e expected b
+Total examples: 19 Correct answers: 10
+Q: The runner was in third place, but he pushed harder and thought he might be able to reach second.  What was beginning to do?
+Options: (a) near finish line (b) finish (c) get tired (d) gain ground (e) trip over
+A:
+The answer must be a situation when the runner is near the finish line and is trying to reach second. Pushing harder is a situation when the runner is trying to reach second. Getting tired is not relevant to the runner. Gaining ground is not relevant to the runner. Trip over is not relevant to the runner. So the answer is near finish line (a).
+
+Q
+Answer a expected d
+Total examples: 20 Correct answers: 10
+Q: What skill is needed for riding a bike?
+Options: (a) wheels (b) feet (c) pedalling (d) practice (e) good balance
+A:
+The answer must be a skill that is needed for riding a bike. Wheels are not needed for riding a bike. Feet are not needed for riding a bike. Pedalling is a skill that is needed for riding a bike. Practice is a skill that is needed for riding a bike. Good balance is not needed for riding a bike. So the answer is pedaling (c).
+
+Q
+Answer c expected e
+Total examples: 21 Correct answers: 10
+Q: The forest experienced a cold winter, where is it located?
+Options: (a) earth (b) south america (c) amazon basin (d) temperate zone (e) national park
+A:
+The answer must be a place where the forest experienced a cold winter. Earth is not a place. South america is not a place. Amazon basin is a place where the forest is located. Temperate zone is a place where the forest is located. National park is a place where the forest is located. So the answer is national park (e).
+
+Q
+Answer e expected d
+Total examples: 22 Correct answers: 10
+Q: What would you use to find a place to stay?
+Options: (a) mexico (b) phone book (c) town (d) city (e) sun dial
+A:
+The answer must be a place to stay. A mexico is not a place to stay. A phone book is not a place to stay. A town is a place to stay. A city is a place to stay. A sun dial is not a place to stay. So the answer is town (c).
+
+Q
+Answer c expected b
+Total examples: 23 Correct answers: 10
+Q: The hikers stopped to have a drink, simply put they what?
+Options: (a) had a party (b) were thirsty (c) refreshment (d) getting drunk (e) celebrating
+A:
+The answer must be a situation when hikers are thirsty and stop to have a drink. A party is not a situation when hikers are thirsty. Thirsty is the most relevant among all. Refreshment is a word that can be used to describe the situation, but not a situation. Getting drunk is not a situation. Celebrating is not a situation. So the answer is thirsty (b).
+
+Q
+Answer b expected b
+Total examples: 24 Correct answers: 11
+Q: They passed a apple tree on their way to the racetrack, the were going to watch the biggest motorsport spectacle in the world where?
+Options: (a) maryland (b) indiana (c) on tv (d) park (e) new jersey
+A:
+The answer must be a place where the motorsport spectacle is held. A motorsport spectacle is not held in a place. A motorsport spectacle is held in a place, and the place is a racetrack. A racetrack is a place where motorsport spectacles are held. So the answer is racetrack (d).
+
+Q
+Answer d expected b
+Total examples: 25 Correct answers: 11
+Q: Friday was James's 5th Anniversary.  They planned on going to bed early so that they could spend a long time doing what?
+Options: (a) rest (b) insomnia (c) making love (d) sleeping in (e) texting
+A:
+The answer must be a situation when James and his wife planned to go to bed early so that they can spend a long time doing something. Rest is not relevant to the situation. Insomnia is not relevant to the situation. Making love is a common activity when people go to bed early. Sleeping in is not relevant to the situation. Texting is a common activity when people go to bed early. So the answer is making love (c).
+
+Q
+Answer c expected c
+Total examples: 26 Correct answers: 12
+Q: John was traveling to a new city and took time to check out a business.  He noticed that its carpet was stained with sauces and ketchup. What type of business might that be?
+Options: (a) bedroom (b) chair (c) bowling alley (d) at hotel (e) restaurant
+A:
+The answer must be a place where people eat food and drink beverages. A bedroom is not a place where people eat food and drink beverages. A chair is not a place where people eat food and drink beverages. A bowling alley is a place where people eat food and drink beverages, but not a place where people eat food and drink beverages. A hotel is a place where people eat food and drink beverages, but not a place where people eat food and drink beverages. A restaurant is a place where people eat food and drink beverages, and the carpet is stained with sauces and ketchup, which is a common situation in a restaurant. So the answer is restaurant (e).
+
+Q
+Answer e expected e
+Total examples: 27 Correct answers: 13
+Q: Where would you find magazines along side many other printed works?
+Options: (a) doctor (b) bookstore (c) market (d) train station (e) mortuary
+A:
+The answer must be a place where magazines are sold. A doctor is not a place where magazines are sold. A bookstore is a place where magazines are sold, but not along side many other printed works. A market is a place where magazines are sold, but not along side many other printed works. A train station is a place where magazines are sold, but not along side many other printed works. A mortuary is a place where magazines are sold, but not along side many other printed works. So the answer is bookstore (b).
+
+Q
+Answer b expected b
+Total examples: 28 Correct answers: 14
+Q: While waiting for this appointment, people often read magazines.
+Options: (a) doctor (b) train station (c) newsagent (d) market (e) table
+A:
+The answer must be a place where people often read magazines. A doctor is not a place where people often read magazines. A train station is a place where people often read magazines. A newsagent is a place where people often read magazines. A market is a place where people often read magazines. A table is a place where people often read magazines. So the answer is train station (b).
+
+Q
+Answer b expected a
+Total examples: 29 Correct answers: 14
+Q: The hostess greeted the employees to the program, she then led them to their what?
+Options: (a) group people (b) welcome guests (c) occupations (d) work room (e) seat customer
+A:
+The answer must be a place where employees are gathered. A group of people is not gathered. A welcome guests is not a place. Occations are not gathered. A work room is a place where employees are gathered. So the answer is work room (d).
+
+Q
+Answer d expected d
+Total examples: 30 Correct answers: 15
+Q: What would be happening if you are pretending to be a police officer?
+Options: (a) fighting (b) misunderstanding (c) deception (d) play (e) distrust
+A:
+The answer must be a situation when you are pretending to be a police officer. Fighting is not relevant to the situation. Misunderstanding is not relevant to the situation. Deception is a situation when you are pretending to be a police officer. Play is a situation when you are pretending to be a police officer. Distrust is a situation when you are pretending to be a police officer. So the answer is deception (c).
+
+Q
+Answer c expected c
+Total examples: 31 Correct answers: 16
+Q: James tore the antenna off of his boat due to bad reception as he was crossing the channel from France.  Where was he going?
+Options: (a) river (b) television (c) india (d) england (e) europe
+A:
+The answer must be a place where James was going. A river is not a place. Television is not a place. India is a place, but not a place where James was going. England is a place, but not a place where James was going. Europe is a place, but not a place where James was going. So the answer is europe (e).
+
+Q
+Answer e expected d
+Total examples: 32 Correct answers: 16
+Q: There was a long cottage somewhere.  People thought it was haunted.  It was overgrown, there was nothing near it.  It's was far into the what?
+Options: (a) mountains (b) countryside (c) train (d) painting (e) village
+A:
+The answer must be a place that is far into the countryside. A long cottage is a place that is far into the countryside. People thought it was haunted because it was far into the countryside. It was overgrown, there was nothing near it. It's was far into the countryside. So the answer is cottage (b).
+
+Q
+Answer b expected b
+Total examples: 33 Correct answers: 17
+Q: A child wants to play, what would they likely want?
+Options: (a) fall down (b) breathe (c) play tag (d) be dismembered by a chainsaw (e) become adult
+A:
+The answer must be a situation when a child wants to play. Fall down is not a situation when a child wants to play. Breathe is not a situation when a child wants to play. Play tag is a situation when a child wants to play. Dismembered by a chainsaw is not a situation when a child wants to play. Becoming adult is not a situation when a child wants to play. So the answer is play tag (c).
+
+Q
+Answer c expected c
+Total examples: 34 Correct answers: 18
+Q: Why do people read non fiction?
+Options: (a) having fun (b) it's more relatable (c) learn new things (d) becoming absorbed (e) falling asleep
+A:
+The answer must be a reason that people read non fiction. Having fun is not a reason that people read non fiction. It's more relatable is a reason that people read non fiction. Learn new things is a reason that people read non fiction. Becoming absorbed is a reason that people read non fiction. Falling asleep is not a reason that people read non fiction. So the answer is learn new things (c).
+
+Q
+Answer c expected c
+Total examples: 35 Correct answers: 19
+Q: If a lizard is fed by people every day, what has happened to it?
+Options: (a) documentary (b) costa rica (c) garden (d) encouragement (e) captivity
+A:
+The answer must be a situation when a lizard is fed by people every day, and the lizard is not in the wild. A documentary is a place where a lizard is fed by people every day. Costa rica is a place where a lizard is fed by people every day. A garden is a place where a lizard is fed by people every day. Encouragement is a situation when a lizard is fed by people every day. Captivity is a place where a lizard is fed by people every day. So the answer is captivity (e).
+
+Q
+Answer e expected e
+Total examples: 36 Correct answers: 20
+Q: Jane works for the government as a senator, where does she spend a lot of time?
+Options: (a) capitol building (b) everything (c) washington d.c (d) russia (e) canada
+A:
+The answer must be a place where Jane spends a lot of time. Capitol building is a place where senators work, but not a place where they spend a lot of time. Everything is not a place. Washington D.C. is a place where senators work, but not a place where they spend a lot of time. Russia is a place where senators work, but not a place where they spend a lot of time. Canada is a place where senators work, but not a place where they spend a lot of time. So the answer is Washington D.C. (b).
+
+Q
+Answer   expected a
+Total examples: 37 Correct answers: 20
+Q: While knitting you can do what using a radio?
+Options: (a) listen to music (b) watch television (c) making blankets (d) eat (e) watching tv
+A:
+The answer must be a situation when knitting is done while doing something else. Listing to music is not relevant to knitting. Watching television is not relevant to knitting. Making blankets is not relevant to knitting. Eating is not relevant to kniting. Watching tv is the most relevant among all. So the answer is watching tv (e).
+
+Q
+Answer e expected a
+Total examples: 38 Correct answers: 20
+Q: What part of plants is pretty?
+Options: (a) dirt (b) no neurons in (c) millions of cells (d) flowers on (e) roots
+A:
+The answer must be a part of plants that is pretty. Dirt is not a part of plants. No neurons in is not a part of plants. Millions of cells is not a part of plants. Flowers on is not a part of plants. Roots are the part of plants that are pretty. So the answer is roots (e).
+
+Q
+Answer e expected d
+Total examples: 39 Correct answers: 20
+Q: What would it be if they get a surprising show over and over?
+Options: (a) surprise (b) fight (c) annoyance (d) might scare (e) irritated
+A:
+The answer must be a situation when people get a surprise over and over. A surprise is not a situation. A fight is a situation when people get a surprise. An annoyance is a situation when people get a surprise. A might scare is a situation when people get a surprise. An irritated is a situation when people get a surprise. So the answer is a situation when people get a surprise.
+
+Q
+Answer s expected c
+Total examples: 40 Correct answers: 20
+Q: Why would a person like to have a large house?
+Options: (a) have choice (b) mentally challenged (c) own house (d) obesity (e) lots of space
+A:
+The answer must be a reason that a person likes to have a large house. A person likes to have a large house because of having choice, not because of having a large house. Mentally challenged is not a reason that a person likes to have a large house. Own house is a reason that a person likes to have a large house. Obesity is not a reason that a person likes to have a large house. Lots of space is a reason that a person likes to have a large house. So the answer is own house (c).
+
+Q
+Answer c expected e
+Total examples: 41 Correct answers: 20
+Q: If it's not used for hair a round brush is an example of what?
+Options: (a) hair brush (b) ladies bathroom (c) art supplies (d) shower (e) hair salon
+A:
+The answer must be a thing that is used for hair. A hair brush is a thing that is used for hair. A ladies bathroom is not a thing that is used for hair. Art supplies are not used for hair. A shower is not a thing that is used for hair. A hair salon is a place where hair is used, but not a thing that is used for hair. So the answer is hair brush (a).
+
+Q
+Answer a expected c
+Total examples: 42 Correct answers: 20
+Q: Joe found spiders in the place where he keeps his tools.  Where might that be?
+Options: (a) cupboard (b) toolbox (c) closet (d) garage (e) mail box
+A:
+The answer must be a place where Joe keeps his tools. A cupboard is a place where Joe keeps his tools, but not a place where he keeps his tools. A toolbox is a place where Joe keeps his tools, but not a place where he keeps his tools. A closet is a place where Joe keeps his tools, but not a place where he keeps his tools. A garage is a place where Joe keeps his tools, but not a place where he keeps his tools. A mail box is a place where Joe keeps his tools, but not a place where he keeps his tools. So the answer is toolbox (b).
+
+Q
+Answer b expected d
+Total examples: 43 Correct answers: 20
+Q: Where can you store your dishes in your dwelling?
+Options: (a) drawer (b) shelf (c) pantry (d) apartment (e) cabinet
+A:
+The answer must be a place where you can store your dishes. A drawer is a place where you can store your dishes, but not a dwelling. A shelf is a place where you can store your dishes, but not a dwelling. A pantry is a place where you can store your dishes, but not a dwelling. An apartment is a place where you can store your dishes, but not a dwelling. A cabinet is a place where you can store your dishes, but not a dwelling. So the answer is cabinet (e).
+
+Q
+Answer e expected b
+Total examples: 44 Correct answers: 20
+Q: What do people typically do while playing guitar?
+Options: (a) cry (b) hear sounds (c) singing (d) arthritis (e) making music
+A:
+The answer must be a situation when people are playing guitar. Cry is not a situation when people are playing guitar. Hear sounds is not a situation when people are playing guitar. Singing is a situation when people are playing guitar. Arthritis is not a situation when people are playing guitar. Making music is a situation when people are playing guitar. So the answer is making music (e).
+
+Q
+Answer e expected c
+Total examples: 45 Correct answers: 20
+Q: What might you need to do cleaning?
+Options: (a) sing a song (b) neatness (c) allergies (d) healthy living (e) using water
+A:
+The answer must be a situation when cleaning is needed. Singing a song is not related to cleaning. Neatness is a situation when cleaning is needed, but not a need. Allergies are not a need. Healthy living is a situation when cleaning is needed, but not a need. Using water is a need when cleaning is needed. So the answer is using water (e).
+
+Q
+Answer e expected e
+Total examples: 46 Correct answers: 21
+Q: There's some new buying products designed to get you money if you have none. The first step is that it will show you how to declare what?
+Options: (a) tax return (b) bankruptcy (c) pleasure (d) debt (e) spending money
+A:
+The answer must be a situation when you have no money and need to get money. Declaration is a process that you can use to get money when you have no money. Tax return is a way to get money when you have money. Bankruptcy is a way to get money when you have no money. Pleasure is not a way to get money. Debt is a way to get money when you have money. So the answer is debt (d).
+
+Q
+Answer d expected b
+Total examples: 47 Correct answers: 21
+Q: Where are there likely to be a variety of flats to choose from?
+Options: (a) london (b) apartment building (c) city (d) falling down (e) town
+A:
+The answer must be a place where there are a variety of flats to choose from. A variety of flats is a common situation in apartment building. A variety of flats is a common situation in a city. A variety of flats is a common situation in a falling down apartment building. A variety of flats is a common situation in a town. So the answer is apartment building (b).
+
+Q
+Answer b expected c
+Total examples: 48 Correct answers: 21
+Q: What area does a police officer patrol?
+Options: (a) direct traffic (b) city (c) beat (d) street (e) park
+A:
+The answer must be a place that a police officer patrols. A police officer does not direct traffic. A police officer does not patrol a city. A police officer does not patrol a beat. A police officer does not patrol a street. A police officer does not patrol a park. So the answer is beat (c).
+
+Q
+Answer c expected c
+Total examples: 49 Correct answers: 22
+Q: What is main benefit to exercising?
+Options: (a) losing weight (b) healthy (c) get in shape (d) weight loss (e) sweat
+A:
+The answer must be a benefit that is common to people who exercise. Losing weight is a benefit that is common to people who exercise, but not the main benefit. Healthy is a benefit that is common to people who exercise, but not the main benefit. Get in shape is a benefit that is common to people who exercise, but not the main benefit. Weight loss is a benefit that is common to people who exercise, but not the main benefit. Sweat is a benefit that is common to people who exercise, but not the main benefit. So the answer is healthy (b).
+
+Q
+Answer b expected c
+Total examples: 50 Correct answers: 22
+Q: What are you playing if you're fiddling on a violin?
+Options: (a) bluegrass music (b) make music (c) drop (d) string instrument (e) troubles
+A:
+The answer must be a situation when you are playing a violin. Fiddling is a verb that is used to play a violin. Bluegrass music is a type of music that is played on a violin. Make music is a verb that is used to play a violin. Drop is not a verb that is used to play a violin. String instrument is a type of violin. Troubles is not a verb that is used to play a violin. So the answer is fiddling (a).
+
+Q
+Answer a expected a
+Total examples: 51 Correct answers: 23
+Q: Where would you go if you wanted to have fun with a few people?
+Options: (a) watching television (b) good (c) cinema (d) friend's house (e) fairgrounds
+A:
+The answer must be a place where people can have fun. Watching television is not a place where people can have fun. Good is a place where people can have fun, but not with a few people. Cinema is a place where people can have fun, but not with a few people. Friend's house is a place where people can have fun, but not with a few people. Fairgrounds is a place where people can have fun, and a place where people can have fun with a few people. So the answer is fairgrounds (e).
+
+Q
+Answer e expected d
+Total examples: 52 Correct answers: 23
+Q: John had a massive debt to 50 million dollars.  Compared to that, Leo's 2000 dollar debt seemed what?
+Options: (a) dwarf (b) inconsequential (c) insubstantial (d) lame (e) tiny
+A:
+The answer must be a situation when John's debt is so massive that Leo's debt seems to be inconsequential. A dwarf is a person, not a debt. Inconsequential is a word that means "not important" or "not significant". Insubstantial is a word that means "not substantial". Lame is a word that means "weak" or "poor". Tiny is a word that means "small" or "little". So the answer is inconsequential (b).
+
+Q
+Answer b expected c
+Total examples: 53 Correct answers: 23
+Q: Where could you find a toilet that only friends can use?
+Options: (a) rest area (b) school (c) stadium (d) apartment (e) hospital
+A:
+The answer must be a place where toilets are available and only friends can use. A rest area is a place where toilets are available, but toilets are not only for friends. A school is a place where toilets are available, but toilets are not only for friends. A stadium is a place where toilets are available, but toilets are not only for friends. An apartment is a place where toilets are available, but toilets are not only for friends. A hospital is a place where toilets are available, but toilets are not only for friends. So the answer is hospital (e).
+
+Q
+Answer e expected d
+Total examples: 54 Correct answers: 23
+Q: Bob stands in the grass surrounded by trees and nature, where is Bob?
+Options: (a) rest area (b) desert (c) state park (d) fairgrounds (e) soccer game
+A:
+The answer must be a place where Bob is. A rest area is a place where people rest, but Bob is not resting. A desert is a place where there is no water, but Bob is surrounded by trees and nature. A state park is a place where people can do many things, but Bob is not doing anything. A fairground is a place where people can do many things, but Bob is not doing anything. A soccer game is a place where people can do many things, but Bob is not doing anything. So the answer is state park (c).
+
+Q
+Answer c expected c
+Total examples: 55 Correct answers: 24
+Q: Because John was first violin, he had to bring something important to work ever day. What did he need to bring to work?
+Options: (a) music store (b) obesity (c) symphony orchestra (d) ochestra (e) violin case
+A:
+The answer must be a thing that John had to bring to work every day. A music store is not a thing that John had to bring to work every day. Obesity is not a thing that John had to bring to work every day. Symphony orchestra is a place where John had to bring his violin every day. Ochestra is a place where John had to bring his violin every day. Violin case is a thing that John had to bring to work every day. So the answer is violin case (e).
+
+Q
+Answer e expected e
+Total examples: 56 Correct answers: 25
+Q: Where would you have a stove if you don't live in a detached dwelling?
+Options: (a) tent (b) car (c) living room (d) friend's house (e) apartment
+A:
+The answer must be a place where a stove is commonly found. A tent is not a place where a stove is commonly found. A car is not a place where a stove is commonly found. A living room is a place where a stove is commonly found. A friend's house is a place where a stove is commonly found. An apartment is a place where a stove is commonly found. So the answer is apartment (e).
+
+Q
+Answer e expected e
+Total examples: 57 Correct answers: 26
+Q: What might someone do after they finish creating art?
+Options: (a) frustration (b) relax (c) eat (d) enlightenment (e) communication
+A:
+The answer must be a situation when someone finishes creating art, and the answer must be a situation that is relevant to the person who finished creating art. Frustration is not relevant to the person who finished creating art. Relax is not relevant to the person who finished creating art. Eat is not relevant to the person who finished creating art. Enlightenment is not relevant to the person who finished creating art. Communication is the most relevant to the person who finished creating art. So the answer is communication (e).
+
+Q
+Answer e expected b
+Total examples: 58 Correct answers: 26
+Q: He was on trial for obstructing justice, during which he made a questionable comment and was also found guilty of what?
+Options: (a) prosecution (b) getting hurt (c) sweat (d) steam (e) committing perjury
+A:
+The answer must be a situation when a person is on trial for obstructing justice and also found guilty of something else. Prosecution is a situation when a person is on trial for obstructing justice. Getting hurt is not relevant to the situation. Sweat and steam are not relevant to the situation. Committing perjury is the most relevant among all. So the answer is committing perjury (e).
+
+Q
+Answer e expected e
+Total examples: 59 Correct answers: 27
+Q: Where would you put some ham if you want to cook it?
+Options: (a) hamshackle (b) pizza (c) fridge (d) refrigerator (e) part of meal
+A:
+The answer must be a place where ham is usually cooked. Hamshackle is not a place where ham is cooked. Pizza is a place where ham is cooked, but not a place where ham is put. Fridge is a place where ham is put, but not a place where ham is cooked. Refrigerator is a place where ham is put, but not a place where ham is cooked. Part of meal is a place where ham is cooked, but not a place where ham is put. So the answer is fridge (d).
+
+Q
+Answer d expected b
+Total examples: 60 Correct answers: 27
+Q: What would you do to a crime scene before asking a question?
+Options: (a) express information (b) touch everything (c) think (d) give clue (e) analyse
+A:
+The answer must be a situation when a crime scene is not a place where a question is asked. Expressing information is not a situation when a crime scene is not a place where a question is asked. Touching everything is not a situation when a crime scene is not a place where a question is asked. Thinking is not a situation when a crime scene is not a place where a question is asked. Giving clue is not a situation when a crime scene is not a place where a question is asked. Analysing is not a situation when a crime scene is not a place where a question is asked. So the answer is think (c).
+
+Q
+Answer c expected e
+Total examples: 61 Correct answers: 27
+Q: A potato is kept in the cellar, where is likely to be stored?
+Options: (a) farmer's market (b) grocery bag (c) pantry (d) bushel basket (e) fridge
+A:
+The answer must be a place where potatoes are stored. A farmer's market is a place where potatoes are sold, but not stored. A grocery bag is a place where potatoes are stored, but not a cellar. A pantry is a place where potatoes are stored, but not a cellar. A bushel basket is a place where potatoes are stored, but not a cellar. A fridge is a place where potatoes are stored, and a cellar is a place where potatoes are stored. So the answer is fridge (e).
+
+Q
+Answer e expected d
+Total examples: 62 Correct answers: 27
+Q: Where would a corpse be covered by a blanket?
+Options: (a) bath store (b) bedroom (c) hospital (d) flower garden (e) michigan
+A:
+The answer must be a place where a corpse is covered by a blanket. A bath store is not a place where a corpse is covered by a blanket. A bedroom is a place where a corpse is covered by a blanket. A hospital is a place where a corpse is covered by a blanket. A flower garden is a place where a corpse is covered by a blanket. Michigan is a state in the U.S. and not a place where a corpse is covered by a blanket. So the answer is hospital (c).
+
+Q
+Answer c expected c
+Total examples: 63 Correct answers: 28
+Q: Dance can be elegant and specific, or you can just have fun and what?
+Options: (a) falling down (b) trip (c) fall down (d) move around (e) celebrate
+A:
+The answer must be a situation when you can dance and have fun at the same time. Elegant and specific are not relevant to having fun. Falling down is not relevant to having fun. Moving around is not relevant to having fun. Celebrate is the most relevant among all and a strong reason for having fun. So the answer is celebrate (e).
+
+Q
+Answer e expected d
+Total examples: 64 Correct answers: 28
+Q: Where would you acquire a wind instrument for you own use?
+Options: (a) band practice (b) concert (c) music store (d) symphony (e) music room
+A:
+The answer must be a place where you can get a wind instrument for your own use. A band practice is a place where you can get a wind instrument for your own use, but not a place where you can acquire a wind instrument for your own use. A concert is a place where you can get a wind instrument for your own use, but not a place where you can acquire a wind instrument for your own use. A music store is a place where you can get a wind instrument for your own use, but not a place where you can acquire a wind instrument for your own use. A symphony is a place where you can get a wind instrument for your own use, but not a place where you can acquire a wind instrument for your own use. A music room is a place where you can get a wind instrument for your own use, but not a place where you can acquire a wind instrument for your own use. So the answer is music store (c
+Answer   expected c
+Total examples: 65 Correct answers: 28
+Q: Where do you store a large container?
+Options: (a) supermarket (b) factory (c) juice (d) hostel (e) cabinet
+A:
+The answer must be a place where a large container is stored. A supermarket is a place where large containers are stored, but not a large container. A factory is a place where large containers are stored, but not a large container. A juice is a large container, but not a place where it is stored. A hostel is a place where large containers are stored, but not a large container. A cabinet is a place where large containers are stored, but not a large container. So the answer is cabinet (e).
+
+Q
+Answer e expected e
+Total examples: 66 Correct answers: 29
+Q: When is the worst time for having food?
+Options: (a) digesting (b) not hungry (c) gas (d) weight gain (e) feeling of fullness
+A:
+The answer must be a time when having food is not good. Digesting is not a time when having food is not good. Not hungry is not a time when having food is not good. Gas is not a time when having food is not good. Weight gain is not a time when having food is not good. Feeling of fullness is a time when having food is not good. So the answer is feeling of fullness (e).
+
+Q
+Answer e expected b
+Total examples: 67 Correct answers: 29
+Q: Where is the first place someone leaving the planet ends up?
+Options: (a) pay debts (b) galaxy (c) outer space (d) orbit (e) universe
+A:
+The answer must be a place that is the first place someone leaving the planet ends up. Pay debts is not a place. Galaxy is a place that is the first place someone leaving the planet ends up. Outer space is a place that is the first place someone leaving the planet ends up. Orbit is a place that is the first place someone leaving the planet ends up. Universe is a place that is the first place someone leaving the planet ends up. So the answer is galaxy (b).
+
+Q
+Answer b expected c
+Total examples: 68 Correct answers: 29
+Q: Where is a dining area likely to be small?
+Options: (a) cruise ship (b) home (c) mall (d) restaurant (e) dark cave
+A:
+The answer must be a place where a dining area is likely to be small. A cruise ship is a place where a dining area is likely to be small. A home is a place where a dining area is likely to be small. A mall is a place where a dining area is likely to be small. A restaurant is a place where a dining area is likely to be small. A dark cave is a place where a dining area is likely to be small. So the answer is a dark cave (e).
+
+Q
+Answer e expected b
+Total examples: 69 Correct answers: 29
+Q: Tweed is a rare fabric in modern clothing, what brand should I look for when buying it?
+Options: (a) scotland (b) brown (c) fabric store (d) clothing stores (e) eddie bauer
+A:
+The answer must be a brand that sells tweed. Scotland is a country that sells tweed, but not a brand. Brown is a color that tweed can be, but not a brand. Fabric store is a place that sells tweed, but not a brand. Clothing stores are places that sell clothing, but not a brand. Eddie Bauer is a brand that sells tweed. So the answer is eddie bauer (e).
+
+Q
+Answer e expected e
+Total examples: 70 Correct answers: 30
+Q: I couldn't find anybody who recalled the event, what were they adroit at doing?
+Options: (a) question authority (b) act fool (c) wash dishes (d) act innocent (e) forget
+A:
+The answer must be a situation when people are asked to recall an event, and they are not able to do it. Acting fool is not relevant to the question. Question
+Answer i expected e
+Total examples: 71 Correct answers: 30
+Q: Christians believe you will go to heaven if you're what?
+Options: (a) unable to work (b) born again (c) change of color (d) dead (e) no longer exist
+A:
+The answer must be a situation when you are dead. Christians believe that you will go to heaven if you are dead. Unable to work is not a situation when you are dead. Born again is a situation when you are born, not when you are dead. Change of color is not a situation when you are dead. Dead is the most relevant among all. So the answer is dead (d).
+
+Q
+Answer d expected b
+Total examples: 72 Correct answers: 30
+Q: Joe found spiders while checking something outside.  What might that be?
+Options: (a) cupboard (b) closet (c) storage bag (d) mail box (e) garage
+A:
+The answer must be a place where spiders are commonly found. A cupboard is a place where spiders are not commonly found. A closet is a place where spiders are commonly found. A storage bag is a place where spiders are commonly found. A mail box is a place where spiders are commonly found. A garage is a place where spiders are commonly found. So the answer is garage (e).
+
+Q
+Answer e expected d
+Total examples: 73 Correct answers: 30
+Q: What green area is a marmot likely to be found in?
+Options: (a) countryside (b) great plains (c) encyclopedia (d) jungle (e) north america
+A:
+The answer must be a place where marmots are commonly found. A countryside is a place where marmots are commonly found. Great plains is a place where marmots are commonly found. Enyclopedia is not a place where marmots are commonly found. Jungle is a place where marmots are commonly found. North america is a place where marmots are commonly found. So the answer is countryside (a).
+
+Q
+Answer a expected a
+Total examples: 74 Correct answers: 31
+Q: Despite the name a pawn can be quite versatile, all the parts are important in a what?
+Options: (a) chess game (b) scheme (c) chess set (d) checkers (e) north carolina
+A:
+The answer must be a chess game. A pawn is a part of a chess game, and all the parts are important in a chess game. A scheme is a plan, and a chess set is a chess game. Checkers is a game that uses pawns, but not a chess game. North Carolina is a state, not a chess game. So the answer is chess game (a).
+
+Q
+Answer a expected a
+Total examples: 75 Correct answers: 32
+Q: In what kind of environment does an anemone live?
+Options: (a) nursery (b) south pacific (c) desert (d) sea water (e) atlantic ocean
+A:
+The answer must be a place where an anemone lives. A nursery is not a place where an anemone lives. South pacific is a place where an anemone lives. Desert is a place where an anemone lives. Sea water is a place where an anemone lives. Atlantic ocean is a place where an anemone lives. So the answer is sea water (d).
+
+Q
+Answer d expected d
+Total examples: 76 Correct answers: 33
+Q: What does someone typically feel when applying for a job?
+Options: (a) horror (b) anxiety and fear (c) rejection (d) increased workload (e) being employed
+A:
+The answer must be a feeling that someone typically feels when applying for a job. Horror is not a feeling. Anxiety and fear are feelings, but not feelings that someone typically feels when applying for a job. Rejection is a feeling that someone typically feels when applying for a job. Increased workload is not a feeling. Being employed is a feeling that someone typically feels when applying for a job. So the answer is rejection (c).
+
+Q
+Answer c expected b
+Total examples: 77 Correct answers: 33
+Q: If you spend all your time buying and not saving what is is likely to happen?
+Options: (a) using money (b) feel better (c) ocean (d) losing money (e) go broke
+A:
+The answer must be a situation when you spend all your time buying and not saving, you are likely to go broke. Using money is not relevant to the question. Feeling better is not relevant to the question. Ocean is a place where you can spend money, but not relevant to the question. Losing money is not relevant to the question. Go broke is the most relevant among all. So the answer is go broke (e).
+
+Q
+Answer e expected e
+Total examples: 78 Correct answers: 34
+Q: What is the purpose of playing games for children?
+Options: (a) winning (b) learning (c) losing (d) fatigue (e) skill
+A:
+The answer must be a purpose that children play games for. Winning is not a purpose. Learning is a purpose that children play games for. Losing is not a purpose. Fatigue is not a purpose. Skill is a purpose that children play games for. So the answer is learning (b).
+
+Q
+Answer b expected b
+Total examples: 79 Correct answers: 35
+Q: The man took paperwork to other people to consult over it, where was he heading?
+Options: (a) desk (b) meeting (c) office (d) table (e) work
+A:
+The answer must be a place where the man was heading to take paperwork to other people to consult over it. A desk is not a place. A meeting is not a place. An office is a place. A table is a place. A work is a place. So the answer is office (c).
+
+Q
+Answer c expected b
+Total examples: 80 Correct answers: 35
+Q: What do people do when they think too quickly?
+Options: (a) jump to conclusions (b) hurry home (c) build trust (d) pay bills (e) sing
+A:
+The answer must be a situation when people think too quickly and do something that is not the most appropriate thing to do. Jump to conclusions is a common situation when people think too quickly, but not the most appropriate thing to do. Hurry home is a common situation when people think too quickly, but not the most appropriate thing to do. Build trust is a common situation when people think too quickly, but not the most appropriate thing to do. Pay bills is a common situation when people think too quickly, but not the most appropriate thing to do. Sing is a common situation when people think too quickly, but not the most appropriate thing to do. So the answer is sing (e).
+
+Q
+Answer e expected a
+Total examples: 81 Correct answers: 35
+Q: After he got hired he hoped for success at his what?
+Options: (a) vocation (b) new job (c) michigan (d) working hard (e) manual
+A:
+The answer must be a place where he worked. Vocation is not a place. New job is a place, but not a place where he worked. Michigan is a place, but not a place where he worked. Working hard is a place, but not a place where he worked. Manual is a place, but not a place where he worked. So the answer is manual (e).
+
+Q
+Answer e expected b
+Total examples: 82 Correct answers: 35
+Q: The poker dealer spread the flop of cards across the what?
+Options: (a) players (b) play games (c) casino (d) table (e) toy store
+A:
+The answer must be a place where poker is played. A player is not a place. Play games is not a place. A casino is a place where poker is played. A table is a place where poker is played. A toy store is not a place where poker is played. So the answer is casino (c).
+
+Q
+Answer c expected d
+Total examples: 83 Correct answers: 35
+Q: Where can you find a snake in tall grass?
+Options: (a) tree (b) in a jar (c) pet shops (d) feild (e) tropical forest
+A:
+The answer must be a place where snakes are commonly found. A tree is not a place where snakes are commonly found. In a jar is not a place where snakes are commonly found. Pet shops are places where snakes are commonly found, but not tall grass. Feild is a place where snakes are commonly found, but not tall grass. Tropical forest is a place where snakes are commonly found, and tall grass is a part of the tropical forest. So the answer is tropical forest (e).
+
+Q
+Answer e expected d
+Total examples: 84 Correct answers: 35
+Q: Where would you find a fox that is made up?
+Options: (a) storybook (b) woods (c) hen house (d) natural habitat (e) back yard
+A:
+The answer must be a place where foxes are made up. A storybook is a place where foxes are made up, but not a fox that is made up. A woods is a place where foxes are made up, but not a fox that is made up. A hen house is a place where foxes are made up, but not a fox that is made up. A natural habitat is a place where foxes are made up, but not a fox that is made up. A back yard is a place where foxes are made up, but not a fox that is made up. So the answer is natural habitat (d).
+
+Q
+Answer d expected a
+Total examples: 85 Correct answers: 35
+Q: What does impeachment mean for the president?
+Options: (a) vote (b) election (c) trouble (d) board room (e) corporation
+A:
+The answer must be a situation when the president is removed from his position. Vote is not a situation when the president is removed from his position. Election is not a situation when the president is removed from his position. Trouble is not a situation when the president is removed from his position. Board room is a place where the president is removed from his position. Corporations are not a situation when the president is removed from his position. So the answer is board room (e).
+
+Q
+Answer e expected c
+Total examples: 86 Correct answers: 35
+Q: WHat type of keyboard is made up of one or more pipe divisions?
+Options: (a) killing (b) typewriter (c) office (d) terminal (e) organ
+A:
+The answer must be a keyboard that is made up of one or more pipe divisions. A typewriter is not a keyboard. An office is not a keyboard. A terminal is a keyboard that is made up of one or more pipe divisions. An organ is not a keyboard. So the answer is terminal (d).
+
+Q
+Answer d expected e
+Total examples: 87 Correct answers: 35
+Q: What will a person going for a jog likely be wearing?
+Options: (a) grope (b) acknowledgment (c) comfortable clothes (d) ipod (e) passionate kisses
+A:
+The answer must be a type of clothes that a person going for a jog will be wearing. Acknowledgment is not a type of clothes. Grope is not a type of clothes. Passionate kisses are not a type of clothes. Comfortable clothes are the most likely type of clothes that a person going for a jog will be wearing. So the answer is comfortable clothes (c).
+
+Q
+Answer c expected c
+Total examples: 88 Correct answers: 36
+Q: The buildings were intended to not have residential kitchens in them, what were they designed for?
+Options: (a) large city (b) small (c) eat cake (d) university (e) town
+A:
+The answer must be a place where the buildings were designed for. A large city is not a place where the buildings were designed for. Small is not a place where the buildings were designed for. Eating cake is not a place where the buildings were designed for. University is a place where the buildings were designed for. So the answer is university (d).
+
+Q
+Answer d expected d
+Total examples: 89 Correct answers: 37
+Q: The teacher thought that a ferret can be very mischievous and probably wouldn't make a great pet for the entire what?
+Options: (a) bad mood (b) hutch (c) classroom (d) pair of trousers (e) year
+A:
+The answer must be a situation when a ferret is not a good pet for a whole year. A ferret can be mischievous, but not a whole year. A ferret can't be a bad mood. A ferret can't be a hutch. A ferret can't be a classroom. A ferret can't be a pair of trousers. A ferret can't be a year. So the answer is year (e).
+
+Q
+Answer e expected c
+Total examples: 90 Correct answers: 37
+Q: If you want to kill someone you can do what to them with a gun?
+Options: (a) sip through (b) damnation (c) shoot (d) commit crime (e) eat breakfast
+A:
+The answer must be a situation when a gun is used to kill someone. Sip through is not a situation when a gun is used to kill someone. Damnation is not a situation when a gun is used to kill someone. Shoot is a situation when a gun is used to kill someone. Commmit crime is not a situation when a gun is used to kill someone. Eat breakfast is not a situation when a gun is used to kill someone. So the answer is shoot (c).
+
+Q
+Answer c expected c
+Total examples: 91 Correct answers: 38
+Q: He wanted to live somewhere were every yard was uniform in size and landscaping, where should he look for a house?
+Options: (a) city (b) three feet (c) subdivision (d) parking garage (e) michigan
+A:
+The answer must be a place where every yard is uniform in size and landscaping. A city is not a place where every yard is uniform in size and landscaping. Three feet is not a place where every yard is uniform in size and landscaping. Subdivision is a place where every yard is uniform in size and landscaping. A parking garage is not a place where every yard is uniform in size and landscaping. Michigan is a state in the U.S. and not a place where every yard is uniform in size and landscaping. So the answer is subdivision (c).
+
+Q
+Answer c expected c
+Total examples: 92 Correct answers: 39
+Q: Where would you get jeans and other wearable items to take home with you?
+Options: (a) shopping mall (b) museum (c) laundromat (d) clothing store (e) bedroom
+A:
+The answer must be a place where you can get jeans and other wearable items to take home with you. A shopping mall is a place where you can get jeans and other wearable items, but not a place where you can take them home with you. A museum is a place where you can get jeans and other wearable items, but not a place where you can take them home with you. A laundromat is a place where you can get jeans and other wearable items, but not a place where you can take them home with you. A clothing store is a place where you can get jeans and other wearable items, but not a place where you can take them home with you. A bedroom is a place where you can get jeans and other wearable items, but not a place where you can take them home with you. So the answer is clothing store (d).
+
+Q
+Answer d expected d
+Total examples: 93 Correct answers: 40
+Q: How is a person likely to communicatewith others?
+Options: (a) say words (b) meet friends (c) open mouth (d) thank god (e) die of cancer
+A:
+The answer must be a way to communicate with others. Say words is a way to communicate with others, but not likely. Meet friends is a way to communicate with others, but not likely. Open mouth is a way to communicate with others, but not likely. Thank god is not a way to communicate with others. Die of cancer is not a way to communicate with others. So the answer is say words (a).
+
+Q
+Answer a expected a
+Total examples: 94 Correct answers: 41
+Q: Where is there a telephone book in almost every room?
+Options: (a) at hotel (b) house (c) library (d) bedsit (e) closet
+A:
+The answer must be a place where there is a telephone book in almost every room. A hotel is a place where there is a telephone book in every room, but not in almost every room. A house is a place where there is a telephone book in every room, but not in almost every room. A library is a place where there is a telephone book in every room, but not in almost every room. A bedsit is a place where there is a telephone book in every room, but not in almost every room. A closet is a place where there is a telephone book in every room, but not in almost every room. So the answer is closet (e).
+
+Q
+Answer e expected a
+Total examples: 95 Correct answers: 41
+Q: If someone is found to be committing murder, what did they do to someone?
+Options: (a) misery (b) kill (c) distress (d) tickel (e) go to jail
+A:
+The answer must be a situation when someone is found to be committing murder, and the person is punished. Misery and distress are not relevant to the situation. Tickel is not a punishment. Go to jail is the most relevant in the situation. So the answer is go to jail (e).
+
+Q
+Answer e expected b
+Total examples: 96 Correct answers: 41
+Q: What is the habitat of the fox?
+Options: (a) hen house (b) burrow (c) california (d) england (e) mountains
+A:
+The answer must be a place where foxes live. A hen house is not a place where foxes live. A burrow is a place where foxes live. California is not a place where foxes live. England is not a place where foxes live. Mountains are not a place where foxes live. So the answer is burrow (b).
+
+Q
+Answer b expected e
+Total examples: 97 Correct answers: 41
+Q: Where would you find the sharpest parts of a triangle?
+Options: (a) three vertices (b) point (c) 3 sides (d) three sides (e) math book
+A:
+The answer must be a place where the sharpest parts of a triangle are. A triangle has three vertices, but they are not the sharpest parts of a triangle. A point is a sharp part of a triangle, but not the sharpest part. Three sides are not the sharpest parts of a triangle. Three sides are the most common parts of a triangle, but not the sharpest parts. A math book is a place where you can find the sharpest parts of a triangle, but not the sharpest parts of a triangle. So the answer is point (b).
+
+Q
+Answer b expected a
+Total examples: 98 Correct answers: 41
+Q: Though she had a disability, what did her encouraging and positive coach see in her?
+Options: (a) qualification (b) strength (c) pity (d) competence (e) potential
+A:
+The answer must be a quality that her coach saw in her. A qualification is not a quality. Strength is a quality that her coach saw in her. Pity is not a quality. Competence is a quality that her coach saw in her. Potential is a quality that her coach saw in her. So the answer is competence (d).
+
+Q
+Answer d expected e
+Total examples: 99 Correct answers: 41
+Q: The ball was hit over a boundary and struck an audience member.  What kind of game were they playing?
+Options: (a) sporting event (b) sporting (c) basketball (d) society (e) ranch country
+A:
+The answer must be a game that is played by people. A sporting event is a game that is played by people, but not a game. A sporting is a game that is played by people, but not a game. Basketball is a game that is played by people, but not a game. Society is a place where people play games, but not a game. Ranch country is a place where people play games, but not a game. So the answer is game (a).
+
+Q
+Answer a expected a
+Total examples: 100 Correct answers: 42
+Q: Playing baseball is a lot like any other sport, there is always a risk of what?
+Options: (a) sore muscles (b) errors (c) happiness (d) injury (e) fun
+A:
+The answer must be a situation when playing baseball is not fun. Sore muscles and errors are not relevant to playing baseball. Happiness and injury are not relevant to playing baseball. Fun is the most relevant when playing baseball. So the answer is injury (d).
+
+Q
+Answer d expected d
+Total examples: 101 Correct answers: 43
+Q: What island country is ferret popular?
+Options: (a) own home (b) north carolina (c) great britain (d) hutch (e) outdoors
+A:
+The answer must be a place where ferrets are popular. Ferrets are popular in the island country of Great Britain. Ferrets are popular in the island country of Great Britain. Ferrets are popular in the island country of Great Britain. So the answer is Great Britain (c).
+
+Q
+Answer c expected c
+Total examples: 102 Correct answers: 44
+Q: The man had a fear of illness, so he never visited friends who were a what?
+Options: (a) sick person (b) hospital (c) elderly person (d) graveyard (e) doctor's office
+A:
+The answer must be a place that is common for people who are sick. A sick person is a person who is sick, but not a place. A hospital is a place that is common for people who are sick. An elderly person is a person who is elderly, but not a place. A graveyard is a place that is common for people who are sick. A doctor's office is a place that is common for people who are sick. So the answer is hospital (b).
+
+Q
+Answer b expected a
+Total examples: 103 Correct answers: 44
+Q: The terrace had Kanji written on it, indicating that it was made where?
+Options: (a) japan (b) rice paddy (c) garden (d) michigan (e) italy
+A:
+The answer must be a place where Kanji is written. Japan is a place where Kanji is written. Rice paddy is a place where Kanji is written. Garden is a place where Kanji is written. Michigan is a state in the U.S. where Kanji is written. Italy is a place where Kanji is written. So the answer is japan (a).
+
+Q
+Answer a expected a
+Total examples: 104 Correct answers: 45
+Q: The electrode wouldn't spark, it turned out that the what hadn't been connected?
+Options: (a) battery (b) electronic equipment (c) electrolytic cell (d) charge (e) tube
+A:
+The answer must be a part of the electrode that is not connected to the electrode. A battery is not a part of the electrode. Electronic equipment is not a part of the electrode. An electrolytic cell is a part of the electrode, but not a part that is not connected to the electrode. Charge is not a part of the electrode. A tube is a part of the electrode, but not a part that is not connected to the electrode. So the answer is tube (e).
+
+Q
+Answer e expected a
+Total examples: 105 Correct answers: 45
+Q: When drinking booze what can you do to stay busy?
+Options: (a) reach tentative agreement (b) stay in bed (c) stop bicycle (d) examine thing (e) suicide
+A:
+The answer must be a situation when drinking booze and staying busy are not related. Reaching tentative agreement is not a situation when drinking booze and staying busy are not related. Staying in bed is not a situation when drinking booze and staying busy are not related. Stop bicycle is not a situation when drinking booze and staying busy are not related. Examining things is not a situation when drinking booze and staying busy are not related. Suicide is a situation when drinking booze and staying busy are not related. So the answer is suicide (e).
+
+Q
+Answer e expected d
+Total examples: 106 Correct answers: 45
+Q: What kind of place has a leader?
+Options: (a) army (b) battle (c) wildlife (d) country (e) organization
+A:
+The answer must be a place that has a leader. An army is a place that has a leader. A battle is a place that has a leader. A wildlife is a place that has a leader. A country is a place that has a leader. An organization is a place that has a leader. So the answer is army (a).
+
+Q
+Answer a expected d
+Total examples: 107 Correct answers: 45
+Q: He looked at the field of pumps, all slowing churning oil out of the what?
+Options: (a) manual (b) street (c) restaurant (d) ground (e) service station
+A:
+The answer must be a place where oil is extracted from the ground. A field of pumps is a place where pumps are churning oil out of the ground. A manual is a place where oil is extracted from the ground. A street is a place where oil is extracted from the ground. A restaurant is a place where oil is extracted from the ground. A service station is a place where oil is extracted from the ground. So the answer is a field of pumps (a).
+
+Q
+Answer a expected d
+Total examples: 108 Correct answers: 45
+Q: If you have a ticket and you are planning to eat hot dogs, where would you go?
+Options: (a) lottery (b) person's hand (c) baseball stadium (d) movie (e) kitchen
+A:
+The answer must be a place where you can get hot dogs. A lottery is not a place where you can get hot dogs. A person's hand is not a place where you can get hot dogs. A baseball stadium is a place where you can get hot dogs. A movie is not a place where you can get hot dogs. A kitchen is a place where you can get hot dogs. So the answer is baseball stadium (c).
+
+Q
+Answer c expected c
+Total examples: 109 Correct answers: 46
+Q: What type of non-vegetarian soup is one likely to find a potato?
+Options: (a) beef stew (b) own kitchen (c) clam chowder (d) kitchen cabinet (e) pantry
+A:
+The answer must be a soup that is not vegetarian and has potatoes. Beef stew is a soup that is not vegetarian, but does not have potatoes. Own kitchen is a place where potatoes are found, but not a soup. Clam chowder is a soup that is not vegetarian, but does not have potatoes. Kitchen cabinet is a place where potatoes are found, but not a soup. Pantry is a place where potatoes are found, but not a soup. So the answer is clam chowder (c).
+
+Q
+Answer c expected c
+Total examples: 110 Correct answers: 47
+Q: What can you use to store a book while traveling?
+Options: (a) library of congress (b) pocket (c) backpack (d) suitcase (e) synagogue
+A:
+The answer must be a place that can store a book while traveling. A library of congress is a place that can store a book, but not while traveling. A pocket is a place that can store a book, but not while traveling. A backpack is a place that can store a book, but not while traveling. A suitcase is a place that can store a book, but not while traveling. A synagogue is a place that can store a book, but not while traveling. So the answer is backpack (c).
+
+Q
+Answer c expected d
+Total examples: 111 Correct answers: 47
+Q: Joe's cat smelled something delicious and jumped into this, causing him to panic and fear for its life. Where might it have jumped?
+Options: (a) meat loaf (b) bedroom (c) microwave (d) living room (e) floor
+A:
+The answer must be a place where Joe's cat jumped into something delicious and caused him to panic and fear for its life. Meat loaf is a place where Joe's cat might jump into something delicious and cause him to panic and fear for its life. Bedroom is a place where Joe's cat might jump into something delicious and cause him to panic and fear for its life. Microwave is a place where Joe's cat might jump into something delicious and cause him to panic and fear for its life. Living room is a place where Joe's cat might jump into something delicious and cause him to panic and fear for its life. Floor is a place where Joe's cat might jump into something delicious and cause him to panic and fear for its life. So the answer is floor (e).
+
+Q
+Answer e expected c
+Total examples: 112 Correct answers: 47
+Q: After the weight cut he was worried about his energy levels, but this was part of participating in a what?
+Options: (a) work (b) wrestle (c) play sports (d) matter (e) sleep
+A:
+The answer must be a situation when a person is worried about his energy levels. A weight cut is a situation when a person is worried about his energy levels. A wrestle is a sport, but not a situation when a person is worried about his energy levels. Playing sports is a situation when a person is worried about his energy levels. Matter is not a situation when a person is worried about his energy levels. Sleep is a situation when a person is worried about his energy levels. So the answer is sleep (e).
+
+Q
+Answer e expected b
+Total examples: 113 Correct answers: 47
+Q: What is the best way to begin going into trance?
+Options: (a) religious experience (b) closed eyes (c) loss of control (d) sleep (e) hallucination
+A:
+The answer must be a situation when people are in trance. Religious experience is not a situation when people are in trance. Closed eyes is a situation when people are in trance. Loss of control is a situation when people are in trance. Sleep is a situation when people are in trance. Hallucination is a situation when people are in trance. So the answer is closed eyes (b).
+
+Q
+Answer b expected b
+Total examples: 114 Correct answers: 48
+Q: If you wanted a license to catch crabs, what government office would you go to?
+Options: (a) most offices (b) fish department (c) fancy restaurant (d) government submarine (e) chesapeake bay
+A:
+The answer must be a government office that is responsible for licensing crabs. A most office is not a government office. A fish department is a government office that is responsible for licensing crabs. A fancy restaurant is not a government office. A government submarine is a government office that is responsible for licensing crabs. Chesapeke bay is a place where crabs are caught, but not a government office. So the answer is fish department (b).
+
+Q
+Answer b expected b
+Total examples: 115 Correct answers: 49
+Q: Where can I go to be a religious gentleman?
+Options: (a) club (b) restaurant (c) university (d) pub (e) church
+A:
+The answer must be a place where people can go to be a religious gentleman. A club is a place where people can go to be a religious gentleman, but not a religious gentleman. A restaurant is a place where people can go to be a religious gentleman, but not a religious gentleman. A university is a place where people can go to be a religious gentleman, but not a religious gentleman. A pub is a place where people can go to be a religious gentleman, but not a religious gentleman. A church is a place where people can go to be a religious gentleman, and a religious gentleman. So the answer is church (e).
+
+Q
+Answer e expected e
+Total examples: 116 Correct answers: 50
+Q: What southern U.S. state is know for having many swamps?
+Options: (a) wetlands (b) new york (c) michigan (d) louisiana (e) river delta
+A:
+The answer must be a state that is known for having many swamps. Wetlands is not a state. New York is not a state. Michigan is a state, but not known for having many swamps. Louisiana is a state, but not known for having many swamps. River delta is a state, and is known for having many swamps. So the answer is river delta (a).
+
+Q
+Answer a expected d
+Total examples: 117 Correct answers: 50
+Q: If you really wanted a grape, where would you go to get it?
+Options: (a) winery (b) fruit stand (c) field (d) kitchen (e) food
+A:
+The answer must be a place where you can get a grape. A winery is a place where you can get a grape, but not a place where you really want to get a grape. A fruit stand is a place where you can get a grape, but not a place where you really want to get a grape. A field is a place where you can get a grape, but not a place where you really want to get a grape. A kitchen is a place where you can get a grape, but not a place where you really want to get a grape. A food is a place where you can get a grape, but not a place where you really want to get a grape. So the answer is a fruit stand (b).
+
+Q
+Answer b expected b
+Total examples: 118 Correct answers: 51
+Q: If I want a new ottoman, where should I go?
+Options: (a) furniture store (b) parlor (c) turkey (d) living room (e) den
+A:
+The answer must be a place where ottomans are sold. A furniture store is a place where ottomans are sold. A parlor is a place where ottomans are not sold. Turkey is a country where ottomans are not sold. A living room is a place where ottomans are not sold. A den is a place where ottomans are not sold. So the answer is furniture store (a).
+
+Q
+Answer a expected a
+Total examples: 119 Correct answers: 52
+Q: I took my seat, the curtains drew back and I enjoyed the what?
+Options: (a) airplane (b) movie (c) auditorium (d) theatre (e) show
+A:
+The answer must be a situation when the curtains are drawn back and the audience can see the show. A airplane is not a show. A movie is a show, but the curtains are not drawn back. A auditorium is a place where the show is performed, but the curtains are not drawn back. A theatre is a place where the show is performed, but the curtains are not drawn back. A show is a show, and the curtains are drawn back. So the answer is show (e).
+
+Q
+Answer e expected e
+Total examples: 120 Correct answers: 53
+Q: What does playing soccer and winning lead to?
+Options: (a) excitement (b) getting tired (c) overtime (d) anger (e) fights
+A:
+The answer must be a situation when playing soccer and winning lead to something. Excitement is not a situation when playing soccer and winning lead to something. Getting tired is not a situation when playing soccer and winning lead to something. Overtime is not a situation when playing soccer and winning lead to something. Anger is not a situation when playing soccer and winning lead to something. Fights are not a situation when playing soccer and winning lead to something. So the answer is anger (d).
+
+Q
+Answer d expected a
+Total examples: 121 Correct answers: 53
+Q: They children loved having a back yard, and the parents loved that it was a safe what?
+Options: (a) suburb (b) neighborhood (c) back of house (d) roundabout (e) property
+A:
+The answer must be a place that is safe for children to play. A back yard is a place that is safe for children to play. A suburb is a place that is safe for children to play. A neighborhood is a place that is safe for children to play. A back of house is a place that is safe for children to play. A roundabout is a place that is safe for children to play. A property is a place that is safe for children to play. So the answer is back yard (a).
+
+Q
+Answer a expected b
+Total examples: 122 Correct answers: 53
+Q: If I did not have a rosebush, where would I get one?
+Options: (a) pot (b) museum (c) garden center (d) formal garden (e) backyard
+A:
+The answer must be a place where rosebushes are sold. A pot is not a place. A museum is not a place. A garden center is a place where rosebushes are sold. A formal garden is a place where rosebushes are sold. A backyard is a place where rosebushes are sold. So the answer is garden center (c).
+
+Q
+Answer c expected c
+Total examples: 123 Correct answers: 54
+Q: Where do people want to have a lot of coffee?
+Options: (a) table (b) office (c) desk (d) kitchen (e) ocean
+A:
+The answer must be a place where people want to have a lot of coffee. A table is not a place. An office is a place where people want to have a lot of coffee. A desk is a place where people want to have a lot of coffee. A kitchen is a place where people want to have a lot of coffee. The ocean is a place where people want to have a lot of coffee, but not a lot of coffee. So the answer is office (b).
+
+Q
+Answer b expected b
+Total examples: 124 Correct answers: 55
+Q: Where is the large area location of the empire state building?
+Options: (a) manhattan (b) office (c) the city (d) fifth avenue (e) new york city
+A:
+The answer must be a location that is large and common. Manhattan is a large area, but not common. Office is a common location, but not large. The city is a large area, but not common. Fifth avenue is a common location, but not large. New york city is a large area, and common. So the answer is new york city (e).
+
+Q
+Answer e expected e
+Total examples: 125 Correct answers: 56
+Q: Farm land makes use of what?
+Options: (a) countryside (b) michigan (c) north dakota (d) farming areas (e) illinois
+A:
+The answer must be a resource that is used in farming areas. Farm land is a place where farming is done, but not a resource. Countryside is a place where farming is done, but not a resource. Michigan and North Dakota are states in the U.S. and not a resource. Illinois is a state in the U.S. and not a resource. Farming areas is a place where farming is done, but not a resource. So the answer is farming areas (d).
+
+Q
+Answer d expected d
+Total examples: 126 Correct answers: 57
+Q: Where can I put this penny to save for later?
+Options: (a) piggy bank (b) wallet (c) toy (d) ground (e) pocket
+A:
+The answer must be a place where a penny can be saved for later. A piggy bank is a place where a penny can be saved for later, but not a place where a penny can be put. A wallet is a place where a penny can be put, but not a place where a penny can be saved for later. A toy is a place where a penny can be put, but not a place where a penny can be saved for later. The ground is a place where a penny can be put, but not a place where a penny can be saved for later. A pocket is a place where a penny can be put, and a place where a penny can be saved for later. So the answer is pocket (e).
+
+Q
+Answer e expected a
+Total examples: 127 Correct answers: 57
+Q: They were kissing each other good bye, they had no worries because their relationship had a strong foundation of what?
+Options: (a) partner (b) trust (c) cooperation (d) bricks (e) herpes
+A:
+The answer must be a situation when two people have a strong relationship and no worries. Kissing each other good bye is a situation when two people have a strong relationship. Partner is a person, but not a relationship. Trust is a relationship, but not a foundation. Cooperation is a relationship, but not a foundation. Bricks are not relevant to a relationship. Herpes is a disease, not a foundation. So the answer is trust (c).
+
+Q
+Answer c expected b
+Total examples: 128 Correct answers: 57
+Q: The man started to learn jogging, what was he hoping to do?
+Options: (a) exhaustion (b) getting in shape (c) fitness (d) injure himself (e) fatigue
+A:
+The answer must be a situation when the man started to learn jogging, he was hoping to do something. Exexution is not relevant to the man starting to jog. Getting in shape is not relevant to the man starting to jog. Fitness is a common situation when people start to jog. Injuring himself is not relevant to the man starting to jog. Fatigue is the most relevant among all and a common situation when people start to jog. So the answer is fatigue (e).
+
+Q
+Answer e expected b
+Total examples: 129 Correct answers: 57
+Q: What is a person who is good at sports considered?
+Options: (a) lazy (b) own house (c) talented (d) affluent (e) reproduce
+A:
+The answer must be a person who is good at sports is considered to be talented. A person who is good at sports is not considered to be lazy. A person who is good at sports is not considered to be own house. A person who is good at sports is not considered to be affluent. A person who is good at sports is not considered to be reproduce. So the answer is talented (c).
+
+Q
+Answer c expected c
+Total examples: 130 Correct answers: 58
+Q: Where would you find a kosher deli along side a number of different places to eat?
+Options: (a) los angeles (b) food court (c) new york city (d) jewish community (e) jewish neighborhoods
+A:
+The answer must be a place where kosher deli is common and different places to eat are common. Los Angeles is a place where kosher deli is common, but not a place where different places to eat are common. Food court is a place where different places to eat are common, but not a place where kosher deli is common. New York City is a place where kosher deli is common, but not a place where different places to eat are common. Jewish community is a place where kosher deli is common, but not a place where different places to eat are common. Jewish neighborhoods are places where kosher deli is common, but not a place where different places to eat are common. So the answer is jewish neighborhoods (e).
+
+Q
+Answer e expected b
+Total examples: 131 Correct answers: 58
+Q: If a person is trying to keep something in their hand what should they do?
+Options: (a) complete collection (b) own house (c) procrastinate (d) explode (e) have to hold
+A:
+The answer must be a situation when a person is trying to keep something in their hand. A person is trying to keep something in their hand, so they should not complete collection. A person is trying to keep something in their hand, so they should not own a house. A person is trying to keep something in their hand, so they should not procrastinate. A person is trying to keep something in their hand, so they should not explode. A person is trying to keep something in their hand, so they should not have to hold. So the answer is have to hold (e).
+
+Q
+Answer e expected e
+Total examples: 132 Correct answers: 59
+Q: If the president wanted to ban snakes, where would he issue such a decree?
+Options: (a) street (b) tropical forest (c) garden of eden (d) new mexico (e) white house
+A:
+The answer must be a place where the president can issue a decree. A street is not a place. A tropical forest is a place where snakes can be found, but not a place where the president can issue a decree. Garden of eden is a mythological place where snakes can be found, but not a place where the president can issue a decree. New mexico is a state in the U.S. and not a place where the president can issue a decree. White house is the place where the president can issue a decree. So the answer is white house (e).
+
+Q
+Answer e expected e
+Total examples: 133 Correct answers: 60
+Q: Where in your home would you keep a ballpoint pen when not in use?
+Options: (a) backpack (b) bank (c) desk drawer (d) eat cake (e) office desk
+A:
+The answer must be a place where a ballpoint pen is kept when not in use. A backpack is a place where a ballpoint pen is kept when not in use, but not in the home. A bank is a place where a ballpoint pen is kept when not in use, but not in the home. A desk drawer is a place where a ballpoint pen is kept when not in use, and is in the home. Eating cake is not a place where a ballpoint pen is kept when not in use. An office desk is a place where a ballpoint pen is kept when not in use, and is in the home. So the answer is office desk (e).
+
+Q
+Answer e expected c
+Total examples: 134 Correct answers: 60
+Q: If you spend a long time shopping in uncomfortable shoes, you might develop what?
+Options: (a) tiredness (b) calluses (c) bankruptcy (d) standing in line (e) sleepyness
+A:
+The answer must be a situation when you spend a long time in uncomfortable shoes, and you might develop something. Tiredness is not a situation when you spend a long time in uncomfortable shoes. Calluses is a situation when you spend a long time in uncomfortable shoes, but not a situation when you might develop something. Bankruptcy is a situation when you spend a long time in uncomfortable shoes, but not a situation when you might develop something. Standing in line is a situation when you spend a long time in uncomfortable shoes, but not a situation when you might develop something. Sleepyness is a situation when you spend a long time in uncomfortable shoes, but not a situation when you might develop something. So the answer is calluses (b).
+
+Q
+Answer b expected b
+Total examples: 135 Correct answers: 61
+Q: The teens were trying to hide that they get drink, but when they walked in the door their what gave it away?
+Options: (a) health (b) fall down (c) stagger (d) get arrested (e) vomit
+A:
+The answer must be a situation when teens are trying to hide that they get drink, but when they walk in the door, they get arrested. Health is not relevant to the situation. Fall down is not relevant to the situation. Stagger is a common situation when teens get drink, but not a situation when they are trying to hide that they get drink. Get arrested is the most relevant situation when teens are trying to hide that they get drink. So the answer is get arrested (d).
+
+Q
+Answer d expected c
+Total examples: 136 Correct answers: 61
+Q: Where is a doormat likely to be in front of?
+Options: (a) facade (b) front door (c) doorway (d) entrance porch (e) hallway
+A:
+The answer must be a place where a doormat is commonly placed. A facade is not a place. A front door is a place, but not a place where a doormat is commonly placed. A doorway is a place, but not a place where a doormat is commonly placed. An entrance porch is a place, but not a place where a doormat is commonly placed. A hallway is a place, but not a place where a doormat is commonly placed. So the answer is front door (b).
+
+Q
+Answer b expected b
+Total examples: 137 Correct answers: 62
+Q: Who might wear dark glasses indoors?
+Options: (a) blind person (b) glove box (c) movie studio (d) ray charles (e) glove compartment
+A:
+The answer must be a person who wears dark glasses indoors. A blind person is a person who wears dark glasses indoors. A movie studio is a place where people wear dark glasses indoors. Ray charles is a person who wears dark glasses indoors. A glove box is a place where people wear dark glasses indoors. A glove compartment is a place where people wear dark glasses indoors. So the answer is a blind person (a).
+
+Q
+Answer a expected a
+Total examples: 138 Correct answers: 63
+Q: The teacher knew her students understood division, what was she hoping they would learn next?
+Options: (a) multiplication (b) multiply (c) putting together (d) unity (e) pay debts
+A:
+The answer must be a situation when the teacher wants her students to learn something after they have understood division. Multiplication is not relevant to the situation. Multly is not relevant to the situation. Putting together is not relevant to the situation. Unity is not relevant to the situation. Pay debts is the most relevant to the situation. So the answer is pay debts (e).
+
+Q
+Answer e expected a
+Total examples: 139 Correct answers: 63
+Q: Where would a person light alcohol on fire to observe the reaction?
+Options: (a) supermarket (b) bar (c) pub (d) restaurants (e) chemistry lab
+A:
+The answer must be a place where alcohol is sold and people can light it on fire to observe the reaction. A supermarket is a place where alcohol is sold, but people cannot light it on fire to observe the reaction. A bar is a place where alcohol is sold, but people cannot light it on fire to observe the reaction. A pub is a place where alcohol is sold, but people cannot light it on fire to observe the reaction. Restaurants are places where alcohol is sold, but people cannot light it on fire to observe the reaction. A chemistry lab is a place where alcohol is sold, and people can light it on fire to observe the reaction. So the answer is chemistry lab (e).
+
+Q
+Answer e expected e
+Total examples: 140 Correct answers: 64
+Q: Flowers make a good center focal point, just one of many arrangements that look good on a what?
+Options: (a) market (b) table (c) countryside (d) anthology (e) vase
+A:
+The answer must be a place where flowers are commonly placed. A market is a place where flowers are sold, but not a place where flowers are commonly placed. A table is a place where flowers are commonly placed, but not a good center focal point. A countryside is a place where flowers are commonly placed, but not a good center focal point. An anthology is a place where flowers are commonly placed, but not a good center focal point. A vase is a place where flowers are commonly placed, and a good center focal point. So the answer is vase (e).
+
+Q
+Answer e expected b
+Total examples: 141 Correct answers: 64
+Q: When cooking sheep meat a lot of people might want to be well?
+Options: (a) ram (b) lamb (c) done (d) ram (e) wolf
+A:
+The answer must be a situation when cooking sheep meat, people want to be well. A ram is a sheep, but not a person. Lamb is a sheep, but not a person. Done is a situation when people want to be well. So the answer is done (c).
+
+Q
+Answer c expected c
+Total examples: 142 Correct answers: 65
+Q: What does going to bed with your spouse for sex lead to?
+Options: (a) bad dreams (b) a good nights sleep (c) rest (d) sleepiness (e) get pregnant
+A:
+The answer must be a situation when people go to bed for sex, and it leads to something. A good nights sleep is not a situation when people go to bed for sex. Bad dreams are not a situation when people go to bed for sex. Rest is not a situation when people go to bed for sex. Sleepiness is not a situation when people go to bed for sex. Getting pregnant is a situation when people go to bed for sex. So the answer is get pregnant (e).
+
+Q
+Answer e expected e
+Total examples: 143 Correct answers: 66
+Q: What furniture will you normally find near a side chair?
+Options: (a) bedroom (b) table (c) wheel barrow (d) building (e) office
+A:
+The answer must be a furniture that is commonly found near a side chair. A bedroom is not a furniture. A table is not a furniture. A wheel barrow is not a furniture. A building is not a furniture. An office is a furniture that is commonly found near a side chair. So the answer is office (e).
+
+Q
+Answer e expected b
+Total examples: 144 Correct answers: 66
+Q: What type of store would have lots of sports equipment?
+Options: (a) mall (b) office supply store (c) school (d) sporting goods store (e) sporting event
+A:
+The answer must be a place that has lots of sports equipment. A mall is a place that has lots of sports equipment, but not a type of store. An office supply store is a place that has lots of sports equipment, but not a type of store. A school is a place that has lots of sports equipment, but not a type of store. A sporting goods store is a place that has lots of sports equipment, but not a type of store. A sporting event is a place that has lots of sports equipment, but not a type of store. So the answer is sporting goods store (d).
+
+Q
+Answer d expected d
+Total examples: 145 Correct answers: 67
+Q: In what Spanish speaking North American country can you get a great cup of coffee?
+Options: (a) mildred's coffee shop (b) mexico (c) diner (d) kitchen (e) canteen
+A:
+The answer must be a place where you can get a great cup of coffee. Mildred's coffee shop is a place where you can get a great cup of coffee, but not in a Spanish speaking North American country. Mexico is a Spanish speaking North American country, but not a place where you can get a great cup of coffee. Diner is a place where you can get a great cup of coffee, but not in a Spanish speaking North American country. Kitchen is a place where you can get a great cup of coffee, but not in a Spanish speaking North American country. Canteen is a place where you can get a great cup of coffee, but not in a Spanish speaking North American country. So the answer is canteen (e).
+
+Q
+Answer e expected b
+Total examples: 146 Correct answers: 67
+Q: Where areas are there likely to be many nightclubs?
+Options: (a) manhattan (b) drink and dance (c) alcohol (d) major city (e) downtown area
+A:
+The answer must be a place where there are many nightclubs. Manhattan is a place where there are many nightclubs, but not a place where there are many nightclubs. Drink and dance is a place where there are many nightclubs, but not a place where there are many nightclubs. Alcohol is a place where there are many nightclubs, but not a place where there are many nightclubs. Major city is a place where there are many nightclubs, but not a place where there are many nightclubs. Downtown area is a place where there are many nightclubs, but not a place where there are many nightclubs. So the answer is major city (d).
+
+Q
+Answer d expected d
+Total examples: 147 Correct answers: 68
+Q: What type of building has the most top floor?
+Options: (a) go down (b) apartment building (c) tall building (d) office building (e) cabin
+A:
+The answer must be a building that has the most top floor. A go down is not a building. Apartment building is a building that has a top floor, but not the most top floor. Tall building is a building that has a top floor, but not the most top floor. Office building is a building that has a top floor, but not the most top floor. Cabin is a building that has a top floor, but not the most top floor. So the answer is tall building (c).
+
+Q
+Answer c expected c
+Total examples: 148 Correct answers: 69
+Q: Where do you keep your pizza slice before you eat it?
+Options: (a) table (b) plate (c) restaurant (d) oven (e) popular
+A:
+The answer must be a place where you keep your pizza slice before you eat it. A table is a place where you can keep your pizza slice, but not before you eat it. A plate is a place where you can keep your pizza slice, but not before you eat it. A restaurant is a place where you can keep your pizza slice, but not before you eat it. An oven is a place where you can keep your pizza slice, but not before you eat it. Popular is a place where you can keep your pizza slice, but not before you eat it. So the answer is oven (d).
+
+Q
+Answer d expected b
+Total examples: 149 Correct answers: 69
+Q: Why would one try to avoid work?
+Options: (a) making money (b) leave home (c) success (d) malaise (e) bad mood
+A:
+The answer must be a reason that people would not want to work. Making money is not a reason that people would not want to work. Leave home is not a reason that people would not want to work. Success is not a reason that people would not want to work. Malaise is a reason that people would not want to work. Bad mood is not a reason that people would not want to work. So the answer is malaise (d).
+
+Q
+Answer d expected d
+Total examples: 150 Correct answers: 70
+Q: The victim was to take stand today, they were going to do what?
+Options: (a) testify (b) runaway (c) witness (d) tell truth (e) go home
+A:
+The answer must be a situation when the victim is going to do something. Testify is a common activity when the victim is going to do something. Runaway is not a common activity when the victim is going to do something. Witness is a common activity when the victim is going to do something. Tell truth is a common activity when the victim is going to do something. Go home is not a common activity when the victim is going to do something. So the answer is testify (a).
+
+Q
+Answer a expected a
+Total examples: 151 Correct answers: 71
+Q: Where would a person live that isn't in the metro area but still has good schools?
+Options: (a) woods (b) bed (c) suburbs (d) rural (e) neighborhood
+A:
+The answer must be a place that is not in the metro area but has good schools. A woods is not a place that is not in the metro area. A bed is not a place that is not in the metro area. Suburbs are places that are not in the metro area and have good schools. Rural is a place that is not in the metro area and has good schools. Neighborhood is a place that is not in the metro area and has good schools. So the answer is suburbs (c).
+
+Q
+Answer c expected c
+Total examples: 152 Correct answers: 72
+Q: where is a good place to obtain new soap?
+Options: (a) supermarket (b) washing (c) cabinet (d) own home (e) sink
+A:
+The answer must be a place where soap is commonly found. A supermarket is a place where soap is commonly found, but not a good place to obtain new soap. Washing is a place where soap is commonly found, but not a good place to obtain new soap. A cabinet is a place where soap is commonly found, but not a good place to obtain new soap. Own home is a place where soap is commonly found, but not a good place to obtain new soap. A sink is a place where soap is commonly found, but not a good place to obtain new soap. So the answer is sink (e).
+
+Q
+Answer e expected a
+Total examples: 153 Correct answers: 72
