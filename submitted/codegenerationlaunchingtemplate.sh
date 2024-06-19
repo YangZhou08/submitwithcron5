@@ -34,7 +34,7 @@ for cmd in "${commands[@]}"; do
         sed "s|COMMAND_PLACEHOLDER|$fullcmd|g" /fsx-storygen/beidic/yang/submitwithcron5/code_generation_template.sh > "$job_script"
         
         # Submit the job
-        sbatch "$job_script"
+        /opt/slurm/bin/sbatch "$job_script"
         
         # Optionally, remove the temporary job script
         # rm "$job_script"
