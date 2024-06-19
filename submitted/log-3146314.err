@@ -1,0 +1,193 @@
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [01:00<01:00, 60.19s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.66s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.60s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.64s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.64s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.57s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.65s/it]Loading checkpoint shards:  50%|█████     | 1/2 [01:02<01:02, 62.70s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:17<00:00, 34.72s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:17<00:00, 38.54s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.51s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.53s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.52s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.53s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:18<00:00, 35.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.55s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:18<00:00, 39.50s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 35.46s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:19<00:00, 39.54s/it]
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/base.py:30: UserWarning: Loading the dataset failed with Couldn't find cache for mbpp for config 'default'
+Available configs in the cache: ['full']. This task will use a locally downloaded dataset, not from the HF hub.                 This is expected behavior for the DS-1000 benchmark but not for other benchmarks!
+  warn(
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 472, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 48, in generate_text
+    dataset = task.get_dataset()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/tasks/mbpp.py", line 41, in get_dataset
+    dataset = self.dataset["test"]
+AttributeError: 'MBPP' object has no attribute 'dataset'
+[2024-06-19 13:33:32,493] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865419 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865420 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865421 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865422 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865423 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865424 closing signal SIGTERM
+[2024-06-19 13:33:32,494] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 865425 closing signal SIGTERM
+[2024-06-19 13:33:34,240] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 865418) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-06-19_13:33:32
+  host      : a100-st-p4de24xlarge-962.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 865418)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
