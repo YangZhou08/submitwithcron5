@@ -1,222 +1,0 @@
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-The following values were not passed to `accelerate launch` and had defaults used instead:
-		More than one GPU was found, enabling multi-GPU training.
-		If this was unintended please pass in `--num_processes=1`.
-	`--num_machines` was set to a value of `1`
-	`--mixed_precision` was set to a value of `'no'`
-	`--dynamo_backend` was set to a value of `'no'`
-To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:06, 22.10s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:08, 22.98s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:08, 22.94s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:23<01:09, 23.15s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:08, 22.80s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:08, 22.95s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:23<01:09, 23.01s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:08, 22.92s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:43<00:43, 21.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:44<00:44, 22.12s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:03<00:20, 20.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:05<00:21, 21.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:05<00:21, 21.40s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:04<00:21, 21.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:04<00:21, 21.45s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:04<00:21, 21.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:04<00:21, 21.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:04<00:21, 21.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.62s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:07<00:00, 13.70s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:07<00:00, 16.76s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.71s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.72s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.72s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.70s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.72s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 13.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:06<00:00, 16.72s/it]
-  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py:119: UserWarning: n_copies (n_samples/batch_size) was changed from 1 to 2 because n_tasks isn't proportional to num devices
-  warnings.warn(
-  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-  5%|▍         | 1/21 [01:28<29:28, 88.44s/it]  5%|▍         | 1/21 [01:28<29:29, 88.48s/it]  5%|▍         | 1/21 [01:28<29:32, 88.65s/it]  5%|▍         | 1/21 [01:21<27:11, 81.56s/it]  5%|▍         | 1/21 [01:25<28:33, 85.67s/it]  5%|▍         | 1/21 [00:25<08:36, 25.84s/it]  5%|▍         | 1/21 [01:25<28:25, 85.27s/it]  5%|▍         | 1/21 [00:34<11:35, 34.77s/it] 10%|▉         | 2/21 [01:30<11:59, 37.86s/it] 10%|▉         | 2/21 [01:27<11:36, 36.63s/it] 10%|▉         | 2/21 [01:23<11:03, 34.94s/it] 10%|▉         | 2/21 [01:30<11:58, 37.79s/it] 10%|▉         | 2/21 [01:27<11:32, 36.47s/it] 10%|▉         | 2/21 [01:30<11:57, 37.78s/it] 10%|▉         | 2/21 [00:28<03:47, 12.00s/it] 10%|▉         | 2/21 [00:37<04:57, 15.67s/it] 14%|█▍        | 3/21 [01:51<09:03, 30.18s/it] 14%|█▍        | 3/21 [01:44<08:35, 28.63s/it] 14%|█▍        | 3/21 [01:52<09:03, 30.21s/it] 14%|█▍        | 3/21 [01:51<09:03, 30.17s/it] 14%|█▍        | 3/21 [01:48<08:50, 29.46s/it] 14%|█▍        | 3/21 [01:49<08:51, 29.55s/it] 14%|█▍        | 3/21 [00:49<04:50, 16.16s/it] 14%|█▍        | 3/21 [00:58<05:26, 18.16s/it] 19%|█▉        | 4/21 [01:53<05:23, 19.04s/it] 19%|█▉        | 4/21 [01:53<05:23, 19.01s/it] 19%|█▉        | 4/21 [01:50<05:16, 18.63s/it] 19%|█▉        | 4/21 [01:46<05:07, 18.08s/it] 19%|█▉        | 4/21 [01:53<05:23, 19.01s/it] 19%|█▉        | 4/21 [01:50<05:15, 18.58s/it] 19%|█▉        | 4/21 [00:51<02:59, 10.53s/it] 19%|█▉        | 4/21 [01:00<03:19, 11.74s/it] 24%|██▍       | 5/21 [01:53<03:22, 12.65s/it] 24%|██▍       | 5/21 [01:48<03:16, 12.30s/it] 24%|██▍       | 5/21 [01:55<03:26, 12.89s/it] 24%|██▍       | 5/21 [01:56<03:26, 12.91s/it] 24%|██▍       | 5/21 [01:52<03:21, 12.62s/it] 24%|██▍       | 5/21 [01:55<03:26, 12.90s/it] 24%|██▍       | 5/21 [00:53<01:59,  7.47s/it] 24%|██▍       | 5/21 [01:02<02:11,  8.25s/it] 29%|██▊       | 6/21 [01:58<02:21,  9.42s/it] 29%|██▊       | 6/21 [01:58<02:21,  9.41s/it] 29%|██▊       | 6/21 [01:58<02:21,  9.40s/it] 29%|██▊       | 6/21 [01:51<02:15,  9.01s/it] 29%|██▊       | 6/21 [01:55<02:18,  9.25s/it] 29%|██▊       | 6/21 [01:55<02:18,  9.22s/it] 29%|██▊       | 6/21 [01:04<01:35,  6.34s/it] 29%|██▊       | 6/21 [00:55<01:27,  5.83s/it] 33%|███▎      | 7/21 [02:00<01:39,  7.08s/it] 33%|███▎      | 7/21 [02:00<01:39,  7.07s/it] 33%|███▎      | 7/21 [02:00<01:39,  7.07s/it] 33%|███▎      | 7/21 [01:53<01:35,  6.81s/it] 33%|███▎      | 7/21 [01:57<01:37,  6.95s/it] 33%|███▎      | 7/21 [00:58<01:05,  4.66s/it] 33%|███▎      | 7/21 [01:57<01:37,  6.97s/it] 33%|███▎      | 7/21 [01:07<01:10,  5.01s/it] 38%|███▊      | 8/21 [02:03<01:14,  5.70s/it] 38%|███▊      | 8/21 [02:03<01:14,  5.70s/it] 38%|███▊      | 8/21 [02:03<01:14,  5.70s/it] 38%|███▊      | 8/21 [02:00<01:13,  5.62s/it] 38%|███▊      | 8/21 [02:00<01:12,  5.61s/it] 38%|███▊      | 8/21 [01:00<00:52,  4.05s/it] 38%|███▊      | 8/21 [01:56<01:11,  5.52s/it] 38%|███▊      | 8/21 [01:09<00:55,  4.29s/it] 43%|████▎     | 9/21 [02:17<01:49,  9.12s/it] 43%|████▎     | 9/21 [02:13<01:48,  9.05s/it] 43%|████▎     | 9/21 [02:20<01:50,  9.18s/it] 43%|████▎     | 9/21 [02:20<01:50,  9.17s/it] 43%|████▎     | 9/21 [02:20<01:50,  9.17s/it] 43%|████▎     | 9/21 [02:17<01:49,  9.12s/it] 43%|████▎     | 9/21 [01:26<01:38,  8.21s/it] 43%|████▎     | 9/21 [01:17<01:36,  8.05s/it] 48%|████▊     | 10/21 [02:21<01:34,  8.61s/it] 48%|████▊     | 10/21 [02:28<01:35,  8.70s/it] 48%|████▊     | 10/21 [02:27<01:35,  8.70s/it] 48%|████▊     | 10/21 [02:25<01:35,  8.66s/it] 48%|████▊     | 10/21 [02:24<01:35,  8.66s/it] 48%|████▊     | 10/21 [01:25<01:27,  7.92s/it] 48%|████▊     | 10/21 [02:27<01:35,  8.70s/it] 48%|████▊     | 10/21 [01:34<01:28,  8.03s/it] 52%|█████▏    | 11/21 [02:24<01:10,  7.06s/it] 52%|█████▏    | 11/21 [02:31<01:11,  7.12s/it] 52%|█████▏    | 11/21 [02:31<01:11,  7.12s/it] 52%|█████▏    | 11/21 [02:31<01:11,  7.12s/it] 52%|█████▏    | 11/21 [02:28<01:10,  7.09s/it] 52%|█████▏    | 11/21 [02:28<01:10,  7.09s/it] 52%|█████▏    | 11/21 [01:37<01:06,  6.65s/it] 52%|█████▏    | 11/21 [01:28<01:05,  6.58s/it] 57%|█████▋    | 12/21 [02:39<01:05,  7.30s/it] 57%|█████▋    | 12/21 [02:36<01:05,  7.28s/it] 57%|█████▋    | 12/21 [02:32<01:05,  7.26s/it] 57%|█████▋    | 12/21 [02:39<01:05,  7.30s/it] 57%|█████▋    | 12/21 [02:39<01:05,  7.30s/it] 57%|█████▋    | 12/21 [02:36<01:05,  7.28s/it] 57%|█████▋    | 12/21 [01:36<01:02,  6.92s/it] 57%|█████▋    | 12/21 [01:45<01:02,  6.98s/it] 62%|██████▏   | 13/21 [02:41<00:46,  5.83s/it] 62%|██████▏   | 13/21 [02:34<00:46,  5.80s/it] 62%|██████▏   | 13/21 [02:41<00:46,  5.83s/it] 62%|██████▏   | 13/21 [02:41<00:46,  5.83s/it] 62%|██████▏   | 13/21 [02:38<00:46,  5.82s/it] 62%|██████▏   | 13/21 [01:39<00:44,  5.57s/it] 62%|██████▏   | 13/21 [01:47<00:44,  5.61s/it] 62%|██████▏   | 13/21 [02:38<00:46,  5.82s/it] 67%|██████▋   | 14/21 [02:43<00:37,  5.38s/it] 67%|██████▋   | 14/21 [02:46<00:37,  5.39s/it] 67%|██████▋   | 14/21 [02:39<00:37,  5.37s/it] 67%|██████▋   | 14/21 [02:46<00:37,  5.39s/it] 67%|██████▋   | 14/21 [02:46<00:37,  5.39s/it] 67%|██████▋   | 14/21 [02:42<00:37,  5.38s/it] 67%|██████▋   | 14/21 [01:52<00:36,  5.23s/it] 67%|██████▋   | 14/21 [01:43<00:36,  5.21s/it] 71%|███████▏  | 15/21 [02:51<00:32,  5.40s/it] 71%|███████▏  | 15/21 [02:51<00:32,  5.40s/it] 71%|███████▏  | 15/21 [02:51<00:32,  5.40s/it] 71%|███████▏  | 15/21 [02:44<00:32,  5.39s/it] 71%|███████▏  | 15/21 [02:48<00:32,  5.40s/it] 71%|███████▏  | 15/21 [01:48<00:31,  5.27s/it] 71%|███████▏  | 15/21 [02:48<00:32,  5.40s/it] 71%|███████▏  | 15/21 [01:57<00:31,  5.29s/it] 76%|███████▌  | 16/21 [02:55<00:24,  4.90s/it] 76%|███████▌  | 16/21 [02:48<00:24,  4.89s/it] 76%|███████▌  | 16/21 [02:55<00:24,  4.90s/it] 76%|███████▌  | 16/21 [02:52<00:24,  4.89s/it] 76%|███████▌  | 16/21 [02:55<00:24,  4.90s/it] 76%|███████▌  | 16/21 [02:51<00:24,  4.89s/it] 76%|███████▌  | 16/21 [01:52<00:24,  4.81s/it] 76%|███████▌  | 16/21 [02:01<00:24,  4.82s/it] 81%|████████  | 17/21 [02:52<00:18,  4.62s/it] 81%|████████  | 17/21 [02:55<00:18,  4.62s/it] 81%|████████  | 17/21 [02:59<00:18,  4.62s/it] 81%|████████  | 17/21 [02:59<00:18,  4.62s/it] 81%|████████  | 17/21 [02:56<00:18,  4.62s/it] 81%|████████  | 17/21 [01:56<00:18,  4.56s/it] 81%|████████  | 17/21 [02:05<00:18,  4.57s/it] 81%|████████  | 17/21 [02:59<00:18,  4.62s/it] 86%|████████▌ | 18/21 [02:57<00:14,  4.72s/it] 86%|████████▌ | 18/21 [03:04<00:14,  4.72s/it] 86%|████████▌ | 18/21 [03:01<00:14,  4.72s/it] 86%|████████▌ | 18/21 [03:04<00:14,  4.72s/it] 86%|████████▌ | 18/21 [03:04<00:14,  4.72s/it] 86%|████████▌ | 18/21 [02:01<00:14,  4.68s/it] 86%|████████▌ | 18/21 [02:10<00:14,  4.68s/it] 86%|████████▌ | 18/21 [03:00<00:14,  4.72s/it] 90%|█████████ | 19/21 [03:03<00:08,  4.06s/it] 90%|█████████ | 19/21 [03:06<00:08,  4.06s/it] 90%|█████████ | 19/21 [03:06<00:08,  4.06s/it] 90%|█████████ | 19/21 [03:06<00:08,  4.06s/it] 90%|█████████ | 19/21 [03:03<00:08,  4.06s/it] 90%|█████████ | 19/21 [02:04<00:08,  4.03s/it] 90%|█████████ | 19/21 [02:12<00:08,  4.04s/it] 90%|█████████ | 19/21 [02:59<00:08,  4.06s/it] 95%|█████████▌| 20/21 [03:16<00:06,  6.64s/it] 95%|█████████▌| 20/21 [03:16<00:06,  6.64s/it] 95%|█████████▌| 20/21 [03:12<00:06,  6.64s/it] 95%|█████████▌| 20/21 [03:19<00:06,  6.65s/it] 95%|█████████▌| 20/21 [02:16<00:06,  6.62s/it] 95%|█████████▌| 20/21 [03:19<00:06,  6.65s/it] 95%|█████████▌| 20/21 [03:19<00:06,  6.65s/it] 95%|█████████▌| 20/21 [02:25<00:06,  6.63s/it]100%|██████████| 21/21 [03:17<00:00,  6.05s/it]100%|██████████| 21/21 [03:23<00:00,  6.05s/it]100%|██████████| 21/21 [03:24<00:00,  6.05s/it]100%|██████████| 21/21 [03:21<00:00,  6.05s/it]100%|██████████| 21/21 [03:23<00:00,  6.05s/it]100%|██████████| 21/21 [03:20<00:00,  6.05s/it]100%|██████████| 21/21 [02:30<00:00,  6.03s/it]100%|██████████| 21/21 [02:21<00:00,  6.03s/it]22it [03:25,  4.83s/it]                        22it [03:25,  4.83s/it]                        22it [03:26,  4.83s/it]                        22it [03:19,  4.83s/it]                        22it [03:22,  4.83s/it]                        22it [03:23,  4.83s/it]                        22it [02:23,  4.82s/it]                        22it [02:32,  4.82s/it]                        23it [03:35,  6.15s/it]23it [03:35,  6.15s/it]23it [03:35,  6.15s/it]23it [03:28,  6.15s/it]23it [03:32,  6.15s/it]23it [03:31,  6.15s/it]23it [02:41,  6.15s/it]23it [02:32,  6.14s/it]24it [03:31,  5.24s/it]24it [03:38,  5.24s/it]24it [03:38,  5.24s/it]24it [03:35,  5.24s/it]24it [03:35,  5.24s/it]24it [03:38,  5.24s/it]24it [02:44,  5.23s/it]24it [02:35,  5.23s/it]25it [03:32,  3.97s/it]25it [03:39,  3.98s/it]25it [03:39,  3.98s/it]25it [03:39,  3.98s/it]25it [03:36,  3.97s/it]25it [03:36,  3.97s/it]25it [02:36,  3.97s/it]25it [02:45,  3.97s/it]26it [03:46,  4.96s/it]26it [03:43,  4.96s/it]26it [03:46,  4.96s/it]26it [03:39,  4.96s/it]26it [03:46,  4.96s/it]26it [03:43,  4.96s/it]26it [02:43,  4.95s/it]26it [02:52,  4.95s/it]27it [03:44,  4.83s/it]27it [03:51,  4.83s/it]27it [03:51,  4.83s/it]27it [03:48,  4.83s/it]27it [03:51,  4.83s/it]27it [02:48,  4.83s/it]27it [02:57,  4.83s/it]27it [03:47,  4.83s/it]28it [03:53,  4.03s/it]28it [03:53,  4.03s/it]28it [03:46,  4.03s/it]28it [03:53,  4.03s/it]28it [03:50,  4.03s/it]28it [03:50,  4.03s/it]28it [02:50,  4.03s/it]28it [02:59,  4.03s/it]29it [03:56,  4.82s/it]29it [03:57,  4.82s/it]29it [04:00,  4.82s/it]29it [02:57,  4.81s/it]29it [03:06,  4.81s/it]29it [03:59,  4.82s/it]29it [03:53,  4.82s/it]29it [03:59,  4.82s/it]30it [04:01,  4.54s/it]30it [04:03,  4.54s/it]30it [03:56,  4.54s/it]30it [04:03,  4.54s/it]30it [04:00,  4.54s/it]30it [04:03,  4.54s/it]30it [03:01,  4.54s/it]30it [03:10,  4.54s/it]31it [04:05,  4.39s/it]31it [04:04,  4.39s/it]31it [04:08,  4.39s/it]31it [04:07,  4.39s/it]31it [03:05,  4.39s/it]31it [03:14,  4.39s/it]31it [04:07,  4.39s/it]31it [04:00,  4.39s/it]32it [04:22,  7.58s/it]32it [04:20,  7.58s/it]32it [04:15,  7.58s/it]32it [04:23,  7.58s/it]32it [04:22,  7.58s/it]32it [04:19,  7.58s/it]32it [03:20,  7.58s/it]32it [03:29,  7.58s/it]33it [04:24,  6.73s/it]33it [04:20,  6.73s/it]33it [04:24,  6.73s/it]33it [04:27,  6.73s/it]33it [04:27,  6.73s/it]33it [04:27,  6.73s/it]33it [03:25,  6.73s/it]33it [03:33,  6.73s/it]34it [04:29,  5.14s/it]34it [04:29,  5.14s/it]34it [04:22,  5.14s/it]34it [04:25,  5.14s/it]34it [04:26,  5.14s/it]34it [03:26,  5.14s/it]34it [03:35,  5.14s/it]34it [04:29,  5.14s/it]35it [04:35,  5.60s/it]35it [04:32,  5.60s/it]35it [04:35,  5.60s/it]35it [04:28,  5.60s/it]35it [04:35,  5.60s/it]35it [03:33,  5.60s/it]35it [03:42,  5.60s/it]35it [04:32,  5.60s/it]36it [04:37,  4.44s/it]36it [04:37,  4.44s/it]36it [04:34,  4.44s/it]36it [04:30,  4.44s/it]36it [04:34,  4.44s/it]36it [03:34,  4.44s/it]36it [03:43,  4.44s/it]36it [04:37,  4.44s/it]37it [04:40,  3.90s/it]37it [04:40,  3.90s/it]37it [04:40,  3.90s/it]37it [04:33,  3.90s/it]37it [04:36,  3.90s/it]37it [04:37,  3.90s/it]37it [03:37,  3.90s/it]37it [03:46,  3.90s/it]38it [04:40,  3.55s/it]38it [04:42,  3.55s/it]38it [04:35,  3.55s/it]38it [04:43,  3.55s/it]38it [04:42,  3.55s/it]38it [03:49,  3.55s/it]38it [04:39,  3.55s/it]38it [03:40,  3.55s/it]39it [04:46,  3.50s/it]39it [04:43,  3.50s/it]39it [04:46,  3.50s/it]39it [04:46,  3.50s/it]39it [04:39,  3.50s/it]39it [04:43,  3.50s/it]39it [03:43,  3.50s/it]39it [03:52,  3.50s/it]40it [04:45,  3.08s/it]40it [04:48,  3.08s/it]40it [04:41,  3.08s/it]40it [04:48,  3.08s/it]40it [04:45,  3.08s/it]40it [03:45,  3.08s/it]40it [04:48,  3.08s/it]40it [03:54,  3.08s/it]41it [04:50,  2.89s/it]41it [04:50,  2.89s/it]41it [04:50,  2.89s/it]41it [04:43,  2.89s/it]41it [04:47,  2.89s/it]41it [04:47,  2.89s/it]41it [03:57,  2.89s/it]41it [03:48,  2.89s/it]41it [04:50,  7.10s/it]41it [04:50,  7.09s/it]41it [04:50,  7.09s/it]41it [04:43,  6.92s/it]
-
-
-
-41it [04:47,  7.02s/it]41it [04:47,  7.01s/it]
-
-41it [03:48,  5.56s/it]41it [03:57,  5.78s/it]
-
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py:127: UserWarning: Number of tasks wasn't proportional to number of devices, we removed extra predictions to only keep nsamples=1
-  warnings.warn(
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 494, in <module>
-                main()     main() main() main() 
-main() 
-
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-                main()         main() print(total_step, num_step, total_step / num_step) print(total_step, num_step, total_step / num_step) 
-print(total_step, num_step, total_step / num_step) print(total_step, num_step, total_step / num_step) 
-
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 490, in main
-ZeroDivisionErrorZeroDivisionErrorZeroDivisionErrorZeroDivisionError: : : : division by zerodivision by zerodivision by zerodivision by zero
-
-
-
-    print(total_step, num_step, total_step / num_step) 
-ZeroDivisionError: division by zero
-    print(total_step, num_step, total_step / num_step) 
-ZeroDivisionError: division by zero
-    print(total_step, num_step, total_step / num_step) 
-ZeroDivisionError: division by zero
-[2024-06-19 13:37:51,308] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2220361 closing signal SIGTERM
-[2024-06-19 13:37:51,422] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 1 (pid: 2220362) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
-Traceback (most recent call last):
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
-    args.func(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
-    multi_gpu_launcher(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
-    distrib_run.run(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
-    elastic_launch(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-============================================================
-main.py FAILED
-------------------------------------------------------------
-Failures:
-[1]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 2 (local_rank: 2)
-  exitcode  : 1 (pid: 2220363)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[2]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 3 (local_rank: 3)
-  exitcode  : 1 (pid: 2220364)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[3]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 4 (local_rank: 4)
-  exitcode  : 1 (pid: 2220365)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[4]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 5 (local_rank: 5)
-  exitcode  : 1 (pid: 2220366)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[5]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 6 (local_rank: 6)
-  exitcode  : 1 (pid: 2220367)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[6]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 7 (local_rank: 7)
-  exitcode  : 1 (pid: 2220368)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-------------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2024-06-19_13:37:51
-  host      : a100-st-p4de24xlarge-1062.fair-a100.hpcaas
-  rank      : 1 (local_rank: 1)
-  exitcode  : 1 (pid: 2220362)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-============================================================
