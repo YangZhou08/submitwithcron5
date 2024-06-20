@@ -66,6 +66,6 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 huggingface-cli login --token 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 
 
 # accelerate launch --num_processes 8 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False --tasks gsm8k --batch_size 1 
-accelerate launch --num_processes 8 python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.5 --tasks gsm8k --batch_size 1 
-accelerate launch --num_processes 8 python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.4 --tasks gsm8k --batch_size 1 
-accelerate launch --num_processes 8 python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.3 --tasks gsm8k --batch_size 1 
+accelerate launch --num_processes 8 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.5 --tasks gsm8k --batch_size 1 
+accelerate launch --num_processes 8 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.4 --tasks gsm8k --batch_size 1 
+accelerate launch --num_processes 8 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False,spr=0.3 --tasks gsm8k --batch_size 1 
