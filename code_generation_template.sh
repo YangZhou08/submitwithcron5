@@ -8,7 +8,7 @@
 ## filename for job standard error output (stderr)
 #SBATCH --error=/fsx-storygen/beidic/yang/log/log-%j.err
 
-#SBATCH --time=2:00:00 
+#SBATCH --time=3:00:00 
 
 ## partition name
 #SBATCH -q storygen 
