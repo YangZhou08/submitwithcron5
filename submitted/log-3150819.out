@@ -3102,3 +3102,29 @@ A:
 Q: Today
 Answer 02/28/2016 expected 02/28/2016
 Total examples: 45 Correct answers: 25
+Skipping the batch
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+
+
+
+
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+-------+--------------------------------+------------------+----------------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |   AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++========+================+===========================+=============================+===============+=============+=======+================================+==================+==================================+
+| date   |            353 |                     25932 |                     73.4618 |         23301 |        2126 | 10.96 |                          10709 |              951 |                          11.2608 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+-------+--------------------------------+------------------+----------------------------------+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
++------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| csqa       |    1221 |       717 |     0.587224 |
++------------+---------+-----------+--------------+
+| strategyqa |     457 |       214 |     0.468271 |
++------------+---------+-----------+--------------+
+| sports     |     970 |       801 |     0.825773 |
++------------+---------+-----------+--------------+
+| date       |     353 |       193 |     0.546742 |
++------------+---------+-----------+--------------+

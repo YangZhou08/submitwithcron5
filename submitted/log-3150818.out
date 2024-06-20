@@ -2731,3 +2731,360 @@ A:
 Q: Determine
 Answer implausible expected implausible
 Total examples: 122 Correct answers: 107
+Skipping the batch
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |    AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++========+================+===========================+=============================+===============+=============+========+================================+==================+==================================+
+| sports |            970 |                     32739 |                     33.7515 |         25059 |        2011 | 12.461 |                           6614 |              718 |                           9.2117 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+
+Q: Jane is celebrating the last day of Jan 2012. What is the date a month ago in MM/DD/YYYY?
+A:
+ If today is the last day of Jan 2012, then today is 01/31/2012. A month ago is the last day of December 2011, which is 12/31/2011. So the answer is 12/31/2011.
+
+Q: Today
+Answer 12/31/2011 expected 12/31/2011
+Total examples: 1 Correct answers: 1
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If the concert was originally scheduled on 06/01/1943, then today is 06/02/1943. 10 days ago from today is 05/23/1943. So the answer is 05/23/1943.
+
+Q: Today
+Answer 05/23/1943 expected 05/23/1943
+Total examples: 2 Correct answers: 2
+Q: Today is the last day of the first quarter of 2008. What is the date a month ago in MM/DD/YYYY?
+A:
+ One quarter is 3 months, so the first quarter is January, February, and March. Then, the last day of the first quarter of 2008 is the last day of March, which is 03/31/2008. A month ago from today is 1 month in the past of today, which is the last day of February 2008, or 02/29/2008. So the answer is 02/29/2008.
+
+Q: Today
+Answer 02/29/2008 expected 02/29/2008
+Total examples: 3 Correct answers: 3
+Q: Yesterday was 12/31/1929. Today could not be 12/32/1929 because December has only 31 days. What is the date yesterday in MM/DD/YYYY?
+A:
+ If yesterday was 12/31/1929, then today is 01/01/1930. So the answer is 12/31/1929.
+
+Q: Today
+Answer 12/31/1929 expected 12/31/1929
+Total examples: 4 Correct answers: 4
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. John is correct. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If John is correct, then today is 6/19/2019. Tomorrow is 1 day in the future of today, which is 6/20/2019. So the answer is 6/20/2019.
+
+Q: Today
+Answer 6/20/2019 expected 06/20/2019
+Total examples: 5 Correct answers: 5
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date a month ago in MM/DD/YYYY?
+A:
+Skipping the batch
+ If tomorrow is Jul 29, 2002, then today is Jul 28, 2002. One month ago from today is 7 days in the past of today, which is Jul 21, 2002. So the answer is 07/21/2002.
+
+Q: Today
+Answer 07/21/2002 expected 06/28/2002
+Total examples: 6 Correct answers: 5
+Q: The deadline is Jun 1, 2021, which is 2 days away from now. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If the deadline is Jun 1, 2021, then today is 05/30/2021. One year ago from today is 05/30/2020. So the answer is 05/30/2020.
+
+Q: Today
+Answer 05/30/2020 expected 05/30/2020
+Total examples: 7 Correct answers: 6
+Q: The first day of 2019 is a Tuesday, and today is the first Monday of 2019. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If the first day of 2019 is a Tuesday, then the first day of 2018 is a Monday. If today is the first Monday of 2019, then today is 01/07/2019. One year ago from today is 01/07/2018. So the answer is 01/07/2018.
+
+Q: Today
+Answer 01/07/2018 expected 01/07/2018
+Total examples: 8 Correct answers: 7
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date one week from today in MM/DD/YYYY?
+A:
+ If they married on Jan 2, 1958, then today is 1/2/1963. One week from today is 7 days in the future of today, which is 1/9/1963. So the answer is 1/9/1963.
+
+Q: Today
+Answer 1/9/1963 expected 01/09/1961
+Total examples: 9 Correct answers: 7
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date tomorrow in MM/DD/YYYY?
+A:
+Skipping the batch
+ If Jane was born on the last day of February in 2001, then she was born on 02/28/2001. Today is her 16-year-old birthday, which is 02/28/2017. Tomorrow is 1 day in the future of today, which is 03/01/2017. So the answer is 03/01/2017.
+
+Q: Today
+Answer 03/01/2017 expected 03/01/2017
+Total examples: 10 Correct answers: 8
+Q: Yesterday was April 30, 2021. What is the date yesterday in MM/DD/YYYY?
+A:
+ If yesterday was April 30, 2021, then yesterday is 04/30/2021. So the answer is 04/30/2021.
+
+Q: Today
+Answer 04/30/2021 expected 04/30/2021
+Total examples: 11 Correct answers: 9
+Q: Jane and John married on Jan 2, 1958. It is their 5-year anniversary today. What is the date 10 days ago in MM/DD/YYYY?
+A:
+Skipping the batch
+ If today is their 5-year anniversary, then today is 01/02/1963. 10 days ago from today is 12/23/1962. So the answer is 12/23/1962.
+
+Q: Today
+Answer 12/23/1962 expected 12/23/1960
+Total examples: 12 Correct answers: 9
+Q: Today is Apr 10, 1985. Jane's appointment will be 3 days later. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If today is Apr 10, 1985, then 3 days later is Apr 13, 1985. One week ago from today is 7 days in the past of today, which is Apr 3, 1985. So the answer is 04/03/1985.
+
+Q: Today
+Answer 04/03/1985 expected 04/03/1985
+Total examples: 13 Correct answers: 10
+Q: Jane visits the bookstore on the 16th of each month starting from the October of 2009. It is her 5th visit to the bookstore today. What is the date one year ago from today in MM/DD/YYYY?
+A:
+Skipping the batch
+ If it is her 5th visit to the bookstore today, then today is the 16th of October 2010. One year ago from today is the 16th of October 2009, which is 10/16/2009. So the answer is 10/16/2009.
+
+Q: Today
+Answer 10/16/2009 expected 02/16/2009
+Total examples: 14 Correct answers: 10
+Q: This is the last day of 1899. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ If today is the last day of 1899, then today is 12/31/1899. 24 hours later is the first day of 1900, which is 01/01/1900. So the answer is 01/01/1900.
+
+Q: Today
+Answer 01/01/1900 expected 01/01/1900
+Total examples: 15 Correct answers: 11
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one week from today in MM/DD/YYYY?
+A:
+ If the concert was originally scheduled on 06/01/1943, then today is 06/02/1943. One week from today is 7 days in the future of today, which is 06/09/1943. So the answer is 06/09/1943.
+
+Q: Today
+Answer 06/09/1943 expected 06/09/1943
+Total examples: 16 Correct answers: 12
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date today in MM/DD/YYYY?
+A:
+Skipping the batch
+ If Jane was born on the last day of February in 2000, then she was born on 02/29/2000. Today is her 16-year-old birthday, which is 02/29/2016. So the answer is 02/29/2016.
+
+Q: Today
+Answer 02/29/2016 expected 02/29/2016
+Total examples: 17 Correct answers: 13
+Q: Jane booked a flight for tomorrow, Jul 29, 2002. What is the date one week from today in MM/DD/YYYY?
+A:
+ If tomorrow is Jul 29, 2002, then today is Jul 28, 2002. One week from today is 7 days in the future of today, which is Jul 35, 2002. Since there are only 31 days in July, the 35th day of July is not possible. So, one week from today is Jul 35, 2002, which is Jul 4, 2002. So the answer is 07/04/2002.
+
+Q: Today
+Answer 07/04/2002 expected 08/04/2002
+Total examples: 18 Correct answers: 13
+Q: The day before yesterday was 11/23/1933. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If the day before yesterday was 11/23/1933, then yesterday is 11/24/1933. Today is 11/25/1933. One week ago from today is 7 days in the past of today, which is 11/18/1933. So the answer is 11/18/1933.
+
+Q: Today
+Answer 11/18/1933 expected 11/18/1933
+Total examples: 19 Correct answers: 14
+Q: In the UK, people usually put the day before the month when formatting the date. Therefore, today is 02/01/1987 to them. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If today is 02/01/1987, then 10 days ago is 01/22/1987. So the answer is 01/22/1987.
+
+Q: Today
+Answer 01/22/1987 expected 12/23/1986
+Total examples: 20 Correct answers: 14
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If the concert was scheduled to be on 06/01/1943, then today is 06/02/1943. One year ago from today is 06/02/1942. So the answer is 06/02/1942.
+
+Q: Today
+Answer 06/02/1942 expected 06/02/1942
+Total examples: 21 Correct answers: 15
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If Jane and John married on Jan 2, 1958, then their golden wedding anniversary is on Jan 2, 2008. 10 days ago from today is 10 days in the past of today, which is 12/23/2007. So the answer is 12/23/2007.
+
+Q: Today
+Answer 12/23/2007 expected 12/23/2007
+Total examples: 22 Correct answers: 16
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If Jane was born on the last day of February in 2000, then she was born on 02/29/2000. Today is her 16-year-old birthday, so today is 02/29/2016. 10 days ago from today is 02/19/2016. So the answer is 02/19/2016.
+
+Q: Today
+Answer 02/19/2016 expected 02/19/2016
+Total examples: 23 Correct answers: 17
+Q: Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date one week from today in MM/DD/YYYY?
+A:
+Skipping the batch
+ If Jane was born on the last day of February in 2000, then she was born on 02/29/2000. Today is her 16-year-old birthday, which is 02/29/2016. One week from today is 7 days in the future of today, which is 03/07/2016. So the answer is 03/07/2016.
+
+Q: Today
+Answer 03/07/2016 expected 03/07/2016
+Total examples: 24 Correct answers: 18
+Q: Jane quited her job on Mar 20, 2020. 176 days have passed since then. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If 176 days have passed since March 20, 2020, then today is 08/23/2020. One week ago from today is 7 days in the past of today, which is 08/16/2020. So the answer is 08/16/2020.
+
+Q: Today
+Answer 08/16/2020 expected 09/05/2020
+Total examples: 25 Correct answers: 18
+Q: Jane got her job in 2016. Today is her 3-year work anniversary. She still remember that on Dec 2, her second day at work, she spilled coffee on her laptop. What is the date a month ago in MM/DD/YYYY?
+A:
+ If today is her 3-year work anniversary, then today is 12/02/2019. One month ago from today is 11/02/2019. So the answer is 11/02/2019.
+
+Q: Today
+Answer 11/02/2019 expected 11/01/2019
+Total examples: 26 Correct answers: 18
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date yesterday in MM/DD/YYYY?
+A:
+ If today is the palindrome day of 2020, then today is 02/02/2020. Yesterday is 1 day in the past of today, which is 02/01/2020. So the answer is 02/01/2020.
+
+Q: Today
+Answer 02/01/2020 expected 02/01/2020
+Total examples: 27 Correct answers: 19
+Q: 2015 is coming in 36 hours. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If 2015 is coming in 36 hours, then today is 12/31/2014. Tomorrow is 1 day in the future of today, which is 01/01/2015. So the answer is 01/01/2015.
+
+Q: Today
+Answer 01/01/2015 expected 12/30/2014
+Total examples: 28 Correct answers: 19
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If Jane was born on the last day of February in 2001, then she was born on 02/28/2001. Today is her 16-year-old birthday, so today is 02/28/2017. One week ago from today is 7 days in the past of today, which is 02/21/2017. So the answer is 02/21/2017.
+
+Q: Today
+Answer 02/21/2017 expected 02/21/2017
+Total examples: 29 Correct answers: 20
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date 24 hours later in MM/DD/YYYY?
+A:
+ If today is 10/16/1924, then tomorrow is 10/17/1924. 24 hours later is 11 am of the next day, which is 10/18/1924. So the answer is 10/18/1924.
+
+Q: Today
+Answer 10/18/1924 expected 10/16/1924
+Total examples: 30 Correct answers: 20
+Q: The concert was scheduled to be on 06/01/1943, but was delayed by one day to today. What is the date today in MM/DD/YYYY?
+A:
+ If the concert was scheduled to be on 06/01/1943, but was delayed by one day, then the concert is on 06/02/1943. So the answer is 06/02/1943.
+
+Q: Today
+Answer 06/02/1943 expected 06/02/1943
+Total examples: 31 Correct answers: 21
+Q: Jane and John married on Jan 2, 1958. Today is their golden wedding anniversary. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is their golden wedding anniversary, then today is 01/02/2008. One year ago from today is 01/02/2007. So the answer is 01/02/2007.
+
+Q: Today
+Answer 01/02/2007 expected 01/02/2007
+Total examples: 32 Correct answers: 22
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date a month ago in MM/DD/YYYY?
+A:
+ If today is the palindrome day of 2020, then today is 02/02/2020. A month ago from today is 1 month in the past of today, which is the 2nd day of January 2020, or 01/02/2020. So the answer is 01/02/2020.
+
+Q: Today
+Answer 01/02/2020 expected 01/02/2020
+Total examples: 33 Correct answers: 23
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 6/18/2019, then one year ago from today is 6/18/2018. So the answer is 06/
+Answer 06 expected 06/18/2018
+Total examples: 34 Correct answers: 23
+Q: In the US, Thanksgiving is on the fourth Thursday of November. Today is the US Thanksgiving of 2001. What is the date yesterday in MM/DD/YYYY?
+A:
+ We already know that the US Thanksgiving of 2001 is on 11/22/2001. Yesterday is 1 day in the past of today, which is 11/21/2001. So the answer is 11/21/2001.
+
+Q: Today
+Answer 11/21/2001 expected 11/21/2002
+Total examples: 35 Correct answers: 23
+Q: It is 4/19/1969 today. What is the date one week ago from today in MM/DD/YYYY?
+A:
+ If today is 4/19/1969, then one week ago from today is 7 days in the past of today, which is 4/12/1969. So the answer is 04/12/1969.
+
+Q: Today
+Answer 04/12/1969 expected 04/12/1969
+Total examples: 36 Correct answers: 24
+Q: Today is 3/5, and it is Jane's second time in the year 1973 to see a meteor shower. What is the date 10 days ago in MM/DD/YYYY?
+A:
+ If today is 3/5, then 10 days ago is 2/25. So the answer is 02/25/1973.
+
+Q: Today
+Answer 02/25/1973 expected 02/23/1973
+Total examples: 37 Correct answers: 24
+Q: Jane thinks today is 6/18/2019, but John thinks today is 6/19/2019. Jane is correct. What is the date one week from today in MM/DD/YYYY?
+A:
+ If today is 6/18/2019, then one week from today is 7 days in the future of today, which is 6/25/2019. So the answer is 6/25/2019. John is incorrect. Jane is correct. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019. So the answer is 6/25/2019.
+Answer 6/25/2019 expected 06/25/2019
+Total examples: 38 Correct answers: 25
+Q: Today is the palindrome day of 2020, because the MMDDYYYY format of the date is the same backwards as forwards. What is the date tomorrow in MM/DD/YYYY?
+A:
+ If today is the palindrome day of 2020, then today is 02/02/2020. Tomorrow is 1 day in the future of today, which is 02/03/2020. So the answer is 02/03/2020.
+
+Q: Today
+Answer 02/03/2020 expected 02/03/2020
+Total examples: 39 Correct answers: 26
+Q: It was Sept. 1st, 2021 a week ago. What is the date a month ago in MM/DD/YYYY?
+A:
+ If it was Sept. 1st, 2021 a week ago, then today is Sept. 8th, 2021. One month ago is 30 days in the past of today, which is August 9th, 2021. So the answer is 08/09/2021.
+
+Q: Today
+Answer 08/09/2021 expected 08/08/2021
+Total examples: 40 Correct answers: 26
+Q: Jane scheduled 3 apointments with 5 poeple for tomorrow (Tue, 7/9/1972). What is the date yesterday in MM/DD/YYYY?
+A:
+ If tomorrow is 7/9/1972, then yesterday is 7/8/1972. So the answer is 7/8/1972.
+
+Q: Today
+Answer 7/8/1972 expected 07/07/1972
+Total examples: 41 Correct answers: 26
+Q: On May 9th, 2017 Jane bought 40 eggs. She ate one per day. Today she ran out of eggs. What is the date today in MM/DD/YYYY?
+A:
+ If Jane bought 40 eggs on May 9th, 2017, then she ate one egg per day. She ate 40 eggs in total, so she ate eggs for 40 days. May 9th, 2017 is the first day, so today is May 9th + 40 days = May 18th, 2017. So the answer is 05/18/2017.
+
+Q: Today
+Answer 05/18/2017 expected 06/18/2017
+Total examples: 42 Correct answers: 26
+Q: Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If today is 3/12/2002, then one year ago from today is 3/12/2001. So the answer is 03/12/2001.
+
+Q: Today
+Answer 03/12/2001 expected 03/12/2001
+Total examples: 43 Correct answers: 27
+Q: Today's meeting is rescheduled to 11 am tomorrow, 10/16/1924. What is the date a month ago in MM/DD/YYYY?
+A:
+ If today is 10/16/1924, then a month ago is 9/16/1924. So the answer is 9/16/1924.
+
+Q: Today
+Answer 9/16/1924 expected 09/15/1924
+Total examples: 44 Correct answers: 27
+Q: Jane was born on the last day of Feburary in 2001. Today is her 16-year-old birthday. What is the date one year ago from today in MM/DD/YYYY?
+A:
+ If Jane was born on the last day of February in 2001, then she was born on 02/28/2001. Today is her 16-year-old birthday, so today is 02/28/2017. One year ago from today is 02/28/2016. So the answer is 02/28/2016.
+
+Q: Today
+Answer 02/28/2016 expected 02/28/2016
+Total examples: 45 Correct answers: 28
+Skipping the batch
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+
+| date   |            353 |                     22041 |                     62.4391 |         19582 |        1624 | 12.0579 |                           6333 |              704 |                          8.99574 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
++------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| csqa       |    1221 |       861 |     0.70516  |
++------------+---------+-----------+--------------+
+| strategyqa |     457 |       213 |     0.466083 |
++------------+---------+-----------+--------------+
+| sports     |     970 |       861 |     0.887629 |
++------------+---------+-----------+--------------+
+| date       |     353 |       250 |     0.708215 |
++------------+---------+-----------+--------------+
