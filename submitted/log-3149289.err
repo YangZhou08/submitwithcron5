@@ -1,0 +1,83 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:56<00:56, 56.61s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.21s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.31s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.18s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.18s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.34s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.24s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:58<00:58, 58.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:13<00:00, 33.26s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:13<00:00, 36.76s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.02s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.09s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.03s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.12s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.07s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.36s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.09s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 33.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:14<00:00, 37.15s/it]
+  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py:119: UserWarning: n_copies (n_samples/batch_size) was changed from 1 to 2 because n_tasks isn't proportional to num devices
+  warnings.warn(
+  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  2%|▏         | 1/63 [01:48<1:52:08, 108.53s/it]  2%|▏         | 1/63 [01:59<2:03:08, 119.17s/it]  2%|▏         | 1/63 [01:49<1:52:51, 109.21s/it]  2%|▏         | 1/63 [01:43<1:46:50, 103.40s/it]  2%|▏         | 1/63 [01:47<1:51:25, 107.83s/it]  2%|▏         | 1/63 [01:51<1:55:34, 111.85s/it]  2%|▏         | 1/63 [01:25<1:28:41, 85.83s/it]  2%|▏         | 1/63 [01:53<1:57:25, 113.64s/it]  3%|▎         | 2/63 [02:56<1:24:14, 82.87s/it]   3%|▎         | 2/63 [02:40<1:17:38, 76.37s/it]   3%|▎         | 2/63 [02:45<1:19:30, 78.20s/it]   3%|▎         | 2/63 [02:45<1:19:47, 78.48s/it]   3%|▎         | 2/63 [02:49<1:21:11, 79.85s/it]   3%|▎         | 2/63 [02:23<1:10:17, 69.14s/it]  3%|▎         | 2/63 [02:46<1:20:04, 78.77s/it]   3%|▎         | 2/63 [02:51<1:21:55, 80.59s/it]   5%|▍         | 3/63 [02:48<45:07, 45.13s/it]    5%|▍         | 3/63 [02:54<46:25, 46.43s/it]    5%|▍         | 3/63 [02:57<47:01, 47.02s/it]    5%|▍         | 3/63 [02:53<46:07, 46.12s/it]    5%|▍         | 3/63 [02:31<41:11, 41.20s/it]    5%|▍         | 3/63 [02:53<46:16, 46.28s/it]    5%|▍         | 3/63 [03:04<48:39, 48.66s/it]    5%|▍         | 3/63 [02:59<47:25, 47.42s/it]    6%|▋         | 4/63 [03:51<50:04, 50.92s/it]  6%|▋         | 4/63 [03:55<50:36, 51.46s/it]  6%|▋         | 4/63 [03:57<50:50, 51.70s/it]  6%|▋         | 4/63 [03:47<49:28, 50.32s/it]  6%|▋         | 4/63 [03:29<47:08, 47.94s/it]  6%|▋         | 4/63 [03:52<50:15, 51.10s/it]  6%|▋         | 4/63 [04:02<51:34, 52.45s/it]  6%|▋         | 4/63 [03:52<50:09, 51.01s/it]
