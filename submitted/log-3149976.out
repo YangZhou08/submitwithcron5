@@ -1,0 +1,55 @@
+M	gsm8krollbacklengtherror0.npy
+M	gsm8krollbacklengtherror1.npy
+M	gsm8krollbacklengtherror2.npy
+M	gsm8krollbacklengtherror3.npy
+M	gsm8krollbacklengtherror4.npy
+M	gsm8krollbacklengtherror5.npy
+M	gsm8krollbacklengtherror6.npy
+M	gsm8krollbacklengtherror7.npy
+Your branch is up to date with 'origin/yangexp2two'.
+Updating 3dd29dc..a389c30
+Fast-forward
+ debugging1.sh   |   1 +
+ llama12.py      | 110 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ xhuggingface.py |  24 +++++++++++--
+ 3 files changed, 132 insertions(+), 3 deletions(-)
+ create mode 100644 debugging1.sh
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B,thresholdbased=True,check=False', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=None, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
+Threshold based
+filename meta-llama/Meta-Llama-3-8B
+True
