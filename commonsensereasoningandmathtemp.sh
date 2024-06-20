@@ -37,6 +37,8 @@ conda activate hanshi
 cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
 git checkout addinggriffin 
+git add .
+git stash 
 git pull 
 
 git pull 
