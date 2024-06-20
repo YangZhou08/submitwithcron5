@@ -1,0 +1,469 @@
+Your branch is up to date with 'origin/addinggriffin'.
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+We now use eos_token as pad token
+is_distributed True
+is_distributed True
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+is_distributed True
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, shotfive=False, shottwo=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+tasks ['csqa', 'strategyqa', 'sports', 'date']
+length of dataset:  1224
+length of dataset:  1224
+length of dataset:  1224
+length of dataset:  1224
+length of dataset:  1224
+Q: He wanted lodging in the actual what, so that he was already where he needed to be?
+Options: (a) a yurt (b) resort area (c) big city (d) michigan (e) going on vacation
+A:
+length of dataset:  1224
+length of dataset:  1224
+length of dataset:  1224
+ The answer must be a place where he can stay and not need to travel to another place. A yurt is a type of lodging, but not a place. Resort area is a place where people go to stay, but not necessarily where they need to be. Big city is a place where people can stay, but not necessarily where they need to be. Michigan is a state, not a place. Going on vacation is a situation, not a place. Already is where he needs to be, so the answer is already (e). 
+
+Q: The
+Answer e expected b
+Total examples: 1 Correct answers: 0
+Q: A fencing thrust with a sharp sword towards a person would result in what?
+Options: (a) injury (b) small cuts (c) fever (d) competition (e) puncture wound
+A:
+ The answer must be a result of the fencing thrust, which is a sharp sword towards a person. Injury is the most common and serious result of a fencing thrust. Small cuts are a type of injury. Fever is not a direct result of a fencing thrust. Competition is a type of fencing, not the result of a fencing thrust. Puncture wound is a type of injury that can be caused by a fencing thrust. So the answer is injury (a).
+
+Q: The
+Answer a expected e
+Total examples: 2 Correct answers: 0
+Q: The terrace had Kanji written on it, indicating that it was made where?
+Options: (a) japan (b) rice paddy (c) garden (d) michigan (e) italy
+A:
+ The answer must be a place where Kanji is commonly written and used. Japan is a place where Kanji is commonly written and used, and it is also the place where the Kanji is written on the terrace. Rice paddy is a place where rice is grown, and Kanji is not typically written on rice paddies. Garden is a place where plants are grown, and Kanji is not typically written on gardens. Michigan is a state in the U.S. where Kanji is not commonly written. Italy is a country in Europe where Kanji is not commonly written. So the answer is japan (a). 
+
+Q: The
+Answer a expected a
+Total examples: 3 Correct answers: 1
+Q: Where would you buy a finely crafted writing instrument?
+Options: (a) nasa (b) classroom (c) stationery store (d) purse (e) office supply store
+A:
+ The answer must be a place where you can buy a finely crafted writing instrument. NASA is a place for space research and not for buying writing instruments. Classroom is a place for learning and not for buying writing instruments. Purse is a place for carrying things, but not for buying writing instruments. Office supply store is a place for buying writing instruments, and stationery store is also a place for buying writing instruments, but finely crafted writing instruments are usually more expensive and can be found in a stationery store. So the answer is stationery store (e).
+
+Q: The
+Answer e expected c
+Total examples: 4 Correct answers: 1
+Q: Alabama is full of different people, but they are all citizens of what?
+Options: (a) united states (b) deep south (c) floribama (d) gulf states (e) florabama
+A:
+ The answer must be a place that includes all the people in Alabama. United States is a place that includes all the people in Alabama. Deep south and Gulf states are regions in the U.S. but not a place that includes all people in Alabama. Floribama is not a place. Florabama is a combination of Florida and Alabama, but not a place that includes all people in Alabama. So the answer is the united states (a).
+
+Q: The
+Answer a expected a
+Total examples: 5 Correct answers: 2
+Q: Who do professors work with?
+Options: (a) methods of facts (b) teach courses (c) wear wrinkled tweed jackets (d) school students (e) state facts
+A:
+ The answer must be a group of people that professors usually work with. Methods of facts is not a group of people. Teach courses is a job of professors, but not a group of people they work with. Wear wrinkled tweed jackets is a stereotype of professors, but not a group of people they work with. School students are the students that professors teach, but not the group of people they work with. The most relevant group of people that professors work with are their colleagues, so the answer is not given in the options. The closest option is school students, but the answer is not that. So the answer is not in the options.
+
+Q: The
+Answer n expected d
+Total examples: 6 Correct answers: 2
+Q: Why are dogs often known as man's best friend?
+Options: (a) aggressive (b) friendly (c) very loyal (d) found outside (e) very smart
+A:
+ The answer must be a reason that is often used to describe the relationship between dogs and humans. Aggressive is not a reason why dogs are known as man's best friend. Friendly is a reason, but not the most common one. Very loyal is a reason, and it is often used to describe the relationship between dogs and humans. Found outside is not a reason why dogs are known as man's best friend. Very smart is not a reason why dogs are known as man's best friend. So the answer is very loyal (c).
+
+Q: The
+Answer c expected c
+Total examples: 7 Correct answers: 3
+Q: Despite the large crowds, how did the depressed man feel?
+Options: (a) small group (b) alone (c) solitary (d) solitude (e) panic
+A:
+ The answer must be a situation that is the opposite of the situation described. The depressed man is in a crowd, but he feels alone, which is the opposite of the situation. A small group is not the opposite of a large crowd. Panic is a feeling that is not the opposite of being alone, and it is also not a feeling that is typically associated with depression. So the answer is alone (b). 
+
+Q: The
+Answer b expected c
+Total examples: 8 Correct answers: 3
+Q: I couldn't find anybody who recalled the event, what were they adroit at doing?
+Options: (a) question authority (b) act fool (c) wash dishes (d) act innocent (e) forget
+A:
+ The answer must be a situation where people are not good at remembering the event. Question authority is not a situation where people are adroit at doing. Act fool is not a situation where people are good at doing. Wash dishes is a common task, but not a situation where people are good at doing. Act innocent is a situation where people are trying to hide something, but not a situation where people are good at doing. Forget is a situation where people are not good at remembering, and people are not good at doing something they are not good at. So the answer is forget (e).
+
+Q: The
+Answer e expected e
+Total examples: 9 Correct answers: 4
+Q: Killing people should not cause what emotion?
+Options: (a) vengeance (b) going to prison (c) joy (d) afraid (e) terrible
+A:
+ The answer must be an emotion that is not a normal or expected response to killing people. Vengeance is a normal response to killing people. Going to prison is a consequence of killing people, not an emotion. Joy is a strange emotion to feel when killing people, but not impossible. Afraid is a normal emotion to feel when killing people, especially if it is a dangerous or illegal act. Terrible is a normal emotion to feel when killing people, especially if it is a violent or unjust act. So the answer is joy (c).
+
+Q: The
+Answer c expected c
+Total examples: 10 Correct answers: 5
+Q: Making a schedule was easy to pick, the major called for knowledge that required a certain what?
+Options: (a) color (b) class (c) meeting (d) university (e) encyclopedia
+A:
+ The answer must be a thing that is required to make a schedule. A color is not required to make a schedule. A class is a thing that is required to make a schedule, but not the most specific. A meeting is a thing that is required to make a schedule, but not the most specific. A university is a place where you can learn, but not the most specific. Encyclopedia is a thing that contains knowledge, and the most specific thing that is required to make a schedule. So the answer is encyclopedia (e).
+
+Q: The
+Answer e expected b
+Total examples: 11 Correct answers: 5
+Q: Where would you sit in a chair while working toward an advanced degree?
+Options: (a) aeroport (b) church (c) furniture store (d) university (e) living room
+A:
+ The answer must be a place where you would sit in a chair while studying. An aeroport is a place where you would not sit in a chair while studying. A church is a place where you would not sit in a chair while studying. Furniture store is a place where you would not sit in a chair while studying. University is a place where you would sit in a chair while studying. So the answer is a university (d).
+
+Q: The
+Answer d expected d
+Total examples: 12 Correct answers: 6
+Q: A statue that shoots liquid is called a what?
+Options: (a) water fountain (b) large city (c) museum (d) pool (e) central park
+A:
+ The answer must be a type of statue that shoots liquid. A water fountain is a type of statue that shoots liquid. Large city, museum, and central park are not types of statues. Pool is a place where liquid is, but not a statue that shoots liquid. So the answer is water fountain (a). 
+
+Q: A
+Answer a expected a
+Total examples: 13 Correct answers: 7
+Q: What is it called when a person with mental illness is able to lead a relatively normal life?
+Options: (a) managed (b) effectively treated (c) recur (d) cause delusion (e) illusion
+A:
+ The answer must be a situation where a person with mental illness is able to lead a normal life. Managed is a state where the person's mental illness is under control, but not a specific term for it. Effectively treated is a state where the person's mental illness is under control, but not a specific term for it. Recur is a verb that means to happen again, not a state of a person's mental illness. Cause delusion is a state where the person's mental illness is not under control, and illusion is a state where the person's perception is not real. Remission is the state where a person with mental illness is able to lead a relatively normal life. So the answer is remission (not in the options).
+
+Q: The
+Answer s expected a
+Total examples: 14 Correct answers: 7
+Q: Where is the closest place from where you could borrow salt?
+Options: (a) ocean water (b) table (c) shaker (d) neighbor's house (e) lake
+A:
+ The answer must be a place where salt is commonly found and can be borrowed. Ocean water is a place where salt is found, but you can't borrow it. Table and shaker are not places where you can borrow salt, and they are also not places where salt is commonly found. Neighbor's house is a place where you can borrow salt, and salt is commonly found in many households. So the answer is neighbor's house (d).
+
+Q: The new
+Answer d expected d
+Total examples: 15 Correct answers: 8
+Q: What has someone who had finished their undergraduate done?
+Options: (a) graduated (b) masters (c) postgraduate (d) phd (e) professor
+A:
+ The answer must be a stage of education that someone has completed after their undergraduate. Graduated is a stage of education, and the correct one. Master's, postgraduate, and phd are all stages of education after undergraduate. Professor is a job title, not a stage of education. So the answer is graduated (a).
+
+Q: The
+Answer a expected a
+Total examples: 16 Correct answers: 9
+Q: How can a human cross a river and not mess up their hair?
+Options: (a) wisconsin (b) waterfall (c) hatred (d) bridge (e) valley
+A:
+ The answer must be a way to cross a river without getting wet and messing up the hair. Wisconsin is a state, not a way to cross a river. Waterfall is a place where water falls, not a way to cross a river. Hatred is not a way to cross a river. Valley is a place where a river is, not a way to cross a river. Bridge is a way to cross a river without getting wet and messing up the hair. So the answer is bridge (d). 
+
+Q: A
+Answer d expected d
+Total examples: 17 Correct answers: 10
+Q: Where are sheep likely to live?
+Options: (a) school (b) meadow (c) lamb (d) farm (e) fairgrounds
+A:
+ The answer must be a place where sheep are commonly found. A school is not a place for sheep. Meadow is a place where sheep can be found, and it is a common habitat for them. Lamb is a type of sheep, but not a place. Farm is a place where sheep are commonly found, and it is a common habitat for them. Fairgrounds is a place where sheep are not commonly found. So the answer is meadow (b) or farm (d). Both are correct. 
+
+Q: The
+Answer d expected d
+Total examples: 18 Correct answers: 11
+Q: How many hours are in a day?
+Options: (a) week (b) bright (c) night (d) twenty four (e) year
+A:
+ The answer must be a number of hours that a day has. A week is a time period and not the number of hours in a day. Bright and night are not numbers of hours in a day. Twenty four is the number of hours in a day, so the answer is twenty four (d). Year is a time period and not the number of hours in a day. So the answer is twenty four
+Answer d expected d
+Total examples: 19 Correct answers: 12
+Q: Punk rock music is an important part of what action sport?
+Options: (a) skate (b) listen (c) opera (d) opera (e) relax
+A:
+ The answer must be an action sport that punk rock music is often associated with. Skate is an action sport that punk rock music is often associated with. Listen is not an action sport. Opera is not an action sport and punk rock music is not associated with it. Relax is not an action sport and punk rock music is not associated with it. So the answer is skate (a).
+
+Q: The
+Answer a expected a
+Total examples: 20 Correct answers: 13
+Q: Where might a lemur frolic in the market?
+Options: (a) desert (b) hole (c) india (d) cage (e) rain forest
+A:
+ The answer must be a place where lemurs are commonly found and can frolic. Lemurs are not typically found in the desert, hole, or cage. India is a place where lemurs are not typically found. Rain forest is a place where lemurs are commonly found and can frolic. So the answer is rain forest (e).
+
+Q: The new
+Answer e expected c
+Total examples: 21 Correct answers: 13
+Q: It was a long trip from the farm, so he stayed in a hotel when he arrived at the what?
+Options: (a) bed away from home (b) wwii bunker (c) resort (d) las vegas (e) city
+A:
+ The answer must be a place where people usually stay when they are away from their home for a long time. A bed away from home is a common phrase, and a hotel is a place where people usually stay when they are away from their home. WWII bunker is not a place where people usually stay when they are away from their home. Resort is a place where people usually stay when they are away from their home, but not the most common. Las Vegas is a city, but not the most common place where people stay when they are away from their home. City is a general place where people can stay when they are away from their home, but not the most common. So the answer is hotel (a). 
+
+Q: The
+Answer a expected e
+Total examples: 22 Correct answers: 13
+Q: Joan was a baby, so there were many things she couldn't do, which caused problems for her parents.  Name one thing that makes raising a baby difficult.
+Options: (a) arrive early (b) learn to walk (c) boy or girl (d) bring joy (e) talk nonsense
+A:
+ The answer must be a thing that makes raising a baby difficult. Arrive early is not a problem for parents. Learn to walk is a normal development for babies, and not a problem for parents. Boy or girl is a decision that parents have to make, but not a problem for parents. Bring joy is a positive thing for parents. Talk nonsense is a normal thing for babies to do, and not a problem for parents. So the answer is talk nonsense (e).
+
+Q: The
+Answer e expected e
+Total examples: 23 Correct answers: 14
+Q: What is the main purpose of having a bath?
+Options: (a) cleanness (b) wetness (c) exfoliation (d) use water (e) hygiene
+A:
+ The answer must be a reason that people usually take a bath. Cleanness is the most common reason people take a bath. Wetness is not the main purpose of having a bath. Exfoliation is a benefit of some bath products, but not the main purpose of having a bath. Use water is a way to have a bath, but not the main purpose. Hygiene is a reason people take a bath, but not the most common. So the answer is cleanness (a). 
+
+Q: What
+Answer a expected a
+Total examples: 24 Correct answers: 15
+Q: To what do trees roots cling?
+Options: (a) yard (b) orchard (c) museum (d) countryside (e) surface of earth
+A:
+ The answer must be a place where trees roots grow and cling. A yard is a place where trees can grow, but not where roots cling. An orchard is a place where trees grow, but not where roots cling. A museum is a place where trees are not typically found, and countryside is a place where trees are found, but not where roots cling. The surface of the earth is where trees roots cling. So the answer is the surface of the earth (e).
+
+Q: The
+Answer e expected e
+Total examples: 25 Correct answers: 16
+Q: Where would you keep an ottoman near your front door?
+Options: (a) living room (b) parlor (c) furniture store (d) basement (e) kitchen
+A:
+ The answer must be a place where an ottoman is usually kept and is near the front door. Living room and parlor are places where ottomans are usually kept, and they are near the front door. Furniture store is a place where ottomans are sold, but not kept. Basement is not a common place to keep an ottoman, and it is not near the front door. Kitchen is not a common place to keep an ottoman, and it is not near the front door. So the answer is living room (a) or parlor (b). 
+
+Q: What
+Answer b expected a
+Total examples: 26 Correct answers: 16
+Q: He was beginning to regret taking the fight when he saw how what his opponent was?
+Options: (a) fun (b) joy (c) satisfaction (d) confident (e) pride
+A:
+ The answer must be a situation when the person is regretting taking the fight and seeing that the opponent is having a good time. Fun is a common feeling when someone is winning a fight. Joy is a feeling that is not directly related to a fight. Satisfaction is a feeling that can be related to winning a fight, but not directly. Confident is a feeling that can be related to a person, but not directly to the fight. Pride is a feeling that can be related to winning a fight, but not directly. When the person is regretting taking the fight and seeing that the opponent is having fun, the person is regretting the decision. So the answer is fun (a). 
+
+Q: The
+Answer a expected d
+Total examples: 27 Correct answers: 16
+Q: What do most companies not want to have relative to demand?
+Options: (a) oversupply (b) plentitude (c) stockpile (d) superabundance (e) busy
+A:
+ The answer must be a situation that most companies don't want to have relative to demand. Oversupply is when there is more of something than what is needed, and most companies don't want to have it. Plentitude is a synonym for oversupply. Stockpile is a synonym for oversupply. Superabundance is also a synonym for oversupply. Busy is not related to demand. So the answer is oversupply (a).
+
+Q: The
+Answer a expected a
+Total examples: 28 Correct answers: 17
+Q: Talking to the same person about the same thing over and over again is something someone can what?
+Options: (a) social life (b) friendship (c) eye contact (d) get tired of (e) learn lessons from
+A:
+ The answer must be a situation that is common when someone talks to the same person about the same thing over and over again. A social life is not directly related to the situation. Friendship is a relationship, but not directly related to the situation. Eye contact is a way to communicate, but not directly related to the situation. Get tired of is a common situation when someone talks to the same person about the same thing over and over again. Learn lessons from is not a common situation when someone talks to the same person about the same thing over and over again. So the answer is get tired of (d). 
+
+Q: The
+Answer d expected d
+Total examples: 29 Correct answers: 18
+Q: Where will a cheap book be found?
+Options: (a) bookstore (b) classroom (c) discount store (d) school room (e) bedside table
+A:
+ The answer must be a place where cheap books are usually found. A bookstore is a place where books are sold, and they might not be cheap. A classroom is a place where books are used for learning, and they are not usually cheap. Discount store is a place where books are sold at a lower price, so they are cheap. School room is a place where books are used for learning, but they are not usually cheap. Bedside table is a place where books are kept, but they are not usually cheap. So the answer is a discount store (c).
+
+Q: The
+Answer c expected c
+Total examples: 30 Correct answers: 19
+Q: What do you do when you're going to market?
+Options: (a) buy food (b) see other people (c) buying vegetables (d) buy a fat pig (e) traveling
+A:
+ The answer must be a common activity that people do when they are going to market. Buying food is a common activity at market, but not the only one. Buying vegetables is a common activity at market, but not the only one. Buying a fat pig is a common activity at market, but not the only one. Traveling is a common activity, but not necessarily at market. So the answer is buy (a).
+
+Q: The new
+Answer a expected a
+Total examples: 31 Correct answers: 20
+Q: What rubber toy filled with helium will make a child happy?
+Options: (a) loved (b) learn (c) eat cake (d) balloon (e) become adult
+A:
+ The answer must be a toy that is filled with helium and can make a child happy. A loved one is not a toy. Learn is not a toy. Eat cake is not a toy. Become adult is not a toy. A balloon is a toy that is filled with helium and can make a child happy. So the answer is a balloon (d).
+
+Q: The
+Answer d expected d
+Total examples: 32 Correct answers: 21
+Q: He was very outgoing, for him making friends was no personal what?
+Options: (a) scary (b) having friends (c) good feeling (d) conflict (e) friendship
+A:
+ The answer must be a situation when making friends is not a personal issue for someone who is outgoing. Making friends is a personal issue for most people, but not for someone who is outgoing and makes friends easily. Scary is not a personal issue, and making friends is not scary for someone who is outgoing. Good feeling is a personal issue, and making friends is a good feeling for someone who is outgoing. Conflict is a personal issue, and making friends is not a conflict for someone who is outgoing. Friendship is a personal issue, and making friends is a part of friendship. So the answer is having friends (b). 
+
+Q: The
+Answer b expected d
+Total examples: 33 Correct answers: 21
+Q: What is a possible outcome for committing murder?
+Options: (a) problems (b) incarceration (c) trial (d) imprisonment (e) prosecution
+A:
+ The answer must be a possible outcome for committing murder, which is a serious crime. Problems are not a direct outcome of committing murder. Incarceration is a possible outcome of committing murder, as the person who committed the murder may be put in jail. Trial is a step in the process of dealing with the crime of murder, but not the outcome. Imprisonment is a possible outcome of committing murder, as the person who committed the murder may be put in prison. Prosecution is a step in the process of dealing with the crime of murder, but not the outcome. So the answer is incarceration (b) or imprisonment (d). 
+
+Q: What
+Answer d expected d
+Total examples: 34 Correct answers: 22
+Q: John and Joe like planning games but Joe  was hit by a ball and fell down. What might have happened to Joe.
+Options: (a) anger (b) good natured ribbing. (c) enjoying (d) injury (e) enjoyment
+A:
+ The answer must be a situation that is related to the game and the ball. Anger is not a common reaction when someone is hit by a ball. Good natured ribbing is not a common reaction when someone is hit by a ball. Enjoying is not a common reaction when someone is hit by a ball. Injury is a common reaction when someone is hit by a ball. Enjoyment is not a common reaction when someone is hit by a ball. So the answer is injury (d).
+
+Q: The
+Answer d expected d
+Total examples: 35 Correct answers: 23
+Q: What is a person trying to accomplish when taking analgesics?
+Options: (a) acceptance (b) avoid pain (c) acknowledgment (d) passing grade (e) intellectual challenge
+A:
+ The answer must be a situation when a person is trying to reduce or eliminate pain. Acceptance is not the same as taking analgesics. Avoiding pain is the most direct and relevant reason for taking analgesics. Acknowledgment is not a direct action to reduce pain. Passing grade is not related to pain, and intellectual challenge is not a direct action to reduce pain. So the answer is avoid pain (b). 
+
+Q: A
+Answer b expected b
+Total examples: 36 Correct answers: 24
+Q: If a heifer is really high quality, you might take her where?
+Options: (a) home (b) dairy farm (c) cattle show (d) dairy barn (e) corral
+A:
+ The answer must be a place where high quality heifers are usually taken. A heifer is a young cow, and high quality heifers are usually taken to a place where they can be shown or sold. Home is not a place where heifers are usually taken. Dairy farm is a place where heifers are raised but not necessarily high quality. Dairy barn is a place where heifers are raised but not necessarily high quality. Corral is a place where heifers are raised but not necessarily high quality. Cattle show is a place where high quality heifers are usually taken. So the answer is cattle show (c).
+
+Q: A
+Answer c expected c
+Total examples: 37 Correct answers: 25
+Q: The child pretended he was reading newspaper, he couldn't actually do it without what?
+Options: (a) patience (b) falling down (c) literacy (d) buying (e) knowing how to read
+A:
+ The answer must be a situation where the child is pretending to read a newspaper but can't actually do it because he doesn't have the ability to read. Patience is not a requirement for reading a newspaper. Falling down is not related to reading a newspaper. Buying a newspaper is a way to get one, but not a requirement to read it. Knowing how to read is the most relevant, as the child can't read a newspaper without this ability. So the answer is knowing how to read (e).
+
+Q: What
+Answer e expected e
+Total examples: 38 Correct answers: 26
+Q: Who is not famous for a superhighway with no speed limit?
+Options: (a) europe (b) germany (c) industrialized country (d) city (e) america
+A:
+ The answer must be a place or a country that is not famous for a superhighway with no speed limit. Europe is not a place with a superhighway with no speed limit. Germany is a country with a superhighway with no speed limit, but the question is asking who is not famous for it. Industrialized country is a general term and not a specific place. City is not a place with a superhighway with no speed limit. America is a country with a superhighway with no speed limit, but the question is asking who is not famous for it. So the answer is europe (a).  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question is asking who is not famous for it, so the correct answer is europe.  Germany is the correct answer, but the question
+Answer a expected e
+Total examples: 39 Correct answers: 26
+Q: What does everyone have in relation to other people?
+Options: (a) feelings (b) food (c) unique personality (d) different standards (e) values
+A:
+ The answer must be a thing that everyone has in relation to other people. Feelings are not something that everyone has in relation to other people. Food is not something that everyone has in relation to other people. Unique personality is something that everyone has, but not in relation to other people. Different standards are not something that everyone has in relation to other people. Values are something that everyone has in relation to other people, as everyone has values that are different from others. So the answer is values (e).
+
+Q: What
+Answer e expected a
+Total examples: 40 Correct answers: 26
+Q: Copulating with the wrong partner may be ill advised, many diseases can be transferred that can cause different types of what?
+Options: (a) intense pleasure (b) ejaculation (c) period of rest (d) enjoyment (e) skin irritation
+A:
+ The answer must be a type of health problem that can be caused by diseases transferred through copulating with the wrong partner. Intense pleasure is not a health problem. Ejaculation is a normal part of sexual activity, not a health problem. Period of rest is not a health problem. Enjoyment is not a health problem. Skin irritation is not the most common health problem that can be caused by diseases transferred through copulating with the wrong partner. Many diseases can cause different types of health problems, such as sexually transmitted diseases (STDs), which can cause different types of health problems. So the answer is health problems (the most general term). 
+
+Q: The
+Answer m expected e
+Total examples: 41 Correct answers: 26
+Q: If a car-less person want to listen to talk radio in private, where might they listen to it?
+Options: (a) trunk (b) bedroom (c) diner (d) space shuttle (e) shop
+A:
+ The answer must be a place where the person can listen to talk radio in private. A trunk is a place in a car, but the person is car-less. Bedroom is a place where the person can listen to talk radio in private. Diner is a public place and not private. Space shuttle is a place in space and not a place to listen to talk radio. Shop is a public place and not private. So the answer is the answer is bedroom (b).
+
+Q: The
+Answer b expected b
+Total examples: 42 Correct answers: 27
+Q: What do you ask a child to do when you first meet her?
+Options: (a) ask questions (b) count to ten (c) costume (d) state name (e) dress herself
+A:
+ The answer must be a common action when you first meet a child. Asking questions is a common action, but not the first thing to do when you first meet a child. Counting to ten is not a common action when you first meet a child. Costume is not relevant to the first meeting of a child. State name is a common action when you first meet a child, especially in formal situations. Dress herself is not a common action when you first meet a child. So the answer is state name (d).
+
+Q: The
+Answer d expected d
+Total examples: 43 Correct answers: 28
+Q: Why would you not trust your friends after chatting with friends?
+Options: (a) fever (b) smoke (c) laughing (d) coughing (e) lie
+A:
+ The answer must be a situation when you are not sure if your friends are telling the truth. Fever, smoke, and coughing are not related to not trusting your friends. Laughing is a common reaction when chatting with friends, and it doesn't make you not trust your friends. Lie is the most relevant in the situation, as you are not sure if your friends are telling the truth. So the answer is lie (e).
+
+Q: The
+Answer e expected e
+Total examples: 44 Correct answers: 29
+Q: After climbing the mountains, the explored found the cave, what was the general goegraphy of the region he found it in?
+Options: (a) west virginia (b) kentucky (c) desert (d) sea (e) rocky hills
+A:
+ The answer must be a geography that is common with mountains and caves. West virginia and Kentucky are states in the U.S. that have mountains, but not necessarily caves. Desert is a geography that is not common with mountains and caves. Sea is a geography that is not common with mountains and caves. Rocky hills is a geography that is common with mountains and caves. So the answer is rocky hills (e).
+
+Q: The
+Answer e expected e
+Total examples: 45 Correct answers: 30
+Q: August needed  money because he was afraid that he'd be kicked out of his house.  What did he need money to do?
+Options: (a) control people (b) pay bills (c) hurt people (d) buy food (e) get things
+A:
+ The answer must be a situation that is related to the reason August needs money. August is afraid of being kicked out of his house, so he needs money to pay bills, which is the most relevant reason. August needs money to control people, hurt people, or get things, but these are not the reasons he needs money. So the answer is pay bills (b).
+
+Q: The new
+Answer b expected b
+Total examples: 46 Correct answers: 31
+Q: Where is a good place to have a fireplace in a house?
+Options: (a) big house (b) train (c) cabin (d) living room (e) home
+A:
+ The answer must be a place in a house where a fireplace is a common and practical feature. A big house is a size, not a place. Train is not a place in a house. Cabin is a type of house, but not a place in a house. Living room is a common place in a house where a fireplace is often found. So the answer is living room (d).
+
+Q: The
+Answer d expected d
+Total examples: 47 Correct answers: 32
+Q: Why do people who are dying receive social security payments?
+Options: (a) rejuvenation (b) born again (c) no longer exist (d) unable to work (e) change of color
+A:
+ The answer must be a reason that people who are dying receive social security payments. Rejuvenation and born again are not related to social security payments. People who are dying are not able to work, and that is the reason they receive social security payments. No longer exist is a state of death, and people who are dying receive social security payments. Change of color is not related to social security payments. So the answer is unable to work (d).
+
+Q: The
+Answer d expected d
+Total examples: 48 Correct answers: 33
+Q: If my husband never helps me doing housework, what might that lead to?
+Options: (a) boredom (b) arguments (c) headache (d) exhaustion (e) park
+A:
+ The answer must be a situation that is a common consequence of not doing housework. Boredom is not a direct consequence of not doing housework. Arguments is a common consequence of not doing housework. Headache is not a direct consequence of not doing housework. Exhaustion is a direct consequence of not doing housework. Park is not related to housework. So the answer is arguments (b).
+
+Q: The
+Answer b expected b
+Total examples: 49 Correct answers: 34
+Q: If I wanted to eat something that is made from plants and needs to be washed, what would it be?
+Options: (a) roots (b) millions of cells (c) see work (d) leaves to gather light (e) flowers on
+A:
+ The answer must be a thing that is made from plants and needs to be washed. Roots are a part of a plant, but not something that is typically washed. Millions of cells is a scientific term and not something that is typically washed. See work is not a thing that is typically washed. Leaves to gather light is a function of a plant, but not something that is typically washed. Flowers are a part of a plant, but not something that is typically washed. The most typical thing that is made from plants and needs to be washed is lettuce, which is a leafy green. So the answer is not given in the options. The closest option is leaves, which is a part of a plant that is typically washed. So the answer is leaves (not in the options).
+
+Q: The
+Answer n expected a
+Total examples: 50 Correct answers: 34
+Q: Where is a likely place to store unused soap?
+Options: (a) cabinet (b) supermarket (c) jail (d) butt (e) own home
+A:
+ The answer must be a place that is common for storing unused soap. A cabinet is a common place to store unused soap. A supermarket is where you buy soap, not where you store it. Jail is not a common place to store soap. Butt is not a common place to store soap. Own home is a general place, and a cabinet in the own home is a common place to store unused soap. So the answer is cabinet (a).
+
+Q: The
+Answer a expected a
+Total examples: 51 Correct answers: 35
+Q: Where can someone get a new saw?
+Options: (a) hardware store (b) toolbox (c) logging camp (d) tool kit (e) auger
+A:
+ The answer must be a place where someone can buy a new saw. A hardware store is a place where someone can buy a new saw. A toolbox is a place where someone can store a saw, but not buy a new one. Logging camp is a place where someone can use a saw, but not buy a new one. Tool kit is a place where someone can store a saw, but not buy a new one. Auger is a type of tool, not a place to buy a saw. So the answer is hardware store (a).
+
+Q: What
+Answer a expected a
+Total examples: 52 Correct answers: 36
+Q: Where would a computer user be using their own computer?
+Options: (a) hell (b) school (c) indoors (d) internet cafe (e) house
+A:
+ The answer must be a place where a computer user is using their own computer. Hell is not a place where a computer user would be using their own computer. School is a place where people learn, but not necessarily use their own computer. Indoors is a place where a computer user can be, but not necessarily using their own computer. Internet cafe is a place where people use computers, but not their own. House is the most common place where a person would use their own computer. So the answer is house (e).
+
+Q: What
+Answer e expected e
+Total examples: 53 Correct answers: 37

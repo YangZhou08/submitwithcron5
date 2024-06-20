@@ -1,0 +1,220 @@
+Your branch is up to date with 'origin/addinggriffin'.
+No local changes to save
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+We now use eos_token as pad token
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device=None, limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+tasks ['aqua']tasks ['aqua']tasks ['aqua']tasks ['aqua']tasks ['aqua']
+
+
+
+
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+Q: Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.
+Options: (a) 144km (b) 72 km (c) 126km (d) 84 km (e) 48km
+A:
+Let the distance between X and Y be x. Then, Allen covers distance = 54 km in one direction = 54/2 = 27 km. Bob covers distance = 78 km in one direction = 78/2 = 39 km. So, when they meet for the second time, Bob is ahead by 39 - 27 = 12 km. Hence, distance between X and Y = 12 + x = 12 + 27 = 39 km. So the answer is (b).
+
+Q: A
+Answer b expected e
+Total examples: 1 Correct answers: 0
+Q: A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece?
+Options: (a) 60 m (b) 61 m (c) 62 m (d) 63 m (e) 64 m
+A:
+Perimeter of a rectangular piece = 2(l + b) where l is the length and b is the breadth. Since the length is 1m more than 4 times the breadth, l = 4b + 1. Now, the area of the piece is 150 sq m. So, we can set up the equation: 2(4b + 1 + 2b) = 150. Simplifying, we get: 2b + 2 = 75. b = 37.5. So, the perimeter of the piece is 2(4b + 1 + 2b) = 2(4(37.5) + 1 + 2(37.5)) = 62 m. The answer is (c).
+
+Q: A
+Answer  expected c
+Total examples: 2 Correct answers: 0
+Q: By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work?
+Options: (a) 4 (b) 8 (c) 22 (d) 50 (e) 20
+A:
+Jack can clean the yacht in 12 hours, so he completes 12/1 = 12 hours of work. Two-thirds of the work = 2/3 * 12 = 8 hours. Remaining work = 12 - 8 = 4 hours. Jill can complete 4/0.05 = 80 hours of work. So the answer is (e).
+
+Q: A
+Answer e expected e
+Total examples: 3 Correct answers: 1
+Q: The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?
+Options: (a) 10% (b) 12% (c) 6% (d) 8% (e) 4%
+A:
+The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years is given as Rs.72. The rate of interest is 10%. So the answer is (a).
+
+Q: A
+Answer a expected b
+Total examples: 4 Correct answers: 1
+Q: Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?
+Options: (a) 20% (b) 25% (c) 30% (d) 35% (e) 40%
+A:
+The dog ate exactly once an hour, so the dog ate 8 times in total. The dog ate 1/3 of the remaining food each time, so the total amount of food eaten = 8 * 1/3 = 2.67. So the original amount of food in the bowl = 100 - 2.67 = 97.33. So the answer is (c).
+
+Q: A
+Answer c expected a
+Total examples: 5 Correct answers: 1
+Q: An express electric train takes exact three seconds to enter tunnel which is 1 mile long.
+If train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel ?
+Options: (a) 43 seconds (b) 39 seconds (c) 20 seconds (d) 33 seconds (e) 55 seconds
+A:
+Distance = Speed * Time = 1 mile = 5280 feet Speed = 120 mile/hour = 120 * 5/13 = 70 feet per second Time = 3 seconds = 3 * 5280 / 70 = 21640 feet = 21640 / 5280 = 4.1 seconds. So the answer is (e).
+
+Q: A
+Answer e expected d
+Total examples: 6 Correct answers: 1
+Q: At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?
+Options: (a) 10!/3 (b) 10!/6 (c) 10!/2 (d) 10!/4 (e) 10!/5
+A:
+The order in which the speakers speak is important. So the number of ways the meeting can be held is 10!/(3!*6!) = 10!/3. So the answer is (a).
+
+Q: A
+Answer a expected b
+Total examples: 7 Correct answers: 1
+Q: Anna is able to buy 5 more articles for $300 after the price of each article decreased by 15%. What is the new selling price of each article?
+Options: (a) $8 (b) $10 (c) $13.6 (d) $22.9 (e) $40
+A:
+New selling price of each article = Old selling price / (1 - 15%) = $300 / (1 - 0.15) = $300 / 0.85 = $360. So the answer is (c).
+
+Q: A
+Answer c expected c
+Total examples: 8 Correct answers: 2
+Q: The price of a product is reduced by 30% . By what percentage should it be increased to make it 100%
+Options: (a) 41.86% (b) 42.86% (c) 43.86% (d) 44.86% (e) 45.86%
+A:
+Original price = 100% / 1 = 100%
+New price = 70% / 1 = 70%
+To make it 100%, we need to increase it by 30% = 30% of 70% = 21%
+So, the answer is (e).
+
+Q: A
+Answer  expected b
+Total examples: 9 Correct answers: 2
+Q: there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?
+Options: (a) 550 (b) 570 (c) 600 (d) 700 (e) none of these
+A:
+20% of the students took physics, so 20/100 = 0.2 * 501 = 100 students took physics. 28% of the students took math, so 28/100 = 0.28 * 501 = 140 students took math. Since, the least possible number of students in the school is 100 + 140 = 240. So the answer is (e).
+
+Q: A
+Answer e expected e
+Total examples: 10 Correct answers: 3
+Q: Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q ?
+Options: (a) 24 (b) 36 (c) 72 (d) 84 (e) None
+A:
+The total number of ways to travel from M to Q = 3 + 4 + 1 + 3 = 11. So the answer is (e).
+
+Q: A
+Answer e expected b
+Total examples: 11 Correct answers: 3
+Q: What is 60% of 30% of 1400 grams?
+Options: (a) 450 gms (b) 100 gms (c) 252 gms (d) 240 gms (e) None of these
+A:
+30% of 1400 grams = 420 grams. 60% of 420 grams = 252 grams. So the answer is (c).
+
+Q: A
+Answer c expected c
+Total examples: 12 Correct answers: 4
+Q: Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?
+Options: (a) 3 hours (b) 5 hours (c) 6 hours (d) 4 hours (e) 7 hours
+A:
+Distance = Speed x Time = 55 x 3 = 165 miles = 165/52 = 3.17 miles per hour. Time = Distance / Speed = 165 / 52 = 3.17 hours. So the answer is (c).
+
+Q: A
+Answer c expected b
+Total examples: 13 Correct answers: 4
+Q: There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups?
+Options: (a) 90 (b) 105 (c) 126 (d) 252 (e) 525
+A:
+There are 10 bottles, and each group can have 5 members, so the number of ways to create 2 groups = 10C5 = 50. So the answer is (b).
+
+Q: A
+Answer b expected d
+Total examples: 14 Correct answers: 4
+Q: A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?
+Options: (a) 2000 (b) 4000 (c) 8000 (d) 16000 (e) 32000
+A:
+The bee bypasses 0.05% of flowers it flies by, so if it flies by 100 flowers, it will bypass 0.05*100 = 5 flowers. So it will fly by 100 - 5 = 95 flowers to bypass 8 flowers. Hence the answer is (b).
+
+Q: A
+Answer  expected d
+Total examples: 15 Correct answers: 4
+Q: Silu and Meenu were walking on the road.
+Silu said, "I weigh 51 Kgs. How much do you weigh?"
+Meenu replied that she wouldn't reveal her weight directly as she is overweight.
+But she said, "I weigh 29 Kgs plus half of my weight. "How much does Meenu weigh?
+Options: (a) 12 (b) 28 (c) 27 (d) 58 (e) 91
+A:
+Meenu weighs 29 + (1/2) * 29 = 29 + 14.5 = 43.5 kg. So the answer is (c).
+
+Q: A
+Answer c expected d
+Total examples: 16 Correct answers: 4
+Q: A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?
+Options: (a) 9 Trousers (b) 8 Trousers (c) 10 Trousers (d) 7 Trousers (e) 11 Trousers
+A:
+Total amount spent = 810 Total amount spent on trousers = 810/9 = 90 Total amount spent on shirt = 810/3 = 270 Number of trousers = Total amount spent on trousers / Price of trousers = 90 / 70 = 1.33 Number of shirts = Total amount spent on shirts / Price of shirts = 270 / 30 = 9 Number of trousers = Number of shirts = 1.33 * 9 = 11.27 So the answer is (e).
+
+Q: A
+Answer e expected a
+Total examples: 17 Correct answers: 4
+Q: Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period ?
+Options: (a) 21 (b) 30 (c) 31 (d) 32 (e) None of the above
+A:
+The average number of microwave ovens sold per month during the entire 22 months period is the average of the first 10 months + the average of the last 10 months. = 42 + 20 = 62. So the answer is (e).
+
+Q: A
+Answer e expected d
+Total examples: 18 Correct answers: 4
+Q: Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family?
+Options: (a) 2 (b) 3 (c) 4 (d) 5 (e) 6
+A:
+The median income of the family is $3000, which means that half of the income goes to the lower half of the family. So the income of the lower half is $3000 * 2 = $6000. The total income of the family is $9000, so the income of the upper half is $9000 - $6000 = $3000. The number of members in the family is half of the income of the lower half, which is half of $6000 = $3000 / 2 = $1500. So the answer is (c).
+
+Q: A
+Answer c expected b
+Total examples: 19 Correct answers: 4
+Q: There are 10 oranges in a basket. Find the no. of ways in which 2 oranges are chosen from the basket?
+Options: (a) 45 (b) 90 (c) 120 (d) 150 (e) 180
+A:
+There are 10 oranges in the basket, and 2 oranges are chosen. The number of ways to choose 2 oranges from 10 is 10C2 = 10 * 9 = 90. So the answer is (b).
+
+Q: A
+Answer b expected a
+Total examples: 20 Correct answers: 4
+Q: Three bells ring at intervals of 36 seconds, 40 seconds and 48 seconds, respectively. They start ringing together at a particular time. When they will ring together again?
+Options: (a) After 6 minutes (b) After 12 minutes (c) After 18 minutes (d) After 24 minutes (e) none
+A:
+Let the time they start ringing together be T. Then, the time they will ring together again is T + (36 + 40 + 48) = T + 156 = 156 + T. T = 156/3 = 52 minutes. So the answer is (a).
+
+Q: A
+Answer a expected b
+Total examples: 21 Correct answers: 4
+Q: In a class, 8% of total students are interested in Football. 4/5 of total students are interested in Cricket. 10% of total students are interested in Basketball and remaining 20 students are not interested in any games. How many students are there in the class?
+Options: (a) 850 (b) 800 (c) 900 (d) 950 (e) 1000
+A:

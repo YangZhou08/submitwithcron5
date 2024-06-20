@@ -1,0 +1,183 @@
+Your branch is up to date with 'origin/addinggriffin'.
+No local changes to save
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+tasks ['aqua']tasks ['aqua']
+
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+Q: Allen starts from X, goes to Y. At the same time Bob starts from Y and goes towards X. Once Allen reaches Y he changes his direction and returns to X. Once Bob reaches X, he changes his direction and returns to Y. Throughout Allen travels at 54 kmph and Bob travels at 78kmph. By the time they meet for the second time, Bob covers 48 km more than Allen. Find the distance between X and Y.
+Options: (a) 144km (b) 72 km (c) 126km (d) 84 km (e) 48km
+A:
+ Let the distance between X and Y be d. Allen travels at 54 kmph and Bob travels at 78 kmph. So Allen takes d/54 hours to reach Y and Bob takes d/78 hours to reach X. Once they meet, Allen travels back to X and Bob travels back to Y. So Allen travels 2d/54 and Bob travels 2d/78. We know that Bob travels 48 km more than Allen. So 2d/78 - 2d/54 = 48 2d/54 = 48 2d = 54*48 d = 72. So the answer is (b).
+
+Q: A
+Answer b expected e
+Total examples: 1 Correct answers: 0
+Q: A rectangular piece of 150 sq m has a length which is 1m more than the 4 times the breadth. What is the perimeter of the piece?
+Options: (a) 60 m (b) 61 m (c) 62 m (d) 63 m (e) 64 m
+A:
+ Let the breadth be x. Then the length is 4x+1. The area is 150, so x*(4x+1) = 150. x^2+4x-150 = 0. (x+15)(x-10) = 0. x = -15 or 10. Since the breadth cannot be negative, x = 10. The length is 4*10+1 = 41. The perimeter is 2*(10+41) = 102 m. So the answer is not in the options. The answer is 102 m.
+
+Q: A
+Answer o expected c
+Total examples: 2 Correct answers: 0
+Q: By himself, Jack can clean a yacht in 12 hours. On a particular day, he happens to finish two-thirds of the work. The remaining portion of the work is done by Jill, whose rate of cleaning is just 5% of what Jack can do. How long does it take Jill to finish the remaining work?
+Options: (a) 4 (b) 8 (c) 22 (d) 50 (e) 20
+A:
+ Jack can clean the yacht in 12 hours, so his rate is 1/12 of the yacht per hour. He finishes 2/3 of the work, so he has 1/3 left. 1/3 of the yacht per hour is 1/3 * 1/12 = 1/36 of the yacht per hour. Jill's rate is 5% of this, so she can clean 1/36 * 5/100 = 1/72 of the yacht per hour. So it will take her 1/3 * 72 = 24 hours to finish the remaining work. So the answer is (b).
+
+Q: A
+Answer b expected e
+Total examples: 3 Correct answers: 0
+Q: The difference between simple interest and C.I. at the same rate for Rs.5000 for 2 years in Rs.72. The rate of interest is?
+Options: (a) 10% (b) 12% (c) 6% (d) 8% (e) 4%
+A:
+ Let the rate of interest be R%. Then, the difference between simple interest and C.I. = (5000*2*R*R/100) - (5000*2*R/100)^2/2 = 72. 5000*R*R/100 - 5000*R*R/10000 = 72 5000*R*R/10000 = 72 500*R*R/1000 = 72 R*R/20 = 72 R*R = 1440 R = 12. So the answer is (b).
+
+Q: A
+Answer b expected b
+Total examples: 4 Correct answers: 1
+Q: Jim filled his dog's bowl with dog food. Starting at 8:00 am, Jim's dog ate exactly once an hour, consuming exactly 1/3 of the dog food remaining in the bowl at each feeding session. Approximately, what percent of the original food was in the dog's bowl right before the dog began to eat at noon of the same day?
+Options: (a) 20% (b) 25% (c) 30% (d) 35% (e) 40%
+A:
+ The dog ate 1/3 of the food at 9 am, 1/3 of the food at 10 am, and 1/3 of the food at 11 am. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon, the dog ate 1/3 of the food 3 times. So, at noon
+Answer  expected a
+Total examples: 5 Correct answers: 1
+Q: An express electric train takes exact three seconds to enter tunnel which is 1 mile long.
+If train is traveling at 120 mile an hour, how long will it take to pass completely through the tunnel?
+Options: (a) 43 seconds (b) 39 seconds (c) 20 seconds (d) 33 seconds (e) 55 seconds
+A:
+ The train is traveling at 120 mph. 1 mile = 5280 feet. So, the train is traveling at 120 * 5280/3600 = 176 feet per second. The train takes 3 seconds to enter the tunnel, so it is 176 * 3 = 528 feet inside the tunnel. The train will take 528/176 = 3 seconds to come out of the tunnel. So, it will take 3 + 3 = 6 seconds to pass completely through the tunnel. So the answer is (c).
+
+Q: A
+Answer c expected d
+Total examples: 6 Correct answers: 1
+Q: At an election meeting 10 speakers are to address the meeting. The only protocol to be observed is that whenever they speak the pm should speak before the mp and the mp should speak before the mla. In how many ways can the meeting be held?
+Options: (a) 10!/3 (b) 10!/6 (c) 10!/2 (d) 10!/4 (e) 10!/5
+A:
+ The pm can speak in 10 ways, the mp in 9 ways and the mla in 8 ways. So the total number of ways is 10 * 9 * 8 = 720. So the answer is (e).
+
+Q: A
+Answer e expected b
+Total examples: 7 Correct answers: 1
+Q: Anna is able to buy 5 more articles for $300 after the price of each article decreased by 15%. What is the new selling price of each article?
+Options: (a) $8 (b) $10 (c) $13.6 (d) $22.9 (e) $40
+A:
+ Let the original price of each article be x. Then, 5x = 300. x = 300/5 = 60. The new price of each article is 0.85x = 0.85 * 60 = 51. So the answer is (c).
+
+Q: A
+Answer c expected c
+Total examples: 8 Correct answers: 2
+Q: The price of a product is reduced by 30%. By what percentage should it be increased to make it 100%
+Options: (a) 41.86% (b) 42.86% (c) 43.86% (d) 44.86% (e) 45.86%
+A:
+ Let the original price be 100. Then, the reduced price is 100 - 30 = 70. To make it 100, it should be increased by 100 - 70 = 30. So, the percentage increase is 30/70 * 100 = 42.86%. So the answer is (b). Final Answer: The final answer is (b). I hope it is correct. Q: A
+Answer b expected b
+Total examples: 9 Correct answers: 3
+Q: there are more than 501 students in a school such that 20% of them exactly took physics and 28% of them exactly took math. What could be the least possible no of students in the school?
+Options: (a) 550 (b) 570 (c) 600 (d) 700 (e) none of these
+A:
+ Let the number of students be x. 20% of them exactly took physics means 0.2x students took physics. 28% of them exactly took math means 0.28x students took math. Since there are more than 501 students, x > 501. x is an integer, so x > 502. x = 502 is not possible as 0.2*502 = 100.4 which is not an integer. x = 503 is also not possible as 0.2*503 = 100.6 which is not an integer. x = 504 is also not possible as 0.2*504 = 100.8 which is not an integer. x = 505 is also not possible as 0.2*505 = 101 which is not an integer. x = 506 is also not possible as 0.2*506 = 101.2 which is not an integer. x = 507 is also not possible as 0.2*507 = 101.4 which is not an integer. x = 508 is also not possible as 0.2*508 = 101.6 which is not an integer. x = 509 is also not possible as 0.2*509 = 101.8 which is not an integer. x = 510 is also not possible as 0.2*510 = 102 which is not an integer. x = 511 is also not possible as 0.2*511 = 102.2 which is not an integer. x = 512 is also not possible as 0.2*512 = 102.4 which is not an integer. x = 513 is also not possible as 0.2*513 = 102.6 which is not an integer. x = 514 is also not possible as 0.2*514 = 102.8 which is not an integer. x = 515 is also not possible as 0.2*515 = 103 which is not an integer. x = 516 is also not possible as 0.2*516 = 103.2 which is not an integer. x = 517 is also not possible as 0.2*517 = 103.4 which is not an integer. x = 518 is also not possible as 0.2*518 = 103.6 which is
+Answer  expected e
+Total examples: 10 Correct answers: 3
+Q: Suppose you can travel from a place M to a place N by 3 buses, from place N to place O by 4 buses, from place O to place P by 1 buses and from place P to place Q by 3 buses. In how many ways can you travel from M to Q?
+Options: (a) 24 (b) 36 (c) 72 (d) 84 (e) None
+A:
+ You can travel from M to Q by 3*4*1*3 = 36 ways. So the answer is (b).
+
+Q: A
+Answer b expected b
+Total examples: 11 Correct answers: 4
+Q: What is 60% of 30% of 1400 grams?
+Options: (a) 450 gms (b) 100 gms (c) 252 gms (d) 240 gms (e) None of these
+A:
+ 60% of 30% of 1400 grams = 0.6 * 0.3 * 1400 = 252. So the answer is (c). #### More Qs
+
+#### Q: A
+Answer c expected c
+Total examples: 12 Correct answers: 5
+Q: Two cars are travelling from the same starting point in the same direction, having started their commute at the same time. The first car travels at a steady rate of 55 mph, while the second travels at a steady rate of 52 mph. How much time will pass before the cars are 15 miles away from each other?
+Options: (a) 3 hours (b) 5 hours (c) 6 hours (d) 4 hours (e) 7 hours
+A:
+ The relative speed of the two cars is 55 - 52 = 3 mph. So the relative distance between the two cars is 15 miles. The time taken to cover this distance is 15/3 = 5 hours. So the answer is (b).
+
+Q: A
+Answer b expected b
+Total examples: 13 Correct answers: 6
+Q: There are ten lime soda bottles on a table in a restaurant. They are to be served among two different groups of customers consisting of 5 members each. How many ways are there to create these 2 groups?
+Options: (a) 90 (b) 105 (c) 126 (d) 252 (e) 525
+A:
+ We need to select 5 members from 10 to form the first group. This can be done in 10C5 = 252 ways. The remaining 5 members will form the second group. So the answer is (d). 252. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 252 ways. 
+Answer d expected d
+Total examples: 14 Correct answers: 7
+Q: A bee bypasses 0.05% of flowers it flies by because it can sense they don't have any nectar in them. How many flowers will the bee fly by to bypass 8 flowers?
+Options: (a) 2000 (b) 4000 (c) 8000 (d) 16000 (e) 32000
+A:
+ The bee bypasses 0.05% of flowers. So, for every 2000 flowers, it will bypass 1 flower. So, to bypass 8 flowers, it will have to fly by 2000 * 8 = 16000 flowers. So the answer is (d).
+
+Q: A
+Answer d expected d
+Total examples: 15 Correct answers: 8
+Q: Silu and Meenu were walking on the road.
+Silu said, "I weigh 51 Kgs. How much do you weigh?"
+Meenu replied that she wouldn't reveal her weight directly as she is overweight.
+But she said, "I weigh 29 Kgs plus half of my weight. "How much does Meenu weigh?
+Options: (a) 12 (b) 28 (c) 27 (d) 58 (e) 91
+A:
+ Meenu weighs 29 + 1/2 * Meenu. So Meenu = 2 * 29 = 58. So the answer is (d).
+
+Q: A
+Answer d expected d
+Total examples: 16 Correct answers: 9
+Q: A man spend 810 in buying trouser at Rs 70 each and shirt at 30 each. What will be the ratio of trouser and shirt when the maximum number of trouser is purchased?
+Options: (a) 9 Trousers (b) 8 Trousers (c) 10 Trousers (d) 7 Trousers (e) 11 Trousers
+A:
+ Let the number of trousers be x. Then, the number of shirts will be (810 - 70x)/30. The number of trousers will be maximum when the number of shirts is minimum, i.e., when (810 - 70x)/30 is 1. 810 - 70x = 30 810 = 70x + 30 780 = 70x 12 = x. So, the answer is (d). 12 Trousers. (Note: The question is asking for the ratio of trousers and shirts, not the number of trousers. So, the answer is 12:1 or 12/1.) Q: A
+Answer  expected a
+Total examples: 17 Correct answers: 9
+Q: Last year, a Home Appliance Store sold an average(arithmetic mean) of 42 microwave ovens per month. In the first 10 months of this year,the store has sold an average(arithmetic mean) of only 20 microwave ovens per month. What was the average number of microwave ovens sold per month during the entire 22 months period?
+Options: (a) 21 (b) 30 (c) 31 (d) 32 (e) None of the above
+A:
+ The total number of microwave ovens sold in the 22 months period = 10*20 + 12*42 = 200 + 504 = 704. The average number of microwave ovens sold per month during the entire 22 months period = 704/22 = 32. So the answer is (d).
+
+Q: A
+Answer d expected d
+Total examples: 18 Correct answers: 10
+Q: Everyone in the family earns money each month. If the total income of a family per month is $9000 and the median income is $3000, how many members are there in the family?
+Options: (a) 2 (b) 3 (c) 4 (d) 5 (e) 6
+A:
