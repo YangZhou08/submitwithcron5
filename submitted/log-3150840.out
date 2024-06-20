@@ -304,3 +304,23 @@ Let the number of employees be x. Then the total contribution = 6x. If each empl
 Q: A
 Answer  expected c
 Total examples: 32 Correct answers: 7
+Skipping the batch
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inference
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+
+| aqua   |            254 |                     23670 |                      93.189 |         21287 |        2342 | 9.08924 |                          16175 |             1496 |                          10.8122 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, shotfive=True, shottwo=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        52 |     0.204724 |
++--------+---------+-----------+--------------+
