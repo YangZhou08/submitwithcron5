@@ -8,19 +8,19 @@
 # conda activate hanshi 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 # cd /fsx-storygen/beidic/yang/GRIFFIN2 
-cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
-git branch 
-git add . 
-git stash 
-git checkout addinggriffin 
-# git checkout yangexp2two 
-git pull 
-ls 
-
-# cd /fsx-storygen/beidic/yang/GRIFFIN2
+# cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git branch 
-# git add .
+# git add . 
 # git stash 
+# git checkout addinggriffin 
 # git checkout yangexp2two 
 # git pull 
 # ls 
+
+cd /fsx-storygen/beidic/yang/GRIFFIN2
+git branch 
+git add .
+git stash 
+git checkout yangexp2two 
+git pull 
+ls 
