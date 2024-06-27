@@ -10,13 +10,15 @@ models=(
 # List of commands to run
 commands=(
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=False,check=False --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,treewidth=2 --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,treewidth=4 --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,treewidth=8 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,widthtree=2 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,widthtree=4 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,widthtree=8 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,widthtree=16 --tasks gsm8k --batch_size 1 "
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,treewidth=2 --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,treewidth=4 --tasks gsm8k --batch_size 1 "
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,treewidth=8 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,widthtree=2 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,widthtree=4 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,widthtree=8 --tasks gsm8k --batch_size 1 "
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,widthtree=16 --tasks gsm8k --batch_size 1 "
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 "
 )
 
