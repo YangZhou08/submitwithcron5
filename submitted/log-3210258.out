@@ -33,3 +33,14 @@ beamwidth is 16
 beamwidth is 16beamwidth is 16
 
 beamwidth is 16
++----------------+---------------------------+-----------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |
++================+===========================+=============================+
+|           1320 |                    182675 |                      138.39 |
++----------------+---------------------------+-----------------------------+
+xhf (pretrained=meta-llama/Llama-2-7b-hf,griffin=True,check=False,widthtree=16), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.1039|±  |0.0084|
+|     |       |flexible-extract|     5|exact_match|0.1061|±  |0.0085|
+
