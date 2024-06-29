@@ -2229,3 +2229,360 @@ attempting to move error files
 * yangexp2two
   yangobservation
 + git add .
++ git stash
+No local changes to save
++ git checkout yangexp2two
+Already on 'yangexp2two'
+Your branch is up to date with 'origin/yangexp2two'.
++ git pull
+Already up to date.
++ ls
+README.md
+__pycache__
+agieval.sh
+base1.sh
+base2.sh
+base3.sh
+base4.sh
+base5.sh
+base6.sh
+base7.sh
+cache.py
+coqa.sh
+cottrial.ipynb
+data
+debugging1.sh
+errorrejectfalsenegative.txt
+first.txt
+griffin.yml
+gsm8k.sh
+gsm8krollbacklengtherror0.npy
+gsm8krollbacklengtherror1.npy
+gsm8krollbacklengtherror2.npy
+gsm8krollbacklengtherror3.npy
+gsm8krollbacklengtherror4.npy
+gsm8krollbacklengtherror5.npy
+gsm8krollbacklengtherror6.npy
+gsm8krollbacklengtherror7.npy
+layer0example0.txt
+layer0example0two.txt
+layer0intstate.txt
+layer0oldintstate.txt
+layer16example0.txt
+layer16example0two.txt
+layer16intstate.txt
+layer31example0.txt
+layer31example0two.txt
+layer31oldintstate.txt
+llama10.py
+llama10inspectinginside.py
+llama10skipcorrection.py
+llama11.py
+llama12.py
+llama12addingtree.py
+llama12addingtreestrict.py
+llama2-7B_bsz1_0.5.npy
+llama2.py
+llama3-8B_bsz1_0.3.npy
+llama3-8B_bsz1_0.4.npy
+llama3-8B_bsz1_0.5.npy
+llama3.py
+llama4.py
+llama5.py
+llama6.py
+llama7.py
+llama8.py
+llama9.py
+main.py
+main1.sh
+main1_A.sh
+main1_C.sh
+main1_D.sh
+main2.sh
+main2_A.sh
+main2_B.sh
+main2_C.sh
+main2_D.sh
+main3.sh
+main3_A.sh
+main3_B.sh
+main3_C.sh
+main3_D.sh
+main5.sh
+main5_A.sh
+main5_B.sh
+main5_C.sh
+main5_D.sh
+main6.sh
+main6_A.sh
+main6_B.sh
+main6_C.sh
+main6_D.sh
+mmlu.sh
+newlogonfailedcases.log
+results
+run.sh
+run0.sh
+run1.sh
+run2.sh
+run3.sh
+run_slurm.sh
+scripts
+src
+sweep0.sh
+sweep1.sh
+sweep2.sh
+sweep3.sh
+token.log
+token1.log
+topinclusionlogs
+xevaluator.py
+xhuggingface.py
++ models=("meta-llama/Meta-Llama-3-8B" "meta-llama/Llama-2-7b-hf")
++ commands=("accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 ")
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=NGE4O
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGE4O-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGE4O-blQ3E2.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGE4O-blQ3E2.sh
+Submitted batch job 3235008
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=ZjQ1Y
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZjQ1Y-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZjQ1Y-G2Opo2.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZjQ1Y-G2Opo2.sh
+Submitted batch job 3235009
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MDAzO
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MDAzO-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MDAzO-Ome9CO.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MDAzO-Ome9CO.sh
+Submitted batch job 3235010
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=NDI4M
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NDI4M-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NDI4M-vT5eI7.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NDI4M-vT5eI7.sh
+Submitted batch job 3235011
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MWYwY
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWYwY-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWYwY-QD5Z1M.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWYwY-QD5Z1M.sh
+Submitted batch job 3235012
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=OWZiZ
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-OWZiZ-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-OWZiZ-4GPu4n.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-OWZiZ-4GPu4n.sh
+Submitted batch job 3235013
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=ZGI0M
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZGI0M-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZGI0M-htdM6y.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ZGI0M-htdM6y.sh
+Submitted batch job 3235014
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MjU3N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MjU3N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MjU3N-PMPq0M.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MjU3N-PMPq0M.sh
+Submitted batch job 3235015
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=M2U2Z
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2U2Z-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2U2Z-0ytPAG.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2U2Z-0ytPAG.sh
+Submitted batch job 3235016
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=ODMzY
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ODMzY-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ODMzY-qslIVV.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-ODMzY-qslIVV.sh
+Submitted batch job 3235017
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MmQ3Z
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MmQ3Z-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MmQ3Z-DE7tGK.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MmQ3Z-DE7tGK.sh
+Submitted batch job 3235018
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=NGMxN
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGMxN-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGMxN-jR3FZR.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=2,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGMxN-jR3FZR.sh
+Submitted batch job 3235019
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=YTI0N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YTI0N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YTI0N-ArXCH3.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YTI0N-ArXCH3.sh
+Submitted batch job 3235020
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MWM1N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWM1N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWM1N-RZYcFJ.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MWM1N-RZYcFJ.sh
+Submitted batch job 3235021
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MzI1N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MzI1N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MzI1N-jNdYkv.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MzI1N-jNdYkv.sh
+Submitted batch job 3235022
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=MTZlY
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MTZlY-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MTZlY-l4yixg.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-hf,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-MTZlY-l4yixg.sh
+Submitted batch job 3235023
++ /opt/slurm/bin/squeue -u beidic
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3235023     learn yangzho6   beidic PD       0:00      1 (None)
+           3235022     learn yangzho6   beidic PD       0:00      1 (None)
+           3235021     learn yangzho6   beidic PD       0:00      1 (None)
+           3235020     learn yangzho6   beidic PD       0:00      1 (None)
+           3235019     learn yangzho6   beidic PD       0:00      1 (None)
+           3235018     learn yangzho6   beidic PD       0:00      1 (None)
+           3235017     learn yangzho6   beidic PD       0:00      1 (None)
+           3235016     learn yangzho6   beidic PD       0:00      1 (None)
+           3235015     learn yangzho6   beidic PD       0:00      1 (None)
+           3235008     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-27
+           3235009     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-56
+           3235010     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-85
+           3235011     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-101
+           3235012     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-125
+           3235013     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-131
+           3235014     learn yangzho6   beidic  R       0:01      1 a100-st-p4de24xlarge-142
+No changes to pull.
+2024-06-29 22:25:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 22:25:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3235023     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3235022     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3235015     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-152
+           3235016     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-165
+           3235017     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-178
+           3235018     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-206
+           3235019     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-208
+           3235020     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-211
+           3235021     learn yangzho6   beidic  R       4:57      1 a100-st-p4de24xlarge-219
+           3235008     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-27
+           3235009     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-56
+           3235010     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-85
+           3235011     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-101
+           3235012     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-125
+           3235013     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-131
+           3235014     learn yangzho6   beidic  R       4:59      1 a100-st-p4de24xlarge-142
+2024-06-29 22:25:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
