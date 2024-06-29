@@ -688,3 +688,45 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull bc641ba6645ae2230ebee6a2654abaecb02bb86e
+2024-06-29 20:45:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 20:45:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234090     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234089     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234075     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-35
+           3234076     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-43
+           3234077     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-51
+           3234078     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-66
+           3234079     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-121
+           3234080     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-125
+           3234081     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-131
+           3234082     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-142
+           3234083     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-165
+           3234084     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-178
+           3234085     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-208
+           3234086     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-211
+           3234087     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-249
+           3234088     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-337
+2024-06-29 20:45:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash132220.sh
++ cp /fsx-storygen/beidic/yang/log/log-3234089.err ../submitted
+attempting to move error files
+cp: cannot stat '/fsx-storygen/beidic/yang/log/log-3234089.err': No such file or directory
++ cp /fsx-storygen/beidic/yang/log/log-3234089.out ../submitted
+cp: cannot stat '/fsx-storygen/beidic/yang/log/log-3234089.out': No such file or directory
++ cp /fsx-storygen/beidic/yang/log/log-3234090.err ../submitted
+cp: cannot stat '/fsx-storygen/beidic/yang/log/log-3234090.err': No such file or directory
++ cp /fsx-storygen/beidic/yang/log/log-3234090.out ../submitted
+cp: cannot stat '/fsx-storygen/beidic/yang/log/log-3234090.out': No such file or directory
++ cp /fsx-storygen/beidic/yang/log/log-3234075.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234075.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234076.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234076.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234077.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234077.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234078.err ../submitted
