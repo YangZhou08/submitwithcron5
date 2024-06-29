@@ -1239,3 +1239,41 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 556093aedb29ff957994e060c098440b822333b4
+2024-06-29 21:10:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 21:10:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234134     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234135     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234136     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234137     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234090     learn yangzho6   beidic  R      15:12      1 a100-st-p4de24xlarge-152
+           3234089     learn yangzho6   beidic  R      22:23      1 a100-st-p4de24xlarge-85
+           3234133     learn yangzho6   beidic  R       6:41      1 a100-st-p4de24xlarge-142
+           3234132     learn yangzho6   beidic  R       7:27      1 a100-st-p4de24xlarge-125
+           3234131     learn yangzho6   beidic  R       7:52      1 a100-st-p4de24xlarge-178
+           3234128     learn yangzho6   beidic  R       7:57      1 a100-st-p4de24xlarge-43
+           3234129     learn yangzho6   beidic  R       7:57      1 a100-st-p4de24xlarge-131
+           3234130     learn yangzho6   beidic  R       7:57      1 a100-st-p4de24xlarge-611
+           3234127     learn yangzho6   beidic  R       9:18      1 a100-st-p4de24xlarge-337
+           3234126     learn yangzho6   beidic  R       9:23      1 a100-st-p4de24xlarge-66
+           3234125     learn yangzho6   beidic  R       9:57      1 a100-st-p4de24xlarge-121
+           3234124     learn yangzho6   beidic  R      12:28      1 a100-st-p4de24xlarge-35
+           3234123     learn yangzho6   beidic  R      12:33      1 a100-st-p4de24xlarge-51
+           3234122     learn yangzho6   beidic  R      14:22      1 a100-st-p4de24xlarge-1
+2024-06-29 21:10:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash683032.sh
++ cp /fsx-storygen/beidic/yang/log/log-3234089.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3234089.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234075.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234075.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234076.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234076.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234077.err ../submitted
