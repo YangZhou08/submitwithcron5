@@ -31,3 +31,14 @@ beamwidth is 4
 
 beamwidth is 4
 beamwidth is 4
++----------------+---------------------------+-----------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |
++================+===========================+=============================+
+|           1320 |                    166015 |                     125.769 |
++----------------+---------------------------+-----------------------------+
+xhf (pretrained=meta-llama/Llama-2-7b-chat-hf,griffin=True,check=False,widthtree=4), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.1380|±  |0.0095|
+|     |       |flexible-extract|     5|exact_match|0.1418|±  |0.0096|
+
