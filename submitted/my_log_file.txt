@@ -1591,3 +1591,235 @@ attempting to move error files
 * yangexp2two
   yangobservation
 + git add .
++ git stash
+No local changes to save
++ git checkout yangexp2two
+Already on 'yangexp2two'
+Your branch is up to date with 'origin/yangexp2two'.
++ git pull
+From github.com:Infini-AI-Lab/GRIFFIN2
+   181b62f..f3e42ac  yangexp2two -> origin/yangexp2two
+Updating 181b62f..f3e42ac
+Fast-forward
+ llama12addingtree.py | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
++ ls
+README.md
+__pycache__
+agieval.sh
+base1.sh
+base2.sh
+base3.sh
+base4.sh
+base5.sh
+base6.sh
+base7.sh
+cache.py
+coqa.sh
+cottrial.ipynb
+data
+debugging1.sh
+errorrejectfalsenegative.txt
+first.txt
+griffin.yml
+gsm8k.sh
+gsm8krollbacklengtherror0.npy
+gsm8krollbacklengtherror1.npy
+gsm8krollbacklengtherror2.npy
+gsm8krollbacklengtherror3.npy
+gsm8krollbacklengtherror4.npy
+gsm8krollbacklengtherror5.npy
+gsm8krollbacklengtherror6.npy
+gsm8krollbacklengtherror7.npy
+layer0example0.txt
+layer0example0two.txt
+layer0intstate.txt
+layer0oldintstate.txt
+layer16example0.txt
+layer16example0two.txt
+layer16intstate.txt
+layer31example0.txt
+layer31example0two.txt
+layer31oldintstate.txt
+llama10.py
+llama10inspectinginside.py
+llama10skipcorrection.py
+llama11.py
+llama12.py
+llama12addingtree.py
+llama12addingtreestrict.py
+llama2-7B_bsz1_0.5.npy
+llama2.py
+llama3-8B_bsz1_0.3.npy
+llama3-8B_bsz1_0.4.npy
+llama3-8B_bsz1_0.5.npy
+llama3.py
+llama4.py
+llama5.py
+llama6.py
+llama7.py
+llama8.py
+llama9.py
+main.py
+main1.sh
+main1_A.sh
+main1_C.sh
+main1_D.sh
+main2.sh
+main2_A.sh
+main2_B.sh
+main2_C.sh
+main2_D.sh
+main3.sh
+main3_A.sh
+main3_B.sh
+main3_C.sh
+main3_D.sh
+main5.sh
+main5_A.sh
+main5_B.sh
+main5_C.sh
+main5_D.sh
+main6.sh
+main6_A.sh
+main6_B.sh
+main6_C.sh
+main6_D.sh
+mmlu.sh
+newlogonfailedcases.log
+results
+run.sh
+run0.sh
+run1.sh
+run2.sh
+run3.sh
+run_slurm.sh
+scripts
+src
+sweep0.sh
+sweep1.sh
+sweep2.sh
+sweep3.sh
+token.log
+token1.log
+topinclusionlogs
+xevaluator.py
+xhuggingface.py
++ models=("meta-llama/Meta-Llama-3-8B-Instruct" "meta-llama/Llama-2-7b-chat-hf")
++ commands=("accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 " "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=MODEL,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 ")
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=NGFmZ
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGFmZ-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGFmZ-hzQdAu.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-NGFmZ-hzQdAu.sh
+Submitted batch job 3234673
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=YmU5N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YmU5N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YmU5N-ihzHiL.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-YmU5N-ihzHiL.sh
+Submitted batch job 3234674
++ for cmd in "${commands[@]}"
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=Njc1N
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-Njc1N-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-Njc1N-unpcyR.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-Njc1N-unpcyR.sh
+Submitted batch job 3234675
++ for model in "${models[@]}"
+++ date +%s%N
+++ sha256sum
+++ base64
+++ head -c 5
++ unique_id=M2ZiY
+++ mktemp /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2ZiY-XXXXXX.sh
++ job_script=/fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2ZiY-A71KTu.sh
++ fullcmd='accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 '
++ sed 's|COMMAND_PLACEHOLDER|accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Llama-2-7b-chat-hf,griffin=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1 --tasks gsm8k --batch_size 1 |g' /fsx-storygen/beidic/yang/submitwithcron5/lm_eval_harness_temp.sh
++ /opt/slurm/bin/sbatch /fsx-storygen/beidic/yang/submitwithcron5/submitted/job-M2ZiY-A71KTu.sh
+Submitted batch job 3234676
++ /opt/slurm/bin/squeue -u beidic
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234137     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234136     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234602     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234601     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234600     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234599     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234676     learn yangzho6   beidic PD       0:00      1 (None)
+           3234675     learn yangzho6   beidic PD       0:00      1 (None)
+           3234674     learn yangzho6   beidic PD       0:00      1 (None)
+           3234673     learn yangzho6   beidic PD       0:00      1 (None)
+           3234135     learn yangzho6   beidic  R       8:29      1 a100-st-p4de24xlarge-1
+           3234090     learn yangzho6   beidic  R      30:13      1 a100-st-p4de24xlarge-152
+           3234134     learn yangzho6   beidic  R      11:38      1 a100-st-p4de24xlarge-85
+           3234133     learn yangzho6   beidic  R      21:42      1 a100-st-p4de24xlarge-142
+           3234132     learn yangzho6   beidic  R      22:28      1 a100-st-p4de24xlarge-125
+           3234131     learn yangzho6   beidic  R      22:53      1 a100-st-p4de24xlarge-178
+           3234128     learn yangzho6   beidic  R      22:58      1 a100-st-p4de24xlarge-43
+           3234129     learn yangzho6   beidic  R      22:58      1 a100-st-p4de24xlarge-131
+           3234130     learn yangzho6   beidic  R      22:58      1 a100-st-p4de24xlarge-611
+           3234127     learn yangzho6   beidic  R      24:19      1 a100-st-p4de24xlarge-337
+           3234126     learn yangzho6   beidic  R      24:24      1 a100-st-p4de24xlarge-66
+           3234125     learn yangzho6   beidic  R      24:58      1 a100-st-p4de24xlarge-121
+           3234124     learn yangzho6   beidic  R      27:29      1 a100-st-p4de24xlarge-35
+           3234123     learn yangzho6   beidic  R      27:34      1 a100-st-p4de24xlarge-51
+There are changes to pull fe8fc0f2e264c9a99613f6eb93af1c89b18178df
+2024-06-29 21:30:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 21:30:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234602     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234676     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234675     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234674     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234673     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234136     learn yangzho6   beidic  R       4:53      1 a100-st-p4de24xlarge-35
+           3234137     learn yangzho6   beidic  R       4:53      1 a100-st-p4de24xlarge-152
+           3234135     learn yangzho6   beidic  R      13:28      1 a100-st-p4de24xlarge-1
+           3234134     learn yangzho6   beidic  R      16:37      1 a100-st-p4de24xlarge-85
+           3234601     learn yangzho6   beidic  R       2:09      1 a100-st-p4de24xlarge-211
+           3234600     learn yangzho6   beidic  R       2:14      1 a100-st-p4de24xlarge-51
+           3234599     learn yangzho6   beidic  R       2:19      1 a100-st-p4de24xlarge-125
+           3234133     learn yangzho6   beidic  R      26:41      1 a100-st-p4de24xlarge-142
+           3234131     learn yangzho6   beidic  R      27:52      1 a100-st-p4de24xlarge-178
+           3234128     learn yangzho6   beidic  R      27:57      1 a100-st-p4de24xlarge-43
+           3234129     learn yangzho6   beidic  R      27:57      1 a100-st-p4de24xlarge-131
+           3234127     learn yangzho6   beidic  R      29:18      1 a100-st-p4de24xlarge-337
+           3234126     learn yangzho6   beidic  R      29:23      1 a100-st-p4de24xlarge-66
+           3234125     learn yangzho6   beidic  R      29:57      1 a100-st-p4de24xlarge-121
+2024-06-29 21:30:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash327827.sh
++ cp /fsx-storygen/beidic/yang/log/log-3234137.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3234137.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234136.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234136.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234135.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234135.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234134.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234134.out ../submitted
