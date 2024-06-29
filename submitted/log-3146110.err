@@ -1,358 +1,0 @@
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-Traceback (most recent call last):
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/huggingface-cli", line 8, in <module>
-    sys.exit(main())
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/commands/huggingface_cli.py", line 51, in main
-    service.run()
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/commands/user.py", line 98, in run
-    login(token=self.args.token, add_to_git_credential=self.args.add_to_git_credential)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/_login.py", line 111, in login
-    _login(token, add_to_git_credential=add_to_git_credential, write_permission=write_permission)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/_login.py", line 307, in _login
-    raise ValueError("Invalid token passed!")
-ValueError: Invalid token passed!
-The following values were not passed to `accelerate launch` and had defaults used instead:
-		More than one GPU was found, enabling multi-GPU training.
-		If this was unintended please pass in `--num_processes=1`.
-	`--num_machines` was set to a value of `1`
-	`--mixed_precision` was set to a value of `'no'`
-	`--dynamo_backend` was set to a value of `'no'`
-To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:40<00:40, 40.70s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:42<00:42, 42.47s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.25s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.32s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.05s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.13s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.23s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:43<00:43, 43.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 22.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:50<00:00, 25.47s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 23.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.89s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 22.91s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.96s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 22.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.89s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 22.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.91s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 22.61s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.59s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:52<00:00, 22.97s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:52<00:00, 26.02s/it]
-Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 22.86s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:51<00:00, 25.89s/it]
-  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py:119: UserWarning: n_copies (n_samples/batch_size) was changed from 1 to 2 because n_tasks isn't proportional to num devices
-  warnings.warn(
-  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]  0%|          | 0/63 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
-  warnings.warn(
-  0%|          | 0/63 [00:27<?, ?it/s]  0%|          | 0/63 [00:30<?, ?it/s]  0%|          | 0/63 [00:21<?, ?it/s]
-  0%|          | 0/63 [00:37<?, ?it/s]
-
-
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-        main() main() 
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-        results[task] = evaluator.evaluate(results[task] = evaluator.evaluate(
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-        results[task] = evaluator.evaluate(generations = parallel_generations(
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-        generations = complete_code(generations = complete_code(
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-        return func(*args, **kwargs)return func(*args, **kwargs)
-
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-    return func(*args, **kwargs)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-        return self.greedy_search(return self.greedy_search(
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-  0%|          | 0/63 [00:29<?, ?it/s]
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    results[task] = evaluator.evaluate(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-        if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-        return super().__getattribute__(key)return super().__getattribute__(key)
-
-AttributeError: AttributeError'LlamaConfig' object has no attribute 'enable_epatches': 
-'LlamaConfig' object has no attribute 'enable_epatches'
-    return func(*args, **kwargs)    
-return super().__getattribute__(key)  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    return super().__getattribute__(key)
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-  0%|          | 0/63 [00:29<?, ?it/s]
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-  0%|          | 0/63 [00:30<?, ?it/s]
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    results[task] = evaluator.evaluate(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-    results[task] = evaluator.evaluate(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    return func(*args, **kwargs)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-    return func(*args, **kwargs)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-    results[task] = evaluator.evaluate(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    return super().__getattribute__(key)
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-    return super().__getattribute__(key)
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    return super().__getattribute__(key)
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-  0%|          | 0/63 [00:35<?, ?it/s]
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 492, in <module>
-    main() 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 470, in main
-    results[task] = evaluator.evaluate(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 137, in evaluate
-    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
-    generations = parallel_generations(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
-    generations = complete_code(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
-    generated_tokens = model.generate(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
-    return func(*args, **kwargs)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
-    return self.greedy_search(
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama10.py", line 1444, in greedy_search
-    if self.config.enable_epatches and next_tokens.eq(eos_token_id_tensor[0]): 
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/configuration_utils.py", line 265, in __getattribute__
-    return super().__getattribute__(key)
-AttributeError: 'LlamaConfig' object has no attribute 'enable_epatches'
-[2024-06-19 11:41:18,634] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 2694877) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
-Traceback (most recent call last):
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
-    args.func(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
-    multi_gpu_launcher(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
-    distrib_run.run(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
-    elastic_launch(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-============================================================
-main.py FAILED
-------------------------------------------------------------
-Failures:
-[1]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 1 (local_rank: 1)
-  exitcode  : 1 (pid: 2694878)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[2]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 2 (local_rank: 2)
-  exitcode  : 1 (pid: 2694879)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[3]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 3 (local_rank: 3)
-  exitcode  : 1 (pid: 2694880)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[4]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 4 (local_rank: 4)
-  exitcode  : 1 (pid: 2694881)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[5]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 5 (local_rank: 5)
-  exitcode  : 1 (pid: 2694882)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[6]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 6 (local_rank: 6)
-  exitcode  : 1 (pid: 2694883)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[7]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 7 (local_rank: 7)
-  exitcode  : 1 (pid: 2694884)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-------------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2024-06-19_11:41:18
-  host      : a100-st-p4de24xlarge-615.fair-a100.hpcaas
-  rank      : 0 (local_rank: 0)
-  exitcode  : 1 (pid: 2694877)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-============================================================

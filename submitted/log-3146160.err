@@ -1,188 +1,0 @@
-fatal: Unable to create '/fsx-storygen/beidic/yang/CommonSenseReasoning/.git/index.lock': File exists.
-
-Another git process seems to be running in this repository, e.g.
-an editor opened by 'git commit'. Please make sure all processes
-are terminated then try again. If it still fails, a git process
-may have crashed in this repository earlier:
-remove the file manually to continue.
-Your configuration specifies to merge with the ref 'refs/heads/addinggriffin'
-from the remote, but no such ref was fetched.
-error: Your local changes to the following files would be overwritten by merge:
-	.DS_Store
-Please commit your changes or stash them before you merge.
-Aborting
-wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
-The following values were not passed to `accelerate launch` and had defaults used instead:
-		More than one GPU was found, enabling multi-GPU training.
-		If this was unintended please pass in `--num_processes=1`.
-	`--mixed_precision` was set to a value of `'no'`
-	`--dynamo_backend` was set to a value of `'no'`
-To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
-  warnings.warn(
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
-Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:59, 19.77s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.14s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.13s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.10s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.40s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.14s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:03, 21.27s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:37<00:36, 18.36s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:39<00:38, 19.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:39<00:38, 19.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:38<00:38, 19.13s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:16, 16.24s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.90s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:16, 16.88s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:17, 17.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:16, 16.88s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:16, 16.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:16, 16.86s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:53<00:16, 16.92s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.35s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.49s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.50s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.57s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.49s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.56s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.61s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.43s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.61s/it]
-Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.58s/it]
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-Traceback (most recent call last):
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 287, in <module>
-    dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-    dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-            dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot")         dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") 
-dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot")         dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") 
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-
-with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-
-
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-    FileNotFoundErrorwith open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: FileNotFoundError: 
-    :     [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file:     [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'FileNotFoundErrorwith open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file:     
-
-with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: 
-: 
-with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: 
-FileNotFoundError[Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'
-FileNotFoundError: 
-FileNotFoundError: [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'FileNotFoundError: [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'
-: [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'
-[Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'
-
-    dataloader, cotprompt = get_dataset(task, is_distributed = is_distributed, requirements = "_5shot") 
-  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 90, in get_dataset
-    with open("{}_cot_prompts{}.txt".format(datasetname, requirements), "r") as file: 
-FileNotFoundError: [Errno 2] No such file or directory: 'aqua_cot_prompts_5shot.txt'
-[2024-06-19 12:10:00,981] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3961290) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
-Traceback (most recent call last):
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
-    sys.exit(main())
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
-    args.func(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
-    multi_gpu_launcher(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
-    distrib_run.run(args)
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
-    elastic_launch(
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
-    return launch_agent(self._config, self._entrypoint, list(args))
-  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
-    raise ChildFailedError(
-torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
-============================================================
-main.py FAILED
-------------------------------------------------------------
-Failures:
-[1]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 1 (local_rank: 1)
-  exitcode  : 1 (pid: 3961291)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[2]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 2 (local_rank: 2)
-  exitcode  : 1 (pid: 3961292)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[3]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 3 (local_rank: 3)
-  exitcode  : 1 (pid: 3961293)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[4]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 4 (local_rank: 4)
-  exitcode  : 1 (pid: 3961294)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[5]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 5 (local_rank: 5)
-  exitcode  : 1 (pid: 3961295)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[6]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 6 (local_rank: 6)
-  exitcode  : 1 (pid: 3961296)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-[7]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 7 (local_rank: 7)
-  exitcode  : 1 (pid: 3961297)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-------------------------------------------------------------
-Root Cause (first observed failure):
-[0]:
-  time      : 2024-06-19_12:10:00
-  host      : a100-st-p4de24xlarge-936.fair-a100.hpcaas
-  rank      : 0 (local_rank: 0)
-  exitcode  : 1 (pid: 3961290)
-  error_file: <N/A>
-  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
-============================================================
