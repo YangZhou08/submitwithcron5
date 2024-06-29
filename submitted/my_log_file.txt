@@ -1277,3 +1277,62 @@ attempting to move error files
 + cp /fsx-storygen/beidic/yang/log/log-3234076.err ../submitted
 + cp /fsx-storygen/beidic/yang/log/log-3234076.out ../submitted
 + cp /fsx-storygen/beidic/yang/log/log-3234077.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234077.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234078.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234078.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234079.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234079.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234080.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234080.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234081.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234081.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234082.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234082.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234083.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234083.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234084.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234084.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234085.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234085.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234086.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234086.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234087.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234087.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234088.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234088.out ../submitted
+There are changes to pull a0d25fc980b97688ba347d7a17297b118b8e393c
+2024-06-29 21:15:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 21:15:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234137     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234136     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234135     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234090     learn yangzho6   beidic  R      20:12      1 a100-st-p4de24xlarge-152
+           3234134     learn yangzho6   beidic  R       1:37      1 a100-st-p4de24xlarge-85
+           3234133     learn yangzho6   beidic  R      11:41      1 a100-st-p4de24xlarge-142
+           3234132     learn yangzho6   beidic  R      12:27      1 a100-st-p4de24xlarge-125
+           3234131     learn yangzho6   beidic  R      12:52      1 a100-st-p4de24xlarge-178
+           3234128     learn yangzho6   beidic  R      12:57      1 a100-st-p4de24xlarge-43
+           3234129     learn yangzho6   beidic  R      12:57      1 a100-st-p4de24xlarge-131
+           3234130     learn yangzho6   beidic  R      12:57      1 a100-st-p4de24xlarge-611
+           3234127     learn yangzho6   beidic  R      14:18      1 a100-st-p4de24xlarge-337
+           3234126     learn yangzho6   beidic  R      14:23      1 a100-st-p4de24xlarge-66
+           3234125     learn yangzho6   beidic  R      14:57      1 a100-st-p4de24xlarge-121
+           3234124     learn yangzho6   beidic  R      17:28      1 a100-st-p4de24xlarge-35
+           3234123     learn yangzho6   beidic  R      17:33      1 a100-st-p4de24xlarge-51
+           3234122     learn yangzho6   beidic  R      19:22      1 a100-st-p4de24xlarge-1
+2024-06-29 21:15:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running lmevaluationlaunchingtemplate.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git branch
+attempting to move error files
+  exp2
+  main
+  yangexp2
+* yangexp2two
+  yangobservation
++ git add .

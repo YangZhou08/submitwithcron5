@@ -30,3 +30,14 @@ beamwidth is 1
 beamwidth is 1
 beamwidth is 1
 beamwidth is 1
++----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |    AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++================+===========================+=============================+===============+=============+========+================================+==================+==================================+
+|           1320 |                    166484 |                     126.124 |        155178 |       10456 | 14.841 |                          12111 |             1512 |                          8.00992 |
++----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+
+xhf (pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,widthtree=1,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.2282|±  |0.0116|
+|     |       |flexible-extract|     5|exact_match|0.2312|±  |0.0116|
+

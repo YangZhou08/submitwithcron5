@@ -22,3 +22,14 @@ beam width is 8
 beam width is 8
 beam width is 8
 beam width is 8
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+
+|           1320 |                    165086 |                     125.065 |        153687 |        9750 | 15.7628 |                           2313 |              325 |                          7.11692 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+
+xhf (pretrained=meta-llama/Llama-2-7b-chat-hf,cats=True,widthtree=8,check=True,kernel_size=16,spr=0.5,thr=0.1,patternstrict=True), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.2312|±  |0.0116|
+|     |       |flexible-extract|     5|exact_match|0.2312|±  |0.0116|
+
