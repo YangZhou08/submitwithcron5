@@ -1,5 +1,13 @@
 #!/bin/bash
 
+cd /fsx-storygen/beidic/yang/GRIFFIN2
+git branch 
+git add .
+git stash 
+git checkout yangexp2two 
+git pull 
+ls 
+
 models=(
     "meta-llama/Meta-Llama-3-8B-Instruct"
     # "meta-llama/Meta-Llama-3-8B"
