@@ -1552,3 +1552,42 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 3a0fe826d95882070628918d86f3ed723bf667ae
+2024-06-29 21:25:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 21:25:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234137     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234136     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234602     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234601     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234600     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234599     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3234135     learn yangzho6   beidic  R       8:28      1 a100-st-p4de24xlarge-1
+           3234090     learn yangzho6   beidic  R      30:12      1 a100-st-p4de24xlarge-152
+           3234134     learn yangzho6   beidic  R      11:37      1 a100-st-p4de24xlarge-85
+           3234133     learn yangzho6   beidic  R      21:41      1 a100-st-p4de24xlarge-142
+           3234132     learn yangzho6   beidic  R      22:27      1 a100-st-p4de24xlarge-125
+           3234131     learn yangzho6   beidic  R      22:52      1 a100-st-p4de24xlarge-178
+           3234128     learn yangzho6   beidic  R      22:57      1 a100-st-p4de24xlarge-43
+           3234129     learn yangzho6   beidic  R      22:57      1 a100-st-p4de24xlarge-131
+           3234130     learn yangzho6   beidic  R      22:57      1 a100-st-p4de24xlarge-611
+           3234127     learn yangzho6   beidic  R      24:18      1 a100-st-p4de24xlarge-337
+           3234126     learn yangzho6   beidic  R      24:23      1 a100-st-p4de24xlarge-66
+           3234125     learn yangzho6   beidic  R      24:57      1 a100-st-p4de24xlarge-121
+           3234124     learn yangzho6   beidic  R      27:28      1 a100-st-p4de24xlarge-35
+           3234123     learn yangzho6   beidic  R      27:33      1 a100-st-p4de24xlarge-51
+2024-06-29 21:25:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running lmevaluationlaunchingtemplate.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git branch
+attempting to move error files
+  exp2
+  main
+  yangexp2
+* yangexp2two
+  yangobservation
++ git add .
