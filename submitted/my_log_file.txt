@@ -2025,3 +2025,26 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull d116d404b2d92c353a107fb23b59b0a06c7243fa
+2024-06-29 22:05:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-06-29 22:05:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3234602     learn yangzho6   beidic  R      33:37      1 a100-st-p4de24xlarge-611
+           3234676     learn yangzho6   beidic  R      30:50      1 a100-st-p4de24xlarge-142
+2024-06-29 22:05:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash679823.sh
++ cp /fsx-storygen/beidic/yang/log/log-3234137.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3234137.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234136.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234136.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234135.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234135.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234090.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234134.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3234134.out ../submitted
