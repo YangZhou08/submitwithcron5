@@ -1,0 +1,328 @@
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Your configuration specifies to merge with the ref 'refs/heads/yangexp2two'
+from the remote, but no such ref was fetched.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-01:20:57:12,805 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,810 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,810 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,816 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,837 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,868 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,871 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+2024-07-01:20:57:12,878 WARNING  [loading.py:546] Using the latest cached version of the module from /data/home/beidic/.cache/huggingface/modules/evaluate_modules/metrics/evaluate-metric--exact_match/9d3b67e0c429cd7460b2b05aab53419b48eea369b73e1d9f185a56ca90c373d4 (last modified on Tue Jan 30 05:30:28 2024) since it couldn't be found locally at evaluate-metric--exact_match, or remotely on the Hugging Face Hub.
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+        import lm_eval.modelsfrom .layer import BOFTLayer
+
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+        from torch.utils.cpp_extension import loadfrom . import (
+
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from peft import PeftModelTraceback (most recent call last):
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 32, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+    from .mapping import MODEL_TYPE_TO_PEFT_MODEL_MAPPING
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mapping.py", line 22, in <module>
+    from .mixed_model import PeftMixedModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/mixed_model.py", line 26, in <module>
+    from peft.tuners.mixed import COMPATIBLE_TUNER_TYPES
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/__init__.py", line 26, in <module>
+    from .boft import BOFTConfig, BOFTModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/__init__.py", line 16, in <module>
+    from .layer import BOFTLayer
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/tuners/boft/layer.py", line 30, in <module>
+    from torch.utils.cpp_extension import load
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/cpp_extension.py", line 28, in <module>
+    from pkg_resources import packaging  # type: ignore[attr-defined]
+ImportError: cannot import name 'packaging' from 'pkg_resources' (/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/pkg_resources/__init__.py)
+[2024-07-01 20:57:20,004] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3816796) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1014, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 672, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 797, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 134, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 264, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3816797)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3816798)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3816799)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 3816800)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3816801)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 3816802)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 3816803)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-01_20:57:20
+  host      : a100-st-p4de24xlarge-433.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3816796)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
