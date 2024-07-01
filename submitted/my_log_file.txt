@@ -12196,3 +12196,23 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull f693384389b445a0310b3625ddaba61c22675264
+2024-07-01 22:45:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-01 22:45:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3252398     learn     bash   beidic  R    3:14:19      1 a100-st-p4de24xlarge-186
+2024-07-01 22:45:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running lmevaluationlaunchingtemplate.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git branch
+attempting to move error files
+  exp2
+  main
+  yangexp2
+* yangexp2two
+  yangobservation
++ git add .
