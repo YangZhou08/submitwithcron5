@@ -11,7 +11,7 @@ ls
 models=(
     "meta-llama/Meta-Llama-3-8B-Instruct"
     # "meta-llama/Meta-Llama-3-8B"
-    "meta-llama/Llama-2-7b-chat-hf"
+    # "meta-llama/Llama-2-7b-chat-hf"
     # "meta-llama/Llama-2-7b-hf"
 ) 
 
