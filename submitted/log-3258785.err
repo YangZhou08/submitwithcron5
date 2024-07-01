@@ -1,0 +1,107 @@
+Already on 'yangexp2two'
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+WARNING: Ignoring invalid distribution - (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -umpy (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution - (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -umpy (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+WARNING: Ignoring invalid distribution - (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+WARNING: Error parsing requirements for certifi: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/certifi-2024.2.2.dist-info/METADATA'
+WARNING: Error parsing requirements for filelock: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/filelock-3.14.0.dist-info/METADATA'
+WARNING: Error parsing requirements for fsspec: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/fsspec-2024.2.0.dist-info/METADATA'
+WARNING: Error parsing requirements for numpy: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy-1.26.4.dist-info/METADATA'
+WARNING: Error parsing requirements for nvidia-cudnn-cu12: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/nvidia_cudnn_cu12-8.9.2.26.dist-info/METADATA'
+WARNING: Error parsing requirements for triton: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/triton-2.1.0.dist-info/METADATA'
+WARNING: Ignoring invalid distribution - (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+    WARNING: No metadata found in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages
+    WARNING: No metadata found in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages
+    WARNING: No metadata found in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages
+    WARNING: No metadata found in /opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages
+ERROR: Could not install packages due to an OSError: [Errno 2] No such file or directory: '/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/bin/f2py'
+
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/wandb", line 5, in <module>
+    from wandb.cli.cli import cli
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/__init__.py", line 27, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/__init__.py", line 25, in <module>
+    from .artifacts.artifact import Artifact
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb import data_types, env, util
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/data_types.py", line 32, in <module>
+    from .sdk.data_types import _dtypes
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/data_types/_dtypes.py", line 364, in <module>
+    NumberType.types.append(np.byte)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/util.py", line 212, in __getattribute__
+    state.load()
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/util.py", line 205, in load
+    self.module.__spec__.loader.exec_module(self.module)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 5, in <module>
+    from accelerate.commands.accelerate_cli import main
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/__init__.py", line 3, in <module>
+    from .accelerator import Accelerator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/accelerator.py", line 33, in <module>
+    import torch.utils.hooks as hooks
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/__init__.py", line 4, in <module>
+    from .throughput_benchmark import ThroughputBenchmark
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/utils/throughput_benchmark.py", line 2, in <module>
+    import torch._C
+ModuleNotFoundError: No module named 'torch._C'

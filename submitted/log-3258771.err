@@ -1,0 +1,226 @@
+Already on 'yangexp2two'
+WARNING: Ignoring invalid distribution - (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+WARNING: Ignoring invalid distribution -vidia-cublas-cu12 (/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages)
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+datasets 2.18.0 requires fsspec[http]<=2024.2.0,>=2023.1.0, but you have fsspec 2024.6.1 which is incompatible.
+gcsfs 2024.2.0 requires fsspec==2024.2.0, but you have fsspec 2024.6.1 which is incompatible.
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__init__.py", line 130, in <module>
+    from numpy.__config__ import show as show_config
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__config__.py", line 4, in <module>
+    from numpy.core._multiarray_umath import (
+ModuleNotFoundError: No module named 'numpy.core'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/runpy.py", line 188, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/runpy.py", line 147, in _get_module_details
+    return _get_module_details(pkg_main_name, error)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/runpy.py", line 111, in _get_module_details
+    __import__(pkg_name)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/__init__.py", line 27, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/__init__.py", line 25, in <module>
+    from .artifacts.artifact import Artifact
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb import data_types, env, util
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/data_types.py", line 32, in <module>
+    from .sdk.data_types import _dtypes
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/data_types/_dtypes.py", line 364, in <module>
+    NumberType.types.append(np.byte)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/util.py", line 212, in __getattribute__
+    state.load()
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/util.py", line 205, in load
+    self.module.__spec__.loader.exec_module(self.module)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__init__.py", line 135, in <module>
+    raise ImportError(msg) from e
+ImportError: Error importing numpy: you should not try to import numpy from
+        its source directory; please exit the numpy source tree, and relaunch
+        your python interpreter from there.
+wandb: ERROR Find detailed error logs at: /tmp/debug-cli.beidic.log
+Error: The wandb service process exited with 1. Ensure that `sys.executable` is a valid python interpreter. You can override it with the `_executable` setting or with the `WANDB__EXECUTABLE` environment variable.
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/huggingface-cli", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/commands/huggingface_cli.py", line 51, in main
+    service.run()
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/commands/user.py", line 98, in run
+    login(token=self.args.token, add_to_git_credential=self.args.add_to_git_credential)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/_login.py", line 111, in login
+    _login(token, add_to_git_credential=add_to_git_credential, write_permission=write_permission)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/huggingface_hub/_login.py", line 307, in _login
+    raise ValueError("Invalid token passed!")
+ValueError: Invalid token passed!
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Error processing line 1 of /fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/distutils-precedence.pth:
+
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+  Traceback (most recent call last):
+    File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site.py", line 177, in addpackage
+      exec(line)
+    File "<string>", line 1, in <module>
+  ModuleNotFoundError: No module named '_distutils_hack'
+
+Remainder of file ignored
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 13, in <module>
+    from lm_eval import utils
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 13, in <module>
+    import lm_eval.models
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/__init__.py", line 1, in <module>
+    from . import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/models/huggingface.py", line 17, in <module>
+    from peft import PeftModel
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/__init__.py", line 22, in <module>
+    from .auto import (
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/auto.py", line 31, in <module>
+    from .config import PeftConfig
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/peft/config.py", line 23, in <module>
+    from .utils import CONFIG_NAME, PeftType, TaskType
+ModuleNotFoundError: No module named 'peft.utils'
+W0701 22:25:42.017697 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175316 closing signal SIGTERM
+W0701 22:25:42.018259 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175317 closing signal SIGTERM
+W0701 22:25:42.018369 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175318 closing signal SIGTERM
+W0701 22:25:42.018446 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175319 closing signal SIGTERM
+W0701 22:25:42.018516 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175320 closing signal SIGTERM
+W0701 22:25:42.018668 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175321 closing signal SIGTERM
+W0701 22:25:42.018766 139761431091008 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 4175322 closing signal SIGTERM
+E0701 22:25:42.133086 139761431091008 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 7 (pid: 4175323) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1088, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 733, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-01_22:25:42
+  host      : a100-st-p4de24xlarge-355.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 4175323)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
