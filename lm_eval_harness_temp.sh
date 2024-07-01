@@ -53,8 +53,8 @@ git pull
 # pip install langdetect 
 # pip install immutabledict 
 # pip install sentencepiece 
-pip install --upgrade setuptools packaging
-pip install --upgrade --force-reinstall peft
+# pip install --upgrade setuptools packaging
+# pip install --upgrade --force-reinstall peft
 
 which python 
 
