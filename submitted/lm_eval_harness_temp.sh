@@ -55,8 +55,8 @@ git pull
 # pip install sentencepiece 
 # pip install --upgrade setuptools packaging
 # pip install --upgrade --force-reinstall peft
-pip uninstall setuptools
-pip install setuptools
+pip install --force-reinstall _distutils_hack
+pip install --force-reinstall setuptools
 
 which python 
 
