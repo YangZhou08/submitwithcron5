@@ -55,6 +55,8 @@ git pull
 # pip install sentencepiece 
 # pip install --upgrade setuptools packaging
 # pip install --upgrade --force-reinstall peft
+pip uninstall setuptools
+pip install setuptools
 
 which python 
 
