@@ -43,6 +43,6 @@
 # cp /fsx-storygen/beidic/yang/log/log-3235013.err ../submitted
 # cp /fsx-storygen/beidic/yang/log/log-3235013.out ../submitted
 
-cp /fsx-storygen/beidic/yang/log/log-3259928.err ../submitted
-cp /fsx-storygen/beidic/yang/log/log-3259928.out ../submitted
+cp /fsx-storygen/beidic/yang/log/log-3260121.err ../submitted
+cp /fsx-storygen/beidic/yang/log/log-3260121.out ../submitted
 
