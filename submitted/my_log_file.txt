@@ -57509,3 +57509,45 @@ attempting to move error files
 * yangexp2two
   yangobservation
 + git pull
+From github.com:Infini-AI-Lab/GRIFFIN2
+   9834d76..a216c7a  yangexp2threee -> origin/yangexp2threee
+Already up to date.
++ git checkout yangexp2threee
+Switched to branch 'yangexp2threee'
++ git branch
+  exp2
+  main
+  yangexp2
+* yangexp2threee
+  yangexp2two
+  yangobservation
++ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> yangexp2threee
+
+No changes to pull.
+2024-07-06 20:45:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-06 20:45:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286840     learn yangzho6   beidic PD       0:00      1 (None)
+           3286813     learn   haoyun   beidic  R      34:55      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R      34:55      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R      49:24      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R      49:24      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    1:44:58      1 a100-st-p4de24xlarge-454
+           3286810     learn yangzho6   beidic  R      49:24      1 a100-st-p4de24xlarge-320
+2024-07-06 20:45:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
