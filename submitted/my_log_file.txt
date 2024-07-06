@@ -58636,3 +58636,34 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 5f69eb27cb5f92f438c068e61ff2097cd346df77
+2024-07-06 22:55:02 - Submitting jobs
+There are 1 .sh files to submit.
+Submitting lm_eval_harness_hanshienvironment.sh
+2024-07-06 22:55:03 - Job ID: Submitted batch job 3287090
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3287090     learn yangzho6   beidic PD       0:00      1 (None)
+           3286813     learn   haoyun   beidic  R    2:44:56      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R    2:44:56      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R    2:59:25      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R    2:59:25      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    3:54:59      1 a100-st-p4de24xlarge-454
+           3286846     learn yangzho6   beidic  R    1:55:19      1 a100-st-p4de24xlarge-144
+2024-07-06 22:55:03 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash825930.sh
++ cp /fsx-storygen/beidic/yang/log/log-3286856.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3286856.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286870.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286870.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286869.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286869.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286868.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286868.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286867.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286867.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286866.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286866.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286865.err ../submitted

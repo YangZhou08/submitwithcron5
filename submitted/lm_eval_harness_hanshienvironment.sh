@@ -79,20 +79,26 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-sprss=(0.15 0.2 0.25) 
+# sprss=(0.15 0.2 0.25) 
+# for spars in "${sprss[@]}" 
+# do 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+# done 
+
+# sprss12=(0.3 0.35)
+# for spars in "${sprss12[@]}" 
+# do 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+#     accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+# done 
+
+# accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,griffin=True,check=True,kernel_size=9,spr=0.25,thr=0.001 --tasks gsm8k --batch_size 1 --limit 0.3 
+
+sprss=(0.1 0.15 0.2 0.25 0.3 0.35 0.4 0.5 0.6 0.7 0.8) 
 for spars in "${sprss[@]}" 
 do 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,spr=$spars --tasks gsm8k --batch_size 1 --limit 0.3 
 done 
-
-sprss12=(0.3 0.35)
-for spars in "${sprss12[@]}" 
-do 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 6 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-done 
-
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,griffin=True,check=True,kernel_size=9,spr=0.25,thr=0.001 --tasks gsm8k --batch_size 1 --limit 0.3 
