@@ -57551,3 +57551,41 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 5b68bc4829248ecd6908814d2d89c88a3679e546
+2024-07-06 20:50:04 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-06 20:50:04 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286813     learn   haoyun   beidic  R      39:57      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R      39:57      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R      54:26      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R      54:26      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    1:50:00      1 a100-st-p4de24xlarge-454
+           3286840     learn yangzho6   beidic  R       4:55      1 a100-st-p4de24xlarge-144
+           3286810     learn yangzho6   beidic  R      54:26      1 a100-st-p4de24xlarge-320
+2024-07-06 20:50:04 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running makingsurenewbranchplled.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git branch
+attempting to move error files
+  exp2
+  main
+  yangexp2
+* yangexp2threee
+  yangexp2two
+  yangobservation
++ git checkout yangexp2threee
+Already on 'yangexp2threee'
++ git branch
+  exp2
+  main
+  yangexp2
+* yangexp2threee
+  yangexp2two
+  yangobservation
++ git branch --set-upstream-to=origin/yangexp2threee yangexp2threee
+Branch 'yangexp2threee' set up to track remote branch 'yangexp2threee' from 'origin'.
++ git pull
