@@ -38,10 +38,10 @@ cd /fsx-storygen/beidic/yang/GRIFFIN2
 # cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
 # git checkout addinggriffin 
-git checkout yangexp2two 
 git add .
 git stash 
 git pull 
+git checkout yangexp2threee 
 
 git pull 
 # pip install termcolor 
@@ -79,18 +79,4 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-sprss=(0.15 0.2 0.25) 
-for spars in "${sprss[@]}" 
-do 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=9,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-done 
-
-sprss12=(0.3 0.35)
-for spars in "${sprss12[@]}" 
-do 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-    accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=$spars,thr=0.01,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
-done 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,griffin=True,check=True,kernel_size=9,spr=0.25,thr=0.001 --tasks gsm8k --batch_size 1 --limit 0.3 

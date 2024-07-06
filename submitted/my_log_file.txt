@@ -57479,3 +57479,33 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 3cfea369b6b119f97a6e1251b42280e6721432a3
+2024-07-06 20:40:03 - Submitting jobs
+There are 1 .sh files to submit.
+Submitting lm_eval_harness_hanshienvironment.sh
+2024-07-06 20:40:03 - Job ID: Submitted batch job 3286840
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286840     learn yangzho6   beidic PD       0:00      1 (None)
+           3286813     learn   haoyun   beidic  R      29:56      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R      29:56      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R      44:25      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R      44:25      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    1:39:59      1 a100-st-p4de24xlarge-454
+           3286810     learn yangzho6   beidic  R      44:25      1 a100-st-p4de24xlarge-320
+2024-07-06 20:40:03 - Done submitting jobs
+
+There are 2 .sh bash files to run
+Running bringbackerrorfiles_timehash022495.sh
+Running makingsurenewbranchplled.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ cp /fsx-storygen/beidic/yang/log/log-3286810.err ../submitted
++ git branch
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3286810.out ../submitted
+  exp2
+  main
+  yangexp2
+  yangexp2threee
+* yangexp2two
+  yangobservation
++ git pull
