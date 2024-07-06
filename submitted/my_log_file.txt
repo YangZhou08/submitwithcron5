@@ -58538,3 +58538,47 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull c5996b85ad7ffcdb3285ae45e82fecf499502006
+2024-07-06 21:35:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-06 21:35:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286870     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286869     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286868     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286867     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286866     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286865     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286864     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286863     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286862     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286861     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286860     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286859     learn yangzho6   beidic PD       0:00      1 (QOSGrpGRES)
+           3286813     learn   haoyun   beidic  R    1:24:55      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R    1:24:55      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R    1:39:24      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R    1:39:24      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    2:34:58      1 a100-st-p4de24xlarge-454
+           3286858     learn yangzho6   beidic  R       1:53      1 a100-st-p4de24xlarge-437
+           3286856     learn yangzho6   beidic  R      22:35      1 a100-st-p4de24xlarge-509
+           3286846     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-144
+           3286847     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-184
+           3286849     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-507
+           3286851     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-796
+           3286852     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-841
+           3286853     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-866
+           3286854     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-931
+           3286855     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-970
+           3286857     learn yangzho6   beidic  R      35:18      1 a100-st-p4de24xlarge-386
+           3286810     learn yangzho6   beidic  R    1:39:24      1 a100-st-p4de24xlarge-320
+2024-07-06 21:35:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash292574.sh
++ cp /fsx-storygen/beidic/yang/log/log-3286846.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3286846.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286840.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286840.out ../submitted
