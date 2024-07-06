@@ -34,6 +34,8 @@ for jobid in jobidsbringing:
     # commands += "mv /private/home/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
     commands += "cp /fsx-storygen/beidic/yang/log/log-{}.err ../submitted\n".format(jobid) 
     commands += "cp /fsx-storygen/beidic/yang/log/log-{}.out ../submitted\n\n".format(jobid) 
+commands += "\nchmod +x ../removetoolarge.sh" 
+commands += "\n../removetoolarge.sh ../submitted" 
 
 file.write(commands) 
 file.close() 

@@ -17,7 +17,9 @@ commands = "cd {} \
             \ncd {} \
             \nrm optimizer.pt \
             \ncd .. \
-            \nscp -r {} zx22@terminator8.cs.rice.edu:/home/zx22/yangzho ".format(checkpoint_path, checkpoint_folder, namingpreference, namingpreference, namingpreference) 
+            \nscp -r {} zx22@terminator8.cs.rice.edu:/home/zx22/yangzho \
+            \nchmod +x ../removetoolarge.sh \
+            \n../removetoolarge.sh ../submitted".format(checkpoint_path, checkpoint_folder, namingpreference, namingpreference, namingpreference) 
 
 file.write(commands) 
 file.close() 
