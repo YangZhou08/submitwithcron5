@@ -1,0 +1,182 @@
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-06:21:48:49,737 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,737 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,737 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,737 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,737 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,738 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,771 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:49,781 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,530 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,542 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,543 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:48:58,554 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:28<00:57, 28.72s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.62s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.94s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.51s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.84s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.61s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.52s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:01, 30.58s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:50<00:24, 24.58s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.17s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.29s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.18s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.45s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.18s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:54<00:26, 26.58s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:03<00:00, 18.86s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:03<00:00, 21.28s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 20.04s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.69s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.86s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.88s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.75s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.97s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.69s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.87s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.85s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.68s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.91s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:06<00:00, 19.76s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:06<00:00, 22.04s/it]
+2024-07-06:21:51:15,470 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/165 [00:00<?, ?it/s] 12%|█▏        | 19/165 [00:00<00:00, 189.31it/s] 24%|██▎       | 39/165 [00:00<00:00, 191.06it/s] 36%|███▌      | 59/165 [00:00<00:00, 191.91it/s] 48%|████▊     | 79/165 [00:00<00:00, 192.92it/s] 60%|██████    | 99/165 [00:00<00:00, 193.53it/s] 72%|███████▏  | 119/165 [00:00<00:00, 194.03it/s] 84%|████████▍ | 139/165 [00:00<00:00, 194.31it/s] 96%|█████████▋| 159/165 [00:00<00:00, 194.37it/s]100%|██████████| 165/165 [00:00<00:00, 193.53it/s]
+2024-07-06:21:51:17,003 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-07-06:21:51:17,079 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/165 [00:00<?, ?it/s] 12%|█▏        | 20/165 [00:00<00:00, 189.95it/s] 12%|█▏        | 20/165 [00:00<00:00, 191.46it/s]2024-07-06:21:51:17,224 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+ 24%|██▍       | 40/165 [00:00<00:00, 191.79it/s]  0%|          | 0/165 [00:00<?, ?it/s] 24%|██▍       | 40/165 [00:00<00:00, 193.39it/s] 36%|███▋      | 60/165 [00:00<00:00, 192.47it/s] 10%|█         | 17/165 [00:00<00:00, 169.07it/s]2024-07-06:21:51:17,409 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+ 36%|███▋      | 60/165 [00:00<00:00, 194.04it/s]2024-07-06:21:51:17,416 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/164 [00:00<?, ?it/s] 48%|████▊     | 80/165 [00:00<00:00, 193.32it/s]  0%|          | 0/165 [00:00<?, ?it/s] 22%|██▏       | 37/165 [00:00<00:00, 183.31it/s] 48%|████▊     | 80/165 [00:00<00:00, 195.00it/s] 12%|█▏        | 20/164 [00:00<00:00, 190.18it/s] 61%|██████    | 100/165 [00:00<00:00, 193.95it/s] 12%|█▏        | 19/165 [00:00<00:00, 186.35it/s] 35%|███▍      | 57/165 [00:00<00:00, 187.89it/s] 61%|██████    | 100/165 [00:00<00:00, 195.35it/s] 24%|██▍       | 40/164 [00:00<00:00, 192.08it/s] 73%|███████▎  | 120/165 [00:00<00:00, 194.44it/s] 23%|██▎       | 38/165 [00:00<00:00, 187.97it/s] 47%|████▋     | 77/165 [00:00<00:00, 190.49it/s] 73%|███████▎  | 120/165 [00:00<00:00, 195.63it/s] 37%|███▋      | 60/164 [00:00<00:00, 192.64it/s] 85%|████████▍ | 140/165 [00:00<00:00, 194.65it/s] 35%|███▍      | 57/165 [00:00<00:00, 188.30it/s] 59%|█████▉    | 97/165 [00:00<00:00, 192.13it/s] 85%|████████▍ | 140/165 [00:00<00:00, 195.88it/s] 49%|████▉     | 80/164 [00:00<00:00, 193.51it/s] 97%|█████████▋| 160/165 [00:00<00:00, 194.73it/s] 47%|████▋     | 77/165 [00:00<00:00, 189.08it/s]100%|██████████| 165/165 [00:00<00:00, 193.92it/s]
+ 71%|███████   | 117/165 [00:00<00:00, 193.02it/s] 97%|█████████▋| 160/165 [00:00<00:00, 195.93it/s]100%|██████████| 165/165 [00:00<00:00, 195.24it/s]
+ 61%|██████    | 100/164 [00:00<00:00, 193.92it/s] 59%|█████▉    | 97/165 [00:00<00:00, 189.63it/s] 83%|████████▎ | 137/165 [00:00<00:00, 193.60it/s] 73%|███████▎  | 120/164 [00:00<00:00, 194.28it/s] 71%|███████   | 117/165 [00:00<00:00, 189.95it/s] 95%|█████████▌| 157/165 [00:00<00:00, 193.93it/s]100%|██████████| 165/165 [00:00<00:00, 191.31it/s]
+ 85%|████████▌ | 140/164 [00:00<00:00, 194.58it/s] 83%|████████▎ | 137/165 [00:00<00:00, 190.08it/s] 98%|█████████▊| 160/164 [00:00<00:00, 194.68it/s] 95%|█████████▌| 157/165 [00:00<00:00, 190.15it/s]100%|██████████| 164/164 [00:00<00:00, 193.66it/s]
+100%|██████████| 165/165 [00:00<00:00, 189.55it/s]
+2024-07-06:21:51:59,777 INFO     [xhuggingface.py:323] Using 8 devices with data parallelism
+2024-07-06:21:52:01,294 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-07-06:21:52:01,409 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  7%|▋         | 12/165 [00:00<00:01, 114.48it/s]  0%|          | 0/165 [00:00<?, ?it/s] 15%|█▍        | 24/165 [00:00<00:01, 115.91it/s]  7%|▋         | 12/165 [00:00<00:01, 115.68it/s] 22%|██▏       | 36/165 [00:00<00:01, 116.63it/s] 15%|█▍        | 24/165 [00:00<00:01, 116.08it/s] 29%|██▉       | 48/165 [00:00<00:01, 116.85it/s] 22%|██▏       | 36/165 [00:00<00:01, 116.91it/s] 36%|███▋      | 60/165 [00:00<00:00, 117.14it/s] 29%|██▉       | 48/165 [00:00<00:00, 117.19it/s] 44%|████▎     | 72/165 [00:00<00:00, 117.33it/s] 36%|███▋      | 60/165 [00:00<00:00, 117.36it/s] 51%|█████     | 84/165 [00:00<00:00, 117.73it/s] 44%|████▎     | 72/165 [00:00<00:00, 117.38it/s] 58%|█████▊    | 96/165 [00:00<00:00, 117.95it/s] 51%|█████     | 84/165 [00:00<00:00, 117.74it/s] 65%|██████▌   | 108/165 [00:00<00:00, 118.05it/s] 58%|█████▊    | 96/165 [00:00<00:00, 117.89it/s] 73%|███████▎  | 120/165 [00:01<00:00, 118.13it/s] 65%|██████▌   | 108/165 [00:00<00:00, 118.02it/s] 80%|████████  | 132/165 [00:01<00:00, 118.12it/s] 73%|███████▎  | 120/165 [00:01<00:00, 118.22it/s] 87%|████████▋ | 144/165 [00:01<00:00, 118.21it/s] 80%|████████  | 132/165 [00:01<00:00, 118.28it/s] 95%|█████████▍| 156/165 [00:01<00:00, 118.22it/s] 87%|████████▋ | 144/165 [00:01<00:00, 117.93it/s]100%|██████████| 165/165 [00:01<00:00, 117.70it/s]
+ 96%|█████████▋| 159/165 [00:01<00:00, 125.90it/s]100%|██████████| 165/165 [00:01<00:00, 121.34it/s]
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,519 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:52:16,521 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/165 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 94.00 MiB. GPU 2 has a total capacity of 79.15 GiB of which 93.69 MiB is free. Including non-PyTorch memory, this process has 79.05 GiB memory in use. Of the allocated memory 60.68 GiB is allocated by PyTorch, and 16.75 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 94.00 MiB. GPU 5 has a total capacity of 79.15 GiB of which 93.69 MiB is free. Including non-PyTorch memory, this process has 79.05 GiB memory in use. Of the allocated memory 62.12 GiB is allocated by PyTorch, and 15.30 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2024-07-06 21:52:45,857] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339490 closing signal SIGTERM
+[2024-07-06 21:52:45,858] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339491 closing signal SIGTERM
+[2024-07-06 21:52:45,859] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339493 closing signal SIGTERM
+[2024-07-06 21:52:45,859] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339494 closing signal SIGTERM
+[2024-07-06 21:52:45,859] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339495 closing signal SIGTERM
+[2024-07-06 21:52:45,859] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339496 closing signal SIGTERM
+[2024-07-06 21:52:45,859] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3339497 closing signal SIGTERM
+[2024-07-06 21:52:47,739] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 2 (pid: 3339492) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-06_21:52:45
+  host      : a100-st-p4de24xlarge-509.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3339492)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

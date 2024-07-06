@@ -1,0 +1,430 @@
+Already on 'yangexp2two'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-06:21:55:02,913 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,913 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,913 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,913 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,913 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,920 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,925 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:02,938 INFO     [main.py:288] Verbosity set to INFO
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,290 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-06:21:55:12,311 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,311 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,312 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,312 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+2024-07-06:21:55:12,313 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-06:21:55:12,314 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Llama-2-13b-chat-hf', 'widthtree': 8, 'griffin': True, 'check': True, 'kernel_size': 16, 'spr': 0.5, 'thr': 0.1}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:27<00:54, 27.33s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:59, 29.80s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:59, 29.50s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:59, 29.55s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:58, 29.44s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:58, 29.44s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:29<00:59, 29.56s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:00, 30.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:50<00:24, 24.65s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.39s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.71s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.30s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.25s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:54<00:26, 26.62s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:53<00:26, 26.29s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:03<00:00, 18.90s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:03<00:00, 21.27s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.41s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.58s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.44s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.61s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.45s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.60s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.70s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.65s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.46s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.63s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.66s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.91s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 19.93s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:05<00:00, 21.70s/it]
+2024-07-06:21:57:29,985 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+2024-07-06:21:57:29,985 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/165 [00:00<?, ?it/s]  0%|          | 0/165 [00:00<?, ?it/s]2024-07-06:21:57:30,095 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+  0%|          | 0/164 [00:00<?, ?it/s]2024-07-06:21:57:30,126 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/165 [00:00<?, ?it/s] 12%|█▏        | 19/165 [00:00<00:00, 189.92it/s] 12%|█▏        | 19/165 [00:00<00:00, 188.78it/s] 12%|█▏        | 19/164 [00:00<00:00, 188.05it/s] 12%|█▏        | 19/165 [00:00<00:00, 188.13it/s] 24%|██▎       | 39/165 [00:00<00:00, 192.17it/s] 24%|██▎       | 39/165 [00:00<00:00, 190.97it/s] 24%|██▍       | 39/164 [00:00<00:00, 189.61it/s] 24%|██▎       | 39/165 [00:00<00:00, 190.09it/s] 36%|███▌      | 59/165 [00:00<00:00, 192.85it/s] 36%|███▌      | 59/165 [00:00<00:00, 191.62it/s]2024-07-06:21:57:30,421 INFO     [xhuggingface.py:323] Using 8 devices with data parallelism
+ 35%|███▌      | 58/164 [00:00<00:00, 189.42it/s] 36%|███▌      | 59/165 [00:00<00:00, 190.56it/s] 48%|████▊     | 79/165 [00:00<00:00, 193.65it/s] 48%|████▊     | 79/165 [00:00<00:00, 192.35it/s] 48%|████▊     | 78/164 [00:00<00:00, 190.50it/s] 48%|████▊     | 79/165 [00:00<00:00, 191.61it/s]2024-07-06:21:57:30,564 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+ 60%|██████    | 99/165 [00:00<00:00, 194.09it/s] 60%|██████    | 99/165 [00:00<00:00, 192.81it/s]  0%|          | 0/165 [00:00<?, ?it/s] 60%|█████▉    | 98/164 [00:00<00:00, 191.26it/s] 60%|██████    | 99/165 [00:00<00:00, 192.24it/s] 72%|███████▏  | 119/165 [00:00<00:00, 194.48it/s] 72%|███████▏  | 119/165 [00:00<00:00, 193.23it/s] 12%|█▏        | 20/165 [00:00<00:00, 190.55it/s] 72%|███████▏  | 118/164 [00:00<00:00, 191.93it/s] 72%|███████▏  | 119/165 [00:00<00:00, 192.59it/s] 84%|████████▍ | 139/165 [00:00<00:00, 194.79it/s] 84%|████████▍ | 139/165 [00:00<00:00, 193.39it/s] 24%|██▍       | 40/165 [00:00<00:00, 192.64it/s] 84%|████████▍ | 138/164 [00:00<00:00, 192.13it/s] 84%|████████▍ | 139/165 [00:00<00:00, 192.89it/s] 96%|█████████▋| 159/165 [00:00<00:00, 195.02it/s] 96%|█████████▋| 159/165 [00:00<00:00, 193.50it/s] 36%|███▋      | 60/165 [00:00<00:00, 193.25it/s]100%|██████████| 165/165 [00:00<00:00, 194.20it/s]
+100%|██████████| 165/165 [00:00<00:00, 192.81it/s]
+ 96%|█████████▋| 158/164 [00:00<00:00, 192.33it/s] 96%|█████████▋| 159/165 [00:00<00:00, 193.01it/s]100%|██████████| 164/164 [00:00<00:00, 191.41it/s]
+ 48%|████▊     | 80/165 [00:00<00:00, 194.24it/s]100%|██████████| 165/165 [00:00<00:00, 192.20it/s]
+ 61%|██████    | 100/165 [00:00<00:00, 194.90it/s] 73%|███████▎  | 120/165 [00:00<00:00, 195.34it/s] 85%|████████▍ | 140/165 [00:00<00:00, 195.68it/s] 97%|█████████▋| 160/165 [00:00<00:00, 195.78it/s]100%|██████████| 165/165 [00:00<00:00, 194.88it/s]
+2024-07-06:21:57:32,059 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  0%|          | 0/165 [00:00<?, ?it/s] 12%|█▏        | 20/165 [00:00<00:00, 191.00it/s] 24%|██▍       | 40/165 [00:00<00:00, 192.80it/s] 36%|███▋      | 60/165 [00:00<00:00, 193.51it/s] 48%|████▊     | 80/165 [00:00<00:00, 194.29it/s] 61%|██████    | 100/165 [00:00<00:00, 194.71it/s] 73%|███████▎  | 120/165 [00:00<00:00, 194.98it/s] 85%|████████▍ | 140/165 [00:00<00:00, 195.17it/s] 97%|█████████▋| 160/165 [00:00<00:00, 195.24it/s]100%|██████████| 165/165 [00:00<00:00, 194.58it/s]
+2024-07-06:21:58:07,047 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+  0%|          | 0/165 [00:00<?, ?it/s]  9%|▉         | 15/165 [00:00<00:01, 140.66it/s] 18%|█▊        | 30/165 [00:00<00:01, 126.06it/s] 26%|██▌       | 43/165 [00:00<00:00, 122.51it/s]2024-07-06:21:58:07,432 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/165 [00:00<?, ?it/s] 34%|███▍      | 56/165 [00:00<00:00, 120.84it/s]  7%|▋         | 12/165 [00:00<00:01, 117.10it/s] 42%|████▏     | 69/165 [00:00<00:00, 120.04it/s] 15%|█▍        | 24/165 [00:00<00:01, 117.81it/s] 50%|████▉     | 82/165 [00:00<00:00, 119.52it/s] 22%|██▏       | 36/165 [00:00<00:01, 118.22it/s] 57%|█████▋    | 94/165 [00:00<00:00, 119.51it/s] 29%|██▉       | 48/165 [00:00<00:00, 118.44it/s] 64%|██████▍   | 106/165 [00:00<00:00, 119.28it/s] 36%|███▋      | 60/165 [00:00<00:00, 118.04it/s] 72%|███████▏  | 118/165 [00:00<00:00, 119.25it/s] 44%|████▎     | 72/165 [00:00<00:00, 118.50it/s] 79%|███████▉  | 130/165 [00:01<00:00, 119.27it/s] 51%|█████     | 84/165 [00:00<00:00, 118.92it/s] 86%|████████▌ | 142/165 [00:01<00:00, 119.22it/s] 58%|█████▊    | 96/165 [00:00<00:00, 119.07it/s] 93%|█████████▎| 154/165 [00:01<00:00, 119.26it/s] 65%|██████▌   | 108/165 [00:00<00:00, 119.12it/s]100%|██████████| 165/165 [00:01<00:00, 120.42it/s]
+ 73%|███████▎  | 120/165 [00:01<00:00, 119.14it/s] 80%|████████  | 132/165 [00:01<00:00, 109.10it/s] 87%|████████▋ | 144/165 [00:01<00:00, 98.45it/s]  96%|█████████▋| 159/165 [00:01<00:00, 110.88it/s]100%|██████████| 165/165 [00:01<00:00, 115.08it/s]
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-06:21:58:25,044 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/165 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+Traceback (most recent call last):
+      File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+        model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) cli_evaluate()
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+        results = xevaluator.simple_evaluate(past_key_values = GriffinCache.stackcache(active_cache) 
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 169, in stackcache
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    new_value_cache.append(torch.cat(v_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 4 has a total capacity of 79.15 GiB of which 45.62 MiB is free. Including non-PyTorch memory, this process has 79.10 GiB memory in use. Of the allocated memory 76.82 GiB is allocated by PyTorch, and 667.90 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1626, in greedy_search
+    outputs = self( # I expand the arguments of model_inputs 
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1106, in forward
+    outputs = self.model(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 890, in forward
+    layer_outputs = decoder_layer(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 665, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 576, in forward
+    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 93, in update
+    self.key_cache[layer_idx] = torch.cat([self.key_cache[layer_idx], key_states], dim=-2)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 1 has a total capacity of 79.15 GiB of which 31.62 MiB is free. Including non-PyTorch memory, this process has 79.11 GiB memory in use. Of the allocated memory 76.12 GiB is allocated by PyTorch, and 1.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 169, in stackcache
+    new_value_cache.append(torch.cat(v_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 140.00 MiB. GPU 6 has a total capacity of 79.15 GiB of which 91.62 MiB is free. Including non-PyTorch memory, this process has 79.05 GiB memory in use. Of the allocated memory 76.49 GiB is allocated by PyTorch, and 963.93 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 0 has a total capacity of 79.15 GiB of which 77.62 MiB is free. Including non-PyTorch memory, this process has 79.07 GiB memory in use. Of the allocated memory 76.63 GiB is allocated by PyTorch, and 972.57 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 3 has a total capacity of 79.15 GiB of which 43.62 MiB is free. Including non-PyTorch memory, this process has 79.10 GiB memory in use. Of the allocated memory 75.41 GiB is allocated by PyTorch, and 2.06 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1626, in greedy_search
+    outputs = self( # I expand the arguments of model_inputs 
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1106, in forward
+    outputs = self.model(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 890, in forward
+    layer_outputs = decoder_layer(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 665, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 576, in forward
+    key_states, value_states = past_key_value.update(key_states, value_states, self.layer_idx, cache_kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 93, in update
+    self.key_cache[layer_idx] = torch.cat([self.key_cache[layer_idx], key_states], dim=-2)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 7 has a total capacity of 79.15 GiB of which 61.62 MiB is free. Including non-PyTorch memory, this process has 79.08 GiB memory in use. Of the allocated memory 75.60 GiB is allocated by PyTorch, and 2.00 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Running generate_until requests:   0%|          | 0/165 [00:05<?, ?it/s]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 138.00 MiB. GPU 2 has a total capacity of 79.15 GiB of which 115.62 MiB is free. Including non-PyTorch memory, this process has 79.03 GiB memory in use. Of the allocated memory 76.11 GiB is allocated by PyTorch, and 1.29 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1228, in generate_until
+    cont = self._model_generate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 788, in _model_generate
+    outputs = self.model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1601, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/llama12addingtree.py", line 1188, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 136.00 MiB. GPU 5 has a total capacity of 79.15 GiB of which 31.62 MiB is free. Including non-PyTorch memory, this process has 79.11 GiB memory in use. Of the allocated memory 75.84 GiB is allocated by PyTorch, and 1.64 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+[2024-07-06 21:58:33,731] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3156388) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 3156389)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3156390)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3156391)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 3156392)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3156393)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 3156394)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 3156395)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-06_21:58:33
+  host      : a100-st-p4de24xlarge-841.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3156388)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

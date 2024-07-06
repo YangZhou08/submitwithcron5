@@ -58667,3 +58667,64 @@ attempting to move error files
 + cp /fsx-storygen/beidic/yang/log/log-3286866.err ../submitted
 + cp /fsx-storygen/beidic/yang/log/log-3286866.out ../submitted
 + cp /fsx-storygen/beidic/yang/log/log-3286865.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286865.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286864.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286864.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286863.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286863.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286862.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286862.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286861.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286861.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286860.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286860.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286859.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286859.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286858.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286858.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286846.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286846.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286847.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286847.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286848.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286848.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286849.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286849.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286850.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286850.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286851.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286851.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286852.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286852.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286853.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286853.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286854.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286854.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286855.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286855.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286857.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286857.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286810.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3286810.out ../submitted
++ chmod +x ../removetoolarge.sh
++ ../removetoolarge.sh ../submitted
+../removetoolarge.sh: line 32: syntax error: unexpected end of file
+No changes to pull.
+2024-07-06 23:00:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-06 23:00:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286846     learn yangzho6   beidic CG    2:00:14      1 a100-st-p4de24xlarge-144
+           3286813     learn   haoyun   beidic  R    2:49:56      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R    2:49:56      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R    3:04:25      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R    3:04:25      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    3:59:59      1 a100-st-p4de24xlarge-454
+           3287090     learn yangzho6   beidic  R       4:25      1 a100-st-p4de24xlarge-79
+2024-07-06 23:00:03 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
