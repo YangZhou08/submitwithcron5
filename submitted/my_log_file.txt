@@ -57589,3 +57589,60 @@ Already on 'yangexp2threee'
 + git branch --set-upstream-to=origin/yangexp2threee yangexp2threee
 Branch 'yangexp2threee' set up to track remote branch 'yangexp2threee' from 'origin'.
 + git pull
+Updating 6d59f61..a216c7a
+Fast-forward
+ debugging1.sh           |  28 +-
+ llama12addingtree.py    |   5 +-
+ newlogdir/sparselog.log | 661 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 690 insertions(+), 4 deletions(-)
+ create mode 100644 newlogdir/sparselog.log
+There are changes to pull 594d0fdec4569ac7392ada654cb81d5fd80860b3
+2024-07-06 20:55:02 - Submitting jobs
+There are 1 .sh files to submit.
+Submitting lm_eval_harness_hanshienvironment.sh
+2024-07-06 20:55:02 - Job ID: Submitted batch job 3286846
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286846     learn yangzho6   beidic PD       0:00      1 (None)
+           3286813     learn   haoyun   beidic  R      44:55      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R      44:55      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R      59:24      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R      59:24      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    1:54:58      1 a100-st-p4de24xlarge-454
+           3286840     learn yangzho6   beidic  R       9:53      1 a100-st-p4de24xlarge-144
+           3286810     learn yangzho6   beidic  R      59:24      1 a100-st-p4de24xlarge-320
+2024-07-06 20:55:02 - Done submitting jobs
+
+There are 2 .sh bash files to run
+Running lmevaluationlaunchingtemplate.sh
+Running lmevaluationlaunchingtemplate2.sh
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ cd /fsx-storygen/beidic/yang/GRIFFIN2
++ git branch
++ git branch
+attempting to move error files
+  exp2
+  main
+  yangexp2
+* yangexp2threee
+  yangexp2two
+  yangobservation
+  exp2
+  main
+  yangexp2
+* yangexp2threee
+  yangexp2two
+  yangobservation
++ git add .
++ git add .
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
++ git stash
++ git pull origin yangexp2threee
++ git stash
+No local changes to save
++ git pull origin yangexp2threee
