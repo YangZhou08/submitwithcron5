@@ -23,3 +23,22 @@ beam width is 8
 beam width is 8
 beam width is 8
 beam width is 8
+idx 5 start communication
+idx 0 start communication
+idx 6 start communication
+idx 1 start communication
+idx 2 start communication
+idx 7 start communication
+idx 3 start communication
+idx 4 start communication
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+|            400 |                     53022 |                     132.555 |         47839 |        4248 | 11.2615 |                           3137 |              546 |                          5.74542 |               59.0767 |              7.41667 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+xhf (pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,cats=True,check=True,kernel_size=12,spr=0.3,thr=0.0001,patternstrict=True), gen_kwargs: (None), limit: 0.3, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.4596|±  |0.0251|
+|     |       |flexible-extract|     5|exact_match|0.4672|±  |0.0251|
+
