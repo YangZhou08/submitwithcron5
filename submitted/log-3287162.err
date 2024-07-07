@@ -1,0 +1,113 @@
+From github.com:Infini-AI-Lab/GRIFFIN2
+   a216c7a..0fb390f  yangexp2threee -> origin/yangexp2threee
+error: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-07:00:36:39,858 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,865 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,880 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,880 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,888 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,891 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,895 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:39,919 INFO     [main.py:288] Verbosity set to INFO
+2024-07-07:00:36:48,965 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,965 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,965 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,966 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,966 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,966 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,966 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,966 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,967 INFO     [main.py:378] Selected Tasks: ['gsm8k']
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+2024-07-07:00:36:48,994 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'widthtree': 6, 'griffin': True, 'check': True, 'kernel_size': 9, 'spr': 0.3, 'thr': 0.001}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:18<00:55, 18.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:59, 19.90s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:59, 19.76s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:59, 19.79s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:58, 19.62s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:59, 19.68s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:20<01:01, 20.50s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:19<00:58, 19.65s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:32, 16.21s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:35<00:34, 17.33s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.07s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.00s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:35<00:34, 17.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:35<00:34, 17.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:47<00:15, 15.31s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:16, 16.05s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:15, 15.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.08s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:15, 15.92s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:15, 15.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:15, 15.93s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:15, 15.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:49<00:00, 10.01s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:49<00:00, 12.44s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.26s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.77s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.94s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.36s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.74s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.24s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.73s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.78s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.43s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.90s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.85s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-07:00:38:29,439 INFO     [xhuggingface.py:323] Using 8 devices with data parallelism
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-07:00:38:29,931 INFO     [task.py:395] Building contexts for gsm8k on rank 2...
+  0%|          | 0/50 [00:00<?, ?it/s] 38%|███▊      | 19/50 [00:00<00:00, 189.91it/s] 78%|███████▊  | 39/50 [00:00<00:00, 191.78it/s]100%|██████████| 50/50 [00:00<00:00, 191.82it/s]
+2024-07-07:00:38:30,427 INFO     [task.py:395] Building contexts for gsm8k on rank 1...
+  0%|          | 0/50 [00:00<?, ?it/s] 36%|███▌      | 18/50 [00:00<00:00, 171.68it/s] 72%|███████▏  | 36/50 [00:00<00:00, 140.37it/s]2024-07-07:00:38:30,752 INFO     [task.py:395] Building contexts for gsm8k on rank 3...
+  0%|          | 0/50 [00:00<?, ?it/s]2024-07-07:00:38:30,777 INFO     [task.py:395] Building contexts for gsm8k on rank 0...
+  0%|          | 0/50 [00:00<?, ?it/s]100%|██████████| 50/50 [00:00<00:00, 141.99it/s]
+2024-07-07:00:38:30,813 INFO     [task.py:395] Building contexts for gsm8k on rank 5...
+  0%|          | 0/49 [00:00<?, ?it/s] 38%|███▊      | 19/50 [00:00<00:00, 187.96it/s] 38%|███▊      | 19/50 [00:00<00:00, 188.42it/s] 41%|████      | 20/49 [00:00<00:00, 190.97it/s] 78%|███████▊  | 39/50 [00:00<00:00, 189.83it/s] 78%|███████▊  | 39/50 [00:00<00:00, 190.52it/s]100%|██████████| 50/50 [00:00<00:00, 189.96it/s]
+ 82%|████████▏ | 40/49 [00:00<00:00, 192.72it/s]100%|██████████| 50/50 [00:00<00:00, 190.61it/s]
+100%|██████████| 49/49 [00:00<00:00, 192.62it/s]
+2024-07-07:00:38:31,310 INFO     [task.py:395] Building contexts for gsm8k on rank 4...
+  0%|          | 0/49 [00:00<?, ?it/s] 35%|███▍      | 17/49 [00:00<00:00, 164.09it/s] 69%|██████▉   | 34/49 [00:00<00:00, 166.32it/s]100%|██████████| 49/49 [00:00<00:00, 166.53it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-07:00:38:59,422 INFO     [task.py:395] Building contexts for gsm8k on rank 7...
+  0%|          | 0/49 [00:00<?, ?it/s] 29%|██▊       | 14/49 [00:00<00:00, 137.14it/s] 57%|█████▋    | 28/49 [00:00<00:00, 124.94it/s] 84%|████████▎ | 41/49 [00:00<00:00, 121.43it/s]2024-07-07:00:38:59,796 INFO     [task.py:395] Building contexts for gsm8k on rank 6...
+  0%|          | 0/49 [00:00<?, ?it/s]100%|██████████| 49/49 [00:00<00:00, 122.45it/s]
+ 24%|██▍       | 12/49 [00:00<00:00, 113.33it/s] 49%|████▉     | 24/49 [00:00<00:00, 114.89it/s] 73%|███████▎  | 36/49 [00:00<00:00, 113.55it/s] 98%|█████████▊| 48/49 [00:00<00:00, 113.68it/s]100%|██████████| 49/49 [00:00<00:00, 113.62it/s]
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-07:00:39:11,104 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/50 [00:00<?, ?it/s]Running generate_until requests:   2%|▏         | 1/50 [00:06<05:14,  6.43s/it]Running generate_until requests:   4%|▍         | 2/50 [00:11<04:23,  5.49s/it]Running generate_until requests:   6%|▌         | 3/50 [00:14<03:33,  4.55s/it]Running generate_until requests:   8%|▊         | 4/50 [00:20<03:51,  5.04s/it]Running generate_until requests:  10%|█         | 5/50 [00:23<03:12,  4.28s/it]Running generate_until requests:  12%|█▏        | 6/50 [00:31<04:06,  5.59s/it]Running generate_until requests:  14%|█▍        | 7/50 [00:32<02:57,  4.12s/it]Running generate_until requests:  16%|█▌        | 8/50 [00:36<02:43,  3.90s/it]Running generate_until requests:  18%|█▊        | 9/50 [00:43<03:27,  5.05s/it]Running generate_until requests:  20%|██        | 10/50 [00:48<03:18,  4.97s/it]Running generate_until requests:  22%|██▏       | 11/50 [00:53<03:17,  5.06s/it]Running generate_until requests:  24%|██▍       | 12/50 [00:57<02:52,  4.55s/it]Running generate_until requests:  26%|██▌       | 13/50 [01:01<02:41,  4.36s/it]Running generate_until requests:  28%|██▊       | 14/50 [01:09<03:21,  5.61s/it]Running generate_until requests:  30%|███       | 15/50 [01:13<02:58,  5.09s/it]Running generate_until requests:  32%|███▏      | 16/50 [01:18<02:56,  5.20s/it]Running generate_until requests:  34%|███▍      | 17/50 [01:23<02:42,  4.93s/it]Running generate_until requests:  36%|███▌      | 18/50 [01:27<02:27,  4.60s/it]Running generate_until requests:  38%|███▊      | 19/50 [01:29<02:07,  4.10s/it]Running generate_until requests:  40%|████      | 20/50 [01:34<02:05,  4.18s/it]Running generate_until requests:  42%|████▏     | 21/50 [01:37<01:54,  3.94s/it]Running generate_until requests:  44%|████▍     | 22/50 [01:39<01:33,  3.35s/it]Running generate_until requests:  46%|████▌     | 23/50 [01:43<01:38,  3.63s/it]Running generate_until requests:  48%|████▊     | 24/50 [01:49<01:46,  4.11s/it]Running generate_until requests:  50%|█████     | 25/50 [01:52<01:37,  3.89s/it]Running generate_until requests:  52%|█████▏    | 26/50 [01:55<01:29,  3.73s/it]Running generate_until requests:  54%|█████▍    | 27/50 [01:59<01:26,  3.78s/it]Running generate_until requests:  56%|█████▌    | 28/50 [02:03<01:23,  3.80s/it]Running generate_until requests:  58%|█████▊    | 29/50 [02:11<01:46,  5.06s/it]Running generate_until requests:  60%|██████    | 30/50 [02:15<01:34,  4.71s/it]Running generate_until requests:  62%|██████▏   | 31/50 [02:18<01:21,  4.31s/it]Running generate_until requests:  64%|██████▍   | 32/50 [02:28<01:44,  5.83s/it]Running generate_until requests:  66%|██████▌   | 33/50 [02:33<01:34,  5.58s/it]Running generate_until requests:  68%|██████▊   | 34/50 [02:35<01:14,  4.63s/it]Running generate_until requests:  70%|███████   | 35/50 [02:38<01:01,  4.11s/it]Running generate_until requests:  72%|███████▏  | 36/50 [02:43<01:00,  4.30s/it]Running generate_until requests:  74%|███████▍  | 37/50 [02:46<00:50,  3.88s/it]Running generate_until requests:  76%|███████▌  | 38/50 [02:49<00:44,  3.72s/it]Running generate_until requests:  78%|███████▊  | 39/50 [03:03<01:13,  6.68s/it]Running generate_until requests:  80%|████████  | 40/50 [03:05<00:54,  5.41s/it]Running generate_until requests:  82%|████████▏ | 41/50 [03:08<00:40,  4.51s/it]Running generate_until requests:  84%|████████▍ | 42/50 [03:10<00:31,  3.88s/it]Running generate_until requests:  86%|████████▌ | 43/50 [03:15<00:28,  4.14s/it]Running generate_until requests:  88%|████████▊ | 44/50 [03:19<00:24,  4.04s/it]Running generate_until requests:  90%|█████████ | 45/50 [03:22<00:19,  3.83s/it]Running generate_until requests:  92%|█████████▏| 46/50 [03:27<00:16,  4.09s/it]Running generate_until requests:  94%|█████████▍| 47/50 [03:30<00:11,  3.87s/it]Running generate_until requests:  96%|█████████▌| 48/50 [03:35<00:08,  4.27s/it]Running generate_until requests:  98%|█████████▊| 49/50 [03:38<00:03,  3.90s/it]Running generate_until requests: 100%|██████████| 50/50 [03:42<00:00,  3.86s/it]Running generate_until requests: 100%|██████████| 50/50 [03:42<00:00,  4.45s/it]

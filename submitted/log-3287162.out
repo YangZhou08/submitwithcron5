@@ -1,0 +1,56 @@
+No local changes to save
+Updating a216c7a..0fb390f
+Updating a216c7a..0fb390f
+Fast-forward
+ cottrial.ipynb | 23 +++++++++++++++++++++++
+ debugging1.sh  | 30 ++++++++++++++++--------------
+ 2 files changed, 39 insertions(+), 14 deletions(-)
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beamwidth is 6beamwidth is 6
+
+beamwidth is 6
+beamwidth is 6
+beamwidth is 6beamwidth is 6
+
+beamwidth is 6
+beamwidth is 6
+idx 0 start communication
+idx 4 start communication
+idx 5 start communication
+idx 3 start communication
+idx 1 start communication
+idx 2 start communication
+idx 6 start communication
+idx 7 start communication
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+|            400 |                     38988 |                       97.47 |         35003 |        4017 | 8.71372 |                           1150 |              254 |                          4.52756 |               33.4536 |              5.44444 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+xhf (pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001), gen_kwargs: (None), limit: 0.3, num_fewshot: None, batch_size: 1
+|Tasks|Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|-----|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k|      3|strict-match    |     5|exact_match|0.5606|±  |0.0250|
+|     |       |flexible-extract|     5|exact_match|0.5682|±  |0.0249|
+
