@@ -97,7 +97,7 @@ huggingface-cli login --token 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
 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,griffin=True,check=True,kernel_size=9,spr=0.25,thr=0.001 --tasks gsm8k --batch_size 1 --limit 0.3 
 
-accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=0.3,thr=0.0001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
+accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=8,cats=True,check=True,kernel_size=12,spr=0.3,thr=0.0001,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,cats=True,check=True,kernel_size=12,spr=0.3,thr=0.0005,patternstrict=True --tasks gsm8k --batch_size 1 --limit 0.3 
 
 # accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,widthtree=6,griffin=True,check=True,kernel_size=9,spr=0.3,thr=0.001 --tasks gsm8k --batch_size 1 --limit 0.3 
