@@ -59052,3 +59052,28 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 837122cf7ba3116e7303fc82b9afe31ef1760236
+2024-07-07 00:35:02 - Submitting jobs
+There are 3 .sh files to submit.
+Submitting lm_eval_harness_hanishienvironment2.sh
+2024-07-07 00:35:02 - Job ID: Submitted batch job 3287161
+Submitting lm_eval_harness_hanshiengvironment3.sh
+2024-07-07 00:35:02 - Job ID: Submitted batch job 3287162
+Submitting lm_eval_harness_hanshienvironment.sh
+2024-07-07 00:35:02 - Job ID: Submitted batch job 3287163
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3287163     learn yangzho6   beidic PD       0:00      1 (None)
+           3287162     learn yangzho6   beidic PD       0:00      1 (None)
+           3287161     learn yangzho6   beidic PD       0:00      1 (None)
+           3286813     learn   haoyun   beidic  R    4:24:55      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R    4:24:55      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R    4:39:24      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R    4:39:24      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    5:34:58      1 a100-st-p4de24xlarge-454
+           3287090     learn yangzho6   beidic  R    1:39:24      1 a100-st-p4de24xlarge-79
+2024-07-07 00:35:02 - Done submitting jobs
+
+There are 0 .sh bash files to run
+Running *.sh
+bash: *.sh: No such file or directory
+attempting to move error files
