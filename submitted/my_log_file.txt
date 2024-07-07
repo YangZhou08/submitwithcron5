@@ -59376,3 +59376,24 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull fb9ac509b4c0af66a5dbb133bdbab9bf02d767f4
+2024-07-07 02:05:02 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-07 02:05:02 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3287228     learn yangzho6   beidic  R       3:31      1 a100-st-p4de24xlarge-15
+           3287229     learn yangzho6   beidic  R       3:31      1 a100-st-p4de24xlarge-887
+           3286757     learn   yuweia   beidic  R    7:04:58      1 a100-st-p4de24xlarge-454
+2024-07-07 02:05:02 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash339236.sh
++ cp /fsx-storygen/beidic/yang/log/log-3287229.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3287229.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287228.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287228.out ../submitted
++ chmod +x ../removetoolarge.sh
++ ../removetoolarge.sh ../submitted
+../removetoolarge.sh: line 32: syntax error: unexpected end of file
