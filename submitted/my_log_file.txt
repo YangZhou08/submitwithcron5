@@ -59226,3 +59226,30 @@ There are 0 .sh bash files to run
 Running *.sh
 bash: *.sh: No such file or directory
 attempting to move error files
+There are changes to pull 903fdcf19bb455e635ce2b8db1bebb786fdfa122
+2024-07-07 01:20:05 - Submitting jobs
+There are 0 .sh files to submit.
+Submitting *.sh
+2024-07-07 01:20:05 - Job ID: 
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+           3286813     learn   haoyun   beidic  R    5:09:58      1 a100-st-p4de24xlarge-55
+           3286814     learn   haoyun   beidic  R    5:09:58      1 a100-st-p4de24xlarge-131
+           3286807     learn   haoyun   beidic  R    5:24:27      1 a100-st-p4de24xlarge-15
+           3286808     learn   haoyun   beidic  R    5:24:27      1 a100-st-p4de24xlarge-103
+           3286757     learn   yuweia   beidic  R    6:20:01      1 a100-st-p4de24xlarge-454
+2024-07-07 01:20:05 - Done submitting jobs
+
+There are 1 .sh bash files to run
+Running bringbackerrorfiles_timehash365286.sh
++ cp /fsx-storygen/beidic/yang/log/log-3287163.err ../submitted
+attempting to move error files
++ cp /fsx-storygen/beidic/yang/log/log-3287163.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287162.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287162.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287161.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287161.out ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287090.err ../submitted
++ cp /fsx-storygen/beidic/yang/log/log-3287090.out ../submitted
++ chmod +x ../removetoolarge.sh
++ ../removetoolarge.sh ../submitted
+../removetoolarge.sh: line 32: syntax error: unexpected end of file
