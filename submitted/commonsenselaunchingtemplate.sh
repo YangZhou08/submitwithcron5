@@ -15,8 +15,8 @@ commands=(
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date"
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.3 --thr 0.1"
     "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --shotfive"
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict" 
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --shotfive"
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive"
 )
