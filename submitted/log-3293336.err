@@ -1,0 +1,364 @@
+fatal: Unable to create '/fsx-storygen/beidic/yang/CommonSenseReasoning/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/wandb", line 5, in <module>
+    from wandb.cli.cli import cli
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/__init__.py", line 27, in <module>
+    from wandb import sdk as wandb_sdk
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/__init__.py", line 25, in <module>
+    from .artifacts.artifact import Artifact
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/artifacts/artifact.py", line 36, in <module>
+    from wandb import data_types, env, util
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/data_types.py", line 32, in <module>
+    from .sdk.data_types import _dtypes
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/wandb/sdk/data_types/_dtypes.py", line 393, in <module>
+    NumberType.types.append(np.float_)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/numpy/__init__.py", line 397, in __getattr__
+    raise AttributeError(
+AttributeError: `np.float_` was removed in the NumPy 2.0 release. Use `np.float64` instead.
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py:19: UserWarning: A NumPy version >=1.22.4 and <1.29.0 is required for this version of SciPy (detected version 2.0.0)
+  from scipy.stats import pearsonr, spearmanr
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 6, in <module>
+    import lm_eval 
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/__init__.py", line 1, in <module>
+    from .evaluator import evaluate, simple_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/evaluator.py", line 11, in <module>
+    import lm_eval.api.metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/lm_eval/api/metrics.py", line 7, in <module>
+    import evaluate as hf_evaluate
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/__init__.py", line 29, in <module>
+    from .evaluation_suite import EvaluationSuite
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluation_suite/__init__.py", line 10, in <module>
+    from ..evaluator import evaluator
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/evaluate/evaluator/__init__.py", line 17, in <module>
+    from transformers.pipelines import SUPPORTED_TASKS as SUPPORTED_PIPELINE_TASKS
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/__init__.py", line 63, in <module>
+    from .document_question_answering import DocumentQuestionAnsweringPipeline
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/document_question_answering.py", line 29, in <module>
+    from .question_answering import select_starts_ends
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/pipelines/question_answering.py", line 9, in <module>
+    from ..data import SquadExample, SquadFeatures, squad_convert_examples_to_features
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/__init__.py", line 26, in <module>
+    from .metrics import glue_compute_metrics, xnli_compute_metrics
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/transformers/data/metrics/__init__.py", line 19, in <module>
+    from scipy.stats import pearsonr, spearmanr
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/__init__.py", line 605, in <module>
+    from ._stats_py import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/stats/_stats_py.py", line 37, in <module>
+    from scipy.spatial.distance import cdist
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/__init__.py", line 110, in <module>
+    from ._kdtree import *
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/scipy/spatial/_kdtree.py", line 4, in <module>
+    from ._ckdtree import cKDTree, cKDTreeNode
+  File "_ckdtree.pyx", line 1, in init scipy.spatial._ckdtree
+ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject
+W0708 19:49:44.902331 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769474 closing signal SIGTERM
+W0708 19:49:44.902916 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769475 closing signal SIGTERM
+W0708 19:49:44.903021 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769476 closing signal SIGTERM
+W0708 19:49:44.903218 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769477 closing signal SIGTERM
+W0708 19:49:44.903313 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769478 closing signal SIGTERM
+W0708 19:49:44.903402 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769479 closing signal SIGTERM
+W0708 19:49:44.903522 140567054366528 torch/distributed/elastic/multiprocessing/api.py:851] Sending process 3769480 closing signal SIGTERM
+E0708 19:49:45.017835 140567054366528 torch/distributed/elastic/multiprocessing/api.py:826] failed (exitcode: 1) local_rank: 0 (pid: 3769473) of binary: /fsx-storygen/beidic/anaconda3/envs/hanshi/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 48, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 1088, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/accelerate/commands/launch.py", line 733, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/run.py", line 870, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 132, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/hanshi/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 263, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-08_19:49:44
+  host      : a100-st-p4de24xlarge-103.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3769473)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
