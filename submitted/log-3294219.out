@@ -63,3 +63,47 @@ Answer  expected d
 Answer  expected d
 Answer  expected d
 Answer  expected a
+Answer  expected d
+Answer b expected b
+Answer a expected a
+Answer b expected b
+Answer  expected e
+Skipping the batch
+Answer  expected a
+Answer e expected a
+Answer  expected c
+Answer  expected a
+Answer d expected d
+Answer  expected c
+Answer a expected d
+Answer a expected a
+Answer  expected b
+Answer  expected c
+Skipping the batch
+index 5 start communication
+index 4 start communication
+index 6 start communicationindex 1 start communicationindex 2 start communicationindex 7 start communication
+index 0 start communication
+index 3 start communication
+
+
+
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+
+
+
+
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| aqua   |            254 |                     87066 |                      342.78 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-hf', device='cuda:0', limit=None, griffin=False, cats=True, check=False, kernel_size=None, spr=0.5, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        34 |     0.133858 |
++--------+---------+-----------+--------------+

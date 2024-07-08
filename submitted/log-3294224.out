@@ -52,3 +52,59 @@ Answer  expected c
 Answer e expected e
 Answer  expected b
 Answer  expected a
+Answer c expected d
+Answer b expected b
+Answer e expected c
+Answer a expected b
+Skipping the batch
+Answer  expected e
+Answer a expected b
+Answer c expected c
+Answer b expected b
+Answer 0 expected d
+Answer b expected d
+Answer a expected d
+Answer  expected a
+Answer e expected d
+Answer e expected b
+Answer a expected a
+Skipping the batch
+Answer  expected b
+Answer a expected e
+Answer  expected a
+Answer e expected a
+Answer c expected c
+Answer a expected a
+Answer e expected d
+Answer  expected c
+Answer  expected d
+Answer  expected a
+Answer c expected b
+Answer d expected c
+index 0 start communication
+index 3 start communicationindex 2 start communication
+index 1 start communication
+index 4 start communication
+
+index 6 start communicationindex 7 start communicationindex 5 start communication
+
+
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+Here are the statistics for inference
+
+
+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| aqua   |            254 |                     57058 |                     224.638 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        76 |     0.299213 |
++--------+---------+-----------+--------------+
