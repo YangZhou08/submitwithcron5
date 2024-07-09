@@ -1,0 +1,97 @@
+Already on 'addinggriffin'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:52<00:52, 52.65s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:53<00:53, 53.86s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:53<00:53, 53.91s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:53<00:53, 53.95s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:53<00:53, 53.83s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.05s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.21s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 28.78s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.54s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 29.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.83s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 29.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.77s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 29.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 29.74s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.79s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 33.17s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 29.00s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.73s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 31.13s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 34.59s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 31.28s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 34.74s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  3%|▎         | 1/32 [00:42<22:08, 42.86s/it]  3%|▎         | 1/32 [00:50<25:59, 50.31s/it]  3%|▎         | 1/32 [00:51<26:49, 51.91s/it]  3%|▎         | 1/32 [00:54<27:55, 54.04s/it]  3%|▎         | 1/32 [00:58<30:28, 58.98s/it]  3%|▎         | 1/32 [01:05<33:35, 65.02s/it]  3%|▎         | 1/32 [01:06<34:16, 66.33s/it]  3%|▎         | 1/32 [01:10<36:21, 70.38s/it]  6%|▋         | 2/32 [01:31<23:16, 46.55s/it]  6%|▋         | 2/32 [01:38<24:20, 48.68s/it]  6%|▋         | 2/32 [01:42<25:51, 51.70s/it]  6%|▋         | 2/32 [01:43<25:32, 51.09s/it]  6%|▋         | 2/32 [01:45<25:43, 51.45s/it]
