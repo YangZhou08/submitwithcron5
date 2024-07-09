@@ -100,4 +100,73 @@ Asking to truncate to max_length but no maximum length is provided and the model
  69%|██████▉   | 22/32 [26:07<12:11, 73.10s/it]100%|██████████| 32/32 [26:15<00:00, 47.93s/it]100%|██████████| 32/32 [26:15<00:00, 49.24s/it]
  84%|████████▍ | 27/32 [26:33<04:51, 58.36s/it]100%|██████████| 32/32 [26:33<00:00, 52.60s/it]100%|██████████| 32/32 [26:33<00:00, 49.78s/it]
  69%|██████▉   | 22/32 [26:48<12:05, 72.56s/it] 72%|███████▏  | 23/32 [27:20<10:55, 72.88s/it] 88%|████████▊ | 28/32 [27:32<03:55, 58.77s/it] 72%|███████▏  | 23/32 [28:01<10:55, 72.82s/it] 75%|███████▌  | 24/32 [28:17<09:04, 68.04s/it] 91%|█████████ | 29/32 [28:20<02:45, 55.32s/it] 75%|███████▌  | 24/32 [29:06<09:23, 70.45s/it] 94%|█████████▍| 30/32 [29:15<01:50, 55.24s/it] 78%|███████▊  | 25/32 [29:28<08:03, 69.02s/it] 97%|█████████▋| 31/32 [30:03<00:53, 53.13s/it] 78%|███████▊  | 25/32 [30:14<08:08, 69.80s/it] 81%|████████▏ | 26/32 [30:42<07:04, 70.68s/it]100%|██████████| 32/32 [30:46<00:00, 50.05s/it]100%|██████████| 32/32 [30:46<00:00, 57.69s/it]
- 81%|████████▏ | 26/32 [31:29<07:08, 71.38s/it] 84%|████████▍ | 27/32 [31:57<05:58, 71.75s/it]
+ 81%|████████▏ | 26/32 [31:29<07:08, 71.38s/it] 84%|████████▍ | 27/32 [31:57<05:58, 71.75s/it] 84%|████████▍ | 27/32 [32:54<06:16, 75.20s/it] 88%|████████▊ | 28/32 [33:17<04:56, 74.18s/it] 88%|████████▊ | 28/32 [34:12<05:04, 76.13s/it] 91%|█████████ | 29/32 [34:36<03:47, 75.83s/it][rank5]:[E ProcessGroupNCCL.cpp:523] [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=48, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600052 milliseconds before timing out.
+[rank5]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank5]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank5]:[E ProcessGroupNCCL.cpp:1182] [Rank 5] NCCL watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=48, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600052 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa8f43a1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7fa8f55496e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7fa8f554cc3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fa8f554d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7fa93f260df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fa94064f609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fa94041a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 5] NCCL watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=48, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600052 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa8f43a1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7fa8f55496e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7fa8f554cc3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fa8f554d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7fa93f260df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fa94064f609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fa94041a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa8f43a1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7fa8f52a3b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7fa93f260df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7fa94064f609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7fa94041a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+[2024-07-09 16:37:59,892] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439568 closing signal SIGTERM
+[2024-07-09 16:37:59,894] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439569 closing signal SIGTERM
+[2024-07-09 16:37:59,894] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439570 closing signal SIGTERM
+[2024-07-09 16:37:59,894] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439571 closing signal SIGTERM
+[2024-07-09 16:37:59,894] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439572 closing signal SIGTERM
+[2024-07-09 16:37:59,895] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439574 closing signal SIGTERM
+[2024-07-09 16:37:59,895] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2439575 closing signal SIGTERM
+[2024-07-09 16:38:01,651] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -6) local_rank: 5 (pid: 2439573) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+========================================================
+main.py FAILED
+--------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+--------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-09_16:37:59
+  host      : a100-st-p4de24xlarge-164.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : -6 (pid: 2439573)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 2439573
+========================================================
