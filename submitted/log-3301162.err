@@ -1,0 +1,282 @@
+Already on 'addinggriffin'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:45, 52.69s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:45, 52.77s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:51<01:43, 51.69s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:45, 52.62s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:45, 52.99s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:44, 52.33s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:45, 52.90s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:52<01:44, 52.44s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.45s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:40<00:50, 50.07s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.55s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.61s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.33s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.55s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.50s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:41<00:50, 50.50s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.93s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.80s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.94s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.84s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:07<00:00, 39.55s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.98s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [02:07<00:00, 42.55s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.68s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.76s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.75s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.78s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.86s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.91s/it]
+
+Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 39.69s/it]Loading checkpoint shards: 100%|██████████| 3/3 [02:08<00:00, 42.80s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:403: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  3%|▎         | 1/32 [00:38<19:56, 38.59s/it]  3%|▎         | 1/32 [00:38<20:07, 38.96s/it]  3%|▎         | 1/32 [00:39<20:17, 39.28s/it]  3%|▎         | 1/32 [00:40<20:49, 40.29s/it]  3%|▎         | 1/32 [00:41<21:29, 41.61s/it]  3%|▎         | 1/32 [00:41<21:35, 41.80s/it]  3%|▎         | 1/32 [00:53<27:47, 53.78s/it]  3%|▎         | 1/32 [00:54<28:01, 54.25s/it]  6%|▋         | 2/32 [01:16<19:00, 38.03s/it]  6%|▋         | 2/32 [01:16<19:09, 38.32s/it]  6%|▋         | 2/32 [01:17<19:25, 38.83s/it]  6%|▋         | 2/32 [01:17<19:22, 38.76s/it]  6%|▋         | 2/32 [01:19<19:49, 39.64s/it]  6%|▋         | 2/32 [01:27<22:05, 44.19s/it]  6%|▋         | 2/32 [01:50<27:52, 55.75s/it]  9%|▉         | 3/32 [01:53<18:13, 37.70s/it]  9%|▉         | 3/32 [01:54<18:16, 37.82s/it]  6%|▋         | 2/32 [01:54<29:00, 58.02s/it]  9%|▉         | 3/32 [01:57<18:39, 38.61s/it]  9%|▉         | 3/32 [01:58<19:03, 39.42s/it]  9%|▉         | 3/32 [01:58<19:14, 39.79s/it]  9%|▉         | 3/32 [02:14<22:00, 45.53s/it] 12%|█▎        | 4/32 [02:30<17:28, 37.46s/it] 12%|█▎        | 4/32 [02:31<17:33, 37.64s/it] 12%|█▎        | 4/32 [02:34<17:48, 38.16s/it] 12%|█▎        | 4/32 [02:35<17:57, 38.49s/it] 12%|█▎        | 4/32 [02:36<18:08, 38.86s/it]  9%|▉         | 3/32 [02:47<27:09, 56.21s/it]  9%|▉         | 3/32 [02:51<27:47, 57.49s/it] 12%|█▎        | 4/32 [03:00<21:21, 45.75s/it] 16%|█▌        | 5/32 [03:07<16:46, 37.27s/it] 16%|█▌        | 5/32 [03:08<16:49, 37.39s/it] 16%|█▌        | 5/32 [03:11<16:57, 37.70s/it] 16%|█▌        | 5/32 [03:12<17:06, 38.01s/it] 16%|█▌        | 5/32 [03:13<17:15, 38.34s/it] 12%|█▎        | 4/32 [03:44<26:18, 56.36s/it] 19%|█▉        | 6/32 [03:44<16:07, 37.22s/it] 19%|█▉        | 6/32 [03:45<16:10, 37.34s/it] 16%|█▌        | 5/32 [03:46<20:38, 45.87s/it] 12%|█▎        | 4/32 [03:48<26:43, 57.28s/it] 19%|█▉        | 6/32 [03:49<16:16, 37.57s/it] 19%|█▉        | 6/32 [03:50<16:26, 37.95s/it] 19%|█▉        | 6/32 [03:53<16:47, 38.75s/it] 22%|██▏       | 7/32 [04:23<15:35, 37.41s/it] 22%|██▏       | 7/32 [04:24<15:50, 38.00s/it] 22%|██▏       | 7/32 [04:27<15:42, 37.71s/it] 22%|██▏       | 7/32 [04:28<15:51, 38.04s/it] 22%|██▏       | 7/32 [04:31<16:06, 38.66s/it] 19%|█▉        | 6/32 [04:35<20:19, 46.91s/it] 16%|█▌        | 5/32 [04:41<25:27, 56.58s/it] 16%|█▌        | 5/32 [04:45<25:45, 57.23s/it] 25%|██▌       | 8/32 [05:00<15:00, 37.50s/it] 25%|██▌       | 8/32 [05:01<15:06, 37.78s/it] 25%|██▌       | 8/32 [05:04<15:00, 37.54s/it] 25%|██▌       | 8/32 [05:06<15:17, 38.23s/it] 25%|██▌       | 8/32 [05:10<15:32, 38.84s/it] 22%|██▏       | 7/32 [05:21<19:23, 46.56s/it] 28%|██▊       | 9/32 [05:38<14:22, 37.48s/it] 28%|██▊       | 9/32 [05:38<14:25, 37.62s/it] 19%|█▉        | 6/32 [05:39<24:49, 57.30s/it] 19%|█▉        | 6/32 [05:42<24:45, 57.13s/it] 28%|██▊       | 9/32 [05:43<14:31, 37.90s/it] 28%|██▊       | 9/32 [05:45<14:46, 38.54s/it] 28%|██▊       | 9/32 [05:48<14:43, 38.40s/it] 25%|██▌       | 8/32 [06:07<18:34, 46.42s/it] 31%|███▏      | 10/32 [06:16<13:49, 37.72s/it] 31%|███▏      | 10/32 [06:17<13:51, 37.80s/it] 31%|███▏      | 10/32 [06:21<13:49, 37.71s/it] 31%|███▏      | 10/32 [06:23<14:05, 38.42s/it] 31%|███▏      | 10/32 [06:25<13:58, 38.12s/it] 22%|██▏       | 7/32 [06:36<23:49, 57.18s/it] 22%|██▏       | 7/32 [06:39<23:47, 57.12s/it] 34%|███▍      | 11/32 [06:53<13:08, 37.53s/it] 28%|██▊       | 9/32 [06:53<17:44, 46.26s/it] 34%|███▍      | 11/32 [06:54<13:11, 37.69s/it] 34%|███▍      | 11/32 [07:00<13:17, 37.97s/it] 34%|███▍      | 11/32 [07:01<13:29, 38.56s/it] 34%|███▍      | 11/32 [07:03<13:16, 37.94s/it] 38%|███▊      | 12/32 [07:30<12:29, 37.46s/it] 38%|███▊      | 12/32 [07:32<12:37, 37.86s/it] 25%|██▌       | 8/32 [07:34<22:54, 57.26s/it] 38%|███▊      | 12/32 [07:38<12:40, 38.01s/it] 38%|███▊      | 12/32 [07:39<12:43, 38.19s/it] 25%|██▌       | 8/32 [07:40<23:16, 58.20s/it] 31%|███▏      | 10/32 [07:41<17:05, 46.60s/it] 38%|███▊      | 12/32 [07:41<12:41, 38.10s/it] 41%|████      | 13/32 [08:08<11:49, 37.34s/it] 41%|████      | 13/32 [08:10<11:56, 37.69s/it] 41%|████      | 13/32 [08:15<11:56, 37.70s/it] 41%|████      | 13/32 [08:16<11:59, 37.87s/it] 41%|████      | 13/32 [08:20<12:08, 38.34s/it] 34%|███▍      | 11/32 [08:26<16:13, 46.36s/it] 28%|██▊       | 9/32 [08:31<21:54, 57.16s/it] 28%|██▊       | 9/32 [08:37<22:07, 57.73s/it] 44%|████▍     | 14/32 [08:45<11:11, 37.31s/it] 44%|████▍     | 14/32 [08:47<11:14, 37.47s/it] 44%|████▍     | 14/32 [08:53<11:21, 37.84s/it] 44%|████▍     | 14/32 [08:54<11:25, 38.06s/it] 44%|████▍     | 14/32 [09:02<11:50, 39.48s/it] 38%|███▊      | 12/32 [09:14<15:33, 46.69s/it] 47%|████▋     | 15/32 [09:23<10:33, 37.25s/it] 47%|████▋     | 15/32 [09:24<10:43, 37.88s/it] 31%|███▏      | 10/32 [09:28<20:57, 57.18s/it] 47%|████▋     | 15/32 [09:30<10:39, 37.60s/it] 47%|████▋     | 15/32 [09:31<10:42, 37.77s/it] 31%|███▏      | 10/32 [09:34<21:05, 57.51s/it] 47%|████▋     | 15/32 [09:40<10:59, 38.82s/it] 41%|████      | 13/32 [10:00<14:43, 46.50s/it] 50%|█████     | 16/32 [10:00<09:55, 37.19s/it] 50%|█████     | 16/32 [10:02<10:07, 37.98s/it] 50%|█████     | 16/32 [10:07<09:58, 37.44s/it] 50%|█████     | 16/32 [10:09<10:02, 37.64s/it] 50%|█████     | 16/32 [10:17<10:16, 38.51s/it] 34%|███▍      | 11/32 [10:25<20:00, 57.16s/it] 34%|███▍      | 11/32 [10:36<20:39, 59.01s/it] 53%|█████▎    | 17/32 [10:38<09:18, 37.21s/it] 53%|█████▎    | 17/32 [10:41<09:33, 38.24s/it] 53%|█████▎    | 17/32 [10:46<09:21, 37.44s/it] 53%|█████▎    | 17/32 [10:47<09:34, 38.28s/it] 44%|████▍     | 14/32 [10:51<14:19, 47.77s/it] 53%|█████▎    | 17/32 [10:55<09:31, 38.13s/it] 56%|█████▋    | 18/32 [11:18<08:54, 38.16s/it] 56%|█████▋    | 18/32 [11:19<08:56, 38.29s/it] 38%|███▊      | 12/32 [11:22<19:02, 57.12s/it] 56%|█████▋    | 18/32 [11:25<08:50, 37.93s/it] 56%|█████▋    | 18/32 [11:28<09:05, 38.99s/it] 38%|███▊      | 12/32 [11:33<19:26, 58.32s/it] 56%|█████▋    | 18/32 [11:34<08:59, 38.54s/it] 47%|████▋     | 15/32 [11:37<13:22, 47.21s/it] 59%|█████▉    | 19/32 [11:56<08:17, 38.24s/it] 59%|█████▉    | 19/32 [11:58<08:18, 38.31s/it] 59%|█████▉    | 19/32 [12:03<08:13, 37.99s/it] 59%|█████▉    | 19/32 [12:07<08:27, 39.04s/it] 59%|█████▉    | 19/32 [12:11<08:16, 38.19s/it] 41%|████      | 13/32 [12:19<18:03, 57.05s/it] 50%|█████     | 16/32 [12:23<12:29, 46.84s/it] 41%|████      | 13/32 [12:30<18:21, 57.98s/it] 62%|██████▎   | 20/32 [12:34<07:36, 38.05s/it] 62%|██████▎   | 20/32 [12:35<07:36, 38.05s/it] 62%|██████▎   | 20/32 [12:40<07:33, 37.79s/it] 62%|██████▎   | 20/32 [12:44<07:42, 38.51s/it] 62%|██████▎   | 20/32 [12:49<07:35, 37.96s/it] 53%|█████▎    | 17/32 [13:11<11:50, 47.35s/it] 66%|██████▌   | 21/32 [13:12<06:59, 38.13s/it] 66%|██████▌   | 21/32 [13:13<06:56, 37.85s/it] 44%|████▍     | 14/32 [13:16<17:06, 57.02s/it] 66%|██████▌   | 21/32 [13:20<07:01, 38.29s/it] 66%|██████▌   | 21/32 [13:21<06:58, 38.07s/it] 66%|██████▌   | 21/32 [13:26<06:54, 37.68s/it] 44%|████▍     | 14/32 [13:27<17:18, 57.68s/it] 69%|██████▉   | 22/32 [13:51<06:20, 38.05s/it] 69%|██████▉   | 22/32 [13:55<06:35, 39.53s/it] 69%|██████▉   | 22/32 [13:57<06:20, 38.02s/it] 56%|█████▋    | 18/32 [14:00<11:09, 47.79s/it] 69%|██████▉   | 22/32 [14:00<06:23, 38.34s/it] 69%|██████▉   | 22/32 [14:03<06:15, 37.54s/it] 47%|████▋     | 15/32 [14:13<16:10, 57.07s/it] 47%|████▋     | 15/32 [14:24<16:16, 57.42s/it] 72%|███████▏  | 23/32 [14:29<05:40, 37.85s/it] 72%|███████▏  | 23/32 [14:32<05:49, 38.80s/it] 72%|███████▏  | 23/32 [14:34<05:40, 37.81s/it] 72%|███████▏  | 23/32 [14:37<05:41, 37.95s/it] 72%|███████▏  | 23/32 [14:40<05:37, 37.46s/it] 59%|█████▉    | 19/32 [14:46<10:13, 47.19s/it] 75%|███████▌  | 24/32 [15:07<05:03, 37.96s/it] 78%|███████▊  | 25/32 [15:11<03:29, 29.96s/it] 75%|███████▌  | 24/32 [15:12<05:02, 37.75s/it] 50%|█████     | 16/32 [15:13<15:27, 58.00s/it] 75%|███████▌  | 24/32 [15:15<05:01, 37.70s/it] 75%|███████▌  | 24/32 [15:19<05:01, 37.69s/it] 50%|█████     | 16/32 [15:21<15:16, 57.28s/it] 62%|██████▎   | 20/32 [15:32<09:23, 46.92s/it] 78%|███████▊  | 25/32 [15:44<04:23, 37.71s/it] 81%|████████▏ | 26/32 [15:49<03:10, 31.79s/it] 78%|███████▊  | 25/32 [15:49<04:23, 37.61s/it] 78%|███████▊  | 25/32 [15:52<04:22, 37.53s/it] 78%|███████▊  | 25/32 [15:58<04:27, 38.29s/it] 53%|█████▎    | 17/32 [16:12<14:34, 58.29s/it] 66%|██████▌   | 21/32 [16:18<08:33, 46.68s/it] 53%|█████▎    | 17/32 [16:21<14:34, 58.30s/it] 81%|████████▏ | 26/32 [16:22<03:46, 37.70s/it] 84%|████████▍ | 27/32 [16:26<02:45, 33.18s/it] 81%|████████▏ | 26/32 [16:26<03:44, 37.48s/it] 81%|████████▏ | 26/32 [16:29<03:44, 37.35s/it] 81%|████████▏ | 26/32 [16:36<03:48, 38.07s/it] 84%|████████▍ | 27/32 [17:00<03:09, 37.96s/it] 88%|████████▊ | 28/32 [17:03<02:17, 34.30s/it] 84%|████████▍ | 27/32 [17:04<03:07, 37.48s/it] 69%|██████▉   | 22/32 [17:04<07:44, 46.48s/it] 84%|████████▍ | 27/32 [17:06<03:06, 37.22s/it] 56%|█████▋    | 18/32 [17:11<13:38, 58.44s/it] 84%|████████▍ | 27/32 [17:13<03:08, 37.76s/it] 56%|█████▋    | 18/32 [17:18<13:30, 57.91s/it] 88%|████████▊ | 28/32 [17:37<02:30, 37.69s/it] 88%|████████▊ | 28/32 [17:41<02:29, 37.34s/it] 91%|█████████ | 29/32 [17:41<01:45, 35.17s/it] 88%|████████▊ | 28/32 [17:42<02:28, 37.06s/it] 88%|████████▊ | 28/32 [17:50<02:30, 37.62s/it] 72%|███████▏  | 23/32 [17:51<07:00, 46.73s/it] 59%|█████▉    | 19/32 [18:10<12:41, 58.54s/it] 94%|█████████▍| 30/32 [18:14<00:57, 28.83s/it] 59%|█████▉    | 19/32 [18:17<12:36, 58.19s/it] 94%|█████████▍| 30/32 [18:18<01:11, 35.84s/it] 91%|█████████ | 29/32 [18:19<01:50, 36.99s/it] 91%|█████████ | 29/32 [18:21<01:54, 38.25s/it] 91%|█████████ | 29/32 [18:29<01:53, 37.84s/it] 75%|███████▌  | 24/32 [18:37<06:11, 46.50s/it] 97%|█████████▋| 31/32 [18:52<00:31, 31.15s/it] 94%|█████████▍| 30/32 [18:56<01:14, 37.02s/it] 97%|█████████▋| 31/32 [18:56<00:36, 36.49s/it] 94%|█████████▍| 30/32 [18:58<01:15, 37.89s/it] 94%|█████████▍| 30/32 [19:06<01:15, 37.60s/it] 62%|██████▎   | 20/32 [19:07<11:38, 58.17s/it] 62%|██████▎   | 20/32 [19:18<11:46, 58.86s/it] 78%|███████▊  | 25/32 [19:23<05:24, 46.36s/it]100%|██████████| 32/32 [19:31<00:00, 33.02s/it]100%|██████████| 32/32 [19:31<00:00, 36.60s/it]
+ 97%|█████████▋| 31/32 [19:33<00:36, 36.96s/it]100%|██████████| 32/32 [19:33<00:00, 36.64s/it]100%|██████████| 32/32 [19:33<00:00, 36.68s/it]
+ 97%|█████████▋| 31/32 [19:36<00:37, 37.94s/it] 97%|█████████▋| 31/32 [19:44<00:37, 37.75s/it] 66%|██████▌   | 21/32 [20:05<10:39, 58.18s/it] 81%|████████▏ | 26/32 [20:09<04:37, 46.21s/it]100%|██████████| 32/32 [20:10<00:00, 37.01s/it]100%|██████████| 32/32 [20:10<00:00, 37.83s/it]
+100%|██████████| 32/32 [20:13<00:00, 37.61s/it]100%|██████████| 32/32 [20:13<00:00, 37.93s/it]
+ 66%|██████▌   | 21/32 [20:16<10:46, 58.79s/it]100%|██████████| 32/32 [20:21<00:00, 37.49s/it]100%|██████████| 32/32 [20:21<00:00, 38.16s/it]
+ 84%|████████▍ | 27/32 [20:58<03:54, 46.88s/it] 69%|██████▉   | 22/32 [21:05<09:46, 58.70s/it] 69%|██████▉   | 22/32 [21:13<09:41, 58.16s/it] 88%|████████▊ | 28/32 [21:43<03:06, 46.52s/it] 72%|███████▏  | 23/32 [22:02<08:43, 58.18s/it] 72%|███████▏  | 23/32 [22:10<08:39, 57.67s/it] 91%|█████████ | 29/32 [22:32<02:21, 47.02s/it] 75%|███████▌  | 24/32 [22:59<07:41, 57.68s/it] 75%|███████▌  | 24/32 [23:06<07:39, 57.42s/it] 94%|█████████▍| 30/32 [23:17<01:33, 46.57s/it] 78%|███████▊  | 25/32 [23:56<06:42, 57.47s/it] 97%|█████████▋| 31/32 [24:03<00:46, 46.30s/it] 78%|███████▊  | 25/32 [24:05<06:44, 57.82s/it]100%|██████████| 32/32 [24:44<00:00, 44.85s/it]100%|██████████| 32/32 [24:44<00:00, 46.40s/it]
+ 81%|████████▏ | 26/32 [24:53<05:43, 57.32s/it] 81%|████████▏ | 26/32 [25:02<05:44, 57.46s/it] 84%|████████▍ | 27/32 [25:50<04:46, 57.21s/it] 84%|████████▍ | 27/32 [26:05<04:56, 59.35s/it] 88%|████████▊ | 28/32 [26:47<03:48, 57.16s/it] 88%|████████▊ | 28/32 [27:06<03:58, 59.73s/it] 91%|█████████ | 29/32 [27:44<02:51, 57.17s/it] 91%|█████████ | 29/32 [28:03<02:56, 58.79s/it] 94%|█████████▍| 30/32 [28:41<01:54, 57.12s/it] 94%|█████████▍| 30/32 [29:01<01:57, 58.69s/it][rank5]:[E ProcessGroupNCCL.cpp:523] [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600940 milliseconds before timing out.
+[rank5]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank5]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank5]:[E ProcessGroupNCCL.cpp:1182] [Rank 5] NCCL watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600940 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fd468ad3d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7fd469c7b6e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7fd469c7ec3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fd469c7f839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7fd4b3992df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fd4b4d81609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fd4b4b4c353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 5] NCCL watchdog thread terminated with exception: [Rank 5] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600940 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fd468ad3d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7fd469c7b6e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7fd469c7ec3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fd469c7f839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7fd4b3992df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7fd4b4d81609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7fd4b4b4c353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fd468ad3d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7fd4699d5b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7fd4b3992df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7fd4b4d81609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7fd4b4b4c353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+ 97%|█████████▋| 31/32 [29:43<00:58, 58.59s/it] 97%|█████████▋| 31/32 [29:58<00:58, 58.11s/it][rank7]:[E ProcessGroupNCCL.cpp:523] [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600026 milliseconds before timing out.
+[rank4]:[E ProcessGroupNCCL.cpp:523] [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600476 milliseconds before timing out.
+[rank7]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank7]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank7]:[E ProcessGroupNCCL.cpp:1182] [Rank 7] NCCL watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600026 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f85add3fd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f85aeee76e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f85aeeeac3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f85aeeeb839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f85f8bfedf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f85f9fed609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f85f9db8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 7] NCCL watchdog thread terminated with exception: [Rank 7] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600026 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f85add3fd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f85aeee76e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f85aeeeac3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f85aeeeb839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f85f8bfedf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f85f9fed609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f85f9db8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f85add3fd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f85aec41b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f85f8bfedf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f85f9fed609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f85f9db8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+[rank4]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank4]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank4]:[E ProcessGroupNCCL.cpp:1182] [Rank 4] NCCL watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600476 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f55612d0d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f55624786e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f556247bc3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f556247c839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f55ac18fdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f55ad57e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f55ad349353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 4] NCCL watchdog thread terminated with exception: [Rank 4] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600476 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f55612d0d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f55624786e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f556247bc3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f556247c839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f55ac18fdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f55ad57e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f55ad349353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f55612d0d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f55621d2b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f55ac18fdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f55ad57e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f55ad349353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+[rank2]:[E ProcessGroupNCCL.cpp:523] [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600168 milliseconds before timing out.
+[rank2]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank2]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank2]:[E ProcessGroupNCCL.cpp:1182] [Rank 2] NCCL watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600168 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2b8072cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f2b818d46e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f2b818d7c3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f2b818d8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f2bcb5ebdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f2bcc9da609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f2bcc7a5353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 2] NCCL watchdog thread terminated with exception: [Rank 2] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=86, OpType=ALLREDUCE, NumelIn=1, NumelOut=1, Timeout(ms)=600000) ran for 600168 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2b8072cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f2b818d46e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f2b818d7c3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f2b818d8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f2bcb5ebdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f2bcc9da609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f2bcc7a5353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2b8072cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f2b8162eb11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f2bcb5ebdf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f2bcc9da609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f2bcc7a5353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+[2024-07-09 20:20:54,022] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 26908 closing signal SIGTERM
+[2024-07-09 20:20:54,024] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 26909 closing signal SIGTERM
+[2024-07-09 20:20:54,024] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 26911 closing signal SIGTERM
+[2024-07-09 20:20:54,024] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 26914 closing signal SIGTERM
+[2024-07-09 20:20:55,290] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: -6) local_rank: 2 (pid: 26910) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+======================================================
+main.py FAILED
+------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-09_20:20:54
+  host      : a100-st-p4de24xlarge-59.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : -6 (pid: 26912)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 26912
+[2]:
+  time      : 2024-07-09_20:20:54
+  host      : a100-st-p4de24xlarge-59.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : -6 (pid: 26913)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 26913
+[3]:
+  time      : 2024-07-09_20:20:54
+  host      : a100-st-p4de24xlarge-59.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : -6 (pid: 26917)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 26917
+------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-09_20:20:54
+  host      : a100-st-p4de24xlarge-59.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : -6 (pid: 26910)
+  error_file: <N/A>
+  traceback : Signal 6 (SIGABRT) received by PID 26910
+======================================================
