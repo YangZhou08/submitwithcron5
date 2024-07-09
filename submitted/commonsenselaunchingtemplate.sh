@@ -5,6 +5,8 @@ models=(
     "meta-llama/Meta-Llama-3-8B"
     "meta-llama/Llama-2-7b-chat-hf"
     "meta-llama/Llama-2-7b-hf"
+    "meta-llama/Llama-2-13b-chat-hf"
+    "meta-llama/Llama-2-13b-hf"
 ) 
 
 # List of commands to run
@@ -14,18 +16,18 @@ commands=(
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.3 --thr 0.1"
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date"
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.3 --thr 0.1"
-    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --tasks aqua --shotfive"
-    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 1" 
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --tasks csqa,strategyqa,sports,date --shotfive" 
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --shotfive"
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.4 --thr 0.1 --shotfive --patternstrict --widthtree 1" 
     # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 2" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 4" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 6" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 8" 
-    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --shotfive"
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 1" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 4" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 6" 
-    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 8" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 4" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 6" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --cats --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --patternstrict --widthtree 8" 
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date --shotfive --spr 0.4" 
+    "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks csqa,strategyqa,sports,date --check --kernel_size 16 --spr 0.4 --thr 0.1 --shotfive --widthtree 1" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 4" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 6" 
+    # "accelerate launch --main_process_port 29510 --num_processes 8 --num_machines 1 main.py --griffin --tasks aqua --check --kernel_size 16 --spr 0.5 --thr 0.1 --shotfive --widthtree 8" 
 ) 
 
 # Iterate over the commands and submit a job for each
