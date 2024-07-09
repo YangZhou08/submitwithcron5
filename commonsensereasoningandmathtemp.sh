@@ -61,6 +61,7 @@ wandb login
 
 which python 
 export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 
+export ACCELERATE_TIMEOUT=1800
 
 # echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
