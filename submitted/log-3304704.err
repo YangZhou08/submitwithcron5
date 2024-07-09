@@ -1,0 +1,136 @@
+Already on 'addinggriffin'
+error: cannot lock ref 'refs/remotes/origin/addinggriffin': is at d511eecba9ae5edd412e15d19e47b8409dfd033f but expected 58f0daf26dac33cba8ee6d0a67f454cb2bf75786
+From github.com:YangZhou08/CommonSenseReasoning
+ ! 58f0daf..d511eec  addinggriffin -> origin/addinggriffin  (unable to update local ref)
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit 58f0daf26dac33cba8ee6d0a67f454cb2bf75786.
+error: Your local changes to the following files would be overwritten by merge:
+	main.py
+Please commit your changes or stash them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff 58f0daf26dac33cba8ee6d0a67f454cb2bf75786
+output, run
+$ git reset --hard
+to recover.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+Traceback (most recent call last):
+      File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 51, in <module>
+    ddp_kwargs = DistributedDataParallelKwargs(timeout=timedelta(minutes=30))
+TypeError: __init__() got an unexpected keyword argument 'timeout'
+[2024-07-09 22:41:10,646] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 4091332) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 4091333)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 4091334)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 4091335)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 4091336)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 4091337)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 4091338)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 4091339)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-09_22:41:10
+  host      : a100-st-p4de24xlarge-439.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 4091332)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
