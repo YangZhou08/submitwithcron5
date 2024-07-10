@@ -1,5 +1,12 @@
 #!/bin/bash
 
+cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
+git branch 
+git checkout addinggriffin 
+git add .
+git stash 
+git pull 
+
 models=(
     "meta-llama/Meta-Llama-3-8B-Instruct"
     # "meta-llama/Meta-Llama-3-8B"
