@@ -39,3 +39,72 @@ beam width is 8
 beam width is 8
 beam width is 8
 beam width is 8
+tasks ['aqua']tasks ['aqua']
+
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+Answer e expected e
+Answer e expected c
+Answer b expected e
+Answer a expected b
+Answer  expected a
+Answer  expected d
+Answer  expected b
+Answer a expected c
+Answer d expected b
+Answer  expected e
+Answer a expected b
+Answer  expected c
+Answer d expected b
+Answer b expected d
+Answer e expected d
+Skipping the batch
+Answer a expected d
+Answer  expected a
+Skipping the batch
+index 6 start communication
+index 4 start communication
+index 1 start communication
+Answer  expected d
+Answer b expected b
+Answer a expected a
+Answer a expected b
+Answer b expected e
+index 5 start communication
+Answer  expected a
+Answer e expected a
+index 7 start communication
+index 2 start communication
+Answer  expected c
+Answer e expected a
+Answer e expected d
+Answer e expected c
+Answer a expected d
+Answer a expected a
+index 3 start communication
+Answer  expected b
+Answer  expected c
+index 0 start communication
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+
+
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     53216 |                     209.512 |         48982 |        3082 | 15.8929 |                            330 |               40 |                             8.25 |               60.1509 |               7.5625 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-hf', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=8, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        37 |     0.145669 |
++--------+---------+-----------+--------------+
