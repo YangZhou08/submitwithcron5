@@ -88,3 +88,23 @@ index 6 start communication
 index 2 start communication
 index 1 start communication
 index 7 start communication
+index 4 start communication
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+Here are the statistics for inference
+
+
+
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     35003 |                     137.807 |         31106 |        2069 | 15.0343 |                           1998 |              265 |                          7.53962 |               63.9783 |               7.5625 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=8, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |       102 |     0.401575 |
++--------+---------+-----------+--------------+
