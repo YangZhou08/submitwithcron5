@@ -78,3 +78,31 @@ Answer  expected a
 Answer c expected a
 Answer  expected c
 Answer a expected a
+Answer d expected d
+Answer e expected c
+Answer e expected d
+Answer a expected a
+Answer c expected b
+Answer c expected c
+index 0 start communication
+index 3 start communication
+index 1 start communication
+Here are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+
+
+Here are the statistics for inferenceHere are the statistics for inference
+
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| aqua   |            254 |                     38665 |                     152.224 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B', device='cuda:0', limit=None, griffin=False, cats=False, check=False, kernel_size=None, spr=0.5, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |       119 |     0.468504 |
++--------+---------+-----------+--------------+

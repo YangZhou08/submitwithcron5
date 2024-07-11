@@ -85,3 +85,32 @@ index 6 start communication
 Answer  expected e
 Answer  expected a
 Answer b expected a
+Answer  expected c
+Answer a expected a
+index 7 start communication
+Answer d expected d
+Answer e expected c
+Answer c expected d
+Answer e expected a
+Answer c expected b
+Answer b expected c
+index 0 start communication
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+
+
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     36315 |                     142.972 |         32105 |        2425 | 13.2392 |                           6695 |              728 |                          9.19643 |               31.1852 |              2.66369 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=4, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=True)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        92 |     0.362205 |
++--------+---------+-----------+--------------+
