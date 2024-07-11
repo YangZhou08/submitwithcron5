@@ -1,0 +1,116 @@
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+We now use eos_token as pad token
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+is_distributed True
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+is_distributed True
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device=None, limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+We now use eos_token as pad token
+beam width is 8
+We now use eos_token as pad token
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+beam width is 8
+tasks ['aqua']tasks ['aqua']tasks ['aqua']
+tasks ['aqua']tasks ['aqua']tasks ['aqua']
+
+
+
+
+tasks ['aqua']tasks ['aqua']
+
+beamwidth is 1beamwidth is 1
+
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+Answer b expected e
+Answer o expected c
+Answer b expected e
+Answer b expected b
+Answer  expected a
+Answer c expected d
+Answer e expected b
+Answer c expected c
+Answer b expected b
+Answer  expected e
+Answer b expected b
+Answer c expected c
+Answer b expected b
+Skipping the batch
+Answer d expected d
+Answer d expected d
+Answer d expected d
+Answer  expected a
+Answer d expected d
+index 7 start communication
+Answer b expected b
+index 6 start communication
+Answer a expected a
+index 4 start communication
+Answer d expected b
+Answer e expected e
+index 3 start communication
+Answer  expected a
+index 2 start communication
+Answer a expected a
+Skipping the batch
+index 1 start communication
+Answer c expected c
+index 5 start communication
+Answer c expected a
+Answer d expected d
+Answer c expected c
+Answer a expected d
+Answer a expected a
+Answer  expected b
+Answer a expected c
+index 0 start communication
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+Here are the statistics for inference
+
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     41623 |                      163.87 |         37782 |        2709 | 13.9468 |                           5562 |              694 |                          8.01441 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |       114 |     0.448819 |
++--------+---------+-----------+--------------+
