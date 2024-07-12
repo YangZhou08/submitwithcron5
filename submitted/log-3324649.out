@@ -223,3 +223,33 @@ Answer d expected d
 index 7 start communication
 index 6 start communication
 Answer e expected e
+Answer b expected b
+Answer e expected c
+Answer e expected e
+index 4 start communication
+Answer b expected b
+index 0 start communication
+index 2 start communication
+index 5 start communication
+Skipping the batch
+index 1 start communication
+index 3 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| csqa   |           1221 |                    146382 |                     119.887 |        126733 |        9841 | 12.8781 |                          30723 |             3842 |                          7.99662 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='csqa', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.4, thr=0.05, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       843 |     0.690418 |
++--------+---------+-----------+--------------+

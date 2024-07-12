@@ -107,4 +107,159 @@ Asking to truncate to max_length but no maximum length is provided and the model
  94%|█████████▍| 144/153 [14:13<00:45,  5.05s/it] 57%|█████▋    | 87/153 [14:13<11:15, 10.24s/it] 97%|█████████▋| 148/153 [14:12<00:30,  6.05s/it] 81%|████████  | 124/153 [14:14<03:11,  6.60s/it] 59%|█████▉    | 91/153 [14:14<10:48, 10.46s/it] 99%|█████████▉| 152/153 [14:17<00:06,  6.22s/it] 97%|█████████▋| 149/153 [14:15<00:20,  5.19s/it] 95%|█████████▍| 145/153 [14:17<00:39,  4.89s/it] 98%|█████████▊| 150/153 [14:18<00:13,  4.40s/it]100%|██████████| 153/153 [14:21<00:00,  5.48s/it]100%|██████████| 153/153 [14:21<00:00,  5.63s/it]
  82%|████████▏ | 125/153 [14:21<03:07,  6.70s/it] 95%|█████████▌| 146/153 [14:23<00:36,  5.18s/it] 58%|█████▊    | 88/153 [14:22<10:59, 10.15s/it] 99%|█████████▊| 151/153 [14:22<00:08,  4.43s/it] 60%|██████    | 92/153 [14:24<10:28, 10.30s/it] 99%|█████████▉| 152/153 [14:27<00:04,  4.43s/it] 82%|████████▏ | 126/153 [14:29<03:08,  6.98s/it] 58%|█████▊    | 89/153 [14:28<09:22,  8.79s/it] 96%|█████████▌| 147/153 [14:30<00:34,  5.72s/it] 61%|██████    | 93/153 [14:33<09:51,  9.85s/it] 83%|████████▎ | 127/153 [14:35<02:55,  6.77s/it]100%|██████████| 153/153 [14:34<00:00,  5.16s/it]100%|██████████| 153/153 [14:34<00:00,  5.71s/it]
  97%|█████████▋| 148/153 [14:37<00:30,  6.08s/it] 59%|█████▉    | 90/153 [14:37<09:14,  8.81s/it] 84%|████████▎ | 128/153 [14:40<02:31,  6.08s/it] 61%|██████▏   | 94/153 [14:40<08:44,  8.89s/it] 97%|█████████▋| 149/153 [14:43<00:24,  6.15s/it] 84%|████████▍ | 129/153 [14:45<02:23,  5.96s/it] 59%|█████▉    | 91/153 [14:45<08:46,  8.50s/it] 98%|█████████▊| 150/153 [14:48<00:17,  5.82s/it] 85%|████████▍ | 130/153 [14:50<02:10,  5.68s/it] 62%|██████▏   | 95/153 [14:51<09:12,  9.52s/it] 99%|█████████▊| 151/153 [14:53<00:10,  5.41s/it] 86%|████████▌ | 131/153 [14:54<01:52,  5.14s/it] 99%|█████████▉| 152/153 [14:59<00:05,  5.51s/it] 60%|██████    | 92/153 [14:59<10:25, 10.25s/it] 86%|████████▋ | 132/153 [15:01<01:59,  5.69s/it] 63%|██████▎   | 96/153 [15:02<09:28,  9.97s/it] 87%|████████▋ | 133/153 [15:06<01:49,  5.50s/it]100%|██████████| 153/153 [15:06<00:00,  6.11s/it]100%|██████████| 153/153 [15:06<00:00,  5.93s/it]
- 88%|████████▊ | 134/153 [15:11<01:38,  5.18s/it] 61%|██████    | 93/153 [15:11<10:48, 10.81s/it] 63%|██████▎   | 97/153 [15:17<10:47, 11.57s/it] 88%|████████▊ | 135/153 [15:18<01:42,  5.69s/it] 61%|██████▏   | 94/153 [15:17<09:04,  9.24s/it] 89%|████████▉ | 136/153 [15:23<01:36,  5.68s/it] 90%|████████▉ | 137/153 [15:27<01:22,  5.13s/it] 64%|██████▍   | 98/153 [15:28<10:27, 11.41s/it] 90%|█████████ | 138/153 [15:33<01:22,  5.47s/it] 91%|█████████ | 139/153 [15:38<01:12,  5.18s/it] 92%|█████████▏| 140/153 [15:42<01:04,  4.96s/it] 65%|██████▍   | 99/153 [15:42<11:03, 12.28s/it] 92%|█████████▏| 141/153 [15:48<01:02,  5.17s/it] 65%|██████▌   | 100/153 [15:53<10:30, 11.89s/it] 93%|█████████▎| 142/153 [15:54<01:00,  5.51s/it] 62%|██████▏   | 95/153 [15:55<17:25, 18.02s/it] 93%|█████████▎| 143/153 [15:59<00:53,  5.38s/it] 63%|██████▎   | 96/153 [16:02<13:53, 14.63s/it] 94%|█████████▍| 144/153 [16:05<00:49,  5.46s/it] 66%|██████▌   | 101/153 [16:06<10:22, 11.96s/it] 95%|█████████▍| 145/153 [16:09<00:39,  4.97s/it] 63%|██████▎   | 97/153 [16:10<11:43, 12.56s/it] 95%|█████████▌| 146/153 [16:13<00:33,  4.81s/it]
+ 88%|████████▊ | 134/153 [15:11<01:38,  5.18s/it] 61%|██████    | 93/153 [15:11<10:48, 10.81s/it] 63%|██████▎   | 97/153 [15:17<10:47, 11.57s/it] 88%|████████▊ | 135/153 [15:18<01:42,  5.69s/it] 61%|██████▏   | 94/153 [15:17<09:04,  9.24s/it] 89%|████████▉ | 136/153 [15:23<01:36,  5.68s/it] 90%|████████▉ | 137/153 [15:27<01:22,  5.13s/it] 64%|██████▍   | 98/153 [15:28<10:27, 11.41s/it] 90%|█████████ | 138/153 [15:33<01:22,  5.47s/it] 91%|█████████ | 139/153 [15:38<01:12,  5.18s/it] 92%|█████████▏| 140/153 [15:42<01:04,  4.96s/it] 65%|██████▍   | 99/153 [15:42<11:03, 12.28s/it] 92%|█████████▏| 141/153 [15:48<01:02,  5.17s/it] 65%|██████▌   | 100/153 [15:53<10:30, 11.89s/it] 93%|█████████▎| 142/153 [15:54<01:00,  5.51s/it] 62%|██████▏   | 95/153 [15:55<17:25, 18.02s/it] 93%|█████████▎| 143/153 [15:59<00:53,  5.38s/it] 63%|██████▎   | 96/153 [16:02<13:53, 14.63s/it] 94%|█████████▍| 144/153 [16:05<00:49,  5.46s/it] 66%|██████▌   | 101/153 [16:06<10:22, 11.96s/it] 95%|█████████▍| 145/153 [16:09<00:39,  4.97s/it] 63%|██████▎   | 97/153 [16:10<11:43, 12.56s/it] 95%|█████████▌| 146/153 [16:13<00:33,  4.81s/it] 67%|██████▋   | 102/153 [16:17<09:54, 11.67s/it] 64%|██████▍   | 98/153 [16:19<10:29, 11.45s/it] 96%|█████████▌| 147/153 [16:25<00:40,  6.73s/it] 65%|██████▍   | 99/153 [16:29<09:55, 11.02s/it] 97%|█████████▋| 148/153 [16:31<00:33,  6.61s/it] 67%|██████▋   | 103/153 [16:32<10:38, 12.77s/it] 97%|█████████▋| 149/153 [16:37<00:25,  6.33s/it] 68%|██████▊   | 104/153 [16:36<08:24, 10.29s/it] 98%|█████████▊| 150/153 [16:43<00:18,  6.32s/it] 69%|██████▊   | 105/153 [16:46<08:08, 10.18s/it] 65%|██████▌   | 100/153 [16:46<11:28, 12.99s/it] 99%|█████████▊| 151/153 [16:49<00:12,  6.31s/it] 66%|██████▌   | 101/153 [16:53<09:37, 11.10s/it] 69%|██████▉   | 106/153 [16:54<07:23,  9.44s/it] 99%|█████████▉| 152/153 [16:55<00:06,  6.13s/it]100%|██████████| 153/153 [17:01<00:00,  6.00s/it]100%|██████████| 153/153 [17:01<00:00,  6.67s/it]
+ 67%|██████▋   | 102/153 [17:02<08:52, 10.44s/it] 70%|██████▉   | 107/153 [17:04<07:21,  9.59s/it] 71%|███████   | 108/153 [17:13<07:01,  9.36s/it] 67%|██████▋   | 103/153 [17:17<09:56, 11.93s/it] 71%|███████   | 109/153 [17:19<06:16,  8.55s/it] 68%|██████▊   | 104/153 [17:25<08:44, 10.70s/it] 72%|███████▏  | 110/153 [17:28<06:11,  8.65s/it] 69%|██████▊   | 105/153 [17:36<08:39, 10.82s/it] 73%|███████▎  | 111/153 [17:37<06:05,  8.70s/it] 73%|███████▎  | 112/153 [17:44<05:31,  8.10s/it] 69%|██████▉   | 106/153 [17:47<08:33, 10.92s/it] 74%|███████▍  | 113/153 [17:54<05:45,  8.64s/it] 70%|██████▉   | 107/153 [17:58<08:25, 10.99s/it] 75%|███████▍  | 114/153 [18:02<05:27,  8.39s/it] 71%|███████   | 108/153 [18:07<07:45, 10.35s/it] 75%|███████▌  | 115/153 [18:13<05:48,  9.17s/it] 71%|███████   | 109/153 [18:17<07:29, 10.22s/it] 76%|███████▌  | 116/153 [18:24<05:59,  9.71s/it] 72%|███████▏  | 110/153 [18:25<06:48,  9.51s/it] 76%|███████▋  | 117/153 [18:29<05:05,  8.48s/it] 73%|███████▎  | 111/153 [18:34<06:31,  9.32s/it] 77%|███████▋  | 118/153 [18:38<05:00,  8.59s/it] 73%|███████▎  | 112/153 [18:46<06:57, 10.18s/it] 78%|███████▊  | 119/153 [18:50<05:27,  9.65s/it] 78%|███████▊  | 120/153 [18:57<04:49,  8.76s/it] 74%|███████▍  | 113/153 [19:03<08:03, 12.10s/it] 79%|███████▉  | 121/153 [19:05<04:30,  8.46s/it] 75%|███████▍  | 114/153 [19:10<07:01, 10.80s/it] 80%|███████▉  | 122/153 [19:13<04:25,  8.56s/it] 75%|███████▌  | 115/153 [19:23<07:05, 11.21s/it] 80%|████████  | 123/153 [19:27<04:58,  9.96s/it] 76%|███████▌  | 116/153 [19:33<06:40, 10.83s/it] 81%|████████  | 124/153 [19:34<04:29,  9.29s/it] 82%|████████▏ | 125/153 [19:43<04:16,  9.17s/it] 76%|███████▋  | 117/153 [19:43<06:20, 10.58s/it] 77%|███████▋  | 118/153 [19:50<05:41,  9.74s/it] 82%|████████▏ | 126/153 [19:56<04:40, 10.38s/it] 78%|███████▊  | 119/153 [19:59<05:22,  9.50s/it] 83%|████████▎ | 127/153 [20:03<04:00,  9.26s/it] 78%|███████▊  | 120/153 [20:08<05:08,  9.34s/it] 84%|████████▎ | 128/153 [20:11<03:40,  8.83s/it] 79%|███████▉  | 121/153 [20:23<05:48, 10.89s/it] 84%|████████▍ | 129/153 [20:26<04:19, 10.80s/it] 80%|███████▉  | 122/153 [20:37<06:10, 11.95s/it] 85%|████████▍ | 130/153 [20:39<04:25, 11.53s/it] 86%|████████▌ | 131/153 [20:49<04:03, 11.05s/it] 80%|████████  | 123/153 [20:49<06:00, 12.01s/it] 86%|████████▋ | 132/153 [20:58<03:38, 10.40s/it] 81%|████████  | 124/153 [20:59<05:31, 11.42s/it] 87%|████████▋ | 133/153 [21:07<03:18,  9.93s/it] 82%|████████▏ | 125/153 [21:10<05:16, 11.30s/it] 88%|████████▊ | 134/153 [21:17<03:08,  9.93s/it] 82%|████████▏ | 126/153 [21:17<04:27,  9.92s/it] 88%|████████▊ | 135/153 [21:25<02:47,  9.28s/it] 83%|████████▎ | 127/153 [21:27<04:18,  9.96s/it] 89%|████████▉ | 136/153 [21:34<02:35,  9.16s/it] 84%|████████▎ | 128/153 [21:36<04:01,  9.64s/it] 90%|████████▉ | 137/153 [21:39<02:09,  8.09s/it] 84%|████████▍ | 129/153 [21:46<03:53,  9.74s/it] 90%|█████████ | 138/153 [21:48<02:04,  8.31s/it] 91%|█████████ | 139/153 [21:58<02:03,  8.82s/it] 85%|████████▍ | 130/153 [22:00<04:16, 11.13s/it] 92%|█████████▏| 140/153 [22:09<02:03,  9.47s/it] 86%|████████▌ | 131/153 [22:10<03:57, 10.79s/it] 92%|█████████▏| 141/153 [22:19<01:55,  9.61s/it] 86%|████████▋ | 132/153 [22:23<03:55, 11.21s/it] 87%|████████▋ | 133/153 [22:29<03:17,  9.87s/it] 93%|█████████▎| 142/153 [22:31<01:54, 10.37s/it] 93%|█████████▎| 143/153 [22:41<01:42, 10.24s/it] 88%|████████▊ | 134/153 [22:40<03:14, 10.22s/it] 88%|████████▊ | 135/153 [22:50<03:02, 10.16s/it] 94%|█████████▍| 144/153 [22:52<01:34, 10.49s/it] 89%|████████▉ | 136/153 [22:59<02:46,  9.81s/it] 95%|█████████▍| 145/153 [23:02<01:22, 10.36s/it] 95%|█████████▌| 146/153 [23:09<01:04,  9.25s/it] 90%|████████▉ | 137/153 [23:09<02:37,  9.86s/it] 96%|█████████▌| 147/153 [23:21<01:00, 10.10s/it] 90%|█████████ | 138/153 [23:20<02:33, 10.22s/it] 91%|█████████ | 139/153 [23:29<02:17,  9.83s/it] 97%|█████████▋| 148/153 [23:31<00:50, 10.05s/it] 92%|█████████▏| 140/153 [23:38<02:04,  9.55s/it] 97%|█████████▋| 149/153 [23:40<00:38,  9.70s/it] 92%|█████████▏| 141/153 [23:49<02:00, 10.02s/it] 98%|█████████▊| 150/153 [23:51<00:30, 10.10s/it] 93%|█████████▎| 142/153 [23:57<01:43,  9.37s/it] 99%|█████████▊| 151/153 [24:00<00:19,  9.74s/it][rank6]:[W socket.cpp:432] [c10d] While waitForInput, poolFD failed with (errno: 0 - Success).
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 456, in <module>
+    dist.barrier(group=new_group) 
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 3441, in barrier
+    work = group.barrier(opts=opts)
+torch.distributed.DistBackendError: [6] is setting up NCCL communicator and retrieving ncclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Socket Timeout
+Exception raised from doWait at ../torch/csrc/distributed/c10d/TCPStore.cpp:550 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7ff17175fd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x15c0e0b (0x7ff1a5444e0b in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doGet(std::string const&) + 0x32 (0x7ff1a9713b32 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::get(std::string const&) + 0xa1 (0x7ff1a9714961 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7ff1a96c9dd1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7ff1a96c9dd1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7ff1a96c9dd1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7ff1a96c9dd1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7ff1a96c9dd1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: c10d::ProcessGroupNCCL::broadcastUniqueNCCLID(ncclUniqueId*, bool, std::string const&, int) + 0xa9 (0x7ff172907c69 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #10: c10d::ProcessGroupNCCL::getNCCLComm(std::string const&, std::vector<c10::Device, std::allocator<c10::Device> > const&, c10d::OpType, int, bool) + 0x22b (0x7ff17290ec5b in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #11: <unknown function> + 0x10ad03d (0x7ff17291803d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #12: c10d::ProcessGroupNCCL::allreduce_impl(std::vector<at::Tensor, std::allocator<at::Tensor> >&, c10d::AllreduceOptions const&) + 0x21 (0x7ff1729198e1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #13: c10d::ProcessGroupNCCL::allreduce(std::vector<at::Tensor, std::allocator<at::Tensor> >&, c10d::AllreduceOptions const&) + 0x3bf (0x7ff17291b8ff in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #14: c10d::ProcessGroupNCCL::barrier(c10d::BarrierOptions const&) + 0xb0e (0x7ff17292ad4e in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #15: <unknown function> + 0x5838872 (0x7ff1a96bc872 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: <unknown function> + 0x5843590 (0x7ff1a96c7590 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #17: <unknown function> + 0x5843695 (0x7ff1a96c7695 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #18: <unknown function> + 0x4e8937c (0x7ff1a8d0d37c in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #19: <unknown function> + 0x1a08a38 (0x7ff1a588ca38 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #20: <unknown function> + 0x584cca4 (0x7ff1a96d0ca4 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #21: <unknown function> + 0x584da55 (0x7ff1a96d1a55 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #22: <unknown function> + 0xc93418 (0x7ff1bbf6c418 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_python.so)
+frame #23: <unknown function> + 0x413c8f (0x7ff1bb6ecc8f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_python.so)
+frame #24: <unknown function> + 0x14e6b6 (0x560b24fc46b6 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #25: _PyObject_MakeTpCall + 0x2ec (0x560b24fad7ac in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #26: <unknown function> + 0x14cc3e (0x560b24fc2c3e in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #27: _PyEval_EvalFrameDefault + 0x11f2 (0x560b24fa6162 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #28: <unknown function> + 0x12e184 (0x560b24fa4184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #29: _PyFunction_Vectorcall + 0xd9 (0x560b24fb5559 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #30: PyObject_Call + 0xbc (0x560b24fc317c in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #31: _PyEval_EvalFrameDefault + 0x45a6 (0x560b24fa9516 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #32: <unknown function> + 0x12e184 (0x560b24fa4184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #33: _PyFunction_Vectorcall + 0xd9 (0x560b24fb5559 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #34: _PyEval_EvalFrameDefault + 0x11f2 (0x560b24fa6162 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #35: <unknown function> + 0x12e184 (0x560b24fa4184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #36: _PyEval_EvalCodeWithName + 0x48 (0x560b24fa3e58 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #37: PyEval_EvalCodeEx + 0x39 (0x560b24fa3e09 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #38: PyEval_EvalCode + 0x1b (0x560b250514ab in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #39: <unknown function> + 0x20887a (0x560b2507e87a in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #40: <unknown function> + 0x204c03 (0x560b2507ac03 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #41: <unknown function> + 0x98175 (0x560b24f0e175 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #42: PyRun_SimpleFileExFlags + 0x1b1 (0x560b25074841 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #43: Py_RunMain + 0x38d (0x560b25071c6d in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #44: Py_BytesMain + 0x37 (0x560b250452e7 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #45: __libc_start_main + 0xf3 (0x7ff1bd6dd083 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #46: <unknown function> + 0x1cf1e1 (0x560b250451e1 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+. This may indicate a possible application crash on rank 0 or a network set up issue.
+ 99%|█████████▉| 152/153 [24:06<00:08,  8.82s/it] 93%|█████████▎| 143/153 [24:10<01:45, 10.52s/it][rank1]:[W socket.cpp:432] [c10d] While waitForInput, poolFD failed with (errno: 0 - Success).
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 456, in <module>
+    dist.barrier(group=new_group) 
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/c10d_logger.py", line 72, in wrapper
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/distributed_c10d.py", line 3441, in barrier
+    work = group.barrier(opts=opts)
+torch.distributed.DistBackendError: [1] is setting up NCCL communicator and retrieving ncclUniqueId from [0] via c10d key-value store by key '0', but store->get('0') got error: Socket Timeout
+Exception raised from doWait at ../torch/csrc/distributed/c10d/TCPStore.cpp:550 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f223c930d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0x15c0e0b (0x7f2270615e0b in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #2: c10d::TCPStore::doGet(std::string const&) + 0x32 (0x7f22748e4b32 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #3: c10d::TCPStore::get(std::string const&) + 0xa1 (0x7f22748e5961 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #4: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7f227489add1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #5: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7f227489add1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #6: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7f227489add1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #7: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7f227489add1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #8: c10d::PrefixStore::get(std::string const&) + 0x31 (0x7f227489add1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #9: c10d::ProcessGroupNCCL::broadcastUniqueNCCLID(ncclUniqueId*, bool, std::string const&, int) + 0xa9 (0x7f223dad8c69 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #10: c10d::ProcessGroupNCCL::getNCCLComm(std::string const&, std::vector<c10::Device, std::allocator<c10::Device> > const&, c10d::OpType, int, bool) + 0x22b (0x7f223dadfc5b in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #11: <unknown function> + 0x10ad03d (0x7f223dae903d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #12: c10d::ProcessGroupNCCL::allreduce_impl(std::vector<at::Tensor, std::allocator<at::Tensor> >&, c10d::AllreduceOptions const&) + 0x21 (0x7f223daea8e1 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #13: c10d::ProcessGroupNCCL::allreduce(std::vector<at::Tensor, std::allocator<at::Tensor> >&, c10d::AllreduceOptions const&) + 0x3bf (0x7f223daec8ff in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #14: c10d::ProcessGroupNCCL::barrier(c10d::BarrierOptions const&) + 0xb0e (0x7f223dafbd4e in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #15: <unknown function> + 0x5838872 (0x7f227488d872 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #16: <unknown function> + 0x5843590 (0x7f2274898590 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #17: <unknown function> + 0x5843695 (0x7f2274898695 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #18: <unknown function> + 0x4e8937c (0x7f2273ede37c in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #19: <unknown function> + 0x1a08a38 (0x7f2270a5da38 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #20: <unknown function> + 0x584cca4 (0x7f22748a1ca4 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #21: <unknown function> + 0x584da55 (0x7f22748a2a55 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cpu.so)
+frame #22: <unknown function> + 0xc93418 (0x7f228713d418 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_python.so)
+frame #23: <unknown function> + 0x413c8f (0x7f22868bdc8f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_python.so)
+frame #24: <unknown function> + 0x14e6b6 (0x5638c77c66b6 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #25: _PyObject_MakeTpCall + 0x2ec (0x5638c77af7ac in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #26: <unknown function> + 0x14cc3e (0x5638c77c4c3e in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #27: _PyEval_EvalFrameDefault + 0x11f2 (0x5638c77a8162 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #28: <unknown function> + 0x12e184 (0x5638c77a6184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #29: _PyFunction_Vectorcall + 0xd9 (0x5638c77b7559 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #30: PyObject_Call + 0xbc (0x5638c77c517c in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #31: _PyEval_EvalFrameDefault + 0x45a6 (0x5638c77ab516 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #32: <unknown function> + 0x12e184 (0x5638c77a6184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #33: _PyFunction_Vectorcall + 0xd9 (0x5638c77b7559 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #34: _PyEval_EvalFrameDefault + 0x11f2 (0x5638c77a8162 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #35: <unknown function> + 0x12e184 (0x5638c77a6184 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #36: _PyEval_EvalCodeWithName + 0x48 (0x5638c77a5e58 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #37: PyEval_EvalCodeEx + 0x39 (0x5638c77a5e09 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #38: PyEval_EvalCode + 0x1b (0x5638c78534ab in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #39: <unknown function> + 0x20887a (0x5638c788087a in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #40: <unknown function> + 0x204c03 (0x5638c787cc03 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #41: <unknown function> + 0x98175 (0x5638c7710175 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #42: PyRun_SimpleFileExFlags + 0x1b1 (0x5638c7876841 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #43: Py_RunMain + 0x38d (0x5638c7873c6d in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #44: Py_BytesMain + 0x37 (0x5638c78472e7 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+frame #45: __libc_start_main + 0xf3 (0x7f22888ae083 in /lib/x86_64-linux-gnu/libc.so.6)
+frame #46: <unknown function> + 0x1cf1e1 (0x5638c78471e1 in /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9)
+. This may indicate a possible application crash on rank 0 or a network set up issue.
+[2024-07-12 19:13:01,950] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968326 closing signal SIGTERM
+[2024-07-12 19:13:01,951] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968327 closing signal SIGTERM
+[2024-07-12 19:13:01,951] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968328 closing signal SIGTERM
+[2024-07-12 19:13:01,951] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968329 closing signal SIGTERM
+[2024-07-12 19:13:01,952] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968330 closing signal SIGTERM
+[2024-07-12 19:13:01,952] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968331 closing signal SIGTERM
+[2024-07-12 19:13:01,952] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 2968333 closing signal SIGTERM
+[2024-07-12 19:13:03,609] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 6 (pid: 2968332) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-12_19:13:01
+  host      : a100-st-p4de24xlarge-120.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 2968332)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
