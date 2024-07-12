@@ -194,3 +194,63 @@ Answer b expected b
 Answer e expected b
 Answer c expected a
 Answer b expected b
+Answer c expected c
+Answer b expected b
+Answer d expected d
+Answer e expected e
+Answer d expected c
+Answer c expected e
+Answer d expected e
+Answer a expected a
+Answer d expected d
+Answer a expected a
+Answer e expected d
+Answer c expected c
+Answer d expected d
+Answer d expected d
+Answer d expected d
+Answer e expected e
+Answer b expected b
+Answer e expected b
+Answer b expected b
+Answer c expected e
+Answer a expected a
+Answer e expected d
+Answer a expected a
+Answer b expected b
+Answer b expected b
+Answer d expected b
+Answer e expected e
+Answer d expected d
+Answer b expected e
+Answer w expected b
+index 3 start communication
+Answer e expected c
+Answer e expected e
+index 5 start communication
+index 1 start communication
+Answer b expected b
+index 0 start communication
+index 2 start communication
+index 7 start communication
+index 6 start communication
+index 4 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| csqa   |           1221 |                    130090 |                     106.544 |        111185 |        9740 | 11.4153 |                          44655 |             5158 |                          8.65743 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='csqa', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.4, thr=0.05, widthtree=1, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       847 |     0.693694 |
++--------+---------+-----------+--------------+
