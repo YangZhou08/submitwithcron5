@@ -197,3 +197,55 @@ Answer b expected b
 Answer c expected c
 Answer b expected b
 Answer d expected d
+Answer e expected e
+Answer d expected c
+Answer e expected e
+index 1 start communication
+Answer e expected e
+Answer a expected a
+Answer d expected d
+Answer a expected a
+Answer e expected d
+Answer c expected c
+Answer d expected d
+Answer d expected d
+Answer d expected d
+Answer e expected e
+Answer b expected b
+Answer n expected b
+Answer b expected b
+Answer c expected e
+Answer a expected a
+Answer b expected d
+Answer a expected a
+Answer u expected b
+Answer b expected b
+Answer c expected b
+Answer e expected e
+Answer d expected d
+Answer e expected e
+Answer d expected b
+Answer e expected c
+Answer e expected e
+Answer b expected b
+index 0 start communication
+index 2 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| csqa   |           1221 |                    116297 |                     95.2473 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='csqa', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.4, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
+Here are the statistics for inference
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       797 |     0.652744 |
++--------+---------+-----------+--------------+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
