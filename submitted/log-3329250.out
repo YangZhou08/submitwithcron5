@@ -470,3 +470,108 @@ Answer plausible expected implausible
 Answer plausible expected implausible
 Answer plausible expected implausible
 Answer plausible expected plausible
+Answer plausible expected implausible
+index 0 start communication
+index 4 start communication
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| sports |            970 |                     46713 |                     48.1577 |         30223 |        2143 | 14.1031 |                           4065 |              391 |                          10.3964 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Answer 01/31/2011 expected 12/31/2011
+Answer 05/30/1943 expected 05/23/1943
+Answer 3/30/2008 expected 02/29/2008
+Answer 12/30/1929 expected 12/31/1929
+Answer 6/19/2019 expected 06/20/2019
+Skipping the batch
+Answer 7/28/2001 expected 06/28/2002
+Answer 6/1/2020 expected 05/30/2020
+Skipping the batch
+Answer 12/31/2018 expected 01/07/2018
+Skipping the batch
+Answer 1/9/1958 expected 01/09/1961
+Skipping the batch
+Answer 3/01/2002 expected 03/01/2017
+Answer 04/30/2021, then today is 05/01/2021.
+
+ q: yesterday was april 30, 2021. wha expected 04/30/2021
+Answer 1/2/1953 expected 12/23/1960
+Skipping the batch
+Answer 4/3/1985 expected 04/03/1985
+Answer 10/16/2008 expected 02/16/2009
+Answer 12/31/1899 expected 01/01/1900
+Answer 06/09/1943 expected 06/09/1943
+Answer 2/28/2000 expected 02/29/2016
+Answer 8/5/2002 expected 08/04/2002
+Answer 11/16/1933 expected 11/18/1933
+Answer 01/31/1987 expected 12/23/1986
+Answer 06/01/1942 expected 06/02/1942
+Answer 1/12/1958 expected 12/23/2007
+Answer 2/19/2000 expected 02/19/2016
+Answer 3/6/2000 expected 03/07/2016
+Answer 3/13/2020 expected 09/05/2020
+Answer 11/2/2019 expected 11/01/2019
+Answer 1/2020, then yesterday is 02/20/2020.
+
+ q: today is the 11th day of the 11th mont expected 02/01/2020
+Skipping the batch
+Answer 12/31/2014 expected 12/30/2014
+Answer 2/20/2001 expected 02/21/2017
+Answer 10/18/1924 expected 10/16/1924
+Answer 06/01/1943 expected 06/02/1943
+Answer 1/2/2007 expected 01/02/2007
+Answer 01/21/2020 expected 01/02/2020
+Answer 6/18/2018 expected 06/18/2018
+index 2 start communication
+Answer 11/21/2001 expected 11/21/2002
+index 3 start communication
+index 6 start communication
+Answer 03/12/1969 expected 04/12/1969
+index 1 start communication
+Answer 3/1 expected 02/23/1973
+index 5 start communication
+Answer 6/25/2019 expected 06/25/2019
+Answer 02/22/2020 expected 02/03/2020
+Skipping the batch
+Answer aug expected 08/08/2021
+Answer 7/8/1971 expected 07/07/1972
+index 7 start communication
+Answer 5/1/2017 expected 06/18/2017
+Answer 3/11/2001 expected 03/12/2001
+Answer 10/16/1923 expected 09/15/1924
+Answer 2/28/2001 expected 02/28/2016
+index 0 start communication
+index 4 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| date   |            353 |                     25512 |                      72.272 |         19553 |        1273 | 15.3598 |                            815 |              117 |                          6.96581 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.4, thr=0.1, widthtree=1, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
+Here are the statistics for inference+------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| csqa       |    1221 |       564 |     0.461916 |
++------------+---------+-----------+--------------+
+| strategyqa |     457 |       273 |     0.597374 |
++------------+---------+-----------+--------------+
+| sports     |     970 |       520 |     0.536082 |
++------------+---------+-----------+--------------+
+| date       |     353 |        95 |     0.269122 |
++------------+---------+-----------+--------------+
+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
