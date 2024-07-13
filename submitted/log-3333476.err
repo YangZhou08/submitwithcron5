@@ -1,0 +1,40 @@
+Already on 'addinggriffin'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:48<00:48, 48.37s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.91s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.23s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.23s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.36s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.16s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.19s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.14s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 29.96s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.72s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 30.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.96s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 30.07s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.93s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 30.14s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 33.02s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 30.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.92s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 30.05s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:05<00:00, 32.91s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 30.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 33.33s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 30.22s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:06<00:00, 33.07s/it]
