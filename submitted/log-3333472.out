@@ -63,3 +63,64 @@ beamwidth is 1
 beamwidth is 1
 beamwidth is 1
 beamwidth is 1
+Answer a expected e
+Answer e expected c
+Answer b expected e
+Answer  expected b
+Answer c expected a
+Answer e expected d
+Answer a expected b
+Answer c expected c
+Answer a expected b
+Answer e expected e
+Answer a expected b
+Answer c expected c
+Answer b expected b
+Answer c expected d
+Answer e expected d
+Answer c expected d
+Answer e expected a
+Answer b expected d
+Answer c expected b
+Answer b expected a
+Answer  expected b
+Skipping the batch
+Answer e expected e
+Answer a expected a
+Answer a expected a
+index 6 start communication
+index 4 start communication
+Answer a expected c
+index 7 start communication
+Answer a expected a
+Skipping the batch
+index 1 start communication
+Answer b expected d
+index 5 start communication
+index 2 start communication
+Answer  expected c
+Answer e expected d
+Answer a expected a
+Answer a expected b
+Answer e expected c
+index 0 start communication
+index 3 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     21940 |                      86.378 |         18077 |        1443 | 12.5274 |                           5011 |              549 |                           9.1275 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Llama-2-7b-chat-hf', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.5, thr=0.01, widthtree=1, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        57 |     0.224409 |
++--------+---------+-----------+--------------+

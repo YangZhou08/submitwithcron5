@@ -47,3 +47,80 @@ beam width is 8
 beam width is 8
 beam width is 8
 beam width is 8
+tasks ['aqua']tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+tasks ['aqua']
+
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+beamwidth is 1
+Answer b expected e
+Answer d expected c
+Answer b expected e
+Answer d expected b
+Answer e expected a
+Answer d expected d
+Answer e expected b
+Answer c expected c
+Answer b expected b
+Answer e expected e
+Answer b expected b
+Answer c expected c
+Answer b expected b
+Answer d expected d
+Answer d expected d
+Answer d expected d
+Answer b expected a
+Answer d expected d
+Answer a expected b
+Answer a expected a
+Answer a expected b
+Answer o expected e
+Answer  expected a
+Answer  expected a
+Skipping the batch
+Answer  expected c
+Answer d expected a
+Answer d expected d
+index 7 start communication
+Answer a expected c
+index 4 start communication
+Answer e expected d
+index 3 start communication
+Answer a expected a
+Answer  expected b
+Answer e expected c
+index 0 start communication
+index 6 start communication
+index 1 start communication
+Skipping the batch
+index 2 start communication
+index 5 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |    AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     26750 |                     105.315 |         23317 |        2101 | 11.098 |                          10299 |             1138 |                          9.05009 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.2, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |       116 |     0.456693 |
++--------+---------+-----------+--------------+
