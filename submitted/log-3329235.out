@@ -538,3 +538,33 @@ Answer 06/18/2017 expected 06/18/2017
 index 7 start communication
 Answer 03/12/2001 expected 03/12/2001
 Answer 9/16/1924 expected 09/15/1924
+Answer 02/28/2016 expected 02/28/2016
+index 0 start communication
+index 5 start communication
+index 3 start communication
+index 1 start communication
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inferenceHere are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inference
+
+
+
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |    AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+========+================================+==================+==================================+=======================+======================+
+| date   |            353 |                     29329 |                      83.085 |         25211 |        2557 | 9.8596 |                          15701 |             1719 |                           9.1338 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+--------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.3, thr=0.1, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| csqa       |    1221 |       848 |     0.694513 |
++------------+---------+-----------+--------------+
+| strategyqa |     457 |       354 |     0.774617 |
++------------+---------+-----------+--------------+
+| sports     |     970 |       913 |     0.941237 |
++------------+---------+-----------+--------------+
+| date       |     353 |       240 |     0.679887 |
++------------+---------+-----------+--------------+
