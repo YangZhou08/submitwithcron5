@@ -1,0 +1,152 @@
+Already on 'addinggriffin'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.33s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.85s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.82s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:55<00:55, 55.11s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.91s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.84s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.92s/it]Loading checkpoint shards:  50%|█████     | 1/2 [00:54<00:54, 54.98s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:07<00:00, 29.97s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:07<00:00, 33.71s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Loading checkpoint shards: 100%|██████████| 2/2 [01:07<00:00, 30.31s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:07<00:00, 33.99s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 31.09s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:09<00:00, 34.57s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 30.34s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 34.03s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 30.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 34.04s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 30.33s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 34.01s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 30.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 34.09s/it]
+Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 30.55s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:08<00:00, 34.23s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/mainfordebugging.py", line 111, in <module>
+    model = get_llama_griffin_no_tree(model, schedule_k, patternstrict = args.patternstrict) 
+TypeError: get_llama_griffin_no_tree() got an unexpected keyword argument 'patternstrict'
+[2024-07-13 02:03:30,155] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 920567) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+mainfordebugging.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 920568)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 920569)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 920570)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 920571)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 920572)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 920573)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 920574)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-13_02:03:30
+  host      : a100-st-p4de24xlarge-799.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 920567)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

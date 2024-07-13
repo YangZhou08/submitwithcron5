@@ -489,3 +489,74 @@ Answer 1/7/2018 expected 01/07/2018
 Answer 01/09/1959 expected 01/09/1961
 Answer 3/1/2001 expected 03/01/2017
 Answer 4/29/2021 expected 04/30/2021
+Skipping the batch
+Answer 1/12/1958 expected 12/23/1960
+Skipping the batch
+Answer apr 03, 1985 expected 04/03/1985
+Answer 10/16/2008 expected 02/16/2009
+Answer 12/32/1899 expected 01/01/1900
+Answer 06/09/1943 expected 06/09/1943
+Answer 03/14/2016 expected 02/29/2016
+Answer 08/04/2002 expected 08/04/2002
+Answer 11/15/1933 expected 11/18/1933
+Answer 02/11/1987 expected 12/23/1986
+Answer 06/01/1942 expected 06/02/1942
+Answer 1/12/1958 expected 12/23/2007
+Answer 02/19/2000 expected 02/19/2016
+Answer 03/06/2000 expected 03/07/2016
+Answer 3/13/2020 expected 09/05/2020
+Answer 11/2/2016 expected 11/01/2019
+Answer 02/28/2020 expected 02/01/2020
+Skipping the batch
+Answer 1/1/2015 expected 12/30/2014
+Answer 02/21/2001 expected 02/21/2017
+Answer 10/18/1924 expected 10/16/1924
+Answer 06/02/1943 expected 06/02/1943
+Answer 1/2/1957 expected 01/02/2007
+Answer 01/02/2020 expected 01/02/2020
+Answer 6/18/2018 expected 06/18/2018
+Answer 11/21/2001 expected 11/21/2002
+Answer 4/12/1969 expected 04/12/1969
+Skipping the batch
+Answer 2/5/1973 expected 02/23/1973
+index 7 start communication
+Answer 6/25/2019 expected 06/25/2019
+index 6 start communication
+index 2 start communication
+Answer 03/01/2020 expected 02/03/2020
+Answer 8/1/2021 expected 08/08/2021
+Answer 7/7/1972 expected 07/07/1972
+index 1 start communication
+index 5 start communication
+Answer 5/17/2017 expected 06/18/2017
+index 4 start communication
+Answer 3/11/2001 expected 03/12/2001
+Answer 9/16/1924 expected 09/15/1924
+Answer 2/28/2000 expected 02/28/2016
+index 0 start communication
+index 3 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| date   |            353 |                     23666 |                     67.0425 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='csqa,strategyqa,sports,date', model='meta-llama/Llama-2-7b-hf', device='cuda:0', limit=None, griffin=False, cats=True, check=False, kernel_size=None, spr=0.3, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| csqa       |    1221 |       588 |     0.481572 |
++------------+---------+-----------+--------------+
+| strategyqa |     457 |       271 |     0.592998 |
++------------+---------+-----------+--------------+
+| sports     |     970 |       509 |     0.524742 |
++------------+---------+-----------+--------------+
+| date       |     353 |       131 |     0.371105 |
++------------+---------+-----------+--------------+
+Here are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inference
+
+Here are the statistics for inference
+Here are the statistics for inference
