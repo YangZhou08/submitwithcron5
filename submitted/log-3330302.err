@@ -1,0 +1,152 @@
+Already on 'addinggriffin'
+Your configuration specifies to merge with the ref 'refs/heads/addinggriffin'
+from the remote, but no such ref was fetched.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:33<01:06, 33.48s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:34<01:09, 34.54s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:34<01:08, 34.47s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:34<01:09, 34.82s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:34<01:09, 34.52s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:34<01:09, 34.61s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:36<01:12, 36.34s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:36<01:13, 36.55s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:05<00:32, 32.61s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:07<00:33, 33.41s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:07<00:33, 33.31s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:06<00:33, 33.50s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:06<00:33, 33.26s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:06<00:33, 33.28s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:18<00:39, 39.75s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [01:18<00:39, 39.94s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:26<00:00, 27.14s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:26<00:00, 28.85s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 27.39s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 29.12s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 27.44s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 27.54s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 29.19s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 29.10s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 27.37s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 29.09s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 27.36s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:27<00:00, 29.08s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:42<00:00, 32.68s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:42<00:00, 34.28s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [01:43<00:00, 32.79s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:43<00:00, 34.35s/it]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+  0%|          | 0/32 [00:00<?, ?it/s]  0%|          | 0/32 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py:385: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  promptids = torch.tensor(promptids, dtype = torch.long).to(args.device)
+  0%|          | 0/32 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+  3%|▎         | 1/32 [00:05<02:38,  5.12s/it]  3%|▎         | 1/32 [00:06<03:21,  6.49s/it]  3%|▎         | 1/32 [00:06<03:35,  6.95s/it]  3%|▎         | 1/32 [00:09<04:55,  9.53s/it]  3%|▎         | 1/32 [00:11<05:46, 11.17s/it]  6%|▋         | 2/32 [00:12<03:09,  6.32s/it]  3%|▎         | 1/32 [00:12<06:30, 12.61s/it]  6%|▋         | 2/32 [00:12<03:09,  6.33s/it]  6%|▋         | 2/32 [00:14<03:08,  6.28s/it]  6%|▋         | 2/32 [00:15<03:40,  7.34s/it]  9%|▉         | 3/32 [00:18<02:55,  6.04s/it]  6%|▋         | 2/32 [00:19<04:30,  9.01s/it]  3%|▎         | 1/32 [00:21<11:19, 21.93s/it]  6%|▋         | 2/32 [00:23<06:17, 12.60s/it]  9%|▉         | 3/32 [00:24<03:55,  8.13s/it]  9%|▉         | 3/32 [00:27<04:12,  8.72s/it] 12%|█▎        | 4/32 [00:29<03:44,  8.03s/it]  3%|▎         | 1/32 [00:29<15:18, 29.62s/it] 12%|█▎        | 4/32 [00:30<03:22,  7.23s/it] 16%|█▌        | 5/32 [00:35<03:17,  7.32s/it] 12%|█▎        | 4/32 [00:35<03:58,  8.53s/it] 16%|█▌        | 5/32 [00:36<03:03,  6.79s/it]  9%|▉         | 3/32 [00:38<07:31, 15.57s/it]  6%|▋         | 2/32 [00:39<09:45, 19.53s/it]  6%|▋         | 2/32 [00:40<09:12, 18.43s/it] 16%|█▌        | 5/32 [00:43<03:44,  8.32s/it] 19%|█▉        | 6/32 [00:45<02:37,  6.07s/it]  9%|▉         | 3/32 [00:46<08:23, 17.38s/it]  6%|▋         | 2/32 [00:47<11:53, 23.78s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/main.py", line 417, in <module>
+    outputs = model.module.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/llama12addingtree.py", line 1640, in greedy_search
+    model_inputs = self.prepare_inputs_for_generation(input_ids, **model_kwargs) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/llama12addingtree.py", line 1226, in prepare_inputs_for_generation
+    past_key_values = GriffinCache.stackcache(active_cache) 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/CommonSenseReasoning/cache.py", line 168, in stackcache
+    new_key_cache.append(torch.cat(k_layer, dim = 0)) 
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 82.00 MiB. GPU 0 has a total capacity of 79.15 GiB of which 81.69 MiB is free. Including non-PyTorch memory, this process has 79.06 GiB memory in use. Of the allocated memory 66.45 GiB is allocated by PyTorch, and 11.13 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  9%|▉         | 3/32 [00:48<09:20, 19.32s/it]  9%|▉         | 3/32 [00:49<07:15, 15.03s/it] 22%|██▏       | 7/32 [00:49<02:18,  5.56s/it] 19%|█▉        | 6/32 [00:52<04:16,  9.85s/it][2024-07-13 06:35:20,176] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895078 closing signal SIGTERM
+[2024-07-13 06:35:20,176] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895079 closing signal SIGTERM
+[2024-07-13 06:35:20,177] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895080 closing signal SIGTERM
+[2024-07-13 06:35:20,177] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895081 closing signal SIGTERM
+[2024-07-13 06:35:20,177] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895082 closing signal SIGTERM
+[2024-07-13 06:35:20,177] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895083 closing signal SIGTERM
+[2024-07-13 06:35:20,178] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3895084 closing signal SIGTERM
+[2024-07-13 06:35:22,058] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3895077) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-13_06:35:20
+  host      : a100-st-p4de24xlarge-1001.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3895077)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
