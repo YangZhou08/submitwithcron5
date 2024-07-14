@@ -427,3 +427,58 @@ Answer 05/31/1943 expected 06/02/1942
 Answer 12/1/2017 expected 12/23/2007
 Answer 21/02/2016 expected 02/19/2016
 Skipping the batch
+Answer 03/03/2000 expected 03/07/2016
+Answer mar 13, 2020 expected 09/05/2020
+Answer 11/2/2019 expected 11/01/2019
+Answer 02/22/2020 expected 02/01/2020
+Answer 12/31/2014 expected 12/30/2014
+Answer 21/02/2001 expected 02/21/2017
+Skipping the batch
+Answer 10/17/1924 expected 10/16/1924
+Answer 06/02/1943 expected 06/02/1943
+Answer 01/02/2007 expected 01/02/2007
+Answer 01/22/2020 expected 01/02/2020
+Answer 6/19/2018 expected 06/18/2018
+Answer 11/14/2001 expected 11/21/2002
+Answer 4/12/1969 expected 04/12/1969
+Answer 02/03/1973 expected 02/23/1973
+Answer 6/26/2019 expected 06/25/2019
+Answer 02/22/2020 expected 02/03/2020
+Answer 07/01/2021 expected 08/08/2021
+index 6 start communication
+Skipping the batch
+Answer 7/8/1972 expected 07/07/1972
+Answer 05/20/2017 expected 06/18/2017
+index 2 start communication
+Answer 03/12/2001 expected 03/12/2001
+index 5 start communication
+index 7 start communication
+Answer 9/15/1924 expected 09/15/1924
+Answer 02/28/2000 expected 02/28/2016
+index 0 start communication
+index 4 start communication
+index 3 start communication
+index 1 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |
++========+================+===========================+=============================+
+| date   |            353 |                     83733 |                     237.204 |
++--------+----------------+---------------------------+-----------------------------+
+Namespace(tasks='csqa,sports,date', model='meta-llama/Llama-2-7b-chat-hf', device='cuda:0', limit=None, griffin=True, cats=False, check=False, kernel_size=None, spr=0.4, thr=0.1, widthtree=8, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       635 |     0.520066 |
++--------+---------+-----------+--------------+
+| sports |     970 |       579 |     0.596907 |
++--------+---------+-----------+--------------+
+| date   |     353 |       106 |     0.300283 |
++--------+---------+-----------+--------------+
