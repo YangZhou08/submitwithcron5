@@ -1,5 +1,8 @@
 #!/bin/bash 
 
+cd /fsx-storygen/beidic/yang/bigcode-evaluation-harness 
+git pull 
+
 models=(
     "meta-llama/Meta-Llama-3-8B-Instruct"
     # "meta-llama/Meta-Llama-3-8B"
