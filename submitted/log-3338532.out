@@ -47,3 +47,102 @@ beam width is 8
 beam width is 8
 beam width is 8
 beam width is 8
+tasks ['strategyqa']tasks ['strategyqa']
+tasks ['strategyqa']
+tasks ['strategyqa']
+tasks ['strategyqa']
+tasks ['strategyqa']
+tasks ['strategyqa']
+tasks ['strategyqa']
+
+Answer no expected no
+Answer yes expected no
+Answer no expected no
+Answer yes expected yes
+Answer no expected no
+Skipping the batch
+Answer no expected no
+Answer no expected yes
+Answer yes expected yes
+Answer no expected yes
+Skipping the batch
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Skipping the batch
+Answer no expected yes
+Skipping the batch
+Answer no expected yes
+Answer no expected yes
+Answer yes expected yes
+Answer yes expected no
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer no expected yes
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer yes expected yes
+Answer no expected no
+Answer yes expected no
+Skipping the batch
+Answer no expected no
+Answer no expected no
+Skipping the batch
+Answer no expected yes
+Answer no expected no
+Answer no expected no
+Answer yes expected yes
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer yes expected yes
+Answer yes expected yes
+Answer no expected no
+Skipping the batch
+Answer no expected no
+Answer no expected no
+Answer yes expected yes
+Answer no expected no
+Answer no expected no
+Answer no expected no
+Answer yes expected no
+Answer yes expected yes
+Answer yes expected yes
+Answer yes expected yes
+Answer no expected no
+Answer yes expected yes
+Answer yes expected yes
+Answer yes expected no
+index 4 start communication
+Answer no expected no
+index 0 start communication
+index 1 start communication
+index 5 start communication
+index 7 start communication
+index 6 start communication
+index 2 start communication
+index 3 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++------------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task       |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++============+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| strategyqa |            457 |                     23486 |                     51.3917 |         18463 |        2085 | 8.85516 |                           2387 |              461 |                          5.17787 |               40.9976 |                  7.3 |
++------------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='strategyqa', model='meta-llama/Meta-Llama-3-8B-Instruct', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=10, spr=0.4, thr=0.1, widthtree=8, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
+Here are the statistics for inference
++------------+---------+-----------+--------------+
+| Task       |   Total |   Correct |   Solve Rate |
++============+=========+===========+==============+
+| strategyqa |     457 |       357 |     0.781182 |
++------------+---------+-----------+--------------+
