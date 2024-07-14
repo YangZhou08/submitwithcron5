@@ -78,3 +78,49 @@ Answer c expected c
 Answer b expected b
 Answer  expected d
 Answer e expected d
+Answer  expected d
+Answer c expected a
+Answer c expected d
+Answer b expected b
+Answer a expected a
+Answer  expected b
+Skipping the batch
+Answer  expected e
+Answer  expected a
+Answer b expected a
+Answer  expected c
+index 2 start communication
+Answer d expected a
+Answer a expected d
+Answer a expected c
+index 7 start communication
+Skipping the batch
+Answer e expected d
+index 6 start communication
+Answer b expected a
+index 1 start communication
+Answer c expected b
+index 3 start communication
+index 5 start communication
+Answer a expected c
+index 0 start communication
+index 4 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     31960 |                     125.827 |         27812 |        2046 | 13.5934 |                           4924 |              583 |                          8.44597 |                    16 |                    1 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+Here are the statistics for inferenceHere are the statistics for inference
+
+
+Namespace(tasks='aqua', model='meta-llama/Llama-2-13b-hf', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.5, thr=0.2, widthtree=1, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        39 |     0.153543 |
++--------+---------+-----------+--------------+
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
