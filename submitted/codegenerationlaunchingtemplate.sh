@@ -1,6 +1,8 @@
 #!/bin/bash 
 
 cd /fsx-storygen/beidic/yang/bigcode-evaluation-harness 
+git add .
+git stash 
 git pull 
 
 models=(
@@ -8,8 +10,6 @@ models=(
     "meta-llama/Meta-Llama-3-8B"
     "meta-llama/Llama-2-7b-chat-hf"
     "meta-llama/Llama-2-7b-hf"
-    "meta-llama/Llama-2-13b-chat-hf"
-    "meta-llama/Llama-2-13b-hf" 
 ) 
 
 # List of commands to run
@@ -18,7 +18,13 @@ commands=(
     "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution"
     "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --cats --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution"
     "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8" 
     "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8" 
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --griffin --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --cats --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
