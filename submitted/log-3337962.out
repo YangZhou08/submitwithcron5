@@ -397,3 +397,299 @@ Here are the statistics for inference
 Here are the statistics for inference
 Here are the statistics for inference
 Answer 12/29/2011 expected 12/31/2011
+Answer 05/23/1943 expected 05/23/1943
+Answer 03/24/2008 expected 02/29/2008
+Answer 12/30/1929 expected 12/31/1929
+Answer 6/20/2019 expected 06/20/2019
+Answer jul 29, 2002 expected 06/28/2002
+Answer 6/1/2020 expected 05/30/2020
+Answer 01/07/2018 expected 01/07/2018
+Skipping the batch
+Skipping the batch
+Answer 1/16/1963 expected 01/09/1961
+Answer 01/03/2002 expected 03/01/2017
+Skipping the batch
+Answer 04/30/2021, then the date yesterday in mm/dd/yyyy is 04/29/2021.</s><s> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ expected 04/30/2021
+Answer 01/02/1963 expected 12/23/1960
+Answer apr 03, 1985 expected 04/03/1985
+Skipping the batch
+Answer 10/16/2008 expected 02/16/2009
+Answer 12/31/1899 expected 01/01/1900
+Answer 06/09/1943 expected 06/09/1943
+Answer 02/28/2016 expected 02/29/2016
+Answer aug 5, 2002 expected 08/04/2002
+Answer 11/17/1933 expected 11/18/1933
+Answer 01/21/1987 expected 12/23/1986
+Answer 06/02/1942 expected 06/02/1942
+Answer 01/02/2007 expected 12/23/2007
+Answer 02/18/2000 expected 02/19/2016
+Skipping the batch
+Answer 03/13/2016 expected 03/07/2016
+Answer 03/13/2020 expected 09/05/2020
+Answer 11/02/2019 expected 11/01/2019
+Skipping the batch
+Answer 02/20/2020 expected 02/01/2020
+Answer 12/31/2014 expected 12/30/2014
+Answer 02/21/2017 expected 02/21/2017
+Answer 10/17/1924 expected 10/16/1924
+Answer 06/02/1943 expected 06/02/1943
+Answer 01/02/2007 expected 01/02/2007
+Answer 02/13/2020 expected 01/02/2020
+Answer 6/18/2018 expected 06/18/2018
+Answer 11/21/2001 expected 11/21/2002
+Answer 4/12/1969 expected 04/12/1969
+Answer 2/25/1973 expected 02/23/1973
+Skipping the batch
+Answer 6/25/2019 expected 06/25/2019
+Answer 02/20/2020 expected 02/03/2020
+Answer 08/01/2021 expected 08/08/2021
+Answer 7/8/1972 expected 07/07/1972
+index 1 start communication
+Answer 05/09/2017 expected 06/18/2017
+index 2 start communication
+Answer 03/12/2001 expected 03/12/2001
+index 3 start communication
+index 4 start communication
+Answer 9/16/1924 expected 09/15/1924
+Answer 02/28/2016 expected 02/28/2016
+index 0 start communication
+index 6 start communication
+index 7 start communication
+index 5 start communication
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| date   |            353 |                     72074 |                     204.176 |         66080 |        4220 | 15.6588 |                           1440 |              168 |                          8.57143 |               39.4564 |               3.8125 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='csqa,sports,date', model='meta-llama/Llama-2-7b-chat-hf', device='cuda:0', limit=None, griffin=False, cats=True, check=True, kernel_size=16, spr=0.4, thr=0.1, widthtree=4, patternstrict=True, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       779 |     0.638002 |
++--------+---------+-----------+--------------+
+| sports |     970 |       691 |     0.712371 |
++--------+---------+-----------+--------------+
+| date   |     353 |       122 |     0.345609 |
++--------+---------+-----------+--------------+

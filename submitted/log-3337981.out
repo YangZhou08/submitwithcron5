@@ -103,3 +103,24 @@ index 6 start communication
 index 5 start communication
 index 1 start communication
 index 2 start communication
+index 3 start communication
+index 4 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     26451 |                     104.138 |         23435 |        2630 | 8.91065 |                           8137 |             1212 |                           6.7137 |               12.0046 |              1.00038 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=12, spr=0.5, thr=0.1, widthtree=1, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |        93 |     0.366142 |
++--------+---------+-----------+--------------+
