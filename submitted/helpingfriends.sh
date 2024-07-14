@@ -1,7 +1,5 @@
 cd /data/home/beidic/hanshi/Rhodonite-Archive/
-rm .git/gc.log
-git prune
-rm -f .git/index.lock
+git branch -d addinggriffin
 git status
 git add -A
 git commit -m "fix"
