@@ -1,0 +1,168 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:20<01:01, 20.55s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.57s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.58s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.60s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:06, 22.08s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.66s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:21<01:04, 21.64s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:22<01:06, 22.14s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:33, 16.71s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:34, 17.39s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:34, 17.40s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:35, 17.57s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:35, 17.65s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:35, 17.73s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:34, 17.48s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:36<00:34, 17.48s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:51<00:16, 16.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.94s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.90s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.95s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.85s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:17, 17.01s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:52<00:16, 16.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.67s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.28s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.44s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.44s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.89s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.48s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.80s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.44s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.84s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.54s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 10.88s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:54<00:00, 13.58s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 10.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:53<00:00, 13.47s/it]
+  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py:119: UserWarning: n_copies (n_samples/batch_size) was changed from 1 to 2 because n_tasks isn't proportional to num devices
+  warnings.warn(
+  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]  0%|          | 0/21 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.2` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:415: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.95` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+  5%|▍         | 1/21 [01:16<25:21, 76.06s/it]  5%|▍         | 1/21 [01:15<25:18, 75.93s/it]  5%|▍         | 1/21 [00:59<19:58, 59.95s/it]  5%|▍         | 1/21 [01:15<25:04, 75.22s/it]  5%|▍         | 1/21 [01:16<25:23, 76.16s/it]  5%|▍         | 1/21 [01:15<25:06, 75.33s/it]  5%|▍         | 1/21 [01:16<25:23, 76.17s/it]  5%|▍         | 1/21 [00:58<19:26, 58.32s/it] 10%|▉         | 2/21 [01:54<17:10, 54.26s/it] 10%|▉         | 2/21 [01:55<17:17, 54.61s/it] 10%|▉         | 2/21 [01:55<17:16, 54.55s/it] 10%|▉         | 2/21 [01:39<15:11, 47.97s/it] 10%|▉         | 2/21 [01:55<17:18, 54.65s/it] 10%|▉         | 2/21 [01:37<14:58, 47.30s/it] 10%|▉         | 2/21 [01:54<17:11, 54.31s/it] 10%|▉         | 2/21 [01:55<17:18, 54.65s/it] 14%|█▍        | 3/21 [02:32<13:59, 46.66s/it] 14%|█▍        | 3/21 [02:17<12:58, 43.24s/it] 14%|█▍        | 3/21 [02:33<14:03, 46.85s/it] 14%|█▍        | 3/21 [02:33<14:02, 46.82s/it] 14%|█▍        | 3/21 [02:33<14:03, 46.87s/it] 14%|█▍        | 3/21 [02:15<12:51, 42.88s/it] 14%|█▍        | 3/21 [02:32<14:00, 46.68s/it] 14%|█▍        | 3/21 [02:33<14:03, 46.87s/it] 19%|█▉        | 4/21 [03:13<12:29, 44.09s/it] 19%|█▉        | 4/21 [03:13<12:29, 44.08s/it] 19%|█▉        | 4/21 [03:13<12:29, 44.11s/it] 19%|█▉        | 4/21 [02:57<11:52, 41.91s/it] 19%|█▉        | 4/21 [02:55<11:48, 41.69s/it] 19%|█▉        | 4/21 [03:12<12:27, 44.00s/it] 19%|█▉        | 4/21 [03:12<12:27, 43.98s/it] 19%|█▉        | 4/21 [03:13<12:29, 44.11s/it] 24%|██▍       | 5/21 [03:52<11:18, 42.42s/it] 24%|██▍       | 5/21 [03:52<11:18, 42.43s/it] 24%|██▍       | 5/21 [03:36<10:56, 41.03s/it] 24%|██▍       | 5/21 [03:34<10:54, 40.89s/it] 24%|██▍       | 5/21 [03:52<11:18, 42.44s/it] 24%|██▍       | 5/21 [03:51<11:17, 42.36s/it] 24%|██▍       | 5/21 [03:51<11:17, 42.35s/it] 24%|██▍       | 5/21 [03:52<11:18, 42.44s/it] 29%|██▊       | 6/21 [04:25<09:52, 39.50s/it] 29%|██▊       | 6/21 [04:26<09:53, 39.55s/it] 29%|██▊       | 6/21 [04:26<09:53, 39.54s/it] 29%|██▊       | 6/21 [04:26<09:53, 39.55s/it] 29%|██▊       | 6/21 [04:08<09:37, 38.53s/it] 29%|██▊       | 6/21 [04:10<09:39, 38.62s/it] 29%|██▊       | 6/21 [04:25<09:52, 39.50s/it] 29%|██▊       | 6/21 [04:26<09:53, 39.54s/it] 33%|███▎      | 7/21 [05:09<09:30, 40.78s/it] 33%|███▎      | 7/21 [04:52<09:21, 40.13s/it] 33%|███▎      | 7/21 [05:10<09:31, 40.82s/it] 33%|███▎      | 7/21 [04:53<09:22, 40.19s/it] 33%|███▎      | 7/21 [05:10<09:31, 40.82s/it] 33%|███▎      | 7/21 [05:09<09:31, 40.79s/it] 33%|███▎      | 7/21 [05:09<09:31, 40.81s/it] 33%|███▎      | 7/21 [05:09<09:31, 40.81s/it] 38%|███▊      | 8/21 [05:48<08:40, 40.02s/it] 38%|███▊      | 8/21 [05:48<08:40, 40.02s/it] 38%|███▊      | 8/21 [05:32<08:34, 39.60s/it] 38%|███▊      | 8/21 [05:48<08:40, 40.02s/it] 38%|███▊      | 8/21 [05:30<08:34, 39.55s/it] 38%|███▊      | 8/21 [05:48<08:40, 40.02s/it] 38%|███▊      | 8/21 [05:47<08:39, 40.00s/it] 38%|███▊      | 8/21 [05:47<08:40, 40.00s/it] 43%|████▎     | 9/21 [06:21<08:33, 42.79s/it] 43%|████▎     | 9/21 [06:20<08:33, 42.76s/it] 43%|████▎     | 9/21 [06:37<08:36, 43.08s/it] 43%|████▎     | 9/21 [06:37<08:36, 43.07s/it] 43%|████▎     | 9/21 [06:38<08:36, 43.08s/it] 43%|████▎     | 9/21 [06:38<08:36, 43.08s/it] 43%|████▎     | 9/21 [06:37<08:36, 43.06s/it] 43%|████▎     | 9/21 [06:38<08:36, 43.08s/it] 43%|████▎     | 9/21 [06:52<09:10, 45.87s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
+    generated_tokens = model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama12addingtree.py", line 1865, in greedy_search
+    input_ids = self.beam[0][0] 
+IndexError: list index out of range
+ 43%|████▎     | 9/21 [06:54<09:12, 46.00s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 300, in complete_code
+    generated_tokens = model.generate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/utils.py", line 1544, in generate
+    return self.greedy_search(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/llama12addingtree.py", line 1865, in greedy_search
+    input_ids = self.beam[0][0] 
+IndexError: list index out of range
+[2024-07-14 03:44:36,955] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586772 closing signal SIGTERM
+[2024-07-14 03:44:36,955] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586773 closing signal SIGTERM
+[2024-07-14 03:44:36,955] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586774 closing signal SIGTERM
+[2024-07-14 03:44:36,956] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586775 closing signal SIGTERM
+[2024-07-14 03:44:36,956] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586776 closing signal SIGTERM
+[2024-07-14 03:44:36,956] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 1586777 closing signal SIGTERM
+[2024-07-14 03:44:38,299] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 6 (pid: 1586778) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-14_03:44:36
+  host      : a100-st-p4de24xlarge-135.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 1586779)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-14_03:44:36
+  host      : a100-st-p4de24xlarge-135.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 1586778)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
