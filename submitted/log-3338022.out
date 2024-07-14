@@ -857,3 +857,48 @@ Skipping the batch
 Answer 10/17/1924 expected 10/16/1924
 Answer 06/02/1943 expected 06/02/1943
 index 3 start communication
+Answer 12/31/1957 expected 01/02/2007
+Skipping the batch
+Answer 02/13/2020 expected 01/02/2020
+Answer 6/18/2018 expected 06/18/2018
+index 5 start communication
+index 7 start communication
+Answer 11/21/2001 expected 11/21/2002
+Answer 4/12/1969 expected 04/12/1969
+index 4 start communication
+Answer 02/05/1973 expected 02/23/1973
+Answer 6/25/2019 expected 06/25/2019
+Answer 02/20/2020 expected 02/03/2020
+Answer 08/01/2021 expected 08/08/2021
+index 1 start communication
+Answer 7/8/1972 expected 07/07/1972
+index 6 start communication
+Answer 05/18/2017 expected 06/18/2017
+index 2 start communication
+Answer 3/12/2001 expected 03/12/2001
+Answer 9/16/1924 expected 09/15/1924
+Answer 28/02/2000 expected 02/28/2016
+index 0 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inferenceHere are the statistics for inferenceHere are the statistics for inference
+
+
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| date   |            353 |                     54058 |                     153.139 |         48089 |        3299 | 14.5768 |                           4695 |              410 |                          11.4512 |               49.3092 |               5.6875 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+Here are the statistics for inference
+
+Namespace(tasks='csqa,sports,date', model='meta-llama/Llama-2-7b-chat-hf', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=16, spr=0.4, thr=0.1, widthtree=6, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| csqa   |    1221 |       747 |     0.611794 |
++--------+---------+-----------+--------------+
+| sports |     970 |       690 |     0.71134  |
++--------+---------+-----------+--------------+
+| date   |     353 |       111 |     0.314448 |
++--------+---------+-----------+--------------+
