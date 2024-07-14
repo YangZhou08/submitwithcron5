@@ -84,3 +84,43 @@ Answer b expected d
 Answer b expected b
 Answer a expected a
 Answer d expected b
+Answer a expected e
+Skipping the batch
+Answer  expected a
+Answer d expected a
+Skipping the batch
+index 4 start communication
+index 6 start communication
+Answer a expected c
+index 5 start communication
+index 7 start communication
+Answer a expected a
+Answer d expected d
+Answer a expected c
+index 2 start communication
+Answer c expected d
+index 1 start communication
+Answer c expected a
+Answer c expected b
+Answer c expected c
+index 0 start communication
+index 3 start communication
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
+Here are the statistics for inference
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+| Task   |   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++========+================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+| aqua   |            254 |                     25472 |                     100.283 |         22231 |        2162 | 10.2826 |                           3713 |              581 |                          6.39071 |               28.4857 |              3.74827 |
++--------+----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Namespace(tasks='aqua', model='meta-llama/Meta-Llama-3-8B', device='cuda:0', limit=None, griffin=True, cats=False, check=True, kernel_size=12, spr=0.5, thr=0.1, widthtree=4, patternstrict=False, shotfive=True, shottwo=False, filteractiveenabled=False)
++--------+---------+-----------+--------------+
+| Task   |   Total |   Correct |   Solve Rate |
++========+=========+===========+==============+
+| aqua   |     254 |       101 |     0.397638 |
++--------+---------+-----------+--------------+
