@@ -6,12 +6,12 @@ git stash
 git pull 
 
 models=(
-    # "meta-llama/Meta-Llama-3-8B-Instruct"
-    # "meta-llama/Meta-Llama-3-8B"
-    # "meta-llama/Llama-2-7b-chat-hf"
-    # "meta-llama/Llama-2-7b-hf"
-    "meta-llama/Llama-2-13b-chat-hf"
-    "meta-llama/Llama-2-13b-hf"
+    "meta-llama/Meta-Llama-3-8B-Instruct"
+    "meta-llama/Meta-Llama-3-8B"
+    "meta-llama/Llama-2-7b-chat-hf"
+    "meta-llama/Llama-2-7b-hf"
+    # "meta-llama/Llama-2-13b-chat-hf"
+    # "meta-llama/Llama-2-13b-hf"
 ) 
 
 # List of commands to run
