@@ -80,4 +80,513 @@ To avoid this warning pass in values for each of the problematic parameters or r
   warnings.warn(
 /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `0` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
   warnings.warn(
-  5%|▍         | 1/21 [02:04<41:38, 124.93s/it]  5%|▍         | 1/21 [02:04<41:31, 124.57s/it]  5%|▍         | 1/21 [02:04<41:34, 124.72s/it]  5%|▍         | 1/21 [02:06<42:03, 126.20s/it]  5%|▍         | 1/21 [02:04<41:34, 124.75s/it]  5%|▍         | 1/21 [01:19<26:34, 79.72s/it]  5%|▍         | 1/21 [01:17<25:56, 77.83s/it]  5%|▍         | 1/21 [02:01<40:25, 121.27s/it] 10%|▉         | 2/21 [02:48<24:24, 77.09s/it]  10%|▉         | 2/21 [02:48<24:27, 77.23s/it]  10%|▉         | 2/21 [02:48<24:25, 77.15s/it]  10%|▉         | 2/21 [02:45<23:58, 75.73s/it]  10%|▉         | 2/21 [02:48<24:26, 77.16s/it]  10%|▉         | 2/21 [02:03<18:33, 58.62s/it] 10%|▉         | 2/21 [02:50<24:37, 77.76s/it]  10%|▉         | 2/21 [02:01<18:18, 57.84s/it] 14%|█▍        | 3/21 [03:41<19:46, 65.93s/it] 14%|█▍        | 3/21 [03:40<19:45, 65.85s/it] 14%|█▍        | 3/21 [03:42<19:51, 66.21s/it] 14%|█▍        | 3/21 [03:41<19:45, 65.89s/it] 14%|█▍        | 3/21 [03:41<19:45, 65.88s/it] 14%|█▍        | 3/21 [02:56<16:44, 55.81s/it] 14%|█▍        | 3/21 [03:37<19:31, 65.11s/it] 14%|█▍        | 3/21 [02:54<16:37, 55.39s/it] 19%|█▉        | 4/21 [04:19<15:39, 55.24s/it] 19%|█▉        | 4/21 [04:19<15:38, 55.22s/it] 19%|█▉        | 4/21 [04:19<15:39, 55.24s/it] 19%|█▉        | 4/21 [04:21<15:42, 55.44s/it] 19%|█▉        | 4/21 [04:16<15:31, 54.77s/it] 19%|█▉        | 4/21 [03:34<13:55, 49.15s/it] 19%|█▉        | 4/21 [03:33<13:51, 48.89s/it] 19%|█▉        | 4/21 [04:20<15:39, 55.27s/it] 24%|██▍       | 5/21 [04:18<12:35, 47.24s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.14s/it] 24%|██▍       | 5/21 [05:05<13:40, 51.27s/it] 24%|██▍       | 5/21 [05:00<13:33, 50.84s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.13s/it] 24%|██▍       | 5/21 [05:04<13:38, 51.16s/it] 24%|██▍       | 5/21 [04:16<12:33, 47.08s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.14s/it]
+  5%|▍         | 1/21 [02:04<41:38, 124.93s/it]  5%|▍         | 1/21 [02:04<41:31, 124.57s/it]  5%|▍         | 1/21 [02:04<41:34, 124.72s/it]  5%|▍         | 1/21 [02:06<42:03, 126.20s/it]  5%|▍         | 1/21 [02:04<41:34, 124.75s/it]  5%|▍         | 1/21 [01:19<26:34, 79.72s/it]  5%|▍         | 1/21 [01:17<25:56, 77.83s/it]  5%|▍         | 1/21 [02:01<40:25, 121.27s/it] 10%|▉         | 2/21 [02:48<24:24, 77.09s/it]  10%|▉         | 2/21 [02:48<24:27, 77.23s/it]  10%|▉         | 2/21 [02:48<24:25, 77.15s/it]  10%|▉         | 2/21 [02:45<23:58, 75.73s/it]  10%|▉         | 2/21 [02:48<24:26, 77.16s/it]  10%|▉         | 2/21 [02:03<18:33, 58.62s/it] 10%|▉         | 2/21 [02:50<24:37, 77.76s/it]  10%|▉         | 2/21 [02:01<18:18, 57.84s/it] 14%|█▍        | 3/21 [03:41<19:46, 65.93s/it] 14%|█▍        | 3/21 [03:40<19:45, 65.85s/it] 14%|█▍        | 3/21 [03:42<19:51, 66.21s/it] 14%|█▍        | 3/21 [03:41<19:45, 65.89s/it] 14%|█▍        | 3/21 [03:41<19:45, 65.88s/it] 14%|█▍        | 3/21 [02:56<16:44, 55.81s/it] 14%|█▍        | 3/21 [03:37<19:31, 65.11s/it] 14%|█▍        | 3/21 [02:54<16:37, 55.39s/it] 19%|█▉        | 4/21 [04:19<15:39, 55.24s/it] 19%|█▉        | 4/21 [04:19<15:38, 55.22s/it] 19%|█▉        | 4/21 [04:19<15:39, 55.24s/it] 19%|█▉        | 4/21 [04:21<15:42, 55.44s/it] 19%|█▉        | 4/21 [04:16<15:31, 54.77s/it] 19%|█▉        | 4/21 [03:34<13:55, 49.15s/it] 19%|█▉        | 4/21 [03:33<13:51, 48.89s/it] 19%|█▉        | 4/21 [04:20<15:39, 55.27s/it] 24%|██▍       | 5/21 [04:18<12:35, 47.24s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.14s/it] 24%|██▍       | 5/21 [05:05<13:40, 51.27s/it] 24%|██▍       | 5/21 [05:00<13:33, 50.84s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.13s/it] 24%|██▍       | 5/21 [05:04<13:38, 51.16s/it] 24%|██▍       | 5/21 [04:16<12:33, 47.08s/it] 24%|██▍       | 5/21 [05:03<13:38, 51.14s/it] 29%|██▊       | 6/21 [05:43<11:50, 47.34s/it] 29%|██▊       | 6/21 [05:44<11:50, 47.35s/it] 29%|██▊       | 6/21 [05:45<11:51, 47.42s/it] 29%|██▊       | 6/21 [05:40<11:47, 47.14s/it] 29%|██▊       | 6/21 [05:43<11:49, 47.33s/it] 29%|██▊       | 6/21 [04:58<11:11, 44.77s/it] 29%|██▊       | 6/21 [05:43<11:50, 47.34s/it] 29%|██▊       | 6/21 [04:56<11:09, 44.66s/it] 33%|███▎      | 7/21 [06:24<10:34, 45.30s/it] 33%|███▎      | 7/21 [05:38<10:09, 43.51s/it] 33%|███▎      | 7/21 [06:24<10:34, 45.31s/it] 33%|███▎      | 7/21 [06:25<10:34, 45.32s/it] 33%|███▎      | 7/21 [06:26<10:35, 45.37s/it] 33%|███▎      | 7/21 [06:21<10:32, 45.18s/it] 33%|███▎      | 7/21 [05:39<10:10, 43.58s/it] 33%|███▎      | 7/21 [06:24<10:34, 45.31s/it] 38%|███▊      | 8/21 [07:08<09:35, 44.29s/it] 38%|███▊      | 8/21 [07:06<09:35, 44.25s/it] 38%|███▊      | 8/21 [07:06<09:35, 44.26s/it] 38%|███▊      | 8/21 [07:03<09:34, 44.16s/it] 38%|███▊      | 8/21 [07:06<09:35, 44.26s/it] 38%|███▊      | 8/21 [07:07<09:35, 44.26s/it] 38%|███▊      | 8/21 [06:20<09:19, 43.03s/it] 38%|███▊      | 8/21 [06:21<09:19, 43.08s/it] 43%|████▎     | 9/21 [07:35<08:04, 40.37s/it] 43%|████▎     | 9/21 [07:40<08:05, 40.45s/it] 43%|████▎     | 9/21 [07:38<08:05, 40.43s/it] 43%|████▎     | 9/21 [07:38<08:05, 40.43s/it] 43%|████▎     | 9/21 [07:38<08:05, 40.43s/it] 43%|████▎     | 9/21 [07:39<08:05, 40.43s/it] 43%|████▎     | 9/21 [06:53<07:55, 39.62s/it] 43%|████▎     | 9/21 [06:52<07:54, 39.58s/it] 48%|████▊     | 10/21 [07:43<07:48, 42.56s/it] 48%|████▊     | 10/21 [08:28<07:54, 43.12s/it] 48%|████▊     | 10/21 [08:24<07:53, 43.08s/it] 48%|████▊     | 10/21 [08:29<07:54, 43.14s/it] 48%|████▊     | 10/21 [08:28<07:54, 43.12s/it] 48%|████▊     | 10/21 [08:27<07:54, 43.12s/it] 48%|████▊     | 10/21 [08:28<07:54, 43.12s/it] 48%|████▊     | 10/21 [07:41<07:47, 42.53s/it] 52%|█████▏    | 11/21 [08:56<06:25, 38.56s/it] 52%|█████▏    | 11/21 [08:57<06:25, 38.57s/it] 52%|█████▏    | 11/21 [08:11<06:21, 38.17s/it] 52%|█████▏    | 11/21 [08:56<06:25, 38.56s/it] 52%|█████▏    | 11/21 [08:09<06:21, 38.15s/it] 52%|█████▏    | 11/21 [08:52<06:25, 38.53s/it] 52%|█████▏    | 11/21 [08:56<06:25, 38.56s/it] 52%|█████▏    | 11/21 [08:56<06:25, 38.56s/it] 57%|█████▋    | 12/21 [09:33<05:42, 38.03s/it] 57%|█████▋    | 12/21 [09:32<05:42, 38.03s/it] 57%|█████▋    | 12/21 [09:33<05:42, 38.03s/it] 57%|█████▋    | 12/21 [09:33<05:42, 38.03s/it] 57%|█████▋    | 12/21 [09:34<05:42, 38.04s/it] 57%|█████▋    | 12/21 [08:46<05:39, 37.75s/it] 57%|█████▋    | 12/21 [08:48<05:39, 37.76s/it] 57%|█████▋    | 12/21 [09:29<05:42, 38.01s/it] 62%|██████▏   | 13/21 [10:11<05:04, 38.10s/it] 62%|██████▏   | 13/21 [10:11<05:04, 38.10s/it] 62%|██████▏   | 13/21 [10:11<05:04, 38.10s/it] 62%|██████▏   | 13/21 [10:11<05:04, 38.10s/it] 62%|██████▏   | 13/21 [09:26<05:03, 37.91s/it] 62%|██████▏   | 13/21 [09:24<05:03, 37.91s/it] 62%|██████▏   | 13/21 [10:12<05:04, 38.11s/it] 62%|██████▏   | 13/21 [10:07<05:04, 38.09s/it] 67%|██████▋   | 14/21 [10:46<04:28, 38.31s/it] 67%|██████▋   | 14/21 [10:51<04:28, 38.33s/it] 67%|██████▋   | 14/21 [10:05<04:27, 38.19s/it] 67%|██████▋   | 14/21 [10:50<04:28, 38.32s/it] 67%|██████▋   | 14/21 [10:50<04:28, 38.32s/it] 67%|██████▋   | 14/21 [10:50<04:28, 38.33s/it] 67%|██████▋   | 14/21 [10:50<04:28, 38.32s/it] 67%|██████▋   | 14/21 [10:03<04:27, 38.19s/it] 71%|███████▏  | 15/21 [11:29<03:51, 38.58s/it] 71%|███████▏  | 15/21 [11:29<03:51, 38.58s/it] 71%|███████▏  | 15/21 [11:29<03:51, 38.58s/it] 71%|███████▏  | 15/21 [11:30<03:51, 38.58s/it] 71%|███████▏  | 15/21 [11:25<03:51, 38.57s/it] 71%|███████▏  | 15/21 [10:42<03:50, 38.48s/it] 71%|███████▏  | 15/21 [10:44<03:50, 38.49s/it] 71%|███████▏  | 15/21 [11:29<03:51, 38.58s/it] 76%|███████▌  | 16/21 [12:01<03:03, 36.63s/it] 76%|███████▌  | 16/21 [11:14<03:02, 36.56s/it] 76%|███████▌  | 16/21 [12:01<03:03, 36.63s/it] 76%|███████▌  | 16/21 [12:01<03:03, 36.63s/it] 76%|███████▌  | 16/21 [12:01<03:03, 36.63s/it] 76%|███████▌  | 16/21 [12:02<03:03, 36.63s/it] 76%|███████▌  | 16/21 [11:16<03:02, 36.56s/it] 76%|███████▌  | 16/21 [11:58<03:03, 36.62s/it] 81%|████████  | 17/21 [12:45<02:39, 39.76s/it] 81%|████████  | 17/21 [12:48<02:39, 39.76s/it] 81%|████████  | 17/21 [12:50<02:39, 39.76s/it] 81%|████████  | 17/21 [12:48<02:39, 39.76s/it] 81%|████████  | 17/21 [12:48<02:39, 39.76s/it] 81%|████████  | 17/21 [12:01<02:38, 39.71s/it] 81%|████████  | 17/21 [12:48<02:39, 39.76s/it] 81%|████████  | 17/21 [12:03<02:38, 39.72s/it] 86%|████████▌ | 18/21 [13:31<02:01, 40.66s/it] 86%|████████▌ | 18/21 [13:31<02:01, 40.66s/it] 86%|████████▌ | 18/21 [13:31<02:01, 40.66s/it] 86%|████████▌ | 18/21 [12:46<02:01, 40.63s/it] 86%|████████▌ | 18/21 [13:31<02:01, 40.66s/it] 86%|████████▌ | 18/21 [13:32<02:01, 40.66s/it] 86%|████████▌ | 18/21 [13:27<02:01, 40.66s/it] 86%|████████▌ | 18/21 [12:44<02:01, 40.63s/it] 90%|█████████ | 19/21 [14:05<01:19, 39.82s/it] 90%|█████████ | 19/21 [14:10<01:19, 39.82s/it] 90%|█████████ | 19/21 [13:24<01:19, 39.80s/it] 90%|█████████ | 19/21 [14:09<01:19, 39.82s/it] 90%|█████████ | 19/21 [14:09<01:19, 39.82s/it] 90%|█████████ | 19/21 [14:09<01:19, 39.82s/it] 90%|█████████ | 19/21 [13:22<01:19, 39.79s/it] 90%|█████████ | 19/21 [14:09<01:19, 39.82s/it] 95%|█████████▌| 20/21 [14:40<00:37, 37.29s/it] 95%|█████████▌| 20/21 [14:40<00:37, 37.29s/it] 95%|█████████▌| 20/21 [14:40<00:37, 37.29s/it] 95%|█████████▌| 20/21 [14:40<00:37, 37.29s/it] 95%|█████████▌| 20/21 [13:53<00:37, 37.28s/it] 95%|█████████▌| 20/21 [14:42<00:37, 37.29s/it] 95%|█████████▌| 20/21 [13:55<00:37, 37.28s/it] 95%|█████████▌| 20/21 [14:37<00:37, 37.29s/it]100%|██████████| 21/21 [15:19<00:00, 37.78s/it]100%|██████████| 21/21 [15:20<00:00, 37.78s/it]100%|██████████| 21/21 [15:16<00:00, 37.78s/it]100%|██████████| 21/21 [15:19<00:00, 37.78s/it]100%|██████████| 21/21 [15:19<00:00, 37.78s/it]100%|██████████| 21/21 [14:34<00:00, 37.77s/it]100%|██████████| 21/21 [14:32<00:00, 37.77s/it]100%|██████████| 21/21 [15:19<00:00, 37.78s/it]22it [15:51, 36.99s/it]                        22it [15:54, 36.99s/it]                        22it [15:56, 36.99s/it]                        22it [15:54, 36.99s/it]                        22it [15:54, 36.99s/it]                        22it [15:09, 36.98s/it]                        22it [15:07, 36.98s/it]                        22it [15:54, 36.99s/it]                        23it [16:26, 35.49s/it]23it [16:28, 35.49s/it]23it [16:26, 35.49s/it]23it [15:39, 35.49s/it]23it [16:23, 35.49s/it]23it [16:26, 35.49s/it]23it [16:26, 35.49s/it]23it [15:41, 35.49s/it]24it [16:54, 33.22s/it]24it [16:56, 33.22s/it]24it [16:54, 33.22s/it]24it [16:51, 33.22s/it]24it [16:54, 33.22s/it]24it [16:54, 33.22s/it]24it [16:07, 33.22s/it]24it [16:09, 33.22s/it]25it [17:26, 32.33s/it]25it [17:25, 32.33s/it]25it [17:24, 32.33s/it]25it [17:24, 32.33s/it]25it [17:24, 32.33s/it]25it [17:21, 32.33s/it]25it [16:37, 32.32s/it]25it [16:39, 32.32s/it]26it [18:27, 41.38s/it]26it [18:28, 41.38s/it]26it [18:23, 41.38s/it]26it [18:27, 41.38s/it]26it [17:40, 41.38s/it]26it [18:27, 41.38s/it]26it [17:42, 41.38s/it]26it [18:27, 41.38s/it]27it [19:03, 39.87s/it]27it [19:03, 39.87s/it]27it [19:03, 39.87s/it]27it [19:05, 39.87s/it]27it [19:03, 39.87s/it]27it [18:16, 39.87s/it]27it [19:00, 39.87s/it]27it [18:18, 39.87s/it]28it [19:41, 38.81s/it]28it [19:36, 38.81s/it]28it [19:40, 38.81s/it]28it [19:40, 38.81s/it]28it [19:39, 38.81s/it]28it [18:53, 38.81s/it]28it [18:54, 38.81s/it]28it [19:39, 38.81s/it]29it [20:16, 38.11s/it]29it [20:16, 38.11s/it]29it [20:16, 38.11s/it]29it [20:16, 38.11s/it]29it [20:17, 38.11s/it]29it [19:29, 38.11s/it]29it [20:13, 38.11s/it]29it [19:31, 38.11s/it]30it [21:01, 40.22s/it]30it [21:01, 40.22s/it]30it [21:01, 40.22s/it]30it [21:01, 40.22s/it]30it [20:16, 40.22s/it]30it [21:03, 40.22s/it]30it [20:14, 40.22s/it]30it [20:58, 40.22s/it][rank4]:[E ProcessGroupNCCL.cpp:1182] [Rank 4] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f971d30cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f971d2bd75f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f971d3dd8a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f971e4b03ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f971e4b44c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f971e4b7bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f971e4b8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f97716c3df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f977a02d609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f9779df8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 4] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f971d30cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f971d2bd75f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f971d3dd8a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f971e4b03ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f971e4b44c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f971e4b7bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f971e4b8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f97716c3df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f977a02d609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f9779df8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f971d30cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f971e20eb11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f97716c3df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f977a02d609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f9779df8353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+30it [22:58, 45.96s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank5]:[E ProcessGroupNCCL.cpp:1182] [Rank 5] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fb241545d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fb2414f675f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fb2416168a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fb2426e93ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fb2426ed4c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fb2426f0bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fb2426f1839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fb2958fadf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fb29e264609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fb29e02f353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 5] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fb241545d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fb2414f675f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fb2416168a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fb2426e93ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fb2426ed4c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fb2426f0bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fb2426f1839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fb2958fadf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fb29e264609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fb29e02f353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fb241545d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7fb242447b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7fb2958fadf4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7fb29e264609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7fb29e02f353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+30it [22:18, 44.62s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank7]:[E ProcessGroupNCCL.cpp:1182] [Rank 7] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fbd0334cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fbd032fd75f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fbd0341d8a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fbd044f03ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fbd044f44c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fbd044f7bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fbd044f8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fbd57700df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fbd6006a609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fbd5fe35353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 7] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fbd0334cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fbd032fd75f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fbd0341d8a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fbd044f03ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fbd044f44c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fbd044f7bfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fbd044f8839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fbd57700df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fbd6006a609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fbd5fe35353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fbd0334cd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7fbd0424eb11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7fbd57700df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7fbd6006a609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7fbd5fe35353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+30it [22:28, 44.95s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank1]:[E ProcessGroupNCCL.cpp:1182] [Rank 1] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2ba3ca1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f2ba3c5275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f2ba3d728a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f2ba4e453ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f2ba4e494c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f2ba4e4cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f2ba4e4d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f2bf8054df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f2c009be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f2c00789353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 1] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2ba3ca1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f2ba3c5275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f2ba3d728a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f2ba4e453ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f2ba4e494c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f2ba4e4cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f2ba4e4d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f2bf8054df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f2c009be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f2c00789353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f2ba3ca1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f2ba4ba3b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f2bf8054df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f2c009be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f2c00789353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+30it [23:18, 46.62s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank3]:[E ProcessGroupNCCL.cpp:1182] [Rank 3] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f010df10d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f010dec175f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f010dfe18a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f010f0b43ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f010f0b84c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f010f0bbbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f010f0bc839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f01622c4df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f016ac2e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f016a9f9353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 3] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f010df10d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f010dec175f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f010dfe18a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f010f0b43ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f010f0b84c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f010f0bbbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f010f0bc839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f01622c4df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f016ac2e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f016a9f9353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f010df10d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f010ee12b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f01622c4df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f016ac2e609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f016a9f9353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+30it [23:19, 46.64s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank2]:[E ProcessGroupNCCL.cpp:1182] [Rank 2] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa01b8b1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fa01b86275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fa01b9828a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fa01ca553ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fa01ca594c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fa01ca5cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fa01ca5d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fa06fc65df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fa0785cf609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fa07839a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 2] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa01b8b1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7fa01b86275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7fa01b9828a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7fa01ca553ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7fa01ca594c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7fa01ca5cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7fa01ca5d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7fa06fc65df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7fa0785cf609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7fa07839a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7fa01b8b1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7fa01c7b3b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7fa06fc65df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7fa0785cf609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7fa07839a353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+30it [25:54, 51.80s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 522, in <module>
+    main() 
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/main.py", line 506, in main
+    results[task] = evaluator.evaluate(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 151, in evaluate
+    generations, references = self.generate_text(task_name, intermediate_generations=intermediate_generations)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/evaluator.py", line 72, in generate_text
+    generations = parallel_generations(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/generation.py", line 141, in parallel_generations
+    generations = complete_code(
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py", line 307, in complete_code
+    generated_tokens = accelerator.pad_across_processes(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/accelerator.py", line 2317, in pad_across_processes
+    return pad_across_processes(tensor, dim=dim, pad_index=pad_index, pad_first=pad_first)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 368, in wrapper
+    return function(*args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 567, in pad_across_processes
+    return recursively_apply(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 128, in recursively_apply
+    return func(data, *args, **kwargs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/utils/operations.py", line 548, in _pad_across_processes
+    sizes = gather(size).cpu()
+RuntimeError: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[rank0]:[E ProcessGroupNCCL.cpp:1182] [Rank 0] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f79e16c1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f79e167275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f79e17928a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f79e28653ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f79e28694c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f79e286cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f79e286d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f7a35a77df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f7a3e3e1609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f7a3e1ac353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 0] NCCL watchdog thread terminated with exception: CUDA error: unknown error
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+Exception raised from c10_cuda_check_implementation at ../c10/cuda/CUDAException.cpp:44 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f79e16c1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10::detail::torchCheckFail(char const*, char const*, unsigned int, std::string const&) + 0x64 (0x7f79e167275f in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #2: c10::cuda::c10_cuda_check_implementation(int, char const*, char const*, int, bool) + 0x118 (0x7f79e17928a8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::WorkNCCL::finishedGPUExecutionInternal() const + 0x6c (0x7f79e28653ac in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: c10d::ProcessGroupNCCL::WorkNCCL::isCompleted() + 0x58 (0x7f79e28694c8 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #5: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x15a (0x7f79e286cbfa in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #6: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f79e286d839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #7: <unknown function> + 0xd6df4 (0x7f7a35a77df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #8: <unknown function> + 0x8609 (0x7f7a3e3e1609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #9: clone + 0x43 (0x7f7a3e1ac353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f79e16c1d87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f79e25c3b11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f7a35a77df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f7a3e3e1609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f7a3e1ac353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+[rank6]:[E ProcessGroupNCCL.cpp:523] [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=248, OpType=_ALLGATHER_BASE, NumelIn=2, NumelOut=16, Timeout(ms)=600000) ran for 600057 milliseconds before timing out.
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+[rank6]:[E ProcessGroupNCCL.cpp:537] Some NCCL operations have failed or timed out. Due to the asynchronous nature of CUDA kernels, subsequent GPU operations might run on corrupted/incomplete data.
+[rank6]:[E ProcessGroupNCCL.cpp:543] To avoid data inconsistency, we are taking the entire process down.
+[rank6]:[E ProcessGroupNCCL.cpp:1182] [Rank 6] NCCL watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=248, OpType=_ALLGATHER_BASE, NumelIn=2, NumelOut=16, Timeout(ms)=600000) ran for 600057 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f427ca9bd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f427dc436e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f427dc46c3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f427dc47839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f42d0e54df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f42d97be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f42d9589353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+terminate called after throwing an instance of 'c10::DistBackendError'
+  what():  [Rank 6] NCCL watchdog thread terminated with exception: [Rank 6] Watchdog caught collective operation timeout: WorkNCCL(SeqNum=248, OpType=_ALLGATHER_BASE, NumelIn=2, NumelOut=16, Timeout(ms)=600000) ran for 600057 milliseconds before timing out.
+Exception raised from checkTimeout at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:525 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f427ca9bd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: c10d::ProcessGroupNCCL::WorkNCCL::checkTimeout(std::optional<std::chrono::duration<long, std::ratio<1l, 1000l> > >) + 0x1e6 (0x7f427dc436e6 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: c10d::ProcessGroupNCCL::workCleanupLoop() + 0x19d (0x7f427dc46c3d in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #3: c10d::ProcessGroupNCCL::ncclCommWatchdog() + 0x119 (0x7f427dc47839 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #4: <unknown function> + 0xd6df4 (0x7f42d0e54df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #5: <unknown function> + 0x8609 (0x7f42d97be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #6: clone + 0x43 (0x7f42d9589353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+Exception raised from ncclCommWatchdog at ../torch/csrc/distributed/c10d/ProcessGroupNCCL.cpp:1186 (most recent call first):
+frame #0: c10::Error::Error(c10::SourceLocation, std::string) + 0x57 (0x7f427ca9bd87 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libc10.so)
+frame #1: <unknown function> + 0xdf6b11 (0x7f427d99db11 in /fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/lib/libtorch_cuda.so)
+frame #2: <unknown function> + 0xd6df4 (0x7f42d0e54df4 in /lib/x86_64-linux-gnu/libstdc++.so.6)
+frame #3: <unknown function> + 0x8609 (0x7f42d97be609 in /lib/x86_64-linux-gnu/libpthread.so.0)
+frame #4: clone + 0x43 (0x7f42d9589353 in /lib/x86_64-linux-gnu/libc.so.6)
+
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
+slurmstepd: error: NVML: Failed to get usage(999): Unknown Error
