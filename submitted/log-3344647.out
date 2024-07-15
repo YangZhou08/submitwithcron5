@@ -39,3 +39,73 @@ beamwidth is 6
 beamwidth is 6
 beamwidth is 6
 beamwidth is 6
+type of model <class 'llama12addingtree.LlamaForCausalLM'>type of model <class 'llama12addingtree.LlamaForCausalLM'>
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
+
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
+type of model <class 'llama12addingtree.LlamaForCausalLM'>
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+|            328 |                    126560 |                     385.854 |        121062 |        8382 | 14.4431 |                          13050 |             1498 |                          8.71162 |               52.2424 |              5.68729 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+Evaluating generations...
+{
+  "humaneval": {
+    "pass@1": 0.5182926829268293
+  },
+  "config": {
+    "prefix": "",
+    "do_sample": false,
+    "temperature": 0.2,
+    "top_k": 0,
+    "top_p": 0.95,
+    "n_samples": 1,
+    "eos": "<|endoftext|>",
+    "seed": 0,
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "modeltype": "causal",
+    "peft_model": null,
+    "revision": null,
+    "use_auth_token": false,
+    "trust_remote_code": false,
+    "tasks": "humaneval",
+    "instruction_tokens": null,
+    "batch_size": 1,
+    "max_length_generation": 512,
+    "precision": "fp32",
+    "load_in_8bit": false,
+    "load_in_4bit": false,
+    "left_padding": false,
+    "limit": null,
+    "limit_start": 0,
+    "save_every_k_tasks": -1,
+    "postprocess": true,
+    "allow_code_execution": true,
+    "generation_only": false,
+    "load_generations_path": null,
+    "load_data_path": null,
+    "metric_output_path": "evaluation_results.json",
+    "save_generations": false,
+    "load_generations_intermediate_paths": null,
+    "save_generations_path": "generations.json",
+    "save_references": false,
+    "save_references_path": "references.json",
+    "prompt": "prompt",
+    "max_memory_per_gpu": null,
+    "check_references": false,
+    "griffin": true,
+    "cats": false,
+    "spr": 0.5,
+    "thr": 0.1,
+    "check": true,
+    "kernelsize": 16,
+    "enable_epatches": true,
+    "widthtree": 6,
+    "patternstrict": false,
+    "filteractiveenabled": false
+  }
+}
