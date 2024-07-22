@@ -645,3 +645,69 @@ length of input_ids 1396
 next token  is
 length of input_ids 1397
 Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=4096', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+using max_seq_len 4096 seqlen 1386
+Question: Peggy is moving and is looking to get rid of her record collection. Sammy says that he will buy all of them for 4 dollars each. Bryan is only interested in half of the records but will offer 6 dollars each for the half that he is interested in and 1 dollar each for the remaining half that he is not interested in with the hopes that he can resell them in bulk later. If Peggy has 200 records, what is the difference in profit between Sammy versus Bryan's deal?
+Answer: Sammy is offering to take the whole collection of 200 records and pay Peggy 4 dollars each for them which would net Peggy 200 * 4=<<200*4=800>>800 dollars for her entire record collection.
+Bryan is willing to buy Peggy's entire record collection but at two different price points, half at one point and half at another. Half of Peggy's record collection is 200/2=<<200/2=100>>100, which means that 100 records will sell for one price and 100 records will sell for another price.
+Bryan is willing to pay more for the half of the record collection that he is interested in so Peggy would net 100 * 6=<<100*6=600>>600 dollars for the first half of her record collection.
+For the half of the collection that Bryan is just planning on reselling at a later date, he is willing to offer Peggy 100 *1=<<100*1=100>>100 dollars to take off of her hands.
+In total Bryan is willing to offer Peggy 600+100=<<600+100=700>>700 dollars for her entire record collection.
+If Sammy is offering 800 dollars to buy Peggy's entire record collection and Bryan is offering 700 dollars for Peggy's entire record collection, then Peggy's net profit would be 800-700=<<800-700=100>>100 dollars more by taking Sammy's deal instead of Bryan's deal.
+#### 100
+
+Question: Randy just turned 12 and started playing the piano. His friend Sheila told him about the 10,000-hour rule which says, after 10,000 hours of practice, you become an expert or master in your field. If Randy wants to become a piano expert before he is 20, how many hours a day will he need to practice if he practices every day, Monday – Friday, and takes two weeks off for vacation each year?
+Answer: Randy has 20 – 12 = <<20-12=8>>8 years until he is 20.
+He must practice 10,000 hours / 8 years = <<10000/8=1250>>1,250 hours a year to become an expert.
+There are 52 weeks in a year – 2 weeks of vacation Randy plans to take = <<52-2=50>>50 weeks of practice for Randy.
+Randy will practice Monday – Friday, which is 5 days a week, so 50 weeks x 5 days = <<50*5=250>>250 days of practice each year.
+Randy will need to practice 1250 hours / 250 days = <<1250/250=5>>5 hours each day.
+#### 5
+
+Question: Ben will receive a bonus of $1496. He chooses to allocate this amount as follows: 1/22 for the kitchen, 1/4 for holidays and 1/8 for Christmas gifts for his 3 children. How much money will he still have left after these expenses?
+Answer: Ben's spending for the kitchen is $1496 x 1/22 = $<<1496*1/22=68>>68.
+Ben's spending for holidays is $1496 x 1/4 = $<<1496*1/4=374>>374.
+Ben's spending for children's gifts is $1496 x 1/8 = $<<1496*1/8=187>>187.
+The total amount spent is $68 + $374 + $187 = $<<68+374+187=629>>629.
+So, Ben still has $1496 - $629 = $<<1496-629=867>>867 left.
+#### 867
+
+Question: Natalie bought some food for a party she is organizing. She bought two cheesecakes, an apple pie, and a six-pack of muffins. The six-pack of muffins was two times more expensive than the cheesecake, and one cheesecake was only 25% cheaper than the apple pie. If the apple pie cost $12, how much did Natalie pay for all her shopping?
+Answer: One cheesecake was 30% cheaper than the apple pie, which means, it was 25/100 * 12 = $3 cheaper.
+So for one cheesecake, Natalie needed to pay 12 - 3 = $<<12-3=9>>9.
+The six-pack of muffins was two times more expensive than the cheesecake, which means its price was 9 * 2 = $<<9*2=18>>18.
+So for two cheesecakes, Natalie paid also 9 * 2 = $<<9*2=18>>18.
+So for all her shopping she paid 18 + 18 + 12 = $<<18+18+12=48>>48.
+#### 48
+
+Question: Andy is running late. School starts at 8:00 AM and it normally takes him 30 minutes to get there, but today he had to stop for 3 minutes each at 4 red lights and wait 10 minutes to get past construction. If he left his house at 7:15, how many minutes late will he be?
+Answer: First find how many minute Andy had to get to school when he left his house: 8:00 AM - 7:15 AM = 45 minutes
+Then find the total time he spent waiting at red lights: 3 minutes/light * 4 lights = <<3*4=12>>12 minutes
+Now add the normal travel time, red light time, and construction wait time to find Andy's total travel time: 30 minutes + 12 minutes + 10 minutes = <<30+12+10=52>>52 minutes
+Now subtract the amount of time Andy had when he left his house from that number to find how many minute late he is: 52 minutes - 45 minutes = <<52-45=7>>7 minutes
+#### 7
+
+Question: A football team has 105 members.  There are twice as many players on the offense as there is on the defense. There is half the number of players on the special teams as there is on the defense.  How many players are on the defense?
+Answer:  Let next token shape torch.Size([1]) eos_token_id_tensor shape torch.Size([2])
+warming up
+time taken for a single forward pass 0.015848796129226683
+next token  d
+next token  d
+length of input_ids 1388
+next token  be
+length of input_ids 1389
+next token  the
+length of input_ids 1390
+next token  number
+length of input_ids 1391
+next token  of
+length of input_ids 1392
+next token  players
+length of input_ids 1393
+next token  on
+length of input_ids 1394
+next token  the
+length of input_ids 1395
+next token  defense
+length of input_ids 1396
+next token .
+length of input_ids 1397
