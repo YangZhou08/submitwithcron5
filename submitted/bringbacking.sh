@@ -8,7 +8,7 @@
 ## filename for job standard error output (stderr)
 #SBATCH --error=/fsx-storygen/beidic/yang/log/log-%j.err
 
-#SBATCH --time=3:00:00 
+#SBATCH --time=2:00:00 
 
 ## partition name
 #SBATCH -q storygen 
@@ -34,10 +34,11 @@ source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 # conda activate hanshi 
 conda activate griffin 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
-# cd /fsx-storygen/beidic/yang/GRIFFIN2 
-cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
+cd /fsx-storygen/beidic/yang/GRIFFIN2 
+# cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
-git checkout addinggriffin 
+# git checkout addinggriffin 
+git checkout yangexp2threee 
 git pull 
 
 git pull 
