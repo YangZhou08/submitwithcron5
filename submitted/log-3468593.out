@@ -1,0 +1,89 @@
+Your branch is up to date with 'origin/yangexp2threee'.
+Already up to date.
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=128', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+using max_seq_len 128 seqlen 28
+Question: Peggy is moving and is looking to get rid of her record collection. Sammy says that he will buy all of them for  50 next token shape torch.Size([1]) eos_token_id_tensor shape torch.Size([2])
+warming up
+time taken for a single forward pass 0.013987149477005006
+next token  more
+next token  more
+length of input_ids 29
+next token  more
+length of input_ids 30
+next token  more
+length of input_ids 31
+next token  more
+length of input_ids 32
+next token  more
+length of input_ids 33
+next token  more
+length of input_ids 34
+next token  more
+length of input_ids 35
+next token  more
+length of input_ids 36
+next token  more
+length of input_ids 37
+next token  more
+length of input_ids 38
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=128', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+using max_seq_len 128 seqlen 28
+Question: Peggy is moving and is looking to get rid of her record collection. Sammy says that he will buy all of them for  50 next token shape torch.Size([1]) eos_token_id_tensor shape torch.Size([2])
+warming up
+time taken for a single forward pass 0.010217346668243409
+next token ://
+next token ://
+length of input_ids 29
+next token ://
+length of input_ids 30
+next token ://
+length of input_ids 31
+next token ://
+length of input_ids 32
+next token ://
+length of input_ids 33
+next token ://
+length of input_ids 34
+next token ://
+length of input_ids 35
+next token ://
+length of input_ids 36
+next token ://
+length of input_ids 37
+next token ://
+length of input_ids 38
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=256', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+using max_seq_len 256 seqlen 128
+Question: Peggy is moving and is looking to get rid of her record collection. Sammy says that he will buy all of them for 4 dollars each. Bryan is only interested in half of the records but will offer 6 dollars each for the half that he is interested in and 1 dollar each for the remaining half that he is not interested in with the hopes that he can resell them in bulk later. If Peggy has 200 records, what is the difference in profit between Sammy versus Bryan's deal?
+Answer: Sammy is offering to take the whole collection of 200 records and pay Peggy 4 dollars each for them which  is next token shape torch.Size([1]) eos_token_id_tensor shape torch.Size([2])
+warming up
+time taken for a single forward pass 0.01418442153930664
+next token  more
+next token  more
+length of input_ids 129
+next token  more
+length of input_ids 130
+next token  more
+length of input_ids 131
+next token  more
+length of input_ids 132
+next token  more
+length of input_ids 133
+next token  more
+length of input_ids 134
+next token  more
+length of input_ids 135
+next token  more
+length of input_ids 136
+next token  more
+length of input_ids 137
+next token  more
+length of input_ids 138
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=256', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
