@@ -1,0 +1,304 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+main.py: error: unrecognized arguments: --kernel_size 12
+main.py: error: unrecognized arguments: --kernel_size 12
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+main.py: error: unrecognized arguments: --kernel_size 12
+main.py: error: unrecognized arguments: --kernel_size 12
+main.py: error: unrecognized arguments: --kernel_size 12
+main.py: error: unrecognized arguments: --kernel_size 12
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+usage: main.py [-h] [--prefix PREFIX] [--do_sample [DO_SAMPLE]]
+               [--no_do_sample] [--temperature TEMPERATURE] [--top_k TOP_K]
+               [--top_p TOP_P] [--n_samples N_SAMPLES] [--eos EOS]
+               [--seed SEED] [--model MODEL] [--modeltype MODELTYPE]
+               [--peft_model PEFT_MODEL] [--revision REVISION]
+               [--use_auth_token] [--trust_remote_code]
+               [--tasks {apps-competition,apps-interview,apps-introductory,codexglue_code_to_text-go,codexglue_code_to_text-java,codexglue_code_to_text-javascript,codexglue_code_to_text-php,codexglue_code_to_text-python,codexglue_code_to_text-python-left,codexglue_code_to_text-ruby,codexglue_text_to_text-da_en,codexglue_text_to_text-lv_en,codexglue_text_to_text-no_en,codexglue_text_to_text-zh_en,conala,concode,ds1000-all-completion,ds1000-all-insertion,ds1000-matplotlib-completion,ds1000-matplotlib-insertion,ds1000-numpy-completion,ds1000-numpy-insertion,ds1000-pandas-completion,ds1000-pandas-insertion,ds1000-pytorch-completion,ds1000-pytorch-insertion,ds1000-scipy-completion,ds1000-scipy-insertion,ds1000-sklearn-completion,ds1000-sklearn-insertion,ds1000-tensorflow-completion,ds1000-tensorflow-insertion,humaneval,humaneval-unstripped,humanevalexplaindescribe-cpp,humanevalexplaindescribe-go,humanevalexplaindescribe-java,humanevalexplaindescribe-js,humanevalexplaindescribe-python,humanevalexplaindescribe-rust,humanevalexplainsynthesize-cpp,humanevalexplainsynthesize-go,humanevalexplainsynthesize-java,humanevalexplainsynthesize-js,humanevalexplainsynthesize-python,humanevalexplainsynthesize-rust,humanevalfixdocs-cpp,humanevalfixdocs-go,humanevalfixdocs-java,humanevalfixdocs-js,humanevalfixdocs-python,humanevalfixdocs-rust,humanevalfixtests-cpp,humanevalfixtests-go,humanevalfixtests-java,humanevalfixtests-js,humanevalfixtests-python,humanevalfixtests-rust,humanevalplus,humanevalplus-unstripped,humanevalsynthesize-cpp,humanevalsynthesize-go,humanevalsynthesize-java,humanevalsynthesize-js,humanevalsynthesize-python,humanevalsynthesize-rust,instruct-humaneval,instruct-humaneval-nocontext,instruct_wizard_humaneval,mbpp,mbppplus,mercury,multiple-cpp,multiple-cs,multiple-d,multiple-go,multiple-java,multiple-jl,multiple-js,multiple-lua,multiple-php,multiple-pl,multiple-py,multiple-r,multiple-rb,multiple-rkt,multiple-rs,multiple-scala,multiple-sh,multiple-swift,multiple-ts,pal-gsm8k-greedy,pal-gsm8k-majority_voting,pal-gsmhard-greedy,pal-gsmhard-majority_voting,parity,perturbed-humaneval-format-num_seeds_1,perturbed-humaneval-format-num_seeds_10,perturbed-humaneval-format-num_seeds_2,perturbed-humaneval-format-num_seeds_3,perturbed-humaneval-format-num_seeds_4,perturbed-humaneval-format-num_seeds_5,perturbed-humaneval-format-num_seeds_6,perturbed-humaneval-format-num_seeds_7,perturbed-humaneval-format-num_seeds_8,perturbed-humaneval-format-num_seeds_9,perturbed-humaneval-func_name-num_seeds_1,perturbed-humaneval-func_name-num_seeds_10,perturbed-humaneval-func_name-num_seeds_2,perturbed-humaneval-func_name-num_seeds_3,perturbed-humaneval-func_name-num_seeds_4,perturbed-humaneval-func_name-num_seeds_5,perturbed-humaneval-func_name-num_seeds_6,perturbed-humaneval-func_name-num_seeds_7,perturbed-humaneval-func_name-num_seeds_8,perturbed-humaneval-func_name-num_seeds_9,perturbed-humaneval-natgen-num_seeds_1,perturbed-humaneval-natgen-num_seeds_10,perturbed-humaneval-natgen-num_seeds_2,perturbed-humaneval-natgen-num_seeds_3,perturbed-humaneval-natgen-num_seeds_4,perturbed-humaneval-natgen-num_seeds_5,perturbed-humaneval-natgen-num_seeds_6,perturbed-humaneval-natgen-num_seeds_7,perturbed-humaneval-natgen-num_seeds_8,perturbed-humaneval-natgen-num_seeds_9,perturbed-humaneval-nlaugmenter-num_seeds_1,perturbed-humaneval-nlaugmenter-num_seeds_10,perturbed-humaneval-nlaugmenter-num_seeds_2,perturbed-humaneval-nlaugmenter-num_seeds_3,perturbed-humaneval-nlaugmenter-num_seeds_4,perturbed-humaneval-nlaugmenter-num_seeds_5,perturbed-humaneval-nlaugmenter-num_seeds_6,perturbed-humaneval-nlaugmenter-num_seeds_7,perturbed-humaneval-nlaugmenter-num_seeds_8,perturbed-humaneval-nlaugmenter-num_seeds_9,python_bugs,quixbugs,santacoder_fim,starcoder_fim,studenteval}]
+               [--instruction_tokens INSTRUCTION_TOKENS]
+               [--batch_size BATCH_SIZE]
+               [--max_length_generation MAX_LENGTH_GENERATION]
+               [--precision PRECISION] [--load_in_8bit] [--load_in_4bit]
+               [--left_padding] [--limit LIMIT] [--limit_start LIMIT_START]
+               [--save_every_k_tasks SAVE_EVERY_K_TASKS] [--postprocess]
+               [--allow_code_execution] [--generation_only]
+               [--load_generations_path LOAD_GENERATIONS_PATH]
+               [--load_data_path LOAD_DATA_PATH]
+               [--metric_output_path METRIC_OUTPUT_PATH] [--save_generations]
+               [--load_generations_intermediate_paths [LOAD_GENERATIONS_INTERMEDIATE_PATHS ...]]
+               [--save_generations_path SAVE_GENERATIONS_PATH]
+               [--save_references]
+               [--save_references_path SAVE_REFERENCES_PATH] [--prompt PROMPT]
+               [--max_memory_per_gpu MAX_MEMORY_PER_GPU] [--check_references]
+               [--griffin] [--cats] [--spr SPR] [--thr THR] [--check]
+               [--kernelsize KERNELSIZE] [--enable_epatches]
+               [--widthtree WIDTHTREE] [--patternstrict]
+               [--filteractiveenabled]
+main.py: error: unrecognized arguments: --kernel_size 12
+main.py: error: unrecognized arguments: --kernel_size 12
+[2024-07-23 20:11:32,614] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 2) local_rank: 0 (pid: 3849607) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 2 (pid: 3849608)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 2 (pid: 3849609)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 2 (pid: 3849610)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 2 (pid: 3849611)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 2 (pid: 3849612)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 2 (pid: 3849613)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 2 (pid: 3849614)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-23_20:11:32
+  host      : a100-st-p4de24xlarge-983.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 2 (pid: 3849607)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
