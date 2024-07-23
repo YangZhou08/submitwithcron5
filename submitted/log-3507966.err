@@ -1,0 +1,35 @@
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--num_machines` was set to a value of `1`
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:26<01:20, 26.70s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:21, 27.30s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:23, 27.88s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:22, 27.44s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:22, 27.34s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:22, 27.42s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:22, 27.36s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:27<01:22, 27.46s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:50, 25.22s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.67s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.64s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.67s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:52<00:51, 25.91s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.68s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.79s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:51<00:51, 25.69s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.62s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.80s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.82s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.83s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.92s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:15<00:24, 24.83s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.60s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.27s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.63s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.31s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.69s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.30s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.82s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.46s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.66s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.32s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.34s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.68s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.34s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 15.71s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:17<00:00, 19.33s/it]
+  0%|          | 0/48 [00:00<?, ?it/s]  0%|          | 0/48 [00:00<?, ?it/s]  0%|          | 0/48 [00:00<?, ?it/s]  0%|          | 0/48 [00:00<?, ?it/s]  0%|          | 0/48 [00:00<?, ?it/s]/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/bigcode-evaluation-harness/bigcode_eval/utils.py:119: UserWarning: n_copies (n_samples/batch_size) was changed from 1 to 2 because n_tasks isn't proportional to num devices
+  warnings.warn(
+  0%|          | 0/48 [00:00<?, ?it/s]
