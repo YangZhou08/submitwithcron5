@@ -38,8 +38,9 @@ cd /fsx-storygen/beidic/yang/GRIFFIN2
 # cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
 # git checkout addinggriffin 
-# git checkout yangexp2two 
-git checkout yangexp2 
+git add .
+git stash 
+git checkout yangexp2threee 
 git pull 
 
 git pull 
@@ -69,4 +70,8 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-COMMAND_PLACEHOLDER 
+inputdim=(1 2 4 8 16 32 64) 
+for dim in "${inputdim[@]}" 
+do 
+    CUDA_LAUNCH_BLOCKING=1 python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=$dim --tasks gsm8k --batch_size 1 --limit 0.3 
+done 
