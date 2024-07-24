@@ -4,8 +4,8 @@ cd /fsx-storygen/beidic/yang/GRIFFIN2
 git branch 
 git add .
 git stash 
-git checkout yangexp2two 
 git pull 
+git checkout yangexp2 
 ls 
 
 models=(
