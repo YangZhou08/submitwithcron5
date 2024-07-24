@@ -1,0 +1,308 @@
+Already on 'yangexp2two'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-24:20:51:00,675 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,675 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,676 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,676 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,677 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,689 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,693 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:00,693 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,846 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+2024-07-24:20:51:09,871 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'cats': False, 'check': True}
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:16<00:50, 16.88s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:53, 17.73s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.48s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:18<00:55, 18.52s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:53, 17.67s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.64s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.59s/it]Loading checkpoint shards:  25%|██▌       | 1/4 [00:17<00:52, 17.66s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:32, 16.30s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:34<00:34, 17.18s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.98s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.86s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.80s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.84s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.83s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:33<00:33, 16.76s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:48<00:15, 15.90s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:50<00:16, 16.41s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.17s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.23s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:49<00:16, 16.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.28s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.52s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 10.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:51<00:00, 12.84s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.63s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.26s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.65s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.26s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.63s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.25s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.61s/it]
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.64s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 10.25s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:50<00:00, 12.59s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-24:20:52:02,421 INFO     [xhuggingface.py:323] Using 8 devices with data parallelism
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-24:20:52:03,239 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,239 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,317 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 7...
+  0%|          | 0/164 [00:00<?, ?it/s]2024-07-24:20:52:03,376 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,376 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,405 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-07-24:20:52:03,431 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,431 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+100%|██████████| 164/164 [00:00<00:00, 1681.56it/s]
+2024-07-24:20:52:03,460 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 2...
+  0%|          | 0/165 [00:00<?, ?it/s]100%|██████████| 165/165 [00:00<00:00, 1697.03it/s]
+100%|██████████| 165/165 [00:00<00:00, 1691.95it/s]
+2024-07-24:20:52:03,806 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,806 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,810 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,810 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,823 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,823 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,846 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 4...
+2024-07-24:20:52:03,857 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 1...
+  0%|          | 0/165 [00:00<?, ?it/s]2024-07-24:20:52:03,874 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 5...
+  0%|          | 0/165 [00:00<?, ?it/s]  0%|          | 0/165 [00:00<?, ?it/s]2024-07-24:20:52:03,965 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:03,965 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+ 79%|███████▉  | 130/165 [00:00<00:00, 1286.78it/s] 71%|███████   | 117/165 [00:00<00:00, 1168.92it/s]100%|██████████| 165/165 [00:00<00:00, 1223.47it/s]
+ 72%|███████▏  | 118/165 [00:00<00:00, 1176.97it/s]2024-07-24:20:52:04,024 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 6...
+2024-07-24:20:52:04,031 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-24:20:52:04,031 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+100%|██████████| 165/165 [00:00<00:00, 1174.66it/s]
+100%|██████████| 165/165 [00:00<00:00, 1218.25it/s]
+  0%|          | 0/165 [00:00<?, ?it/s]2024-07-24:20:52:04,067 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 3...
+  0%|          | 0/165 [00:00<?, ?it/s] 95%|█████████▌| 157/165 [00:00<00:00, 1568.24it/s]100%|██████████| 165/165 [00:00<00:00, 1544.13it/s]
+ 87%|████████▋ | 143/165 [00:00<00:00, 1421.38it/s]100%|██████████| 165/165 [00:00<00:00, 1427.15it/s]
+2024-07-24:20:52:19,747 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,747 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,747 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,748 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,748 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,748 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,748 INFO     [xevaluator.py:395] Running generate_until requests
+2024-07-24:20:52:19,748 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/165 [00:00<?, ?it/s]Running generate_until requests:   1%|          | 1/165 [00:06<16:28,  6.03s/it]Running generate_until requests:   1%|          | 2/165 [00:12<16:20,  6.01s/it]Running generate_until requests:   2%|▏         | 3/165 [00:17<15:50,  5.87s/it]Running generate_until requests:   2%|▏         | 4/165 [00:22<14:36,  5.44s/it]Running generate_until requests:   3%|▎         | 5/165 [00:27<14:11,  5.32s/it]Running generate_until requests:   4%|▎         | 6/165 [00:32<13:54,  5.25s/it]Running generate_until requests:   4%|▍         | 7/165 [00:35<11:40,  4.43s/it]Running generate_until requests:   5%|▍         | 8/165 [00:39<11:38,  4.45s/it]Running generate_until requests:   5%|▌         | 9/165 [00:44<11:50,  4.55s/it]Running generate_until requests:   6%|▌         | 10/165 [00:50<12:24,  4.81s/it]Running generate_until requests:   7%|▋         | 11/165 [00:53<11:23,  4.44s/it]Running generate_until requests:   7%|▋         | 12/165 [00:56<09:46,  3.83s/it]Running generate_until requests:   8%|▊         | 13/165 [01:01<10:42,  4.22s/it]Running generate_until requests:   8%|▊         | 14/165 [01:04<10:10,  4.04s/it]Running generate_until requests:   9%|▉         | 15/165 [01:08<09:34,  3.83s/it]Running generate_until requests:  10%|▉         | 16/165 [01:11<08:55,  3.59s/it]Running generate_until requests:  10%|█         | 17/165 [01:16<09:44,  3.95s/it]Running generate_until requests:  11%|█         | 18/165 [01:21<10:42,  4.37s/it]Running generate_until requests:  12%|█▏        | 19/165 [01:27<11:34,  4.76s/it]Running generate_until requests:  12%|█▏        | 20/165 [01:31<11:06,  4.60s/it]Running generate_until requests:  13%|█▎        | 21/165 [01:36<11:09,  4.65s/it]Running generate_until requests:  13%|█▎        | 22/165 [01:40<10:44,  4.51s/it]Running generate_until requests:  14%|█▍        | 23/165 [01:42<09:24,  3.97s/it]Running generate_until requests:  15%|█▍        | 24/165 [01:45<08:27,  3.60s/it]Running generate_until requests:  15%|█▌        | 25/165 [01:49<08:35,  3.68s/it]Running generate_until requests:  16%|█▌        | 26/165 [01:55<09:54,  4.28s/it]Running generate_until requests:  16%|█▋        | 27/165 [01:59<10:01,  4.36s/it]Running generate_until requests:  17%|█▋        | 28/165 [02:04<10:14,  4.49s/it]Running generate_until requests:  18%|█▊        | 29/165 [02:06<08:22,  3.70s/it]Running generate_until requests:  18%|█▊        | 30/165 [02:11<09:03,  4.03s/it]Running generate_until requests:  19%|█▉        | 31/165 [02:15<08:54,  3.99s/it]Running generate_until requests:  19%|█▉        | 32/165 [02:18<08:35,  3.87s/it]Running generate_until requests:  20%|██        | 33/165 [02:21<07:57,  3.62s/it]Running generate_until requests:  21%|██        | 34/165 [02:24<07:07,  3.26s/it]Running generate_until requests:  21%|██        | 35/165 [02:27<07:06,  3.28s/it]Running generate_until requests:  22%|██▏       | 36/165 [02:30<07:06,  3.30s/it]Running generate_until requests:  22%|██▏       | 37/165 [02:34<07:02,  3.30s/it]Running generate_until requests:  23%|██▎       | 38/165 [02:38<07:33,  3.57s/it]Running generate_until requests:  24%|██▎       | 39/165 [02:40<06:46,  3.23s/it]Running generate_until requests:  24%|██▍       | 40/165 [02:42<06:02,  2.90s/it]Running generate_until requests:  25%|██▍       | 41/165 [02:47<06:47,  3.29s/it]Running generate_until requests:  25%|██▌       | 42/165 [02:51<07:06,  3.47s/it]Running generate_until requests:  26%|██▌       | 43/165 [02:53<06:14,  3.07s/it]Running generate_until requests:  27%|██▋       | 44/165 [02:56<06:20,  3.14s/it]Running generate_until requests:  27%|██▋       | 45/165 [02:58<05:52,  2.94s/it]Running generate_until requests:  28%|██▊       | 46/165 [03:02<06:04,  3.06s/it]Running generate_until requests:  28%|██▊       | 47/165 [03:07<07:12,  3.66s/it]Running generate_until requests:  29%|██▉       | 48/165 [03:11<07:19,  3.76s/it]Running generate_until requests:  30%|██▉       | 49/165 [03:13<06:29,  3.36s/it]Running generate_until requests:  30%|███       | 50/165 [03:17<06:24,  3.35s/it]Running generate_until requests:  31%|███       | 51/165 [03:20<06:40,  3.51s/it]Running generate_until requests:  32%|███▏      | 52/165 [03:24<06:40,  3.54s/it]Running generate_until requests:  32%|███▏      | 53/165 [03:28<06:41,  3.58s/it]Running generate_until requests:  33%|███▎      | 54/165 [03:31<06:39,  3.60s/it]Running generate_until requests:  33%|███▎      | 55/165 [03:34<06:17,  3.43s/it]Running generate_until requests:  34%|███▍      | 56/165 [03:37<05:50,  3.22s/it]Running generate_until requests:  35%|███▍      | 57/165 [03:40<05:21,  2.98s/it]Running generate_until requests:  35%|███▌      | 58/165 [03:43<05:38,  3.17s/it]Running generate_until requests:  36%|███▌      | 59/165 [03:46<05:30,  3.12s/it]Running generate_until requests:  36%|███▋      | 60/165 [03:49<05:15,  3.00s/it]Running generate_until requests:  37%|███▋      | 61/165 [03:52<05:12,  3.00s/it]Running generate_until requests:  38%|███▊      | 62/165 [03:56<05:55,  3.45s/it]Running generate_until requests:  38%|███▊      | 63/165 [04:01<06:33,  3.86s/it]Running generate_until requests:  39%|███▉      | 64/165 [04:05<06:39,  3.96s/it]Running generate_until requests:  39%|███▉      | 65/165 [04:08<06:08,  3.68s/it]Running generate_until requests:  40%|████      | 66/165 [04:12<05:53,  3.57s/it]Running generate_until requests:  41%|████      | 67/165 [04:21<08:26,  5.16s/it]Running generate_until requests:  41%|████      | 68/165 [04:25<07:52,  4.87s/it]Running generate_until requests:  42%|████▏     | 69/165 [04:28<07:03,  4.41s/it]Running generate_until requests:  42%|████▏     | 70/165 [04:35<08:16,  5.22s/it]Running generate_until requests:  43%|████▎     | 71/165 [04:38<06:52,  4.39s/it]Running generate_until requests:  44%|████▎     | 72/165 [04:40<05:53,  3.80s/it]Running generate_until requests:  44%|████▍     | 73/165 [04:43<05:35,  3.65s/it]Running generate_until requests:  45%|████▍     | 74/165 [04:46<04:58,  3.28s/it]Running generate_until requests:  45%|████▌     | 75/165 [04:49<05:03,  3.38s/it]Running generate_until requests:  46%|████▌     | 76/165 [04:54<05:22,  3.62s/it]Running generate_until requests:  47%|████▋     | 77/165 [04:58<05:33,  3.79s/it]Running generate_until requests:  47%|████▋     | 78/165 [05:01<05:18,  3.66s/it]Running generate_until requests:  48%|████▊     | 79/165 [05:04<04:50,  3.38s/it]Running generate_until requests:  48%|████▊     | 80/165 [05:06<04:22,  3.09s/it]Running generate_until requests:  49%|████▉     | 81/165 [05:09<04:18,  3.08s/it]Running generate_until requests:  50%|████▉     | 82/165 [05:12<03:52,  2.80s/it]Running generate_until requests:  50%|█████     | 83/165 [05:14<03:40,  2.69s/it]Running generate_until requests:  51%|█████     | 84/165 [05:17<03:52,  2.87s/it]Running generate_until requests:  52%|█████▏    | 85/165 [05:21<04:14,  3.18s/it]Running generate_until requests:  52%|█████▏    | 86/165 [05:24<04:07,  3.14s/it]Running generate_until requests:  53%|█████▎    | 87/165 [05:27<03:55,  3.02s/it]Running generate_until requests:  53%|█████▎    | 88/165 [05:30<04:00,  3.12s/it]Running generate_until requests:  54%|█████▍    | 89/165 [05:34<04:14,  3.35s/it]Running generate_until requests:  55%|█████▍    | 90/165 [05:37<03:57,  3.16s/it]Running generate_until requests:  55%|█████▌    | 91/165 [05:41<04:10,  3.38s/it]Running generate_until requests:  56%|█████▌    | 92/165 [05:43<03:45,  3.10s/it]Running generate_until requests:  56%|█████▋    | 93/165 [05:46<03:41,  3.07s/it]Running generate_until requests:  57%|█████▋    | 94/165 [05:48<03:11,  2.70s/it]Running generate_until requests:  58%|█████▊    | 95/165 [05:51<03:21,  2.88s/it]Running generate_until requests:  58%|█████▊    | 96/165 [05:54<03:09,  2.74s/it]Running generate_until requests:  59%|█████▉    | 97/165 [05:57<03:12,  2.83s/it]Running generate_until requests:  59%|█████▉    | 98/165 [06:00<03:08,  2.81s/it]Running generate_until requests:  60%|██████    | 99/165 [06:02<02:57,  2.70s/it]Running generate_until requests:  61%|██████    | 100/165 [06:06<03:12,  2.97s/it]Running generate_until requests:  61%|██████    | 101/165 [06:08<03:00,  2.83s/it]Running generate_until requests:  62%|██████▏   | 102/165 [06:13<03:29,  3.33s/it]Running generate_until requests:  62%|██████▏   | 103/165 [06:16<03:31,  3.41s/it]Running generate_until requests:  63%|██████▎   | 104/165 [06:19<03:15,  3.20s/it]Running generate_until requests:  64%|██████▎   | 105/165 [06:21<02:58,  2.97s/it]Running generate_until requests:  64%|██████▍   | 106/165 [06:23<02:35,  2.63s/it]Running generate_until requests:  65%|██████▍   | 107/165 [06:28<03:10,  3.28s/it]Running generate_until requests:  65%|██████▌   | 108/165 [06:30<02:52,  3.03s/it]Running generate_until requests:  66%|██████▌   | 109/165 [06:32<02:29,  2.68s/it]Running generate_until requests:  67%|██████▋   | 110/165 [06:34<02:13,  2.43s/it]Running generate_until requests:  67%|██████▋   | 111/165 [06:37<02:20,  2.60s/it]Running generate_until requests:  68%|██████▊   | 112/165 [06:40<02:19,  2.64s/it]Running generate_until requests:  68%|██████▊   | 113/165 [06:43<02:22,  2.75s/it]Running generate_until requests:  69%|██████▉   | 114/165 [06:46<02:24,  2.83s/it]Running generate_until requests:  70%|██████▉   | 115/165 [06:50<02:37,  3.15s/it]Running generate_until requests:  70%|███████   | 116/165 [06:52<02:19,  2.84s/it]Running generate_until requests:  71%|███████   | 117/165 [06:54<02:06,  2.63s/it]Running generate_until requests:  72%|███████▏  | 118/165 [07:00<02:46,  3.55s/it]Running generate_until requests:  72%|███████▏  | 119/165 [07:04<02:47,  3.65s/it]Running generate_until requests:  73%|███████▎  | 120/165 [07:05<02:19,  3.11s/it]Running generate_until requests:  73%|███████▎  | 121/165 [07:10<02:35,  3.53s/it]Running generate_until requests:  74%|███████▍  | 122/165 [07:13<02:25,  3.37s/it]Running generate_until requests:  75%|███████▍  | 123/165 [07:15<02:09,  3.09s/it]Running generate_until requests:  75%|███████▌  | 124/165 [07:18<02:02,  2.98s/it]Running generate_until requests:  76%|███████▌  | 125/165 [07:21<02:03,  3.08s/it]Running generate_until requests:  76%|███████▋  | 126/165 [07:23<01:45,  2.71s/it]Running generate_until requests:  77%|███████▋  | 127/165 [07:26<01:39,  2.62s/it]Running generate_until requests:  78%|███████▊  | 128/165 [07:29<01:41,  2.75s/it]Running generate_until requests:  78%|███████▊  | 129/165 [07:31<01:38,  2.74s/it]Running generate_until requests:  79%|███████▉  | 130/165 [07:35<01:38,  2.82s/it]Running generate_until requests:  79%|███████▉  | 131/165 [07:38<01:37,  2.88s/it]Running generate_until requests:  80%|████████  | 132/165 [07:40<01:27,  2.66s/it]Running generate_until requests:  81%|████████  | 133/165 [07:42<01:22,  2.59s/it]Running generate_until requests:  81%|████████  | 134/165 [07:44<01:13,  2.36s/it]Running generate_until requests:  82%|████████▏ | 135/165 [07:47<01:19,  2.65s/it]Running generate_until requests:  82%|████████▏ | 136/165 [07:49<01:12,  2.49s/it]Running generate_until requests:  83%|████████▎ | 137/165 [07:51<01:06,  2.38s/it]Running generate_until requests:  84%|████████▎ | 138/165 [07:53<01:00,  2.22s/it]Running generate_until requests:  84%|████████▍ | 139/165 [07:56<00:59,  2.29s/it]Running generate_until requests:  85%|████████▍ | 140/165 [07:59<01:07,  2.70s/it]Running generate_until requests:  85%|████████▌ | 141/165 [08:03<01:13,  3.06s/it]Running generate_until requests:  86%|████████▌ | 142/165 [08:07<01:12,  3.14s/it]Running generate_until requests:  87%|████████▋ | 143/165 [08:10<01:12,  3.30s/it]Running generate_until requests:  87%|████████▋ | 144/165 [08:13<01:03,  3.04s/it]Running generate_until requests:  88%|████████▊ | 145/165 [08:15<00:58,  2.94s/it]Running generate_until requests:  88%|████████▊ | 146/165 [08:19<00:58,  3.05s/it]Running generate_until requests:  89%|████████▉ | 147/165 [08:22<00:57,  3.22s/it]Running generate_until requests:  90%|████████▉ | 148/165 [08:25<00:50,  2.98s/it]Running generate_until requests:  90%|█████████ | 149/165 [08:28<00:49,  3.10s/it]Running generate_until requests:  91%|█████████ | 150/165 [08:31<00:43,  2.91s/it]Running generate_until requests:  92%|█████████▏| 151/165 [08:33<00:37,  2.67s/it]Running generate_until requests:  92%|█████████▏| 152/165 [08:36<00:36,  2.78s/it]Running generate_until requests:  93%|█████████▎| 153/165 [08:39<00:34,  2.85s/it]Running generate_until requests:  93%|█████████▎| 154/165 [08:42<00:31,  2.90s/it]Running generate_until requests:  94%|█████████▍| 155/165 [08:44<00:27,  2.76s/it]Running generate_until requests:  95%|█████████▍| 156/165 [08:48<00:26,  2.92s/it]Running generate_until requests:  95%|█████████▌| 157/165 [08:50<00:21,  2.68s/it]Running generate_until requests:  96%|█████████▌| 158/165 [08:53<00:20,  2.96s/it]Running generate_until requests:  96%|█████████▋| 159/165 [08:55<00:16,  2.71s/it]Running generate_until requests:  97%|█████████▋| 160/165 [08:58<00:12,  2.55s/it]Running generate_until requests:  98%|█████████▊| 161/165 [09:00<00:10,  2.52s/it]Running generate_until requests:  98%|█████████▊| 162/165 [09:02<00:07,  2.41s/it]Running generate_until requests:  99%|█████████▉| 163/165 [09:04<00:04,  2.32s/it]Running generate_until requests:  99%|█████████▉| 164/165 [09:06<00:02,  2.18s/it]Running generate_until requests: 100%|██████████| 165/165 [09:09<00:00,  2.44s/it]Running generate_until requests: 100%|██████████| 165/165 [09:09<00:00,  3.33s/it]
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+                cli_evaluate()            cli_evaluate()cli_evaluate()cli_evaluate()
+cli_evaluate()cli_evaluate()cli_evaluate()
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+    cli_evaluate()    
+results = xevaluator.simple_evaluate(  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 384, in cli_evaluate
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+            results = xevaluator.simple_evaluate(results = xevaluator.simple_evaluate(results = xevaluator.simple_evaluate(
+
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+      File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = xevaluator.simple_evaluate(results = xevaluator.simple_evaluate(
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = xevaluator.simple_evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+            return fn(*args, **kwargs)        return fn(*args, **kwargs)        return fn(*args, **kwargs)
+return fn(*args, **kwargs)return fn(*args, **kwargs)
+return fn(*args, **kwargs)return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 262, in simple_evaluate
+                        results = evaluate(    results = evaluate(results = evaluate(results = evaluate(results = evaluate(results = evaluate(
+results = evaluate(
+
+
+
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    results = evaluate(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/lm_eval/utils.py", line 288, in _wrapper
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+            return fn(*args, **kwargs)            return fn(*args, **kwargs)return fn(*args, **kwargs)
+return fn(*args, **kwargs)return fn(*args, **kwargs)return fn(*args, **kwargs)
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    return fn(*args, **kwargs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xevaluator.py", line 407, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+    averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+ZeroDivisionError: division by zero
+    averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+ZeroDivisionError: division by zero
+            resps = getattr(lm, reqtype)(cloned_reqs)        resps = getattr(lm, reqtype)(cloned_reqs)resps = getattr(lm, reqtype)(cloned_reqs)
+resps = getattr(lm, reqtype)(cloned_reqs)resps = getattr(lm, reqtype)(cloned_reqs)
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+
+
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+    resps = getattr(lm, reqtype)(cloned_reqs)
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/xhuggingface.py", line 1288, in generate_until
+    averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+ZeroDivisionError: division by zero
+    averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+ZeroDivisionError: division by zero
+            averagerollbacklengtherror = total_roll_back_length_error / errorinstance averagerollbacklengtherror = total_roll_back_length_error / errorinstance averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+
+
+ZeroDivisionError: division by zero
+ZeroDivisionErrorZeroDivisionError: : division by zerodivision by zero
+
+    averagerollbacklengtherror = total_roll_back_length_error / errorinstance 
+ZeroDivisionError: division by zero
+[2024-07-24 21:09:12,551] torch.distributed.elastic.multiprocessing.api: [WARNING] Sending process 3579923 closing signal SIGTERM
+[2024-07-24 21:09:12,966] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 3579922) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 3579924)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 3579925)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 3579926)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 3579927)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 3579928)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 3579929)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-24_21:09:12
+  host      : a100-st-p4de24xlarge-344.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 3579922)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
