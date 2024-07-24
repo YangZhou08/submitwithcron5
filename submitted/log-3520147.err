@@ -1,0 +1,160 @@
+Already on 'yangexp2two'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+The following values were not passed to `accelerate launch` and had defaults used instead:
+		More than one GPU was found, enabling multi-GPU training.
+		If this was unintended please pass in `--num_processes=1`.
+	`--mixed_precision` was set to a value of `'no'`
+	`--dynamo_backend` was set to a value of `'no'`
+To avoid this warning pass in values for each of the problematic parameters or run `accelerate config`.
+2024-07-24:10:08:13,243 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,332 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,347 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,457 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,460 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,461 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,464 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:13,482 INFO     [main.py:288] Verbosity set to INFO
+2024-07-24:10:08:20,215 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,218 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,267 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,280 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,294 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,793 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:20,886 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+2024-07-24:10:08:21,069 ERROR    [main.py:344] Tasks were not found: gsm8k-cot
+                                               Try `lm-eval --tasks list` for list of available tasks
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 465, in <module>
+    cli_evaluate()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/main.py", line 348, in cli_evaluate
+    raise ValueError(
+ValueError: Tasks not found: gsm8k-cot. Try `lm-eval --tasks list` for list of available tasks, or '--verbosity DEBUG' to troubleshoot task registration issues.
+[2024-07-24 10:08:22,902] torch.distributed.elastic.multiprocessing.api: [ERROR] failed (exitcode: 1) local_rank: 0 (pid: 2238871) of binary: /fsx-storygen/beidic/anaconda3/envs/griffin/bin/python3.9
+Traceback (most recent call last):
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/bin/accelerate", line 8, in <module>
+    sys.exit(main())
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/accelerate_cli.py", line 47, in main
+    args.func(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 985, in launch_command
+    multi_gpu_launcher(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/accelerate/commands/launch.py", line 654, in multi_gpu_launcher
+    distrib_run.run(args)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/run.py", line 803, in run
+    elastic_launch(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 135, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/fsx-storygen/beidic/anaconda3/envs/griffin/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 268, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+main.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 2238872)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 2238873)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 2238874)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[4]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 4 (local_rank: 4)
+  exitcode  : 1 (pid: 2238875)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[5]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 5 (local_rank: 5)
+  exitcode  : 1 (pid: 2238876)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[6]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 6 (local_rank: 6)
+  exitcode  : 1 (pid: 2238877)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[7]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 7 (local_rank: 7)
+  exitcode  : 1 (pid: 2238878)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2024-07-24_10:08:22
+  host      : a100-st-p4de24xlarge-61.fair-a100.hpcaas
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 2238871)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
