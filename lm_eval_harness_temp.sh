@@ -38,7 +38,8 @@ cd /fsx-storygen/beidic/yang/GRIFFIN2
 # cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
 # git checkout exp2 
 # git checkout addinggriffin 
-git checkout yangexp2two 
+# git checkout yangexp2two 
+git checkout yangexp2 
 git pull 
 
 git pull 
