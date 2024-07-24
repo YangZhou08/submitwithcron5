@@ -19,20 +19,21 @@ commands=(
     # "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --griffin --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --cats --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution"
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1 --patternstrict" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4 --patternstrict" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6 --patternstrict" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8 --patternstrict" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6" 
-    "accelerate launch --num_processes 8 main.py --tasks mbppplus --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8" 
+    # "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1" 
+    # "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4" 
+    # "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6" 
+    # "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 1 --kernelsize 16" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 4 --kernelsize 16" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 6 --kernelsize 16" 
+    "accelerate launch --num_processes 8 main.py --tasks humaneval --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 512 --enable_epatches --allow_code_execution --widthtree 8 --kernelsize 16" 
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --griffin --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --cats --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --griffin --check --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
     # "accelerate launch --num_processes 8 main.py --tasks mbpp --do_sample False --cats --check --n_samples 1 --batch_size 1 --max_length_generation 2048 --enable_epatches --allow_code_execution"
-) 
+)
+
 # Iterate over the commands and submit a job for each
 for cmd in "${commands[@]}"; do
     for model in "${models[@]}"; do
