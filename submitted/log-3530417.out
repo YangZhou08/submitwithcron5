@@ -1,0 +1,32 @@
+No local changes to save
+Your branch is behind 'origin/yangexp2threee' by 34 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Updating 2ecfcc3..dd0b183
+Fast-forward
+ cottrial.ipynb                          | 114 ++++++++++++-
+ debugging1.sh                           |   6 +-
+ llama12_static_cache_sdpa.py            |   8 +-
+ llama12_static_cache_sdpa_with_check.py | 292 ++++++++++++++++++--------------
+ lookingatattention.py                   | 114 +++++++------
+ mlp_sequencelength_diff.py              |  23 +++
+ setupremote.sh                          |   5 +
+ trialcudagraph.py                       |  75 ++++----
+ xhuggingface.py                         |   6 +-
+ 9 files changed, 412 insertions(+), 231 deletions(-)
+ create mode 100644 mlp_sequencelength_diff.py
+ create mode 100644 setupremote.sh
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=1', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+beam width is 8
+beamwidth is 1
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=2', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+beam width is 8
+beamwidth is 1
+Namespace(model='xhf', tasks='gsm8k', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=4', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+beam width is 8
