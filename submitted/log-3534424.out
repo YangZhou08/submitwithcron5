@@ -31,3 +31,22 @@ beamwidth is 1
 beamwidth is 1
 beamwidth is 1
 beamwidth is 1
+idx 0 start communication
+idx 5 start communication
+idx 3 start communication
+idx 1 start communication
+idx 7 start communication
+idx 4 start communication
+idx 2 start communication
+idx 6 start communication
++----------------+---------------------------+-----------------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |
++================+===========================+=============================+
+|           1320 |                    118336 |                     89.6485 |
++----------------+---------------------------+-----------------------------+
+xhf (pretrained=meta-llama/Meta-Llama-3-8B-Instruct,cats=False,check=False), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|  Tasks  |Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|---------|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k_cot|      3|strict-match    |     8|exact_match|0.7612|±  |0.0117|
+|         |       |flexible-extract|     8|exact_match|0.7672|±  |0.0116|
+
