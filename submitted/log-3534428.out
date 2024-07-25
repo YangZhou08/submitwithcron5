@@ -36,3 +36,17 @@ idx 0 start communication
 idx 1 start communication
 idx 2 start communication
 idx 7 start communication
+idx 6 start communication
+idx 5 start communication
+idx 3 start communication
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+|   Num Sentence |   Total Generation Length |   Average Generation Length |   Total Steps |   Num Steps |     AAL |   Total Roll Back Length Error |   Error Instance |   Average Roll Back Length Error |   Effective Tree Size |   Drafting Tree Size |
++================+===========================+=============================+===============+=============+=========+================================+==================+==================================+=======================+======================+
+|           1320 |                    117034 |                     88.6621 |         94599 |        6300 | 15.0157 |                           6201 |              743 |                           8.3459 |                     0 |               3.8125 |
++----------------+---------------------------+-----------------------------+---------------+-------------+---------+--------------------------------+------------------+----------------------------------+-----------------------+----------------------+
+xhf (pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,widthtree=4,check=True,kernel_size=16,spr=0.5,thr=0.05), gen_kwargs: (None), limit: None, num_fewshot: None, batch_size: 1
+|  Tasks  |Version|     Filter     |n-shot|  Metric   |Value |   |Stderr|
+|---------|------:|----------------|-----:|-----------|-----:|---|-----:|
+|gsm8k_cot|      3|strict-match    |     8|exact_match|0.7089|±  |0.0125|
+|         |       |flexible-extract|     8|exact_match|0.7172|±  |0.0124|
+
