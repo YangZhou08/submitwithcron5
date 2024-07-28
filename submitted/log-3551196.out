@@ -1,0 +1,245 @@
+Updating e12829f..4ef3e8a
+Fast-forward
+ debugging1.sh                           |  4 ++--
+ llama12_static_cache_sdpa_with_check.py | 15 +++++++--------
+ xhuggingface.py                         |  4 ++--
+ 3 files changed, 11 insertions(+), 12 deletions(-)
+Already up to date.
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+/fsx-storygen/beidic/anaconda3/envs/griffin/bin/python
+The token has not been saved to the git credentials helper. Pass `add_to_git_credential=True` in this function directly or `--add-to-git-credential` if using via `huggingface-cli` if you want to set the git credential as well.
+Token is valid (permission: fineGrained).
+Your token has been saved to /data/home/beidic/.cache/huggingface/token
+Login successful
+Namespace(model='xhf', tasks='gsm8k_cot', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+input_ids shape torch.Size([1, 789])
+warming up
+time taken for a single forward pass 0.012230753898620605
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018095874786376955
+lengthaccepts: 4
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 5
+lengthaccepts: 15
+acceptance length on average 12.5
+time taken for a single forward pass 1.2690534591674805
+per token generation time 0.016063967837563045
+input_ids shape torch.Size([1, 781])
+warming up
+time taken for a single forward pass 0.012211418151855469
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.01808934211730957
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 13.9
+time taken for a single forward pass 0.9963178634643555
+per token generation time 0.014337793181214151
+input_ids shape torch.Size([1, 781])
+warming up
+time taken for a single forward pass 0.012198472023010254
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018098330497741698
+lengthaccepts: 15
+lengthaccepts: 2
+lengthaccepts: 9
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 13.5
+time taken for a single forward pass 1.2420299053192139
+per token generation time 0.014799161299371519
+input_ids shape torch.Size([1, 781])
+warming up
+time taken for a single forward pass 0.012206816673278808
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018099379539489747
+lengthaccepts: 2
+lengthaccepts: 1
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.954545454545455
+time taken for a single forward pass 1.339858055114746
+per token generation time 0.015339428110967708
+input_ids shape torch.Size([1, 780])
+warming up
+time taken for a single forward pass 0.012212729454040528
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018098998069763183
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 13.423076923076923
+time taken for a single forward pass 0.9963371753692627
+per token generation time 0.014793915084645719
+input_ids shape torch.Size([1, 778])
+warming up
+time taken for a single forward pass 0.012206220626831054
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.01809117794036865
+lengthaccepts: 1
+lengthaccepts: 0
+lengthaccepts: 0
+lengthaccepts: 0
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.294117647058824
+time taken for a single forward pass 1.7469923496246338
+per token generation time 0.0160139004389445
+input_ids shape torch.Size([1, 775])
+warming up
+time taken for a single forward pass 0.01221623420715332
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.01809062957763672
+lengthaccepts: 15
+lengthaccepts: 10
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.64102564102564
+time taken for a single forward pass 1.0642433166503906
+per token generation time 0.015650691003092375
+input_ids shape torch.Size([1, 772])
+warming up
+time taken for a single forward pass 0.01221311092376709
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018086338043212892
+lengthaccepts: 9
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.886363636363637
+time taken for a single forward pass 1.0764119625091553
+per token generation time 0.015397538112688668
+input_ids shape torch.Size([1, 768])
+warming up
+time taken for a single forward pass 0.012202930450439454
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018082165718078615
+lengthaccepts: 10
+lengthaccepts: 9
+lengthaccepts: 2
+lengthaccepts: 9
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.66
+time taken for a single forward pass 1.377568244934082
+per token generation time 0.015624208624688215
+input_ids shape torch.Size([1, 768])
+warming up
+time taken for a single forward pass 0.01221308708190918
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018091034889221192
+lengthaccepts: 1
+lengthaccepts: 15
+lengthaccepts: 9
+lengthaccepts: 3
+lengthaccepts: 7
+lengthaccepts: 2
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.206896551724139
+time taken for a single forward pass 1.6722757816314697
+per token generation time 0.01617859254909467
+input_ids shape torch.Size([1, 765])
+warming up
+time taken for a single forward pass 0.012209463119506835
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018082046508789064
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 6
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.365079365079366
+time taken for a single forward pass 1.1136784553527832
+per token generation time 0.01598937464802943
+input_ids shape torch.Size([1, 764])
+warming up
+time taken for a single forward pass 0.012212610244750977
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.01808311939239502
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 12
+lengthaccepts: 9
+acceptance length on average 12.5
+time taken for a single forward pass 1.1132662296295166
+per token generation time 0.015831258226547563
+input_ids shape torch.Size([1, 764])
+warming up
+time taken for a single forward pass 0.012209367752075196
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018085432052612305
+lengthaccepts: 1
+lengthaccepts: 0
+lengthaccepts: 15
+lengthaccepts: 7
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 9
+acceptance length on average 12.253333333333334
+time taken for a single forward pass 1.5444786548614502
+per token generation time 0.016117343187564304
+input_ids shape torch.Size([1, 760])
+warming up
+time taken for a single forward pass 0.0122222900390625
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018085217475891112
+lengthaccepts: 1
+lengthaccepts: 15
+lengthaccepts: 4
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.222222222222221
+time taken for a single forward pass 1.3176465034484863
+per token generation time 0.016157466507302917
+input_ids shape torch.Size([1, 758])
+warming up
+time taken for a single forward pass 0.012209916114807129
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.01808924674987793
+lengthaccepts: 15
+lengthaccepts: 8
+lengthaccepts: 13
+lengthaccepts: 15
+lengthaccepts: 15
+acceptance length on average 12.337209302325581
+time taken for a single forward pass 1.1129741668701172
+per token generation time 0.016019520779702232
+input_ids shape torch.Size([1, 755])
+warming up
+time taken for a single forward pass 0.012207603454589844
+executinginputidsfull shape torch.Size([1, 16])
+warming up full
+full time taken for a single forward pass 0.018096280097961426
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15
+lengthaccepts: 15

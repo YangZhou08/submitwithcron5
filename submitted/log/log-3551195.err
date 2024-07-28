@@ -1,0 +1,26 @@
+Already on 'yangexp2threee'
+error: cannot lock ref 'refs/remotes/origin/yangexp2threee': is at 4ef3e8a08cb284b5aea9f17030f566ae734f6252 but expected e12829f1d745757a95fa731ce90a16dcd92ef5bb
+From github.com:Infini-AI-Lab/GRIFFIN2
+ ! e12829f..4ef3e8a  yangexp2threee -> origin/yangexp2threee  (unable to update local ref)
+error: Your local changes to the following files would be overwritten by merge:
+	debugging1.sh
+	llama12_static_cache_sdpa_with_check.py
+	xhuggingface.py
+Please commit your changes or stash them before you merge.
+Aborting
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-07-28:00:21:11,059 INFO     [main.py:288] Verbosity set to INFO
+2024-07-28:00:21:21,832 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-28:00:21:21,833 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-28:00:21:21,858 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-28:00:21:21,858 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 1500, 'kernel_size': 10, 'thr': 0.05}
+2024-07-28:00:21:21,867 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:19,  6.44s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.25s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.32s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.03s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-28:00:22:22,786 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-28:00:22:22,787 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-28:00:22:22,870 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 42%|████▏     | 168/396 [00:00<00:00, 1673.95it/s] 85%|████████▍ | 336/396 [00:00<00:00, 1672.82it/s]100%|██████████| 396/396 [00:00<00:00, 1671.50it/s]
+2024-07-28:00:22:23,116 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 1/396 [00:13<1:27:32, 13.30s/it]Running generate_until requests:   1%|          | 2/396 [00:24<1:18:35, 11.97s/it]Running generate_until requests:   1%|          | 3/396 [00:35<1:15:32, 11.53s/it]Running generate_until requests:   1%|          | 4/396 [00:46<1:14:28, 11.40s/it]Running generate_until requests:   1%|▏         | 5/396 [00:56<1:11:15, 10.93s/it]Running generate_until requests:   2%|▏         | 6/396 [01:05<1:07:19, 10.36s/it]Running generate_until requests:   2%|▏         | 7/396 [01:14<1:03:50,  9.85s/it]Running generate_until requests:   2%|▏         | 8/396 [01:23<1:01:35,  9.52s/it]Running generate_until requests:   2%|▏         | 9/396 [01:32<1:00:29,  9.38s/it]Running generate_until requests:   3%|▎         | 10/396 [01:41<59:16,  9.21s/it] Running generate_until requests:   3%|▎         | 11/396 [01:50<58:14,  9.08s/it]Running generate_until requests:   3%|▎         | 12/396 [01:59<57:42,  9.02s/it]Running generate_until requests:   3%|▎         | 13/396 [02:08<57:42,  9.04s/it]Running generate_until requests:   4%|▎         | 14/396 [02:17<57:32,  9.04s/it]Running generate_until requests:   4%|▍         | 15/396 [02:26<57:06,  8.99s/it]Running generate_until requests:   4%|▍         | 16/396 [02:34<56:31,  8.92s/it]
