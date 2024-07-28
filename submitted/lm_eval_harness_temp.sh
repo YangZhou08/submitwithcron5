@@ -6,7 +6,7 @@
 
 #SBATCH --output=/fsx-storygen/beidic/yang/submitwithcron5/submitted/log-%j.out
 ## filename for job standard error output (stderr)
-#SBATCH --error=/fsx-storygen/beidic/yang/submitwithcron5/submitted/log/log-%j.err
+#SBATCH --error=/fsx-storygen/beidic/yang/submitwithcron5/submitted/log-%j.err
 
 #SBATCH --time=2:00:00 
 
