@@ -1,0 +1,58 @@
+Already on 'yangexp2threee'
+From github.com:Infini-AI-Lab/GRIFFIN2
+   64dbe5c..27e7195  yangexp2threee -> origin/yangexp2threee
+   161bd06..e610695  yangex3        -> origin/yangex3
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-07-29:09:16:13,467 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:09:16:24,120 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:09:16:24,121 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:09:16:24,148 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:09:16:24,148 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False, 'contextlength': 128, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:09:16:24,158 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:19,  6.55s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.38s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.10s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:09:16:46,671 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:16:46,671 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:16:46,749 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 169/396 [00:00<00:00, 1689.94it/s] 85%|████████▌ | 338/396 [00:00<00:00, 1688.83it/s]100%|██████████| 396/396 [00:00<00:00, 1687.20it/s]
+2024-07-29:09:16:46,992 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:24<?, ?it/s]
+2024-07-29:09:17:22,368 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:09:17:29,838 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:09:17:29,839 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:09:17:29,846 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:09:17:29,846 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 128, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:09:17:29,856 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.59s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.38s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:10<00:03,  3.29s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.70s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:09:18:20,588 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:18:20,589 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:18:20,619 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 170/396 [00:00<00:00, 1695.03it/s] 86%|████████▌ | 341/396 [00:00<00:00, 1698.38it/s]100%|██████████| 396/396 [00:00<00:00, 1696.26it/s]
+2024-07-29:09:18:20,861 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:19<?, ?it/s]
+2024-07-29:09:18:51,541 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:09:18:58,932 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:09:18:58,932 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:09:18:58,939 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:09:18:58,939 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False, 'contextlength': 256, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:09:18:58,947 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.20s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.10s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.18s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.55s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:09:19:11,040 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:19:11,040 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:09:19:11,069 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 42%|████▏     | 166/396 [00:00<00:00, 1659.02it/s] 85%|████████▍ | 335/396 [00:00<00:00, 1673.58it/s]100%|██████████| 396/396 [00:00<00:00, 1671.36it/s]
+2024-07-29:09:19:11,314 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:24<?, ?it/s]
+2024-07-29:09:19:46,985 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:09:19:54,301 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:09:19:54,302 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:09:19:54,308 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:09:19:54,308 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 256, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:09:19:54,316 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.43s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.22s/it]
