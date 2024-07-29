@@ -290,3 +290,78 @@ Special tokens have been added in the vocabulary, make sure the associated word 
 2024-07-29:06:44:26,012 INFO     [xhuggingface.py:168] Using device 'cuda'
 Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
 Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.11s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.19s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.55s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:06:45:16,444 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:45:16,444 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:45:16,475 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 169/396 [00:00<00:00, 1686.41it/s] 86%|████████▌ | 339/396 [00:00<00:00, 1691.64it/s]100%|██████████| 396/396 [00:00<00:00, 1689.87it/s]
+2024-07-29:06:45:16,718 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:11<?, ?it/s]
+2024-07-29:06:45:39,212 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:06:45:46,474 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:06:45:46,475 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:06:45:46,480 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:06:45:46,480 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False, 'contextlength': 2048, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:06:45:46,490 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.50s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.26s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.60s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:06:45:58,797 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:45:58,797 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:45:58,827 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 169/396 [00:00<00:00, 1687.31it/s] 85%|████████▌ | 338/396 [00:00<00:00, 1686.97it/s]100%|██████████| 396/396 [00:00<00:00, 1683.99it/s]
+2024-07-29:06:45:59,069 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:12<?, ?it/s]
+2024-07-29:06:46:22,921 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:06:46:30,204 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:06:46:30,205 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:06:46:30,210 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:06:46:30,210 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 2048, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:06:46:30,219 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.29s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.29s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.21s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.58s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:06:47:20,748 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:47:20,748 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:47:20,779 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 169/396 [00:00<00:00, 1683.21it/s] 85%|████████▌ | 338/396 [00:00<00:00, 1685.60it/s]100%|██████████| 396/396 [00:00<00:00, 1684.06it/s]
+2024-07-29:06:47:21,022 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:11<?, ?it/s]
+2024-07-29:06:47:43,560 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:06:47:50,801 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:06:47:50,802 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:06:47:50,808 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:06:47:50,808 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False, 'contextlength': 3072, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:06:47:50,817 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.32s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.16s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.59s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:06:48:02,947 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:48:02,947 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:48:02,983 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 169/396 [00:00<00:00, 1684.21it/s] 85%|████████▌ | 338/396 [00:00<00:00, 1682.59it/s]100%|██████████| 396/396 [00:00<00:00, 1681.70it/s]
+2024-07-29:06:48:03,228 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:14<?, ?it/s]
+2024-07-29:06:48:28,541 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:06:48:35,821 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:06:48:35,822 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:06:48:35,827 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:06:48:35,828 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 3072, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:06:48:35,836 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.15s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.53s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:06:49:26,459 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:49:26,459 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:06:49:26,489 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 42%|████▏     | 165/396 [00:00<00:00, 1648.61it/s] 85%|████████▍ | 335/396 [00:00<00:00, 1676.35it/s]100%|██████████| 396/396 [00:00<00:00, 1673.09it/s]
+2024-07-29:06:49:26,734 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:12<?, ?it/s]
+2024-07-29:06:49:49,869 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:06:49:57,165 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:06:49:57,166 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:06:49:57,172 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:06:49:57,172 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': False, 'check': False, 'contextlength': 4096, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'sdpa'}
+2024-07-29:06:49:57,181 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:10,  3.35s/it]
