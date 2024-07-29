@@ -69,4 +69,9 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7
 # echo 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 | transformers-cli login 
 huggingface-cli login --token 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 
 
-python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=1500,kernel_size=10,thr=0.05,attentionimplementation=general --tasks gsm8k_cot --batch_size 1 --limit 0.3 
+lengthss=(128 256 512 1024 1500 2048 3072 4096) 
+for length in "${lengthss[@]}" 
+do 
+    python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=$length,kernel_size=10,thr=0.05,attentionimplementation=sdpa --tasks gsm8k_cot --batch_size 1 --limit 0.3 
+    python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=$length,kernel_size=10,thr=0.05,attentionimplementation=sdpa --tasks gsm8k_cot --batch_size 1 --limit 0.3 
+done 
