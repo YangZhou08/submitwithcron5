@@ -1,0 +1,19 @@
+Already on 'yangexp2threee'
+From github.com:Infini-AI-Lab/GRIFFIN2
+   5e08283..5c9c858  yangex3    -> origin/yangex3
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-07-29:05:33:08,804 INFO     [main.py:288] Verbosity set to INFO
+2024-07-29:05:33:18,428 WARNING  [main.py:303]  --limit SHOULD ONLY BE USED FOR TESTING.REAL METRICS SHOULD NOT BE COMPUTED USING LIMIT.
+2024-07-29:05:33:18,430 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-07-29:05:33:18,452 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-07-29:05:33:18,452 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': False, 'contextlength': 1500, 'kernel_size': 10, 'thr': 0.05, 'attentionimplementation': 'general'}
+2024-07-29:05:33:18,461 INFO     [xhuggingface.py:168] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:05<00:17,  5.97s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.72s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.69s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-07-29:05:34:17,143 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:05:34:17,143 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-07-29:05:34:17,228 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/396 [00:00<?, ?it/s] 43%|████▎     | 170/396 [00:00<00:00, 1694.69it/s] 86%|████████▌ | 341/396 [00:00<00:00, 1698.14it/s]100%|██████████| 396/396 [00:00<00:00, 1696.44it/s]
+2024-07-29:05:34:17,469 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/396 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 0/396 [00:12<?, ?it/s]
