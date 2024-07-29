@@ -98,3 +98,29 @@ time taken for a single forward pass 0.019172683477401732
 executinginputidsfull shape torch.Size([1, 10])
 warming up full
 full time taken for a single forward pass 0.02070683240890503
+Namespace(model='xhf', tasks='gsm8k_cot', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=2048,kernel_size=10,thr=0.05,attentionimplementation=sdpa', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+SDPA
+input_ids shape torch.Size([1, 789])
+warming up
+time taken for a single forward pass 0.01542056703567505
+executinginputidsfull shape torch.Size([1, 10])
+warming up full
+full time taken for a single forward pass 0.020713074207305907
+Namespace(model='xhf', tasks='gsm8k_cot', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=3072,kernel_size=10,thr=0.05,attentionimplementation=sdpa', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+SDPA
+input_ids shape torch.Size([1, 789])
+warming up
+time taken for a single forward pass 0.02182822608947754
+executinginputidsfull shape torch.Size([1, 10])
+warming up full
+full time taken for a single forward pass 0.02335412263870239
+Namespace(model='xhf', tasks='gsm8k_cot', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=3072,kernel_size=10,thr=0.05,attentionimplementation=sdpa', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+SDPA
+input_ids shape torch.Size([1, 789])
+warming up
+time taken for a single forward pass 0.01807051706314087
+executinginputidsfull shape torch.Size([1, 10])
+warming up full
+full time taken for a single forward pass 0.023348772525787355
+Namespace(model='xhf', tasks='gsm8k_cot', model_args='pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=4096,kernel_size=10,thr=0.05,attentionimplementation=sdpa', num_fewshot=None, batch_size='1', max_batch_size=None, device=None, output_path=None, limit=0.3, topp=1.1, topk=64, spr=0.25, sink=8, local=256, use_cache=None, cache_requests=None, check_integrity=False, write_out=False, log_samples=False, show_config=False, include_path=None, gen_kwargs=None, verbosity='INFO', wandb_args='', predict_only=False, seed=[0, 1234, 1234], trust_remote_code=False)
+SDPA
