@@ -77,8 +77,9 @@ huggingface-cli login --token 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
 #     python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=False,check=False,contextlength=$length,kernel_size=10,thr=0.05,attentionimplementation=sdpa --tasks gsm8k_cot --batch_size 1 --limit 0.3 
 #     python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=$length,kernel_size=10,thr=0.05,attentionimplementation=sdpa --tasks gsm8k_cot --batch_size 1 --limit 0.3 
 # done 
-lengs=(1 2 4 8 16 32 64 96) 
-for leng in "${lengs[@]}" 
-do 
-    TOKENIZERS_PARALLELISM=false python getcompilego.py --length $leng 
-done 
+# lengs=(1 2 4 8 16 32 64 96) 
+# for leng in "${lengs[@]}" 
+# do 
+#     TOKENIZERS_PARALLELISM=false python getcompilego.py --length $leng 
+# done 
+python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-8B-Instruct,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 0.3 
