@@ -32,7 +32,7 @@ source /fsx-storygen/beidic/anaconda3/etc/profile.d/conda.sh
 # mamba activate yangllm 
 # conda activate yangllm 
 # conda activate hanshi 
-conda activate griffin 
+conda activate griffinn 
 # cd /fsx-storygen/beidic/yang/transformersprofiling 
 cd /fsx-storygen/beidic/yang/GRIFFIN2 
 # cd /fsx-storygen/beidic/yang/CommonSenseReasoning 
