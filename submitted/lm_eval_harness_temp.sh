@@ -41,7 +41,7 @@ cd /fsx-storygen/beidic/yang/GRIFFIN2
 # git checkout yangexp2two 
 git add .
 git stash 
-git checkout yangex3 
+git checkout yangexppp 
 git pull 
 
 git pull 
