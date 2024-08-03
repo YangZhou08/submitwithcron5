@@ -9,7 +9,7 @@ git checkout yangexppp
 ls 
 
 models=(
-    # "meta-llama/Meta-Llama-3-8B-Instruct" 
+    "meta-llama/Meta-Llama-3-8B-Instruct" 
     "meta-llama/Meta-Llama-3-70B-Instruct" 
     # "meta-llama/Meta-Llama-3-8B"
     # "meta-llama/Llama-2-7b-chat-hf"
@@ -18,24 +18,27 @@ models=(
 
 # List of commands to run
 commands=(
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 "
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
-    "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 "
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks mmlu_flan_cot_fewshot --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks truthfulqa_gen --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,griffin=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
+    # "python main.py --model xhf --model_args pretrained=MODEL,cats=True,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks coqa --batch_size 1 " 
+    "python eval_gen.py --model_name MODEL --dataset cnn" 
+    "python eval_gen.py --model_name MODEL --dataset cnn --griffin" 
+    "python eval_gen.py --model_name MODEL --dataset cnn --cats" 
 ) 
 
 # Iterate over the commands and submit a job for each
