@@ -1,0 +1,22 @@
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-08-03:09:01:30,334 INFO     [main.py:288] Verbosity set to INFO
+2024-08-03:09:01:39,711 INFO     [main.py:378] Selected Tasks: ['mmlu_flan_cot_fewshot']
+2024-08-03:09:01:39,740 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-08-03:09:01:39,741 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-70B-Instruct', 'cats': True, 'check': False, 'contextlength': 1500, 'kernel_size': 16, 'thr': 0.05}
+2024-08-03:09:01:39,751 INFO     [xhuggingface.py:176] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:06<03:00,  6.22s/it]Loading checkpoint shards:   7%|▋         | 2/30 [00:11<02:39,  5.71s/it]Loading checkpoint shards:  10%|█         | 3/30 [00:17<02:33,  5.67s/it]Loading checkpoint shards:  13%|█▎        | 4/30 [00:22<02:26,  5.63s/it]Loading checkpoint shards:  17%|█▋        | 5/30 [00:28<02:18,  5.53s/it]Loading checkpoint shards:  20%|██        | 6/30 [00:33<02:10,  5.42s/it]Loading checkpoint shards:  23%|██▎       | 7/30 [00:38<02:03,  5.36s/it]Loading checkpoint shards:  27%|██▋       | 8/30 [00:44<01:59,  5.45s/it]Loading checkpoint shards:  30%|███       | 9/30 [00:49<01:55,  5.48s/it]Loading checkpoint shards:  33%|███▎      | 10/30 [00:54<01:48,  5.41s/it]Loading checkpoint shards:  37%|███▋      | 11/30 [01:00<01:42,  5.38s/it]Loading checkpoint shards:  40%|████      | 12/30 [01:05<01:36,  5.34s/it]Loading checkpoint shards:  43%|████▎     | 13/30 [01:11<01:32,  5.43s/it]Loading checkpoint shards:  47%|████▋     | 14/30 [01:16<01:27,  5.45s/it]Loading checkpoint shards:  50%|█████     | 15/30 [01:21<01:20,  5.39s/it]Loading checkpoint shards:  53%|█████▎    | 16/30 [01:27<01:14,  5.34s/it]Loading checkpoint shards:  57%|█████▋    | 17/30 [01:32<01:08,  5.30s/it]Loading checkpoint shards:  60%|██████    | 18/30 [01:37<01:04,  5.38s/it]Loading checkpoint shards:  63%|██████▎   | 19/30 [01:43<00:59,  5.42s/it]Loading checkpoint shards:  67%|██████▋   | 20/30 [01:48<00:53,  5.35s/it]Loading checkpoint shards:  70%|███████   | 21/30 [01:53<00:47,  5.30s/it]Loading checkpoint shards:  73%|███████▎  | 22/30 [01:59<00:42,  5.27s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [02:04<00:37,  5.36s/it]Loading checkpoint shards:  80%|████████  | 24/30 [02:10<00:32,  5.43s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [02:15<00:26,  5.35s/it]Loading checkpoint shards:  87%|████████▋ | 26/30 [02:20<00:21,  5.31s/it]Loading checkpoint shards:  90%|█████████ | 27/30 [02:25<00:15,  5.27s/it]Loading checkpoint shards:  93%|█████████▎| 28/30 [02:31<00:10,  5.34s/it]Loading checkpoint shards:  97%|█████████▋| 29/30 [02:36<00:05,  5.38s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:39<00:00,  4.50s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:39<00:00,  5.30s/it]
