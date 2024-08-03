@@ -82,4 +82,4 @@ huggingface-cli login --token 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
 # do 
 #     TOKENIZERS_PARALLELISM=false python getcompilego.py --length $leng 
 # done 
-python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-70B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 200 
+python main.py --model xhf --model_args pretrained=meta-llama/Meta-Llama-3-70B-Instruct,griffin=False,check=False,contextlength=1500,kernel_size=16,thr=0.05 --tasks gsm8k_cot --batch_size 1 --limit 500 
