@@ -1,0 +1,29 @@
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/fsx-storygen/beidic/yang/GRIFFIN2/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-08-03:08:40:40,610 INFO     [main.py:288] Verbosity set to INFO
+2024-08-03:08:40:50,610 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-08-03:08:40:50,646 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-08-03:08:40:50,646 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-70B-Instruct', 'griffin': False, 'check': False, 'contextlength': 1500, 'kernel_size': 16, 'thr': 0.05}
+2024-08-03:08:40:50,656 INFO     [xhuggingface.py:176] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:05<02:42,  5.60s/it]Loading checkpoint shards:   7%|▋         | 2/30 [00:11<02:36,  5.58s/it]Loading checkpoint shards:  10%|█         | 3/30 [00:17<02:36,  5.81s/it]Loading checkpoint shards:  13%|█▎        | 4/30 [00:23<02:33,  5.92s/it]Loading checkpoint shards:  17%|█▋        | 5/30 [00:28<02:24,  5.77s/it]Loading checkpoint shards:  20%|██        | 6/30 [00:34<02:16,  5.70s/it]Loading checkpoint shards:  23%|██▎       | 7/30 [00:39<02:08,  5.59s/it]Loading checkpoint shards:  27%|██▋       | 8/30 [00:45<02:04,  5.64s/it]Loading checkpoint shards:  30%|███       | 9/30 [00:51<01:58,  5.63s/it]Loading checkpoint shards:  33%|███▎      | 10/30 [00:56<01:50,  5.53s/it]Loading checkpoint shards:  37%|███▋      | 11/30 [01:01<01:43,  5.46s/it]Loading checkpoint shards:  40%|████      | 12/30 [01:07<01:38,  5.45s/it]Loading checkpoint shards:  43%|████▎     | 13/30 [01:12<01:33,  5.50s/it]Loading checkpoint shards:  47%|████▋     | 14/30 [01:18<01:28,  5.51s/it]Loading checkpoint shards:  50%|█████     | 15/30 [01:23<01:21,  5.44s/it]Loading checkpoint shards:  53%|█████▎    | 16/30 [01:28<01:15,  5.38s/it]Loading checkpoint shards:  57%|█████▋    | 17/30 [01:34<01:09,  5.34s/it]Loading checkpoint shards:  60%|██████    | 18/30 [01:39<01:05,  5.45s/it]Loading checkpoint shards:  63%|██████▎   | 19/30 [01:45<01:00,  5.49s/it]Loading checkpoint shards:  67%|██████▋   | 20/30 [01:50<00:54,  5.41s/it]Loading checkpoint shards:  70%|███████   | 21/30 [01:55<00:48,  5.34s/it]Loading checkpoint shards:  73%|███████▎  | 22/30 [02:00<00:42,  5.29s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [02:06<00:37,  5.40s/it]Loading checkpoint shards:  80%|████████  | 24/30 [02:12<00:32,  5.45s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [02:17<00:26,  5.38s/it]Loading checkpoint shards:  87%|████████▋ | 26/30 [02:22<00:21,  5.40s/it]Loading checkpoint shards:  90%|█████████ | 27/30 [02:28<00:16,  5.35s/it]Loading checkpoint shards:  93%|█████████▎| 28/30 [02:33<00:10,  5.44s/it]Loading checkpoint shards:  97%|█████████▋| 29/30 [02:39<00:05,  5.49s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:41<00:00,  4.59s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:41<00:00,  5.39s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-08-03:08:43:39,874 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-08-03:08:43:39,874 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-08-03:08:43:39,958 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/1319 [00:00<?, ?it/s] 13%|█▎        | 170/1319 [00:00<00:00, 1693.66it/s] 26%|██▌       | 341/1319 [00:00<00:00, 1697.71it/s] 39%|███▉      | 512/1319 [00:00<00:00, 1699.65it/s] 52%|█████▏    | 682/1319 [00:00<00:00, 1698.66it/s] 65%|██████▍   | 852/1319 [00:00<00:00, 1698.88it/s] 77%|███████▋  | 1022/1319 [00:00<00:00, 1698.93it/s] 90%|█████████ | 1193/1319 [00:00<00:00, 1702.47it/s]100%|██████████| 1319/1319 [00:00<00:00, 1701.07it/s]
+2024-08-03:08:43:40,757 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/1319 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 1/1319 [00:54<20:00:01, 54.63s/it]
