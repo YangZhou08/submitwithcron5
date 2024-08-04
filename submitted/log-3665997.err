@@ -1,0 +1,16 @@
+Already on 'yangexppp'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+2024-08-04:17:07:02,936 INFO     [main.py:288] Verbosity set to INFO
+2024-08-04:17:07:13,617 INFO     [main.py:378] Selected Tasks: ['gsm8k_cot']
+2024-08-04:17:07:13,652 INFO     [xevaluator.py:137] Setting random seed to 0 | Setting numpy seed to 1234 | Setting torch manual seed to 1234
+2024-08-04:17:07:13,652 INFO     [xevaluator.py:184] Initializing xhf model, with arguments: {'pretrained': 'meta-llama/Meta-Llama-3-8B-Instruct', 'griffin': True, 'check': True, 'contextlength': 1500, 'kernel_size': 16, 'thr': 0.05}
+2024-08-04:17:07:13,662 INFO     [xhuggingface.py:176] Using device 'cuda'
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.11s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.16s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.20s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.39s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.04s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-08-04:17:08:18,458 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-08-04:17:08:18,458 WARNING  [task.py:322] [Task: gsm8k_cot] has_training_docs and has_validation_docs are False, using test_docs as fewshot_docs but this is not recommended.
+2024-08-04:17:08:18,554 INFO     [task.py:395] Building contexts for gsm8k_cot on rank 0...
+  0%|          | 0/1319 [00:00<?, ?it/s] 13%|█▎        | 165/1319 [00:00<00:00, 1641.93it/s] 25%|██▌       | 334/1319 [00:00<00:00, 1668.94it/s] 38%|███▊      | 503/1319 [00:00<00:00, 1674.93it/s] 51%|█████     | 672/1319 [00:00<00:00, 1680.02it/s] 64%|██████▍   | 842/1319 [00:00<00:00, 1684.16it/s] 77%|███████▋  | 1011/1319 [00:00<00:00, 1685.74it/s] 90%|████████▉ | 1181/1319 [00:00<00:00, 1687.72it/s]100%|██████████| 1319/1319 [00:00<00:00, 1683.13it/s]
+2024-08-04:17:08:19,368 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/1319 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 1/1319 [00:34<12:28:21, 34.07s/it]Running generate_until requests:   0%|          | 2/1319 [00:54<9:35:27, 26.22s/it] Running generate_until requests:   0%|          | 3/1319 [01:17<9:02:36, 24.74s/it]Running generate_until requests:   0%|          | 4/1319 [01:41<8:57:47, 24.54s/it]
