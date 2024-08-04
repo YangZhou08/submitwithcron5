@@ -1687,3 +1687,20 @@ Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
  84%|████████▍ | 838/1000 [22:16:56<4:21:41, 96.92s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
 Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+ 84%|████████▍ | 839/1000 [22:18:32<4:18:56, 96.50s/it]The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+ 84%|████████▍ | 839/1000 [22:20:07<4:17:09, 95.84s/it]
+Traceback (most recent call last):
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/eval_gen.py", line 191, in <module>
+    main()
+  File "/opt/hpcaas/.mounts/fs-03efe25c053395d1f/beidic/yang/GRIFFIN2/eval_gen.py", line 159, in main
+    scores = rouge.get_scores(generate_text, label)[0]
+  File "/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/rouge/rouge.py", line 107, in get_scores
+    return self._get_scores(hyps, refs)
+  File "/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/rouge/rouge.py", line 120, in _get_scores
+    sc = fn(
+  File "/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/rouge/rouge.py", line 53, in <lambda>
+    "rouge-1": lambda hyp, ref, **k: rouge_score.rouge_n(hyp, ref, 1, **k),
+  File "/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/rouge/rouge_score.py", line 253, in rouge_n
+    raise ValueError("Hypothesis is empty.")
+ValueError: Hypothesis is empty.
