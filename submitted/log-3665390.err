@@ -8,3 +8,120 @@ wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to
 2024-08-04:14:31:36,807 INFO     [xhuggingface.py:176] Using device 'cuda'
 Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
 Loading checkpoint shards:   0%|          | 0/30 [00:00<?, ?it/s]Loading checkpoint shards:   3%|▎         | 1/30 [00:05<02:36,  5.41s/it]Loading checkpoint shards:   7%|▋         | 2/30 [00:12<02:57,  6.33s/it]Loading checkpoint shards:  10%|█         | 3/30 [00:18<02:45,  6.15s/it]Loading checkpoint shards:  13%|█▎        | 4/30 [00:24<02:37,  6.05s/it]Loading checkpoint shards:  17%|█▋        | 5/30 [00:29<02:27,  5.89s/it]Loading checkpoint shards:  20%|██        | 6/30 [00:35<02:18,  5.77s/it]Loading checkpoint shards:  23%|██▎       | 7/30 [00:40<02:10,  5.67s/it]Loading checkpoint shards:  27%|██▋       | 8/30 [00:48<02:17,  6.25s/it]Loading checkpoint shards:  30%|███       | 9/30 [00:53<02:06,  6.03s/it]Loading checkpoint shards:  33%|███▎      | 10/30 [00:59<01:55,  5.79s/it]Loading checkpoint shards:  37%|███▋      | 11/30 [01:04<01:46,  5.63s/it]Loading checkpoint shards:  40%|████      | 12/30 [01:09<01:39,  5.53s/it]Loading checkpoint shards:  43%|████▎     | 13/30 [01:16<01:38,  5.82s/it]Loading checkpoint shards:  47%|████▋     | 14/30 [01:21<01:31,  5.74s/it]Loading checkpoint shards:  50%|█████     | 15/30 [01:26<01:23,  5.59s/it]Loading checkpoint shards:  53%|█████▎    | 16/30 [01:32<01:16,  5.48s/it]Loading checkpoint shards:  57%|█████▋    | 17/30 [01:37<01:10,  5.42s/it]Loading checkpoint shards:  60%|██████    | 18/30 [01:43<01:05,  5.46s/it]Loading checkpoint shards:  63%|██████▎   | 19/30 [01:48<01:00,  5.52s/it]Loading checkpoint shards:  67%|██████▋   | 20/30 [01:53<00:54,  5.43s/it]Loading checkpoint shards:  70%|███████   | 21/30 [01:59<00:48,  5.38s/it]Loading checkpoint shards:  73%|███████▎  | 22/30 [02:04<00:42,  5.36s/it]Loading checkpoint shards:  77%|███████▋  | 23/30 [02:10<00:38,  5.43s/it]Loading checkpoint shards:  80%|████████  | 24/30 [02:15<00:32,  5.49s/it]Loading checkpoint shards:  83%|████████▎ | 25/30 [02:20<00:27,  5.42s/it]Loading checkpoint shards:  87%|████████▋ | 26/30 [02:26<00:21,  5.37s/it]Loading checkpoint shards:  90%|█████████ | 27/30 [02:31<00:15,  5.32s/it]Loading checkpoint shards:  93%|█████████▎| 28/30 [02:37<00:10,  5.40s/it]Loading checkpoint shards:  97%|█████████▋| 29/30 [02:42<00:05,  5.45s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:45<00:00,  4.57s/it]Loading checkpoint shards: 100%|██████████| 30/30 [02:45<00:00,  5.50s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+2024-08-04:14:42:07,677 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_prehistory on rank 0...
+  0%|          | 0/35 [00:00<?, ?it/s]100%|██████████| 35/35 [00:00<00:00, 610.54it/s]
+2024-08-04:14:42:07,743 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_logical_fallacies on rank 0...
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 607.33it/s]
+2024-08-04:14:42:07,774 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_us_history on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 394.41it/s]
+2024-08-04:14:42:07,832 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_international_law on rank 0...
+  0%|          | 0/13 [00:00<?, ?it/s]100%|██████████| 13/13 [00:00<00:00, 580.24it/s]
+2024-08-04:14:42:07,855 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_professional_law on rank 0...
+  0%|          | 0/170 [00:00<?, ?it/s] 28%|██▊       | 48/170 [00:00<00:00, 478.46it/s] 56%|█████▋    | 96/170 [00:00<00:00, 475.51it/s] 85%|████████▍ | 144/170 [00:00<00:00, 476.43it/s]100%|██████████| 170/170 [00:00<00:00, 476.54it/s]
+2024-08-04:14:42:08,221 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_moral_disputes on rank 0...
+  0%|          | 0/38 [00:00<?, ?it/s]100%|██████████| 38/38 [00:00<00:00, 597.17it/s]
+2024-08-04:14:42:08,286 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_jurisprudence on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 601.75it/s]
+2024-08-04:14:42:08,306 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_world_history on rank 0...
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 480.07it/s]
+2024-08-04:14:42:08,363 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_moral_scenarios on rank 0...
+  0%|          | 0/100 [00:00<?, ?it/s] 61%|██████    | 61/100 [00:00<00:00, 609.13it/s]100%|██████████| 100/100 [00:00<00:00, 608.58it/s]
+2024-08-04:14:42:08,532 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_philosophy on rank 0...
+  0%|          | 0/34 [00:00<?, ?it/s]100%|██████████| 34/34 [00:00<00:00, 626.60it/s]
+2024-08-04:14:42:08,588 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_formal_logic on rank 0...
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 545.05it/s]
+2024-08-04:14:42:08,614 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_world_religions on rank 0...
+  0%|          | 0/19 [00:00<?, ?it/s]100%|██████████| 19/19 [00:00<00:00, 659.08it/s]
+2024-08-04:14:42:08,644 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_european_history on rank 0...
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 349.60it/s]
+2024-08-04:14:42:08,698 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_human_sexuality on rank 0...
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 632.98it/s]
+2024-08-04:14:42:08,718 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_econometrics on rank 0...
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 510.25it/s]
+2024-08-04:14:42:08,742 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_macroeconomics on rank 0...
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 628.51it/s]
+2024-08-04:14:42:08,813 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_geography on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 627.92it/s]
+2024-08-04:14:42:08,849 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_security_studies on rank 0...
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 512.35it/s]
+2024-08-04:14:42:08,904 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_psychology on rank 0...
+  0%|          | 0/60 [00:00<?, ?it/s]100%|██████████| 60/60 [00:00<00:00, 599.02it/s]100%|██████████| 60/60 [00:00<00:00, 598.33it/s]
+2024-08-04:14:42:09,007 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_microeconomics on rank 0...
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 620.12it/s]
+2024-08-04:14:42:09,050 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_government_and_politics on rank 0...
+  0%|          | 0/21 [00:00<?, ?it/s]100%|██████████| 21/21 [00:00<00:00, 610.66it/s]
+2024-08-04:14:42:09,086 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_professional_psychology on rank 0...
+  0%|          | 0/69 [00:00<?, ?it/s] 81%|████████  | 56/69 [00:00<00:00, 553.12it/s]100%|██████████| 69/69 [00:00<00:00, 554.61it/s]
+2024-08-04:14:42:09,214 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_public_relations on rank 0...
+  0%|          | 0/12 [00:00<?, ?it/s]100%|██████████| 12/12 [00:00<00:00, 626.80it/s]
+2024-08-04:14:42:09,234 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_us_foreign_policy on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 617.76it/s]
+2024-08-04:14:42:09,253 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_sociology on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 615.12it/s]
+2024-08-04:14:42:09,290 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_global_facts on rank 0...
+  0%|          | 0/10 [00:00<?, ?it/s]100%|██████████| 10/10 [00:00<00:00, 616.72it/s]
+2024-08-04:14:42:09,307 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_professional_medicine on rank 0...
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 541.26it/s]
+2024-08-04:14:42:09,367 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_business_ethics on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 547.40it/s]
+2024-08-04:14:42:09,388 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_medicine on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 555.37it/s]
+2024-08-04:14:42:09,428 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_management on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 638.38it/s]
+2024-08-04:14:42:09,446 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_human_aging on rank 0...
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 658.90it/s]
+2024-08-04:14:42:09,483 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_marketing on rank 0...
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 619.98it/s]
+2024-08-04:14:42:09,524 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_nutrition on rank 0...
+  0%|          | 0/33 [00:00<?, ?it/s]100%|██████████| 33/33 [00:00<00:00, 601.25it/s]
+2024-08-04:14:42:09,581 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_virology on rank 0...
+  0%|          | 0/18 [00:00<?, ?it/s]100%|██████████| 18/18 [00:00<00:00, 646.76it/s]
+2024-08-04:14:42:09,609 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_professional_accounting on rank 0...
+  0%|          | 0/31 [00:00<?, ?it/s]100%|██████████| 31/31 [00:00<00:00, 571.96it/s]
+2024-08-04:14:42:09,666 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_miscellaneous on rank 0...
+  0%|          | 0/86 [00:00<?, ?it/s] 77%|███████▋  | 66/86 [00:00<00:00, 658.25it/s]100%|██████████| 86/86 [00:00<00:00, 657.50it/s]
+2024-08-04:14:42:09,800 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_medical_genetics on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 630.64it/s]
+2024-08-04:14:42:09,818 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_clinical_knowledge on rank 0...
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 636.74it/s]
+2024-08-04:14:42:09,865 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_mathematics on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 559.36it/s]
+2024-08-04:14:42:09,886 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_elementary_mathematics on rank 0...
+  0%|          | 0/41 [00:00<?, ?it/s]100%|██████████| 41/41 [00:00<00:00, 611.73it/s]
+2024-08-04:14:42:09,955 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_statistics on rank 0...
+  0%|          | 0/23 [00:00<?, ?it/s]100%|██████████| 23/23 [00:00<00:00, 566.34it/s]
+2024-08-04:14:42:09,996 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_astronomy on rank 0...
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 549.24it/s]
+2024-08-04:14:42:10,027 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_electrical_engineering on rank 0...
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 614.66it/s]
+2024-08-04:14:42:10,054 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_abstract_algebra on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 615.44it/s]
+2024-08-04:14:42:10,072 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_machine_learning on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 540.01it/s]
+2024-08-04:14:42:10,094 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_computer_science on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 514.64it/s]
+2024-08-04:14:42:10,116 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_biology on rank 0...
+  0%|          | 0/32 [00:00<?, ?it/s]100%|██████████| 32/32 [00:00<00:00, 552.28it/s]
+2024-08-04:14:42:10,176 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_anatomy on rank 0...
+  0%|          | 0/14 [00:00<?, ?it/s]100%|██████████| 14/14 [00:00<00:00, 542.39it/s]
+2024-08-04:14:42:10,202 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_physics on rank 0...
+  0%|          | 0/17 [00:00<?, ?it/s]100%|██████████| 17/17 [00:00<00:00, 595.28it/s]
+2024-08-04:14:42:10,232 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_computer_science on rank 0...
+  0%|          | 0/9 [00:00<?, ?it/s]100%|██████████| 9/9 [00:00<00:00, 510.45it/s]
+2024-08-04:14:42:10,250 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_conceptual_physics on rank 0...
+  0%|          | 0/26 [00:00<?, ?it/s]100%|██████████| 26/26 [00:00<00:00, 618.69it/s]
+2024-08-04:14:42:10,294 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_mathematics on rank 0...
+  0%|          | 0/29 [00:00<?, ?it/s]100%|██████████| 29/29 [00:00<00:00, 602.10it/s]
+2024-08-04:14:42:10,343 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_computer_security on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 606.78it/s]
+2024-08-04:14:42:10,362 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_high_school_chemistry on rank 0...
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 591.78it/s]
+2024-08-04:14:42:10,401 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_physics on rank 0...
+  0%|          | 0/11 [00:00<?, ?it/s]100%|██████████| 11/11 [00:00<00:00, 611.23it/s]
+2024-08-04:14:42:10,420 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_chemistry on rank 0...
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 595.36it/s]
+2024-08-04:14:42:10,434 INFO     [task.py:395] Building contexts for mmlu_flan_cot_fewshot_college_biology on rank 0...
+  0%|          | 0/16 [00:00<?, ?it/s]100%|██████████| 16/16 [00:00<00:00, 535.82it/s]
+2024-08-04:14:42:10,464 INFO     [xevaluator.py:395] Running generate_until requests
+Running generate_until requests:   0%|          | 0/1531 [00:00<?, ?it/s]Running generate_until requests:   0%|          | 1/1531 [00:23<9:59:20, 23.50s/it]Running generate_until requests:   0%|          | 2/1531 [01:49<25:42:04, 60.51s/it]

@@ -1,0 +1,13 @@
+Already on 'yangexppp'
+wandb: Currently logged in as: stevenzhou0816100. Use `wandb login --relogin` to force relogin
+/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.24s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:12<00:12,  6.21s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:18<00:06,  6.17s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  4.37s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:20<00:00,  5.04s/it]
+  0%|          | 0/300 [00:00<?, ?it/s]/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:410: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/fsx-storygen/beidic/anaconda3/envs/griffinn/lib/python3.9/site-packages/transformers/generation/configuration_utils.py:427: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `1` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+The attention mask and the pad token id were not set. As a consequence, you may observe unexpected behavior. Please pass your input's `attention_mask` to obtain reliable results.
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
