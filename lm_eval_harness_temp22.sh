@@ -11,7 +11,7 @@
 #SBATCH --time=24:00:00 
 
 ## partition name
-#SBATCH -q storygen 
+#SBATCH -q storygen_high
 #SBATCH -A storygen 
 ## number of nodes
 #SBATCH --nodes=1
